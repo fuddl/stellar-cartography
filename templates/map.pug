@@ -1,0 +1,132 @@
+include concentric
+include label
+include centroid
+
+mixin line(locations)
+  - var points = '';
+  each location in locations
+    - points += ' ' + catalog[location].coordinates.x + ',' + catalog[location].coordinates.y
+    - bgattributes = [];
+    each key, value in attributes
+      - bgattributes[key] = key != 'stroke-dasharray' ? value : '';
+    polyline(points=points, stroke="black", stroke-width=".2", fill="none")&attributes(bgattributes)
+    polyline(points=points, stroke="white", stroke-width=".1", fill="none")&attributes(attributes)
+
+
+- function pcToLj(p) { return p * 3.26156; }
+
+svg(xmlns='http://www.w3.org/2000/svg', viewBox='-800 -800 1800 1800', height="20000" width="20000")
+  defs
+    pattern(id="dots-1" patternUnits="userSpaceOnUse" width=".3" height=".3")
+      rect(x='0' y='0' width='.1' height='.1' fill='white')
+    pattern(id="stripes" patternUnits="userSpaceOnUse" width="1" height="1")
+      path(d='M-.1,.1 l.2,-.2 M0,1 l1,-1 M.9,1.1 l.2,-.2' stroke='#fff' stroke-width='.1')
+
+  style.
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+    text {
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      stroke: black;
+      stroke-width: .25;
+      paint-order: stroke;
+      stroke-miterlimit: 2;
+      stroke-linecap: round;
+      fill: white;
+    }
+    body {
+      background-color: black;
+    }
+  +concentric-grid(cx=0 cy=-26200 min-r=26112 r=26332.5 concentric-subdivisions=10, radial-subdivisions=14 stroke="#193980" stroke-width=.2 min-arc=89.755 max-arc=90.355)
+  //-+concentric-grid(cx=catalog.CNB.Maynard.coordinates.x cy=catalog.CNB.Maynard.coordinates.y min-r=0 r=pcToLj(190) concentric-subdivisions=24, radial-subdivisions=24 stroke="#193980" stroke-width=.2)
+  g#quadrant-border
+    - var x = 22;
+    line(x1=x, x2=x, y1="-26200" y2="10000", stroke="#fff", stroke-width=".1", stroke-dasharray="2,.5") 
+  
+  circle(cx=0, cy=4.228, r=18, stroke="white", stroke-width=".1")
+  circle(cx=-71.2, cy=43, r=15, stroke="white", stroke-width=".1")
+    
+  +line(['Tellar', 'Earth', 'Andoria', 'Vulcan'])(stroke-width=.125)
+  +line(['Tellar', 'Denobula Triaxa'])(stroke-width=.125)
+  +line(['Vulcan', 'Cordian', 'Betazed'])(stroke-width=.125)
+  +line(['Cordian', 'Tellun'])(stroke-width=.125)
+  +line(['Earth', 'Benzar' , 'Bolarus', 'Sauria', 'Delta', 'Aaamazzara'])(stroke-width=.125)
+  +line(['Earth', 'Terra Nova'])(stroke-dasharray=".2,.1")
+  +line(['Earth', 'Alpha Centrauri'])(stroke-dasharray=".2,.1")
+      
+  //-
+    
+
+    +line(['Sol (Earth)', 'Alpha'])(stroke-dasharray=".2,.1")
+    +line(['Cordian (Chi 1 Orionis)', 'Tellun (Elas, Troyius)'])(stroke-dasharray=".2,.1")
+    +line(['Cordian (Chi 1 Orionis)', 'New France'])(stroke-dasharray=".2,.1")
+    +line(['Alpha', 'Trill (Tirllus Prime)'])
+    +line(['Betazed', 'Aldebaran (Alpha Tauri)'])(stroke-dasharray=".2,.1")
+    +line(['Betazed', 'Setlik'])(stroke-dasharray=".2,.1")
+    +line(['Betazed', 'Planet Q'])(stroke-dasharray=".2,.1")
+    +line(['Vulcan (40 Eridani A)', 'P´Jem (Luyten´s Star)'])(stroke-dasharray=".2,.1")
+    +line(['Denobula Triaxa (Iota Bootis)', 'Vega (Alpha Lyrae)'])(stroke-dasharray=".2,.1")
+    +line(['Betazed', 'Umoth'])(stroke-dasharray=".2,.1")
+    +line(['Benzar (Benzite, Delta Pavonis)', 'Ophiucus (36 Ophiuchi)'])(stroke-dasharray=".2,.1")
+    +line(['Benzar (Benzite, Delta Pavonis)', 'Memory Alpha'])(stroke-dasharray=".2,.1")
+    
+    +line(['Trill (Tirllus Prime)', 'Solosos'])(stroke-dasharray=".2,.1")
+    
+
+    +line(['Cardassia', 'Bajor (B\'Hava\'el, Andros)'])(opacity=.5)
+    +line(['Cardassia', 'Amleth'])(stroke-dasharray=".2,.1")
+    +line(['Cardassia', 'Kelvas'])(stroke-dasharray=".2,.1")
+    +line(['Cardassia', 'Trivas'])(stroke-dasharray=".2,.1")
+    +line(['Cardassia', 'Korma'])(stroke-dasharray=".2,.1")
+    +line(['Cardassia', 'Omekla'])(stroke-dasharray=".2,.1")
+    +line(['Cardassia', 'Regulon'])(stroke-dasharray=".2,.1")
+    +line(['Omekla', 'Chin´Toka'])(stroke-dasharray=".2,.1")
+    +line(['Omekla', 'Loval'])(stroke-dasharray=".2,.1")
+    +line(['Omekla', 'Velos (Veloz Prime)'])(stroke-dasharray=".2,.1")
+    +line(['Omekla', 'Rakal'])(stroke-dasharray=".2,.1")
+    +line(['Kelvas', 'Torros'])(stroke-dasharray=".2,.1")
+    +line(['Cardassia', 'Monac'])(stroke-dasharray=".2,.1")
+    +line(['Cardassia', 'Regulak'])(stroke-dasharray=".2,.1")
+    +line(['Omekla', 'Sarpedion'])(stroke-dasharray=".2,.1")
+    +line(['Sarpedion', 'Dopa'])(stroke-dasharray=".2,.1")
+    +line(['Sarpedion', 'Unefra'])(stroke-dasharray=".2,.1")
+    +line(['Sarpedion', 'Vanden'])(stroke-dasharray=".2,.1")
+    +line(['Sarpedion', 'Lazon'])(stroke-dasharray=".2,.1")
+    +line(['Sarpedion', 'Septimus'])(stroke-dasharray=".2,.1")
+    +line(['Sarpedion', 'Atbar'])(stroke-dasharray=".2,.1")
+    +line(['Breen', 'Portas'])(stroke-dasharray=".2,.1")
+    +line(['Ferenginar', 'Irtok'])(stroke-dasharray=".2,.1")
+
+    +line(['Ferenginar', 'Clarus'])(stroke-dasharray=".2,.1")
+    +line(['Ferenginar', 'Maxia'])(stroke-dasharray=".2,.1")
+    +line(['Ferenginar', 'Volchok'])(stroke-dasharray=".2,.1")
+    +line(['Ferenginar', 'Lappa'])(stroke-dasharray=".2,.1")
+
+    +line(['Bajor (B\'Hava\'el, Andros)' , 'Valo'])(stroke-dasharray=".2,.1")
+    +line(['Bajor (B\'Hava\'el, Andros)' , 'Prophet´s Landing (Bajor)'])(stroke-dasharray=".2,.1")
+    +line(['Bajor (B\'Hava\'el, Andros)' , 'Free Haven (Bajor)'])(stroke-dasharray=".2,.1")
+  //-
+    +concentric-grid([['001', '002', '003', '004', '005', '006', '005', '008']])(cx=catalog.CNB.coordinates.x cy=catalog.CNB.coordinates.y min-r=12 r=24 concentric-subdivisions=0, radial-subdivisions=8 stroke="#fff" stroke-width=.1, min-arc=90)
+    +concentric-grid(cx=catalog.CNB.coordinates.x cy=catalog.CNB.coordinates.y min-r=24 r=36 concentric-subdivisions=0, radial-subdivisions=16 stroke="#fff" stroke-width=.1, min-arc="90")
+    +concentric-grid(cx=catalog.CNB.coordinates.x cy=catalog.CNB.coordinates.y min-r=36 r=48 concentric-subdivisions=0, radial-subdivisions=16 stroke="#fff" stroke-width=.1, min-arc="90")
+    +concentric-grid(cx=catalog.CNB.coordinates.x cy=catalog.CNB.coordinates.y min-r=48 r=60 concentric-subdivisions=0, radial-subdivisions=32 stroke="#fff" stroke-width=.1, min-arc="90")
+    +concentric-grid(cx=catalog.CNB.coordinates.x cy=catalog.CNB.coordinates.y min-r=60 r=72 concentric-subdivisions=0, radial-subdivisions=32 stroke="#fff" stroke-width=.1, min-arc="90")
+    +concentric-grid(cx=catalog.CNB.coordinates.x cy=catalog.CNB.coordinates.y min-r=72 r=84 concentric-subdivisions=0, radial-subdivisions=32 stroke="#fff" stroke-width=.1, min-arc="90")
+    +concentric-grid(cx=catalog.CNB.coordinates.x cy=catalog.CNB.coordinates.y min-r=84 r=96 concentric-subdivisions=0, radial-subdivisions=64 stroke="#fff" stroke-width=.1, min-arc="90")
+
+  //- <circle cx="22" cy="-6.77" r="24" stroke="#193980" fill="none" stroke-width="0.2"></circle>
+  //-path(fill="url(#stripes)" d="M22,-31 A 24,24 0 0,1 46,-6.77 h5 A 30,30 0 0,0 22,-36")
+  each thing, key in catalog
+    if thing.outline
+      path(d=thing.outline, fill="url(#dots-1)")
+      
+      //-+circular-marker-area(x=thing.coordinates.x, y=thing.coordinates.y,cx=catalog.CNB.coordinates.x, cy=catalog.CNB.coordinates.y, label=thing.label)
+    
+  each thing, key in catalog
+    if !thing.outline
+      //-+circular-marker(x=thing.coordinates.x, y=thing.coordinates.y, cx=catalog.CNB.coordinates.x, cy=catalog.CNB.coordinates.y)=thing.label.replace(/\([^\)]+\)/, '')
+      if thing.interesting != false
+        +marker(thing.coordinates.x, thing.coordinates.y)=thing.label.replace(/\([^\)]+\)/, '')
+      else
+        circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r='.2', fill='white')
