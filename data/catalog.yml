@@ -659,6 +659,7 @@ Arcturus:
   real: true
   interesting: false
 Memory Alpha:
+  wd: Q2302286
   Mandel:
     label: "Memory Alpha"
     coordinates: {x: -8.4, y: -18.7, z: null}
@@ -3151,6 +3152,14 @@ Omega Ⅳ:
   wd: Q49593478
 Ekos:
   wd: Q49973947
+DS9:
+  wd: Q222929
+unimatrix-001:
+  wd: Q2530590
+spacedock:
+  wd: Q30587615
+CS-12:
+  wd: Q55815272
 
 ### Vanguard
 
