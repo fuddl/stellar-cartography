@@ -271,6 +271,7 @@ Sigma Botis:
     coordinates: {x: -14, y: -13.8, z: null}
   real: true
 Earth:
+  wd: Q1005907
   Mandel:
     label: "Sol (Earth)"
     coordinates: {x: 0, y: 0, z: 0}
@@ -345,6 +346,7 @@ P'Jem:
     label: "P´Jem (Luyten´s Star)"
     coordinates: {x: 6.58, y: 10.39, z: null}
 Vulcan:
+  wd: Q1088708
   ENT: 
     label: "Vulcan (40 Eridani A)"
     coordinates: {x: 4.7, y: 12.23, z: null}
@@ -402,6 +404,7 @@ Teneebia:
     label: "Teneebia (Diadem, Alpha Comae Beren)"
     coordinates: {x: 4.57, y: -7.15, z: null}
 Pollux:
+  wd: Q48891484
   Mandel:
     label: "Pollux (Beta Geminorum)"
     coordinates: {x: 6.726, y: 30.257, z: null}
@@ -540,20 +543,26 @@ Caldik:
     label: "Caldik"
     coordinates: {x: -33, y: 20.9, z: null}
 Bajor:
+  wd: Q2287093
   Mandel:
     label: "Bajor (B'Hava'el, Andros)"
     coordinates: {x: -57.1, y: 35.8, z: null}
 Cardassia:
+  wd: Q718160
+  Shisma:
+    label: "Cardassia Prime"
   Mandel:
     label: "Cardassia"
     coordinates: {x: -62.8, y: 33.1, z: null}
   fractions:
   - cardassian
 Ferenginar:
+  wd: Q3742737
   Mandel:
     label: "Ferenginar"
     coordinates: {x: -56.5, y: -24.7, z: null}
 Romulus:
+  wd: Q2786172
   Mandel:
     label: "Romulus"
     coordinates: {x: 30.6, y: -41.6, z: null}
@@ -605,6 +614,7 @@ Brestant:
   fractions:
   - klingon
 Quo'Nos:
+  wd: Q1243582
   Mandel:
     label: "Quo´Nos (Kronos, Kling)"
     coordinates: {x: 79.9, y: 70.6, z: null}
@@ -669,6 +679,7 @@ Vega:
   fractions:
   - federation
 AR-558:
+  wd: Q51388370
   Mandel:
     label: "AR-558"
     coordinates: {x: -32.3, y: -8.8, z: null}
@@ -940,6 +951,7 @@ Gamma Trianguli:
   canon: true
   real: true
 Betazed:
+  wd: Q10861953
   Mandel:
     label: "Betazed"
     coordinates: {x: -16.6, y: 49.8, z: null}
@@ -975,6 +987,7 @@ Tribble Prime:
     label: "Tribble Prime (Iota Geminorum)"
     coordinates: {x: 22.2, y: 117.5, z: null}
 Boreth:
+  wd: Q24229354
   Mandel:
     label: "Boreth"
     coordinates: {x: 24, y: 101.5, z: null}
@@ -1091,6 +1104,7 @@ Castor:
     coordinates: {x: 6.2, y: 47.4, z: null}
   canon: false
 Pahvo:
+  wd: Q42762633
   DIS:
     label: "Pahvo"
     coordinates: {x: 7.548, y: 46.62, z: null}
@@ -1124,6 +1138,7 @@ Tellun:
   fractions:
   - federation
 Risa:
+  wd: Q1249325
   Mandel:
     label: "Risa (Epsilon Ceti)"
     coordinates: {x: 5.5, y: 43.3, z: null}
@@ -1248,6 +1263,7 @@ Lameda:
     label: "Lameda"
     coordinates: {x: -60.9, y: 13.9, z: null}
 Trill:
+  wd: Q3998789
   Mandel:
     label: "Trill (Tirllus Prime)"
     coordinates: {x: -35.5, y: 23.1, z: null}
@@ -1474,6 +1490,7 @@ Mu Arae:
     label: "Mu Arae"
     coordinates: {x: 16.7, y: -45.9, z: null}
 Sauria:
+  wd: Q53574296
   Mandel:
     label: "Sauria (Psi Serpentis)"
     coordinates: {x: -6, y: -35.3, z: null}
@@ -1528,6 +1545,7 @@ B'Moth:
   fractions:
   - klingon
 Rura Penthe:
+  wd: Q7417586
   Mandel:
     label: "Rura Penthe"
     coordinates: {x: 80.8, y: 59.1, z: null}
@@ -1591,6 +1609,7 @@ Deneva:
   fractions:
   - federation
 Orion:
+  wd: Q55738565
   DIS:
     label: "Orion"
     coordinates: {x: 4.7, y: 23.8, z: null}
@@ -1623,6 +1642,7 @@ Maluria:
     star: Omega Cygni
     coordinates: {x: 58.2, y: 9.1, z: 14.6}
 Nausicaa:
+  wd: Q55739206
   Mandel:
     label: "Nausicaa"
     coordinates: {x: 28.2, y: 30.5, z: null}
@@ -1643,6 +1663,7 @@ O'Ryan's Planet:
     label: "O´Ryan's Planet (Shamin)"
     coordinates: {x: -17.1, y: 70.9, z: null}
 Planet Q:
+  wd: Q48976105
   Mandel:
     label: "Planet Q"
     coordinates: {x: -4, y: 69.5, z: null}
@@ -1672,6 +1693,7 @@ Kappa Persei:
     label: "Kappa Persei"
     coordinates: {x: -59.9, y: 92.9, z: null}
 Talar:
+  wd: Q3983044
   Mandel:
     label: "Talar"
     coordinates: {x: -86.1, y: 77.1, z: null}
@@ -1996,6 +2018,7 @@ Deneb Kaitos:
     coordinates: {x: -14.5, y: 5.6, z: null}
   interesting: false
 Deneb II, IV, V:
+  wd: Q13576156
   Maynard:
     label: "Deneb"
     coordinates: {x: 142.7, y: -143.4, z: 382.5}
@@ -2004,6 +2027,7 @@ Deneb II, IV, V:
     label: "Deneb II, IV, V"
     coordinates: {x: 142.7, y: -143.4, z: 382.5}
 Denobula Triaxa:
+  wd: Q55739207
   Mandel:
     label: "Denobula Triaxa (Iota Bootis)"
     coordinates: {x: -22.3, y: -3.8, z: null}
@@ -2037,6 +2061,7 @@ Zaran:
     label: "Zaran (Mu Capicorini)"
     coordinates: {x: -41.5, y: -46.7, z: null}
 Talos:
+  wd: Q48892470
   Mandel:
     label: "Talos"
     coordinates: {x: -34.1, y: 79.7, z: null}
@@ -2101,6 +2126,7 @@ Neathercrist:
     label: "Neathercrist"
     coordinates: {x: -32.7, y: -74.7, z: null}
 Cestus:
+  wd: Q49263188
   Mandel:
     label: "Cestus"
     coordinates: {x: 81.295, y: 199.678, z: null}
@@ -2219,6 +2245,7 @@ Beta Thoridar:
   fractions:
   - klingon
 Khitomer:
+  wd: Q3196184
   DIS:
     label: "Khitomer"
     coordinates: {x: 77.5, y: 47.9, z: null}
@@ -2376,6 +2403,7 @@ Tiburon:
     star: Omega Fornacis
     coordinates: {x: -121.9, y: -207.4, z: 236.4}
 Beta Renner:
+  wd: Q55738952
   Mandel:
     label: "Beta Renner (Antica, Selay)"
     coordinates: {x: -266, y: 241, z: null}
@@ -2427,6 +2455,7 @@ Mintaka:
     label: "Mintaka (Delta Orionis)"
     coordinates: {x: 357.805, y: 823.973, z: null}
 Rigel:
+  wikidata: Q55724022
   Mandel:
     label: "Rigel (Beta Orionis)"
     coordinates: {x: 348.024, y: 629.976, z: null}
@@ -2503,6 +2532,7 @@ Yonada:
     label: "Yonada"
     coordinates: {x: -51.1, y: -93.6, z: -91.4}
 Bynaus:
+  wd: Q55739216
   Johnson:
     label: "Bynaus"
     coordinates: {x: -296.4, y: 98.9, z: -46.3}
@@ -2538,6 +2568,7 @@ Dimorus IV:
     label: "Dimorus IV"
     coordinates: {x: -26.7, y: -18.8, z: -27.9}
 892-IV:
+  wd: Q49225047
   Johnson:
     label: "892-IV"
     coordinates: {x: -132.1, y: -101.1, z: -56.7}
@@ -2560,6 +2591,7 @@ Iotia:
     label: "Iotia"
     coordinates: {x: -5.7, y: -144.2, z: -109.1}
 Janus VI:
+  wd: Q48906622
   Johnson:
     label: "Janus VI"
     coordinates: {x: -123.8, y: -30.1, z: -15.8}
@@ -2571,6 +2603,7 @@ Lactra VII:
     label: "Lactra VII"
     coordinates: {x: 264.7, y: 65.4, z: 98.1}
 M-113:
+  wd: Q48891808
   Johnson:
     label: "M-113"
     coordinates: {x: -23.6, y: -81.9, z: 0.7}
@@ -2619,6 +2652,7 @@ Adhara:
     star: "Epsilon Canaris"
     coordinates: {x: 374.531, y: 218.658, z: null}
 Alfa 117:
+  wd: Q48891888
   Maynard:
     label: "Alfa 117"
     coordinates: {x: -36.3, y: -52.6, z: -56.7}
@@ -2641,6 +2675,7 @@ Alpha Proxima:
     label: "Alpha Proxima"
     coordinates: {x: 142.4, y: -99.1, z: 42.1}
 Amerind:
+  wd: Q49669200
   Maynard:
     label: "Amerind"
     coordinates: {x: -93.5, y: -157.6, z: -166.2}
@@ -2687,9 +2722,12 @@ Elba:
     label: "Elba"
     coordinates: {x: -18.3, y: -119.5, z: -7.1}
 Exo:
+  wd: Q48892171
   Maynard:
     label: "Exo"
     coordinates: {x: 52.2, y: 73.1, z: 70.6}
+  Shisma: 
+    label: Exo-III
 Fabrina:
   Maynard:
     label: "Fabrina"
@@ -2708,6 +2746,7 @@ Gideon:
     star: "Delta Dorado"
     coordinates: {x: 54.5, y: 42.7, z: -242.9}
 Gothos:
+  wd: Q48976428
   Maynard:
     label: "Gothos"
     coordinates: {x: -132.6, y: -125.7, z: -114.3}
@@ -2767,6 +2806,7 @@ Marcus:
     label: Marcus
     coordinates: {x: 42.5, y: -20.4, z: 10.6}
 Melkot:
+  wd: Q49643724
   Maynard:
     label: Melkot
     coordinates: {x: -76.9, y: -145.9, z: -12.7}
@@ -2784,6 +2824,7 @@ Minara:
     label: Minara
     coordinates: {x: -193.0, y: -87.1, z: -11.3}
 Mira:
+  wd: Q48906483
   Maynard:
     label: Mira
     star: Omicron Ceti
@@ -2805,10 +2846,12 @@ Omicron Delta:
     label: Omicron Delta
     coordinates: {x: -109.4, y: -6.7, z: -46.4}
 Platonius:
+  wd: Q48890865
   Maynard:
     label: Platonius
     coordinates: {x: -116.8, y: -73.6, z: 65.6}
 Psi 2000:
+  wd: Q48891978
   Maynard:
     label: Psi 2000
     coordinates: {x: 51.9, y: -15.1, z: -34.3}
@@ -2825,9 +2868,12 @@ Scalos:
     label: Scalos
     coordinates: {x: -70.1, y: -121.1, z: -183.2}
 Sigma Iotia:
+  wd: Q55313125
   Maynard: 
     label: Sigma Iotia
     coordinates: {x: -5.7, y: -144.2, z: -109.1}
+  Shisma:
+    label: Sigma Iotia Ⅱ
 Tarsus:
   Maynard: 
     label: Tarsus
@@ -2843,10 +2889,13 @@ Time Planet:
   sto:
     label: Gateway
     coordinates: {x: 75.999, y: 42.913, z: 0}
+  wd: Q55440409
 Tantalus:
+  wd: Q48976062
   Maynard:
     label: Tantalus
     coordinates:  {x: -89.7, y: -11.7, z: -3.3}
+  Shisma: Tantalus Ⅴ
 Tycho:
   Maynard: 
     label: Tycho
@@ -3088,8 +3137,22 @@ Alpha Nexus I:
   judgement rites:
     label: Alpha Nexus I 
     coordinates: {y: -91, x: 56}
+Tagus III:
+  wd: Q3980138
+Genesis: 
+  wd: Q5890374
+Talax:
+  wd: Q24229363
+Miri:
+  wd: Q48976033
+Beta Omicron Delta Ⅲ:
+  wd: Q48976200
+Omega Ⅳ:
+  wd: Q49593478
+Ekos:
+  wd: Q49973947
 
-### Star Trek Vanguard
+### Vanguard
 
 ravanar:
   Shisma:
