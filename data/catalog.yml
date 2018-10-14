@@ -3363,14 +3363,17 @@ Diogenes:
     label: Diogenes
     coordinates: {y: 16, x: 65}
 Lachian:
+  wd: Q57034249
   judgement rites:
     label: Lachian
     coordinates: {y: 8.5, x: 45}
 Balkos III:
+  wd: Q57034256
   judgement rites:
     label: Balkos III
     coordinates: {y: -36.5, x: 66.5}
 Alpha Nexus I:
+  wd: Q57034260
   judgement rites:
     label: Alpha Nexus I 
     coordinates: {y: -91, x: 56}
@@ -3421,6 +3424,7 @@ Alpha Carinae V:
 ### Vanguard
 
 Ravanar IV:
+  wd: Q57034267
   present-in-work:
     - Q16385914
   Shisma:
@@ -3429,6 +3433,7 @@ Ravanar IV:
     coordinates: {x: 12, y: 128.6, z: null}
 
 Trinay III:
+  wd: Q57034270
   present-in-work:
   - Q16385914
   Shisma:
