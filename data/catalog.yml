@@ -109,19 +109,24 @@ Starbase Yorktown:
     coordinates: {x: -30.028, y: 98.98, z: null}
   type: station
 Lalande 25372:
+  wd: Q4039843
   Mandel:
     label: "Lalande 25372"
     coordinates: {x: 0.67, y: -7.3, z: null}
   real: true
   interesting: false
-Porrmia:
+Porrima V:
   Mandel:
     label: "Porrmia (G Virginis)"
+    star: G Virginis
+    parent-wd: Q10847666
     coordinates: {x: 16.3, y: -8.6, z: null}
-  real: true
-Borka:
+  
+Borka VI:
   Mandel:
     label: "Borka (Beta Hydri)"
+    star: Beta Hydri
+    parent-wd: Q830880
     coordinates: {x: 15.35, y: -10.6, z: null}
   real: true
 61 Virginis:
