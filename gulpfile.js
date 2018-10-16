@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const pug = require('gulp-pug');
 const yaml = require('js-yaml');
 const fs = require('fs');
+const parse = require('csv-parse/lib/sync')
 
 function pcToLj(p) { return p * 3.26156; }
 
@@ -57,8 +58,11 @@ gulp.task('pug', function () {
 	var catalog = yaml.safeLoad(fs.readFileSync('data/catalog.yml', 'utf8'));
   var catalog = normalizeCoordinates(catalog);
 	var catalog = addPreferredValues(catalog);
+
+  var stars = parse(fs.readFileSync('data/stars.csv', 'utf8'));
+
 	return gulp.src('templates/*.pug')
-    .pipe(pug({data:{catalog:catalog}}))
+    .pipe(pug({data:{catalog:catalog, stars: stars}}))
     .pipe(gulp.dest('./'));
 });
 gulp.task('default', ['pug'], function () {

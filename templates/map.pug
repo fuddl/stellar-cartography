@@ -5,12 +5,13 @@ include centroid
 mixin line(locations)
   - var points = '';
   each location in locations
-    - points += ' ' + catalog[location].coordinates.x + ',' + catalog[location].coordinates.y
-    - bgattributes = [];
-    each key, value in attributes
-      - bgattributes[key] = key != 'stroke-dasharray' ? value : '';
-    polyline(points=points, stroke="black", stroke-width=".2", fill="none")&attributes(bgattributes)
-    polyline(points=points, stroke="white", stroke-width=".1", fill="none")&attributes(attributes)
+    if catalog[location]
+      - points += ' ' + catalog[location].coordinates.x + ',' + catalog[location].coordinates.y
+      - bgattributes = [];
+      each key, value in attributes
+        - bgattributes[key] = key != 'stroke-dasharray' ? value : '';
+      polyline(points=points, stroke="black", stroke-width=".2", fill="none")&attributes(bgattributes)
+      polyline(points=points, stroke="white", stroke-width=".1", fill="none")&attributes(attributes)
 
 
 - function pcToLj(p) { return p * 3.26156; }
@@ -117,6 +118,16 @@ svg(xmlns='http://www.w3.org/2000/svg', viewBox='-800 -800 1800 1800', height="2
 
   //- <circle cx="22" cy="-6.77" r="24" stroke="#193980" fill="none" stroke-width="0.2"></circle>
   //-path(fill="url(#stripes)" d="M22,-31 A 24,24 0 0,1 46,-6.77 h5 A 30,30 0 0,0 22,-36")
+  each star, key in stars
+    - var x = star[2] * 3.26156;
+    - var y = star[3] * 3.26156;
+    if x > -800 && x < 1800 && y > -800 && y < 1800
+      if star[0]
+        circle(cx=x, cy=y, r=.2, fill="#333")
+        text(x=x, y=y, fill="#333", font-size='.5')= star[0] 
+      else 
+        circle(cx=x, cy=y, r=.1, fill="#333")
+
   each thing, key in catalog
     if thing.outline
       path(d=thing.outline, fill="url(#dots-1)")
@@ -126,7 +137,7 @@ svg(xmlns='http://www.w3.org/2000/svg', viewBox='-800 -800 1800 1800', height="2
   each thing, key in catalog
     if !thing.outline
       //-+circular-marker(x=thing.coordinates.x, y=thing.coordinates.y, cx=catalog.CNB.coordinates.x, cy=catalog.CNB.coordinates.y)=thing.label.replace(/\([^\)]+\)/, '')
-      if thing.interesting != false
+      if thing.interesting != false && thing.coordinates
         +marker(thing.coordinates.x, thing.coordinates.y)=thing.label.replace(/\([^\)]+\)/, '')
-      else
-        circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r='.2', fill='white')
+      else if thing.coordinates
+        circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r='.2', fill='#333')

@@ -605,6 +605,7 @@ Cardassia Prime:
   wd: Q718160
   Shisma:
     label: "Cardassia Prime"
+    coordinates: {x: -62.8, y: 33.1, z: null}
   Mandel:
     label: "Cardassia"
     coordinates: {x: -62.8, y: 33.1, z: null}
@@ -2851,10 +2852,6 @@ Tau Lacertae IX:
   Johnson:
     label: "Tau Lacertae IX"
     coordinates: {x: -421.3, y: -166.7, z: 67.7}
-Delta Dorado VVI:
-  Johnson:
-    label: "Delta Dorado VVI"
-    coordinates: {x: 54.5, y: 42.7, z: 242.9}
 Wrigley:
   wd: Q3570114
   Maynard:
@@ -2952,6 +2949,7 @@ Exo-III:
     coordinates: {x: 52.2, y: 73.1, z: 70.6}
   Shisma: 
     label: Exo-III
+    coordinates: {x: 52.2, y: 73.1, z: 70.6}
 Fabrina:
   Maynard:
     label: "Fabrina"
@@ -2965,9 +2963,13 @@ Gamma Vertis:
     label: "Gamma Vertis"
     coordinates: {x: 26.8, y: 200.4, z: 7.8}
 Gideon:
+  wd: Q57034012
   Maynard:
     label: "Gideon"
     star: "Delta Dorado"
+    coordinates: {x: 54.5, y: 42.7, z: -242.9}
+  Johnson:
+    label: "Delta Dorado VII"
     coordinates: {x: 54.5, y: 42.7, z: -242.9}
 Gothos:
   wd: Q48976428
@@ -3095,6 +3097,7 @@ Sigma Iotia Ⅱ:
     coordinates: {x: -5.7, y: -144.2, z: -109.1}
   Shisma:
     label: Sigma Iotia Ⅱ
+    coordinates: {x: -5.7, y: -144.2, z: -109.1}
 Tarsus IV:
   Maynard: 
     label: Tarsus
@@ -3116,7 +3119,9 @@ Tantalus Ⅴ:
   Maynard:
     label: Tantalus
     coordinates:  {x: -89.7, y: -11.7, z: -3.3}
-  Shisma: Tantalus Ⅴ
+  Shisma: 
+    label: Tantalus Ⅴ
+    coordinates:  {x: -89.7, y: -11.7, z: -3.3}
 Tycho:
   Maynard: 
     label: Tycho
