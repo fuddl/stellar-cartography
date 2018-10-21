@@ -2,7 +2,16 @@ const gulp = require('gulp');
 const pug = require('gulp-pug');
 const yaml = require('js-yaml');
 const fs = require('fs');
-const parse = require('csv-parse/lib/sync')
+const parse = require('csv-parse/lib/sync');
+const fontkit = require('fontkit');
+const boxIntersect = require('box-intersect');
+
+
+function fontAdvance(text, fontfile) {
+  const font = fontkit.openSync(fontfile);
+  const run = font.layout(text);
+  return run.advanceWidth;
+}
 
 function pcToLj(p) { return p * 3.26156; }
 
@@ -62,7 +71,12 @@ gulp.task('pug', function () {
   var stars = parse(fs.readFileSync('data/stars.csv', 'utf8'));
 
 	return gulp.src('templates/*.pug')
-    .pipe(pug({data:{catalog:catalog, stars: stars}}))
+    .pipe(pug({data:{
+      catalog: catalog,
+      stars: stars,
+      fontAdvance: fontAdvance,
+      intersect: boxIntersect,
+    }}))
     .pipe(gulp.dest('./'));
 });
 gulp.task('default', ['pug'], function () {

@@ -57,15 +57,16 @@ mixin circular-marker
       textPath(href='#' + id)
         tspan(dy=.25, dx=.75)
           block
-mixin marker(x, y, z)
+mixin marker(x, y, z, fill)
   - if (xOffset == null) { xOffset = .5; }
   - if (yOffset == null) { yOffset = .6; }
   - var dir = 'e';
 
-  circle.marker(cx=x, cy=y, r='.25', fill='white')&attributes(attributes)
+  circle.marker(cx=x, cy=y, r='.35', stroke-width=".1", stroke="#fff")&attributes(attributes)
+  circle(cx=x, cy=y, r='.15', fill="#fff")
   if dir == 'w'
     - var anchor = 'end'
-  text(x=x+xOffset, y=y+.15, fill="white" font-family='sans-serif', font-size='1' text-anchor=anchor)
+  text(x=x+xOffset, y=y+.05, fill="white" font-family='sans-serif', font-size='.7' text-anchor=anchor)
     block
 
 mixin circular-marker-area(label)

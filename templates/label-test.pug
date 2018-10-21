@@ -1,0 +1,32 @@
+include teko-label
+
+svg(height="200", width="200")
+  style.
+    @import url('https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700');
+    text {
+      text-transform: uppercase;
+      font-family: 'Teko', sans-serif;
+      stroke: black;
+      stroke-width: .25;
+      paint-order: stroke;
+      stroke-miterlimit: 2;
+      stroke-linecap: round;
+      fill: white;
+    }
+    body {
+      background-color: black;
+    }
+  +teko-label(10, 20, 'A', 300) 
+  +teko-label(10, 50, 'AB', 300) 
+  +teko-label(10, 80, 'ABC', 300) 
+  +teko-label(10, 110, 'ABCD', 300) 
+
+  +teko-label(50, 20, 'A', 400) 
+  +teko-label(50, 50, 'AB', 400) 
+  +teko-label(50, 80, 'ABC', 400) 
+  +teko-label(50, 110, 'ABCD', 400) 
+
+  +teko-label(80, 20, 'A', 500) 
+  +teko-label(80, 50, 'AB', 500) 
+  +teko-label(80, 80, 'ABC', 500) 
+  +teko-label(80, 110, 'ABCD', 500) 
