@@ -23,11 +23,31 @@ html
     meta(charset="utf-8")
   body
     svg(xmlns='http://www.w3.org/2000/svg', viewBox='-800 -800 1800 1800', height="20000" width="20000")
+      defs
+        filter#nebula(filterUnits="userSpaceOnUse")
+          fegaussianblur(stddeviation='.5 .5', in='SourceGraphic', edgemode='none', result='blur')
+          feturbulence(type='turbulence', basefrequency='.4', numoctaves='4', seed='3', stitchtiles='stitch', result='turbulence')
+          fecomposite(in='turbulence', in2='blur', operator='in', result='colormatrix')
+          fespecularlighting(surfacescale='1', specularconstant='1', specularexponent='3', kernelunitlength='1 1', lighting-color='#fff', in='turbulence', result='specularLighting')
+            fedistantlight(azimuth='6', elevation='4')
+          feflood(flood-color='white', flood-opacity='1', result='flood')
+          fecomposite(in='flood', in2='colormatrix', operator='in', result='composite2')
+          fecomposite(in='specularLighting', in2='colormatrix', operator='in', result='composite1')
+          femerge(result='merge1')
+            femergenode(in='composite2')
+            femergenode(in='composite1')
+        filter#cluster(filterUnits="userSpaceOnUse")
+          feGaussianBlur(in="SourceGraphic" stdDeviation="100" restult="blurred")
+          feTurbulence(type="turbulence" baseFrequency="9" numOctaves="4" result="turbulence")
+          feDisplacementMap(in2="turbulence" in="SourceGraphic" scale="6" xChannelSelector="R" yChannelSelector="G" result="displaced")
+          feGaussianBlur(in="displaced" stdDeviation=".05")
 
       style.
         @import url('https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700');
         text {
           font-family: 'Teko', sans-serif;
+        }
+        .label {
           stroke: black;
           stroke-width: .2;
           paint-order: stroke;
@@ -38,41 +58,134 @@ html
         body {
           background-color: black;
         }
+
+  
+      +concentric-grid(cx=0 cy=-26200 min-r=26112 r=26332.5 concentric-subdivisions=10, radial-subdivisions=8400 stroke="#333" stroke-width=.15/4, min-arc=89.755)
+
       +concentric-grid(cx=0 cy=-26200 min-r=26112 r=26332.5 concentric-subdivisions=10, radial-subdivisions=14 stroke="white" stroke-width=.15/4, min-arc=89.755 max-arc=90.355, opacity=.25)
       
-      +concentric-grid(cx=catalog.CNB.Maynard.coordinates.x cy=catalog.CNB.Maynard.coordinates.y min-r=0 r=pcToLj(190) concentric-subdivisions=24, radial-subdivisions=24 stroke="#193980" stroke-width=.15/4, opacity=.5)
+      
+      
+      //-+concentric-grid(cx=catalog.CNB.Maynard.coordinates.x cy=catalog.CNB.Maynard.coordinates.y min-r=0 r=pcToLj(190) concentric-subdivisions=24, radial-subdivisions=24 stroke="#193980" stroke-width=.15/4, opacity=.5)
       g#quadrant-border
         - var x = 22;
-        line(x1=x, x2=x, y1="-26200" y2="10000", stroke="#fff", stroke-width=".1", stroke-dasharray="2,.5") 
+        line(x1=x, x2=x, y1="-26200" y2="10000", stroke="#fff", stroke-width=".1") 
+
+
+      +line(['Earth','Alpha Centauri VII'])(stroke="#1687A9")
+      +line(['Tellar Prime', 'Vega IX'])(stroke="#1687A9")
+      +line(['Tellar Prime', 'Altair'])(stroke="#1687A9")
+      +line(['Earth','Tellar Prime', 'Denobula'])(stroke="#1687A9")
+      +line(['Earth','Andoria'])(stroke="#1687A9")
+      +line(['Earth','Vulcan'])(stroke="#1687A9")
+      +line(['Tellar Prime','Terra Nova'])(stroke="#1687A9")
+      +line(['Terra Nova','Peliar Zel II'])(stroke="#1687A9")
+      +line(['Terra Nova','Alpha III'])(stroke="#1687A9")
+      +line(['Altair','Bolarus IX'])(stroke="#1687A9")
+      +line(['Altair','Inferna Prime'])(stroke="#1687A9")
+      +line(['Bolarus IX','Starbase 10'])(stroke="#1687A9")
+      +line(['Bolarus IX','Starbase 718'])(stroke="#1687A9")
+      +line(['Bolarus IX','Delta IV'])(stroke="#1687A9")
+      +line(['Bolarus IX','Benzar'])(stroke="#1687A9")
+      +line(['Bolarus IX','Aaamazzara', 'Arbazan'])(stroke="#1687A9")
+      +line(['Peliar Zel II','Trill', 'Starbase 621'])(stroke="#1687A9")
+      +line(['Vulcan','Starbase 12', 'Deneva'])(stroke="#1687A9")
+      +line(['Starbase 12','Argelius II'])(stroke="#1687A9")
+      +line(['Argelius II','Starbase 23', 'Jourot'])(stroke="#1687A9")
+      +line(['Starbase 23', 'Starbase 234'])(stroke="#1687A9")
+      +line(['Starbase 23', 'Ramatis III'])(stroke="#1687A9")
+      +line(['Ramatis III', 'Ajilon Prime'])(stroke="#1687A9")
+      +line(['Starbase 12','Cordian'])(stroke="#1687A9")
+      +line(['Starbase 12','Tellun'])(stroke="#1687A9")
+      +line(['Starbase 12','Dakala', 'Betazed', 'Starbase 211', 'Setlik III'])(stroke="#1687A9")
+      +line(['Starbase 211','Umoth VIII', 'Starbase 129'])(stroke="#1687A9")
+      +line(['Starbase 211','Starbase 310', 'Solosos III'])(stroke="#1687A9")
+      +line(['Betazed','Aldebaran III', 'Sherman'])(stroke="#1687A9")
+      +line(['Aldebaran III','Starbase 2' , 'Starbase 11', 'Yorktown'])(stroke="#1687A9")
+      +line(['Yorktown', 'Cygnet XIV'])(stroke="#1687A9")
+      +line(['Yorktown', 'Bre\'el'])(stroke="#1687A9")
+      +line(['Yorktown', 'Cait'])(stroke="#1687A9")
+      +line(['Yorktown', 'Galen'])(stroke="#1687A9")
+      +line(['Yorktown', 'Grazer'])(stroke="#1687A9")
+      +line(['Yorktown', 'Pacifica'])(stroke="#1687A9")
+      +line(['Starbase 718', 'Midos V'])(stroke="#1687A9")
+      +line(['Starbase 718', 'Norkan', 'Gamma Hydra IV', 'Caldos', 'Zakdorn'])(stroke="#1687A9")
+      +line(['Caldos', 'Ingraham B Transit Station'])(stroke="#1687A9")
+      +line(['Starbase 718', 'Nimbus III'])(stroke="#1687A9")
+      +line(['Starbase 138', 'Hanolan'])(stroke="#1687A9")
+
+      +line(['Sherman', 'Deep Space K-7'])(stroke="white", opacity=.25)
+      
+      +line(['Quo\'Nos', 'Qu\'Vat'])(stroke="#9e0c01")
+      +line(['Quo\'Nos', 'Korvat'])(stroke="#9e0c01")
+      +line(['Quo\'Nos', 'Gamma Eridon'])(stroke="#9e0c01")
+      +line(['Quo\'Nos', 'Anarchis', 'Ganalda IV', 'Ardana'])(stroke="#9e0c01")
+      +line(['Ganalda IV', 'Gamma Eridon'])(stroke="#9e0c01")
+      +line(['Sherman', 'Organia', 'Amar', 'Ardana', 'Gamma Eridon'])(stroke="#9e0c01")
+      +line(['Quo\'Nos', 'Krios Prime'])(stroke="#9e0c01")
+      +line(['Krios Prime', 'Halee II'])(stroke="#9e0c01")
+      +line(['Krios Prime', 'Valt'])(stroke="#9e0c01")
+      +line(['Krios Prime', 'Ikalia'])(stroke="#9e0c01")
+      +line(['Krios Prime', 'Ty\'Gokor'])(stroke="#9e0c01")
+      +line(['Krios Prime', 'Qu\'Vat'])(stroke="#9e0c01")
+      +line(['Quo\'Nos', 'Ganalda IV'])(stroke="#9e0c01")
+      +line(['Quo\'Nos', 'B\'Moth'])(stroke="#9e0c01")
+      +line(['Korvat', 'Morska'])(stroke="#9e0c01")
+      +line(['Korvat', 'Qu\'Vat', 'Mempa', 'Beta Lankal'])(stroke="#9e0c01")
+      +line(['Mempa', 'Beta Lankal', 'Pheben V', 'Archer', 'Narendra III'])(stroke="#9e0c01")
+
+
+      each thing, key in catalog
+        if thing.coordinates && thing.fractions && thing.fractions.includes('federation')
+          circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=4, fill="none", stroke="#1687A9", stroke-width=.1, stroke-dasharray=".1,.2")
+
+        if thing.coordinates && thing.fractions && thing.fractions.includes('klingon') && thing.type != 'star'
+          circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=3.8, fill="none", stroke="#9e0c01", stroke-width=.1, stroke-dasharray=".1,.2")
+
+        if thing.coordinates && thing.fractions && thing.fractions.includes('romulan')
+          circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=3.9, fill="none", stroke="green", stroke-width=.1, stroke-dasharray=".1,.2")
+
 
       each star, key in stars
         - var x = star[2] * 3.26156;
         - var y = star[3] * 3.26156;
         if x > -800 && x < 1800 && y > -800 && y < 1800
           if star[0]
-            //circle(cx=x, cy=y, r=.2, fill="#333")
-            //text(x=x, y=y, fill="#333", font-size='.5')= star[0] 
+            //-circle(cx=x, cy=y, r=.2, fill="#333")
+            //-text(x=x, y=y, fill="#333", font-size='.5')= star[0] 
           else 
-            //circle(cx=x, cy=y, r=.1, fill="#333")
+            //-circle(cx=x, cy=y, r=.1, fill="#333")
 
       each thing, key in catalog
         if thing.outline
-          path(d=thing.outline, fill="url(#dots-1)")
-          
-          //-+circular-marker-area(x=thing.coordinates.x, y=thing.coordinates.y,cx=catalog.CNB.coordinates.x, cy=catalog.CNB.coordinates.y, label=thing.label)
+          - let filter = "#nebula";
+          if thing.type == 'cluster'
+            - filter = '#cluster'
+
+          path(d=thing.outline, fill="white" filter="url(" + filter + ")")
+          if thing.coordinates
+            text(x=thing.coordinates.x, y=thing.coordinates.y, font-size='1.5', font-weight='300', text-anchor='middle', fill="black")= key.toUpperCase()
+        
         
       each thing, key in catalog
         if !thing.outline
           //-+circular-marker(x=thing.coordinates.x, y=thing.coordinates.y, cx=catalog.CNB.coordinates.x, cy=catalog.CNB.coordinates.y)=thing.label.replace(/\([^\)]+\)/, '')
+
+          - let attr = {};
           if thing.coordinates
             - let weight = 300;
             - let direction = 'right';
             - let marker = 'circle';
             if thing.type == 'star'
+              - marker = 'diamond'
               - weight = 700
-            if thing.type == 'station'
+            if thing.type == 'station' || thing.type == 'megastructure'
               - weight = 500
               - direction = 'bottom'
               - marker = 'triangle'
-            +teko-label(thing.coordinates.x, thing.coordinates.y, key, weight, direction, marker) 
+            if thing.type == 'post'
+              - weight = 700
+              - direction = 'bottom'
+              - marker = 'triangle'
+            +teko-label(thing.coordinates.x, thing.coordinates.y, key, weight, direction, marker)&attributes(attr)
 

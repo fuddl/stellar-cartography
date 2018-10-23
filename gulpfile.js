@@ -51,7 +51,7 @@ function normalizeCoordinates(catalog) {
 }
 
 function addPreferredValues(catalog) {
-  let priorities = ['Shisma', 'DS9', 'ENT', 'DIS', 'Mandel', 'Maynard', 'Johnson', 'sto', 'judgement rites'];
+  let priorities = ['Shisma', 'DS9', 'ENT', 'DIS', 'Mandel', 'sto', 'Maynard', 'Johnson', 'judgement rites'];
   for(thing in catalog) {
     for(source of priorities) {
       if (catalog[thing][source]) {

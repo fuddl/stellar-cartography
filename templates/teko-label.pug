@@ -56,17 +56,22 @@ mixin teko-label(x, y, text, weight, direction, marker)
       //- marker box
       - labelBoxes.push([x-rCRadius, y-rCRadius,x+rCRadius, y+rCRadius]);
       if marker == 'circle'
-        circle(cx=x, cy=y, r=rCRadius, stroke-width=cStrokeWidth, stroke="white")
+        circle(cx=x, cy=y, r=rCRadius, stroke-width=cStrokeWidth, stroke="white")&attributes(attributes)
 
       if marker == 'triangle'
         - let dzoom = zoom - .05
         - let d = 'M' + x + ',' + y + ' m0,' + (-4*dzoom) + ' l' + (-4*dzoom) + ',' + (7*dzoom) + ' l' + (8*dzoom) + ',0 z';
         path(d=d, fill="white")
 
+      if marker == 'diamond'
+        - let dzoom = zoom - .05
+        - let d = 'M' + x + ',' + y + ' m0,' + (-3.5*dzoom) + ' l' + (-4*dzoom) + ',' + (4*dzoom) + ' l' + (4*dzoom) + ',' + (4*dzoom) + ' l' + (4*dzoom) + ',' + (-4*dzoom) + ' z';
+        path(d=d, fill="white")
+
       if direction == 'right' || direction == 'left'
         line(x1=lineStartX,y1=y,x2=lineEndX, y2=y, stroke="white", stroke-width=cStrokeWidth)
 
-      text(x=textX, y=textY, width=width, font-size=fontSize, font-weight=weight, text-anchor=textAnchor)= text
+      text.label(x=textX, y=textY, width=width, font-size=fontSize, font-weight=weight, text-anchor=textAnchor)= text
       
     else if direction == 'right'
       +teko-label(x, y, text, weight, 'left', marker)
