@@ -2386,9 +2386,8 @@ Cestus III:
     coordinates: {x: -44.2, y: -169.1, z: -113.9}
   fractions:
   - federation
-Betelgeuse:
+Betelgeuse II:
   real: yes
-  type: star
   Mandel:
     label: "Betelgeuse (Alpha Orionis)"
     coordinates: {x: 155.816, y: 190.79, z: null}
@@ -2696,7 +2695,8 @@ Verdanis:
   Mandel:
     label: "Verdanis (Terratin, Beta Cephei)"
     coordinates: {x: -566, y: 177, z: null}
-Tau Cygna:
+Tau Cygna V:
+  wd: Q57033782
   Mandel:
     label: "Tau Cygna"
     coordinates: {x: -487, y: -40, z: null}
@@ -2811,12 +2811,15 @@ Mantilles:
     label: "Mantilles"
     coordinates: {x: 245.5, y: 188.3, z: -56.1}
 Medusa:
+  wd: Q57033838
   Johnson:
     label: "Medusa"
     coordinates: {x: 27.2, y: 137.6, z: -41.3}
   Maynard:
     label: "Medusa"
     coordinates: {x: 27.2, y: 137.6, z: -41.3}
+  fractions:
+    - federation
 Yonada:
   Johnson:
     label: "Yonada"
@@ -2908,10 +2911,6 @@ Mudd:
   Maynard:
     label: "Mudd"
     coordinates: {x: -13.3, y: 225.1, z: -45.5}
-Taurus II:
-  Johnson:
-    label: "Taurus II"
-    coordinates: {x: -66.5, y: 47.4, z: 8.1}
 Tau Lacertae IX:
   Johnson:
     label: "Tau Lacertae IX"
@@ -2944,13 +2943,19 @@ Albireo:
     coordinates: {x: 86.8, y: -67.4, z: -31.7}
   type: star
   real: yes
-Al Nath:
+Taurus II:
   Maynard:
     label: "Al Nath"
     star: 'Beta Tauri'
     coordinates: {x: -66.5, y: 47.4, z: 8.1}
-  real: yes
-  type: star
+  Johnson:
+    label: "Taurus II"
+    coordinates: {x: -66.5, y: 47.4, z: 8.1}
+Murasaki 312:
+  Maynard:
+    label: Murasaki 312
+    coordinates: {x: -66.5, y: 47.4, z: 8.1}
+  type: quasar
 Alpha Majoris I:
   Maynard:
     label: "Alpha Majoris"
@@ -3022,7 +3027,7 @@ Gamma 7:
   Maynard:
     label: "Gamma 7"
     coordinates: {x: 134.5, y: 176.7, z: 11.7}
-Gamma Vertis:
+Gamma Vertis IV:
   Maynard:
     label: "Gamma Vertis"
     coordinates: {x: 26.8, y: 200.4, z: 7.8}
@@ -3052,6 +3057,11 @@ Ingraham:
   Maynard:
     label: "Ingraham"
     coordinates:  {x: 52, y: 39.9, z: 27.9 }
+Kalandan Outpost Transit Station:
+  Shisma: 
+    label: "Kalandan Outpost Transit Station"
+    coordinates: {x: -552.51, y: 36.203, z: -34}
+  type: station
 Kalandan Outpost:
   Maynard: 
     label: "Kalandan Outpost"
@@ -3080,10 +3090,12 @@ M24-Alpha:
   Maynard:
     label: M24-Alpha
     coordinates: {x: 85.5, y: -59.1, z: -75.8}
-Makus:
+Makus III:
   Maynard:
     label: Makus
     coordinates: {x: -8.6, y: 124.6, z: 32.5}
+  fractions:
+    - federation
 Manark:
   Maynard: 
     label: Manark
@@ -3119,10 +3131,6 @@ Mira:
     label: Mira
     star: Omicron Ceti
     coordinates: {x: 7.9, y: 36.1, z: -8.9}
-Murasaki 312:
-  Maynard:
-    label: Murasaki 312
-    coordinates: {x: -66.5, y: 47.4, z: 8.1}
 New Paris:
   Maynard:
     label: New Paris
