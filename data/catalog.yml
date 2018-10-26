@@ -1,695 +1,1116 @@
+---
 Deep Space K-7:
   Mandel:
-    label: "Deep Space K-7"
-    coordinates: {x: 25.3, y: 63.6, z: null}
+    label: Deep Space K-7
+    coordinates:
+      x: 25.3
+      y: 63.6
+      z: 
   type: station
 Starbase 12:
   Mandel:
-    label: "Starbase 12"
-    coordinates: {x: 12.479, y: 24, z: null}
+    label: Starbase 12
+    coordinates:
+      x: 12.479
+      y: 24
+      z: 
   type: station
 Khitomer:
   wd: Q3196184
   DIS:
-    label: "Khitomer"
-    coordinates: {x: 77.5, y: 47.9, z: null}
+    label: Khitomer
+    coordinates:
+      x: 77.5
+      y: 47.9
+      z: 
   Mandel:
-    coordinates: {x: 77.5, y: 47.9, z: null}
+    coordinates:
+      x: 77.5
+      y: 47.9
+      z: 
   fractions:
   - klingon
 Starbase 24:
   Mandel:
-    label: "Starbase 24"
-    coordinates: {x: 73.965, y: 47.44, z: null}
+    label: Starbase 24
+    coordinates:
+      x: 73.965
+      y: 47.44
+      z: 
   type: station
 Starbase 234:
   Mandel:
-    label: "Starbase 234"
-    coordinates: {x: 82.844, y: 31.44, z: null}
+    label: Starbase 234
+    coordinates:
+      x: 82.844
+      y: 31.44
+      z: 
   type: station
 Starbase 211:
   Mandel:
-    label: "Starbase 211"
-    coordinates: {x: -23.915, y: 49.463, z: null}
+    label: Starbase 211
+    coordinates:
+      x: -23.915
+      y: 49.463
+      z: 
   type: station
 Starbase 23:
   Mandel:
-    label: "Starbase 23"
-    coordinates: {x: 62.48, y: 18.679, z: null}
+    label: Starbase 23
+    coordinates:
+      x: 62.48
+      y: 18.679
+      z: 
   type: station
 Starbase 718:
   Mandel:
-    label: "Starbase 718"
-    coordinates: {x: 15.5, y: -50.938, z: null}
+    label: Starbase 718
+    coordinates:
+      x: 15.5
+      y: -50.938
+      z: 
   type: station
 Starbase 10:
   Mandel:
-    label: "Starbase 10"
-    coordinates: {x: 15.5, y: -25.87, z: null}
+    label: Starbase 10
+    coordinates:
+      x: 15.5
+      y: -25.87
+      z: 
+  type: station
+MZ5:
+  Mandel:
+    label: Outpost MZ-5
+    coordinates:
+      x: 129.266
+      y: 57.256
+      z: 
+  type: post
+  fractions:
+  - klingon
+Starbase 105:
+  Mandel:
+    label: Starbase 105
+    coordinates:
+      x: 133.994
+      y: 45.764
+      z: 
   type: station
 Deep Space 5:
   Mandel:
-    label: "Deep Space 5"
-    coordinates: {x: 3.562, y: -69.9, z: null}
+    label: Deep Space 5
+    coordinates:
+      x: 3.562
+      y: -69.9
+      z: 
   type: station
 Deep Space 4:
   Mandel:
-    label: "Deep Space 4"
-    coordinates: {x: 38.312, y: -67.875, z: null}
+    label: Deep Space 4
+    coordinates:
+      x: 38.312
+      y: -67.875
+      z: 
   type: station
 Deep Space 3:
   Mandel:
-    label: "Deep Space 3"
-    coordinates: {x: -81.054, y: -72.031, z: null}
+    label: Deep Space 3
+    coordinates:
+      x: -81.054
+      y: -72.031
+      z: 
   type: station
 Starbase 621:
   Mandel:
-    label: "Starbase 621"
-    coordinates: {x: -41.625, y: 15.438, z: null}
+    label: Starbase 621
+    coordinates:
+      x: -41.625
+      y: 15.438
+      z: 
   type: station
 Starbase 129:
   Mandel:
-    label: "Starbase 129"
-    coordinates: {x: -52.938, y: 66.938, z: null}
+    label: Starbase 129
+    coordinates:
+      x: -52.938
+      y: 66.938
+      z: 
   type: station
 Starbase 310:
   Mandel:
-    label: "Starbase 310"
-    coordinates: {x: -36.567, y: 41, z: null}
+    label: Starbase 310
+    coordinates:
+      x: -36.567
+      y: 41
+      z: 
   type: station
 Starbase 2:
   Mandel:
-    label: "Starbase 2"
-    coordinates: {x: -5.546, y: 69.5, z: null}
+    label: Starbase 2
+    coordinates:
+      x: -5.546
+      y: 69.5
+      z: 
   type: station
 Starbase 11:
   Mandel:
-    label: "Starbase 11"
-    coordinates: {x: -21.078, y: 74.729, z: null}
+    label: Starbase 11
+    coordinates:
+      x: -21.078
+      y: 74.729
+      z: 
   type: station
 Starbase 47:
   Mandel:
-    label: "Starbase 47"
-    coordinates: {x: -23.983, y: 62.954, z: null}
+    label: Starbase 47
+    coordinates:
+      x: -23.983
+      y: 62.954
+      z: 
   type: station
 Starbase G6:
   Mandel:
-    label: "Starbase G-6"
-    coordinates: {x: -4.616, y: 57.066, z: null}
+    label: Starbase G-6
+    coordinates:
+      x: -4.616
+      y: 57.066
+      z: 
   type: station
 Nigala:
   Mandel:
-    label: "Nigala"
-    coordinates: {x: -11.415, y: 103.492, z: null}
+    label: Nigala
+    coordinates:
+      x: -11.415
+      y: 103.492
+      z: 
   type: station
 Starbase 152:
   Mandel:
-    label: "Starbase 152"
-    coordinates: {x: 233.492, y: 47.159, z: null}
+    label: Starbase 152
+    coordinates:
+      x: 233.492
+      y: 47.159
+      z: 
   type: station
 Midas:
   Mandel:
-    label: "Midas Array"
-    coordinates: {x: 195.953, y: 265.348, z: null}
+    label: Midas Array
+    coordinates:
+      x: 195.953
+      y: 265.348
+      z: 
   type: station
 Yorktown:
   Shisma:
     label: SB Yorktown
-    coordinates: {x: -30.028, y: 98.98, z: null}
+    coordinates:
+      x: -30.028
+      y: 98.98
+      z: 
   type: megastructure
   fractions:
-    - federation
+  - federation
 Lalande 25372:
   wd: Q4039843
   Mandel:
-    label: "Lalande 25372"
-    coordinates: {x: 0.67, y: -7.3, z: null}
+    label: Lalande 25372
+    coordinates:
+      x: 0.67
+      y: -7.3
+      z: 
   real: true
   interesting: false
   type: star
 Porrima V:
   Mandel:
-    label: "Porrmia (G Virginis)"
+    label: Porrmia (G Virginis)
     star: G Virginis
     parent-wd: Q10847666
-    coordinates: {x: 16.3, y: -8.6, z: null}
-  
+    coordinates:
+      x: 16.3
+      y: -8.6
+      z: 
 Borka VI:
   Mandel:
-    label: "Borka (Beta Hydri)"
+    label: Borka (Beta Hydri)
     star: Beta Hydri
     parent-wd: Q830880
-    coordinates: {x: 15.35, y: -10.6, z: null}
+    coordinates:
+      x: 15.35
+      y: -10.6
+      z: 
   real: true
 61 Virginis:
   Mandel:
-    label: "61 Virginis"
-    coordinates: {x: 14.79, y: -13.4, z: null}
+    label: 61 Virginis
+    coordinates:
+      x: 14.79
+      y: -13.4
+      z: 
   real: true
   interesting: false
   type: star
 Benzar:
   Mandel:
-    label: "Benzar (Benzite, Delta Pavonis)"
+    label: Benzar (Benzite, Delta Pavonis)
     star: Delta Pavonis
     parent-wd: Q629637
-    coordinates: {x: 8.48, y: -14.5, z: null}
+    coordinates:
+      x: 8.48
+      y: -14.5
+      z: 
   Benzar:
     Johnson:
-      label: "Benzar"
-      coordinates: {x: 301.4, y: -57.4, z: 84.4}
+      label: Benzar
+      coordinates:
+        x: 301.4
+        y: -57.4
+        z: 84.4
   fractions:
   - federation
 Theta Sculptoris:
   Mandel:
-    label: "Theta Sculptoris"
-    coordinates: {x: 3.29, y: -14, z: null}
+    label: Theta Sculptoris
+    coordinates:
+      x: 3.29
+      y: -14
+      z: 
   real: true
   interesting: false
   type: star
 Tau Botis:
   Mandel:
-    label: "Tau Botis"
-    coordinates: {x: 0, y: -14.1, z: null}
+    label: Tau Botis
+    coordinates:
+      x: 0
+      y: -14.1
+      z: 
   real: true
   interesting: false
   type: star
 Aldus Prime:
   Mandel:
-    label: "Aldus Prime (Ross 614)"
-    coordinates: {x: 7.28, y: 11.26, z: null}
+    label: Aldus Prime (Ross 614)
+    coordinates:
+      x: 7.28
+      y: 11.26
+      z: 
   real: true
 p Eridani:
   Mandel:
-    label: "p Eridani"
-    coordinates: {x: 12.64, y: 4.61, z: null}
+    label: p Eridani
+    coordinates:
+      x: 12.64
+      y: 4.61
+      z: 
   canon: false
   real: true
   interesting: false
   type: star
 Alpha Fornascis:
   Mandel:
-    label: "Alpha Fornacis"
-    coordinates: {x: 16.6, y: 16.8, z: null}
+    label: Alpha Fornacis
+    coordinates:
+      x: 16.6
+      y: 16.8
+      z: 
   real: true
   interesting: false
   type: star
 Tau 1 Eridani:
   Mandel:
-    label: "Tau 1 Eridani"
-    coordinates: {x: 7.54, y: 19.64, z: null}
+    label: Tau 1 Eridani
+    coordinates:
+      x: 7.54
+      y: 19.64
+      z: 
   canon: false
   real: true
   type: star
 Delta Leonis:
   Mandel:
-    label: "Delta Leonis"
-    coordinates: {x: 15.7, y: 16.2, z: null}
+    label: Delta Leonis
+    coordinates:
+      x: 15.7
+      y: 16.2
+      z: 
   real: true
   type: star
 Alpha Mensa V:
   Mandel:
-    label: "Alpha Mensae"
-    coordinates: {x: 27.8, y: -7.9, z: null}
+    label: Alpha Mensae
+    coordinates:
+      x: 27.8
+      y: -7.9
+      z: 
   Shisma:
     label: Alpha Mensae V
-    coordinates: {x: 27.8, y: -7.9, z: null}
+    coordinates:
+      x: 27.8
+      y: -7.9
+      z: 
 Rho Virginis:
   Mandel:
-    label: "Rho Virginis"
-    coordinates: {x: 32.2, y: -14.9, z: null}
+    label: Rho Virginis
+    coordinates:
+      x: 32.2
+      y: -14.9
+      z: 
   real: true
   type: star
 Eta Corvi:
   Mandel:
-    label: "Eta Corvi"
-    coordinates: {x: 36.6, y: -18, z: null}
+    label: Eta Corvi
+    coordinates:
+      x: 36.6
+      y: -18
+      z: 
   real: true
   type: star
 Mu Cassiopeiae:
   Mandel:
-    label: "Mu Cassiopeiae"
-    coordinates: {x: -19.6, y: 14.25, z: null}
+    label: Mu Cassiopeiae
+    coordinates:
+      x: -19.6
+      y: 14.25
+      z: 
   real: true
   interesting: false
   type: star
 Chara:
   Mandel:
-    label: "Chara (Beta Canum Venticorum)"
-    coordinates: {x: -4.78, y: 5.18, z: null}
+    label: Chara (Beta Canum Venticorum)
+    coordinates:
+      x: -4.78
+      y: 5.18
+      z: 
   real: true
 Groombridge 34:
   Mandel:
-    label: "Groombridge 34"
-    coordinates: {x: -9.99, y: 5.1, z: null}
+    label: Groombridge 34
+    coordinates:
+      x: -9.99
+      y: 5.1
+      z: 
   real: true
   interesting: false
   type: star
 47 Ursae Majoris:
   Mandel:
-    label: "47 Ursae Majoris"
-    coordinates: {x: -1.6, y: 20.6, z: null}
+    label: 47 Ursae Majoris
+    coordinates:
+      x: -1.6
+      y: 20.6
+      z: 
   real: true
   interesting: false
   type: star
 36 Ursae Majoris:
   Mandel:
-    label: "36 Ursae Majoris"
-    coordinates: {x: -11.32, y: 23.45, z: null}
+    label: 36 Ursae Majoris
+    coordinates:
+      x: -11.32
+      y: 23.45
+      z: 
   real: true
   type: star
 Iota Persei:
   Mandel:
-    label: "Iota Persei"
-    coordinates: {x: -19.68, y: 27.81, z: null}
+    label: Iota Persei
+    coordinates:
+      x: -19.68
+      y: 27.81
+      z: 
   real: true
 Theta Ursae Major:
   Mandel:
-    label: "Theta Ursae Major"
-    coordinates: {x: -7.77, y: 29.85, z: null}
+    label: Theta Ursae Major
+    coordinates:
+      x: -7.77
+      y: 29.85
+      z: 
   real: true
   type: star
 Pi 1 Ursae Majoris:
   Mandel:
-    label: "Pi 1 Ursae Majoris"
-    coordinates: {x: -18.6, y: 33, z: null}
+    label: Pi 1 Ursae Majoris
+    coordinates:
+      x: -18.6
+      y: 33
+      z: 
   real: true
   interesting: false
   type: star
 Barnard's Star:
   Mandel:
-    label: "Barnard´s Star"
-    coordinates: {x: -3, y: -5, z: null}
+    label: Barnard´s Star
+    coordinates:
+      x: -3
+      y: -5
+      z: 
   real: true
   interesting: false
   type: star
 Fomalhaut:
   Mandel:
-    label: "Fomalhaut (Alpha Piscis Australis)"
-    coordinates: {x: -3.7, y: -10, z: null}
+    label: Fomalhaut (Alpha Piscis Australis)
+    coordinates:
+      x: -3.7
+      y: -10
+      z: 
   real: true
   interesting: false
   type: star
 Mu Herculis:
   Mandel:
-    label: "Mu Herculis"
-    coordinates: {x: -19.6, y: -15.1, z: null}
+    label: Mu Herculis
+    coordinates:
+      x: -19.6
+      y: -15.1
+      z: 
   real: true
   type: star
 Sigma Botis:
   Mandel:
-    label: "Sigma Botis"
-    coordinates: {x: -14, y: -13.8, z: null}
+    label: Sigma Botis
+    coordinates:
+      x: -14
+      y: -13.8
+      z: 
   real: true
   type: star
 Earth:
   wd: Q1005907
   Mandel:
-    label: "Sol (Earth)"
-    coordinates: {x: 0, y: 0, z: 0}
+    label: Sol (Earth)
+    coordinates:
+      x: 0
+      y: 0
+      z: 0
   Johnson:
-    label: "Earth"
-    coordinates: {x: 23.9, y: 61.8, z: 0}
+    label: Earth
+    coordinates:
+      x: 23.9
+      y: 61.8
+      z: 0
   Maynard:
-    label: "Earth"
-    coordinates: {x: 23.9, y: 61.8, z: 0}
+    label: Earth
+    coordinates:
+      x: 23.9
+      y: 61.8
+      z: 0
   Shisma:
     label: Earth
-    coordinates: {x: 0, y: 0, z: 0}
+    coordinates:
+      x: 0
+      y: 0
+      z: 0
   fractions:
   - federation
 Ankaa:
   Mandel:
-    label: "Ankaa (Alpha Phoenicis)"
+    label: Ankaa (Alpha Phoenicis)
     star: Alpha Phoenicis
     parent-wd: Q14251
-    coordinates: {x: 13.8, y: -16.4, z: null}
+    coordinates:
+      x: 13.8
+      y: -16.4
+      z: 
 Alpha Centauri VII:
   Mandel:
-    label: "Alpha Centrauri (Proxima)"
+    label: Alpha Centrauri (Proxima)
     parent-wd: Q12176
-    coordinates: {x: 3.1, y: -3.3, z: null}
+    coordinates:
+      x: 3.1
+      y: -3.3
+      z: 
   Maynard:
-    label: "Al Riji"
+    label: Al Riji
     parent-wd: Q12176
-    coordinates: {x: 24.6, y: 62.5, z: -1}
+    coordinates:
+      x: 24.6
+      y: 62.5
+      z: -1
   Johnson:
-    label: "Alpha Centauri VII"
+    label: Alpha Centauri VII
     parent-wd: Q12176
-    coordinates: {x: 24.6, y: 62.5, z: -1}
+    coordinates:
+      x: 24.6
+      y: 62.5
+      z: -1
   fractions:
   - federation
 Babel:
   Mandel:
-    label: "Babel (Wolf 424)"
-    star: "Wolf 424"
+    label: Babel (Wolf 424)
+    star: Wolf 424
     parent-wd: Q1328338
-    coordinates: {x: 4.23, y: -1.47, z: null}
+    coordinates:
+      x: 4.23
+      y: -1.47
+      z: 
   Maynard:
-    label: "Babel"
-    star: "Wolf 424"
+    label: Babel
+    star: Wolf 424
     parent-wd: Q1328338
-    coordinates: {x: 24.2, y: 66.1, z: .8}
+    coordinates:
+      x: 24.2
+      y: 66.1
+      z: 0.8
 Wolf 359:
-  real: yes
+  real: true
   type: star
   Mandel:
-    label: "Wolf 359"
-    coordinates: {x: 4.24, y: 1.89, z: null}
+    label: Wolf 359
+    coordinates:
+      x: 4.24
+      y: 1.89
+      z: 
 Sirius:
   type: star
   Mandel:
-    label: "Sirius (Alpha Canis Majoris)"
-    coordinates: {x: 6.35, y: 5.29, z: null}
+    label: Sirius (Alpha Canis Majoris)
+    coordinates:
+      x: 6.35
+      y: 5.29
+      z: 
 Andoria:
   DIS:
-    label: "Andoria"
-    coordinates: {x: 6.26, y: 9.48, z: null}
+    label: Andoria
+    coordinates:
+      x: 6.26
+      y: 9.48
+      z: 
   Mandel:
-    label: "Andoria (Procyon, Alpha Canis Minoris)"
-    coordinates: {x: 6.26, y: 9.48, z: null}
+    label: Andoria (Procyon, Alpha Canis Minoris)
+    coordinates:
+      x: 6.26
+      y: 9.48
+      z: 
   Johnson:
-    label: "Andor"
-    coordinates: {x: 25.8, y: 60.1, z: -2.4}
+    label: Andor
+    coordinates:
+      x: 25.8
+      y: 60.1
+      z: -2.4
   fractions:
   - federation
 P'Jem:
   Mandel:
-    label: "P´Jem (Luyten´s Star)"
+    label: P´Jem (Luyten´s Star)
     parent-wd: Q1062596
     star: Luyten's Star
-    coordinates: {x: 6.58, y: 10.39, z: null}
+    coordinates:
+      x: 6.58
+      y: 10.39
+      z: 
 Vulcan:
   wd: Q1088708
-  ENT: 
-    label: "Vulcan (40 Eridani A)"
-    coordinates: {x: 4.7, y: 12.23, z: null}
+  ENT:
+    label: Vulcan (40 Eridani A)
+    coordinates:
+      x: 4.7
+      y: 12.23
+      z: 
   DIS:
-    label: "Vulcan"
-    coordinates: {x: 4.7, y: 12.23, z: null}
+    label: Vulcan
+    coordinates:
+      x: 4.7
+      y: 12.23
+      z: 
   Mandel:
-    label: "Vulcan (40 Eridani A)"
-    coordinates: {x: 4.7, y: 12.23, z: null}
-  Maynard: 
-    label: "40 Eridani"
-    coordinates: {x: 19.5, y: 60, z: -.6}
+    label: Vulcan (40 Eridani A)
+    coordinates:
+      x: 4.7
+      y: 12.23
+      z: 
+  Maynard:
+    label: 40 Eridani
+    coordinates:
+      x: 19.5
+      y: 60
+      z: -0.6
   Johnson:
-    label: "Vulcan"
-    coordinates: {x: 19.5, y: 60, z: -.6}
+    label: Vulcan
+    coordinates:
+      x: 19.5
+      y: 60
+      z: -0.6
   fractions:
   - federation
 Axanar:
   Mandel:
-    label: "Axanar (Epsilon Eridani)"
-    star: "Epsilon Eridani"
+    label: Axanar (Epsilon Eridani)
+    star: Epsilon Eridani
     parent-wd: Q194394
-    coordinates: {x: 2, y: 6.86, z: null}
+    coordinates:
+      x: 2
+      y: 6.86
+      z: 
   Maynard:
     label: Axanar
-    coordinates: {x: -51.5, y: 5.2, z: -8.1}
+    coordinates:
+      x: -51.5
+      y: 5.2
+      z: -8.1
   fractions:
   - federation
 Dakala:
   Mandel:
-    label: "Dakala"
-    coordinates: {x: -11.61, y: 42.632, z: null}
+    label: Dakala
+    coordinates:
+      x: -11.61
+      y: 42.632
+      z: 
   fractions:
   - federation
 Ceti Alpha V:
   wd: Q56893273
   Mandel:
-    label: "Ceti Alpha"
-    coordinates: {x: 165.13, y: 324.407, z: null}
+    label: Ceti Alpha
+    coordinates:
+      x: 165.13
+      y: 324.407
+      z: 
   Johnson:
-    label: "Ceti Alpha V"
-    coordinates: {x: 12.4, y: 49.5, z: -19.7}
+    label: Ceti Alpha V
+    coordinates:
+      x: 12.4
+      y: 49.5
+      z: -19.7
 Akaali:
   Mandel:
-    label: "Akaali"
-    coordinates: {x: 11.16, y: 18.6, z: -80.9599}
+    label: Akaali
+    coordinates:
+      x: 11.16
+      y: 18.6
+      z: -80.9599
 Lorillia:
   Mandel:
-    label: "Lorillia (Gamma Leopris)"
+    label: Lorillia (Gamma Leopris)
     parent-wd: Q1367757
     star: Gamma Leporis
-    coordinates: {x: 19.4, y: 18.3, z: null}
+    coordinates:
+      x: 19.4
+      y: 18.3
+      z: 
 Tagus III:
   wd: Q3980138
   Mandel:
-    label: "Tagus (Gamma Equulei)"
+    label: Tagus (Gamma Equulei)
     star: Gamma Equulei
     parent-wd: Q4133098
-    coordinates: {x: 33.3, y: 8.5, z: null}
+    coordinates:
+      x: 33.3
+      y: 8.5
+      z: 
 Teneebia:
   Mandel:
-    label: "Teneebia (Diadem, Alpha Comae Beren)"
-    coordinates: {x: 4.57, y: -7.15, z: null}
+    label: Teneebia (Diadem, Alpha Comae Beren)
+    coordinates:
+      x: 4.57
+      y: -7.15
+      z: 
 Pollux IV:
   wd: Q48891484
   parent-wd: Q13028
   Mandel:
-    label: "Pollux (Beta Geminorum)"
+    label: Pollux (Beta Geminorum)
     star: Beta Geminorum
     parent-wd: Q13028
-    coordinates: {x: 6.726, y: 30.257, z: null}
+    coordinates:
+      x: 6.726
+      y: 30.257
+      z: 
   Maynard:
     label: Pollux
-    coordinates: {x: 13.9, y: 65.6, z: .6}
+    coordinates:
+      x: 13.9
+      y: 65.6
+      z: 0.6
     star: Beta Geminorum
     parent-wd: Q13028
   Shisma:
     label: Pollux IV
-    coordinates: {x: 13.9, y: 65.6, z: .6}
+    coordinates:
+      x: 13.9
+      y: 65.6
+      z: 0.6
 Kaferia:
   Mandel:
-    label: "Kaferia (Tau Ceti)"
+    label: Kaferia (Tau Ceti)
     parent-wd: Q15820
     star: Tau Ceti
-    coordinates: {x: -0.25, y: 3.5, z: null}
+    coordinates:
+      x: -0.25
+      y: 3.5
+      z: 
   Johnson:
-    label: "Kaferia"
+    label: Kaferia
     star: Tau Ceti
-    coordinates: {x: 22.8, y: 58.7, z: -1.5}
+    coordinates:
+      x: 22.8
+      y: 58.7
+      z: -1.5
 Omicron Gruis:
   Mandel:
     star: Omicron Gruis
     parent-wd: Q9285230
-    label: "Cheron"
-    coordinates: {x: 27, y: -44.9, z: null}
+    label: Cheron
+    coordinates:
+      x: 27
+      y: -44.9
+      z: 
   type: star
 Argelius II:
   present-in-work:
-    - Q3487137
+  - Q3487137
   Mandel:
-    label: "Argelius (Iota Leonis)"
+    label: Argelius (Iota Leonis)
     parent-wd: Q3232250
     star: Iota Leonis
-    coordinates: {x: 32.4, y: 13.4, z: null}
+    coordinates:
+      x: 32.4
+      y: 13.4
+      z: 
   Maynard:
-    label: "Argelius II"
-    coordinates: {x: -154.7, y: -59.2, z: -121.2}
+    label: Argelius II
+    coordinates:
+      x: -154.7
+      y: -59.2
+      z: -121.2
   Johnson:
-    label: "Argelius II"
-    coordinates: {x: -154.7, y: -59.2, z: -121.2}
+    label: Argelius II
+    coordinates:
+      x: -154.7
+      y: -59.2
+      z: -121.2
   fractions:
   - federation
 Barradas III:
   Mandel:
-    label: "Barradas"
-    coordinates: {x: 33.5, y: 5.15, z: null}
+    label: Barradas
+    coordinates:
+      x: 33.5
+      y: 5.15
+      z: 
 Cheron:
   Mandel:
-    label: "Cheron (83 Leonis)"
+    label: Cheron (83 Leonis)
     star: 83 Leonis
     parent-wd: Q272242
-    coordinates: {x: 29.45, y: 5.73, z: null}
+    coordinates:
+      x: 29.45
+      y: 5.73
+      z: 
 Draken IV:
   Mandel:
-    label: "Draken"
-    coordinates: {x: 33.5, y: 0.4, z: null}
+    label: Draken
+    coordinates:
+      x: 33.5
+      y: 0.4
+      z: 
 Kaleb:
   Mandel:
-    label: "Kaleb (Caleb, Chi Eridani)"
+    label: Kaleb (Caleb, Chi Eridani)
     star: Chi Eridani
     parent-wd: Q5095057
-    coordinates: {x: 25.7, y: -4, z: null}
+    coordinates:
+      x: 25.7
+      y: -4
+      z: 
 Calder II:
   Mandel:
-    label: "Calder"
-    coordinates: {x: 22, y: -10, z: null}
+    label: Calder
+    coordinates:
+      x: 22
+      y: -10
+      z: 
 Yadalla Prime:
   Mandel:
-    label: "Yadalla"
-    coordinates: {x: 21.5, y: -14.1, z: null}
+    label: Yadalla
+    coordinates:
+      x: 21.5
+      y: -14.1
+      z: 
 Dessica II:
   Mandel:
-    label: "Dessica (Vindemiatrix, Epsilon Virginis)"
+    label: Dessica (Vindemiatrix, Epsilon Virginis)
     star: Epsilon Virginis
     parent-wd: Q14198
-    coordinates: {x: 21.3, y: -19.5, z: null}
+    coordinates:
+      x: 21.3
+      y: -19.5
+      z: 
 Ophiucus VI:
   Mandel:
-    label: "Ophiucus (36 Ophiuchi)"
+    label: Ophiucus (36 Ophiuchi)
     star: 36 Ophiuchi
     parent-wd: Q1327863
-    coordinates: {x: 0.5, y: -19.4, z: null}
+    coordinates:
+      x: 0.5
+      y: -19.4
+      z: 
 Nelvana:
   Mandel:
-    label: "Nelvana"
-    coordinates: {x: 29, y: -5.5, z: null}
+    label: Nelvana
+    coordinates:
+      x: 29
+      y: -5.5
+      z: 
 Loracus:
   Mandel:
-    label: "Loracus (61 Ursae Majoris)"
+    label: Loracus (61 Ursae Majoris)
     star: 61 Ursae Majoris
     parent-wd: Q1327524
-    coordinates: {x: 0.7, y: 9, z: null}
+    coordinates:
+      x: 0.7
+      y: 9
+      z: 
 Xyrillia:
   Mandel:
-    label: "Xyrillia"
-    coordinates: {x: -7.7, y: 16.19, z: null}
+    label: Xyrillia
+    coordinates:
+      x: -7.7
+      y: 16.19
+      z: 
 Terra Nova:
   Mandel:
-    label: "Terra Nova (Eta Cassiop.)"
+    label: Terra Nova (Eta Cassiop.)
     parent-wd: Q13605
     star: Eta Cassiopeiae
-    coordinates: {x: -16.21, y: 10.24, z: null}
+    coordinates:
+      x: -16.21
+      y: 10.24
+      z: 
 Alpha III:
   Mandel:
-    label: "Alpha"
-    coordinates: {x: -17, y: 19.48, z: null}
+    label: Alpha
+    coordinates:
+      x: -17
+      y: 19.48
+      z: 
   Maynard:
-    label: "Alpha"
-    coordinates: {x: 28.5, y: 52.8, z: 19}
+    label: Alpha
+    coordinates:
+      x: 28.5
+      y: 52.8
+      z: 19
   Johnson:
-    label: "Alpha III"
-    coordinates: {x: 28.5, y: 52.8, z: 19}
+    label: Alpha III
+    coordinates:
+      x: 28.5
+      y: 52.8
+      z: 19
   fractions:
   - federation
 Sigma Draconis VI:
   wd: Q56240346
   Mandel:
-    label: "Sigma Draconis"
-    coordinates: {x: -17, y: 3.38, z: null}
+    label: Sigma Draconis
+    coordinates:
+      x: -17
+      y: 3.38
+      z: 
   Maynard:
-    label: "Sigma Draconis"
-    coordinates: {x: 23.4, y: 60.4, z: 5.4}
+    label: Sigma Draconis
+    coordinates:
+      x: 23.4
+      y: 60.4
+      z: 5.4
 Mab-Bu VI:
   Mandel:
-    label: "Mab-Bu"
-    coordinates: {x: -8, y: 22.45, z: null}
+    label: Mab-Bu
+    coordinates:
+      x: -8
+      y: 22.45
+      z: 
 Draylon:
   Mandel:
-    label: "Draylon (New Kentanna)"
-    coordinates: {x: -19.44, y: 25.33, z: null}
+    label: Draylon (New Kentanna)
+    coordinates:
+      x: -19.44
+      y: 25.33
+      z: 
 Tesnia:
   Mandel:
-    label: "Tesnia"
-    coordinates: {x: -5.76, y: 32.92, z: null}
+    label: Tesnia
+    coordinates:
+      x: -5.76
+      y: 32.92
+      z: 
 New France:
   Mandel:
-    label: "New France"
-    coordinates: {x: -10.8, y: 36.2, z: null}
+    label: New France
+    coordinates:
+      x: -10.8
+      y: 36.2
+      z: 
 Eska:
   Mandel:
-    label: "Eska"
-    coordinates: {x: -17.7, y: 38.5, z: null}
+    label: Eska
+    coordinates:
+      x: -17.7
+      y: 38.5
+      z: 
 Capella:
   Mandel:
-    label: "Capella (Alpha Aurigae)"
-    coordinates: {x: -15.7, y: 40.5, z: null}
+    label: Capella (Alpha Aurigae)
+    coordinates:
+      x: -15.7
+      y: 40.5
+      z: 
   Johnson:
-    label: "Capella IV"
-    coordinates: {x: 11.1, y: 60, z: 4.6}
+    label: Capella IV
+    coordinates:
+      x: 11.1
+      y: 60
+      z: 4.6
 Cor Caroli:
   Mandel:
-    label: "Cor Caroli"
-    coordinates: {x: -18.8, y: 10.25, z: null}
+    label: Cor Caroli
+    coordinates:
+      x: -18.8
+      y: 10.25
+      z: 
 13 Ceti:
   Mandel:
-    label: "13 Ceti"
-    coordinates: {x: -25.5, y: 10.8, z: null}
+    label: 13 Ceti
+    coordinates:
+      x: -25.5
+      y: 10.8
+      z: 
   real: true
   interesting: false
   type: star
 Peliar Zel II:
   Mandel:
-    label: "Peliar Zel"
-    coordinates: {x: -26.3, y: 17.5, z: null}
+    label: Peliar Zel
+    coordinates:
+      x: -26.3
+      y: 17.5
+      z: 
   fractions:
   - federation
 Caldik Prime:
   Mandel:
-    label: "Caldik"
-    coordinates: {x: -33, y: 20.9, z: null}
+    label: Caldik
+    coordinates:
+      x: -33
+      y: 20.9
+      z: 
 Bajor:
   wd: Q2287093
   Mandel:
-    label: "Bajor (B'Hava'el, Andros)"
-    coordinates: {x: -57.1, y: 35.8, z: null}
+    label: Bajor (B'Hava'el, Andros)
+    coordinates:
+      x: -57.1
+      y: 35.8
+      z: 
 Deep Space 9:
   Mandel:
-    label: "Deep Space 9"
-    coordinates: {x: -57.6, y: 35.8, z: null}
+    label: Deep Space 9
+    coordinates:
+      x: -57.6
+      y: 35.8
+      z: 
   type: station
 Cardassia Prime:
   wd: Q718160
   Shisma:
-    label: "Cardassia Prime"
-    coordinates: {x: -62.8, y: 33.1, z: null}
+    label: Cardassia Prime
+    coordinates:
+      x: -62.8
+      y: 33.1
+      z: 
   Mandel:
-    label: "Cardassia"
-    coordinates: {x: -62.8, y: 33.1, z: null}
+    label: Cardassia
+    coordinates:
+      x: -62.8
+      y: 33.1
+      z: 
   fractions:
   - cardassian
 Ferenginar:
   wd: Q3742737
   Mandel:
-    label: "Ferenginar"
-    coordinates: {x: -56.5, y: -24.7, z: null}
+    label: Ferenginar
+    coordinates:
+      x: -56.5
+      y: -24.7
+      z: 
+  fractions:
+  - ferengi
 Romulus:
   wd: Q2786172
   Mandel:
-    label: "Romulus"
-    coordinates: {x: 30.6, y: -41.6, z: null}
+    label: Romulus
+    coordinates:
+      x: 30.6
+      y: -41.6
+      z: 
   Johnson:
-    label: "Romulus"
-    coordinates: {x: -176.3, y: -158.5, z: -1.8}
+    label: Romulus
+    coordinates:
+      x: -176.3
+      y: -158.5
+      z: -1.8
   fractions:
   - romulan
 Rator III:
   Mandel:
-    label: "Rator"
-    coordinates: {x: 44.481, y: -4, z: null}
+    label: Rator
+    coordinates:
+      x: 44.481
+      y: -4
+      z: null
+  Maynard:
+    label: Rator 4 (III)
   fractions:
   - romulan
 Quo'Nos:
   wd: Q1243582
   Mandel:
-    label: "Quo´Nos (Kronos, Kling)"
-    coordinates: {x: 79.9, y: 70.6, z: null}
+    label: Quo´Nos (Kronos, Kling)
+    coordinates:
+      x: 79.9
+      y: 70.6
+      z: 
   Johnson:
-    label: "Klinzhai"
-    coordinates: {x: -321.5, y: 48.6, z: -87.9}
+    label: Klinzhai
+    coordinates:
+      x: -321.5
+      y: 48.6
+      z: -87.9
   fractions:
   - klingon
 Praxis:
   Mandel:
-    label: "Praxis"
-    coordinates: {x: 78.5, y: 69.3, z: null}
+    label: Praxis
+    coordinates:
+      x: 78.5
+      y: 69.3
+      z: 
   fractions:
   - klingon
 Korvat:
   Mandel:
-    label: "Korvat (Pi Canis Majoris)"
-    coordinates: {x: 75, y: 63, z: null}
+    label: Korvat (Pi Canis Majoris)
+    coordinates:
+      x: 75
+      y: 63
+      z: 
     star: Pi Canis Majoris
     parent-wd: Q2278404
   fractions:
   - klingon
 No'mat:
   Mandel:
-    label: "No'mat (Omicron Leonis)"
-    coordinates: {x: 76, y: 70.6, z: null}
+    label: No'mat (Omicron Leonis)
+    coordinates:
+      x: 76
+      y: 70.6
+      z: 
     star: Omicron Leonis
     parent-wd: Q637953
   fractions:
@@ -697,2658 +1118,4537 @@ No'mat:
   type: star
 Anarchis:
   Mandel:
-    label: "Anarchis"
-    coordinates: {x: 47.5, y: 65, z: null}
+    label: Anarchis
+    coordinates:
+      x: 47.5
+      y: 65
+      z: 
   fractions:
   - klingon
 Ganalda IV:
   Mandel:
-    label: "Ganalda"
-    coordinates: {x: 47.8, y: 71, z: null}
+    label: Ganalda
+    coordinates:
+      x: 47.8
+      y: 71
+      z: 
   fractions:
   - klingon
 Organia:
   Mandel:
-    label: "Organia"
-    coordinates: {x: 12.8, y: 81.2, z: null}
+    label: Organia
+    coordinates:
+      x: 12.8
+      y: 81.2
+      z: 
   Johnson:
-    label: "Organia IV"
-    coordinates: {x: -112.6, y: 186.3, z: -12.1}
+    label: Organia IV
+    coordinates:
+      x: -112.6
+      y: 186.3
+      z: -12.1
   Maynard:
-    label: "Organia"
-    coordinates: {x: -112.6, y: 186.3, z: -12.1}
+    label: Organia
+    coordinates:
+      x: -112.6
+      y: 186.3
+      z: -12.1
   fractions:
   - klingon
 Draylax:
   Mandel:
-    label: "Draylax (Epsilon Indi)"
-    coordinates: {x: 3.2, y: -7.3, z: null}
+    label: Draylax (Epsilon Indi)
+    coordinates:
+      x: 3.2
+      y: -7.3
+      z: 
     star: Epsilon Indi
     parent-wd: Q15705
   interesting: false
 Arcturus:
   Mandel:
-    label: "Arcturus (Alpha Bootis)"
+    label: Arcturus (Alpha Bootis)
     star: Alpha Bootis
-    coordinates: {x: -3.7, y: -12.7, z: null}
+    coordinates:
+      x: -3.7
+      y: -12.7
+      z: 
   Maynard:
-    label: "Arcturus"
+    label: Arcturus
     star: Alpha Bootis
-    coordinates: {x: 27.6, y: 70.4, z: 6.6}
+    coordinates:
+      x: 27.6
+      y: 70.4
+      z: 6.6
   fractions:
   - federation
   real: true
   type: star
 70 Ophiuchi:
   Mandel:
-    label: "70 Ophiuchi"
-    coordinates: {x: -8.2, y: -14.1, z: null}
+    label: 70 Ophiuchi
+    coordinates:
+      x: -8.2
+      y: -14.1
+      z: 
   real: true
   interesting: false
   type: star
 Memory Alpha:
   wd: Q2302286
   Mandel:
-    label: "Memory Alpha"
-    coordinates: {x: -8.4, y: -18.7, z: null}
+    label: Memory Alpha
+    coordinates:
+      x: -8.4
+      y: -18.7
+      z: 
   Maynard:
-    label: "Memory Alpha"
-    coordinates: {x: 116.9, y: 115.5, z: 0}
+    label: Memory Alpha
+    coordinates:
+      x: 116.9
+      y: 115.5
+      z: 0
 Vega IX:
   Mandel:
-    label: "Vega (Alpha Lyrae)"
-    coordinates: {x: -22.1, y: -9.2, z: null}
+    label: Vega (Alpha Lyrae)
+    coordinates:
+      x: -22.1
+      y: -9.2
+      z: 
   Johnson:
-    label: "Vega IX"
-    coordinates: {x: 228.2, y: 61.3, z: 6.9}
+    label: Vega IX
+    coordinates:
+      x: 228.2
+      y: 61.3
+      z: 6.9
   Maynard:
-    label: "Vega"
+    label: Vega
     star: Alpha Lyrae
-    coordinates: {x: 228.2, y: 61.3, z: 6.9}
+    coordinates:
+      x: 228.2
+      y: 61.3
+      z: 6.9
   fractions:
   - federation
 AR-558:
   wd: Q51388370
   Mandel:
-    label: "AR-558"
-    coordinates: {x: -32.3, y: -8.8, z: null}
+    label: AR-558
+    coordinates:
+      x: -32.3
+      y: -8.8
+      z: 
 Altair:
   Mandel:
-    label: "Altair (Alpha Aquliae)"
-    coordinates: {x: -12.3, y: -11.2, z: null}
+    label: Altair (Alpha Aquliae)
+    coordinates:
+      x: -12.3
+      y: -11.2
+      z: 
   Maynard:
-    label: "Altair"
-    star: "Alpha Aquliae"
-    coordinates: {x: 27.9, y: 59.8, z: 2.5}
+    label: Altair
+    star: Alpha Aquliae
+    coordinates:
+      x: 27.9
+      y: 59.8
+      z: 2.5
   fractions:
   - federation
 Seginus:
   Mandel:
-    label: "Seginus (Gamma Bootis)"
-    coordinates: {x: -31.7, y: -13.4, z: null}
+    label: Seginus (Gamma Bootis)
+    coordinates:
+      x: -31.7
+      y: -13.4
+      z: 
   type: star
 Fellebia:
   Mandel:
-    label: "Fellebia (94 Aquarii)"
-    coordinates: {x: -25.4, y: -14.4, z: null}
+    label: Fellebia (94 Aquarii)
+    coordinates:
+      x: -25.4
+      y: -14.4
+      z: 
     star: 94 Aquarii
     parent-wd: Q2607823
 Xendi Sabu II:
   Mandel:
-    label: "Xendi Sabu"
-    coordinates: {x: -39.8, y: -17.7, z: null}
+    label: Xendi Sabu
+    coordinates:
+      x: -39.8
+      y: -17.7
+      z: 
 Inferna Prime:
   Mandel:
-    label: "Inferna (Zeta Herculis)"
-    coordinates: {x: -21.4, y: -16.3, z: null}
+    label: Inferna (Zeta Herculis)
+    coordinates:
+      x: -21.4
+      y: -16.3
+      z: 
   fractions:
-    - federation
+  - federation
 Maxia Zeta IV:
   Mandel:
-    label: "Maxia"
-    coordinates: {x: -41.8, y: -15.9, z: null}
+    label: Maxia
+    coordinates:
+      x: -41.8
+      y: -15.9
+      z: 
 Neethia:
   Mandel:
-    label: "Neethia (Xi Pegasi)"
-    coordinates: {x: -39.9, y: -6.2, z: null}
+    label: Neethia (Xi Pegasi)
+    coordinates:
+      x: -39.9
+      y: -6.2
+      z: 
 Lambda Bootis:
   Mandel:
-    label: "Lambda Bootis"
-    coordinates: {x: -41.4, y: -2.2, z: null}
+    label: Lambda Bootis
+    coordinates:
+      x: -41.4
+      y: -2.2
+      z: 
   real: true
   type: star
 51 Pegasi:
   Mandel:
-    label: "51 Pegasi"
-    coordinates: {x: -41.1, y: 0, z: null}
+    label: 51 Pegasi
+    coordinates:
+      x: -41.1
+      y: 0
+      z: 
   real: true
   type: star
 Theta Draconis:
   Mandel:
-    label: "Theta Draconis"
-    coordinates: {x: -48.6, y: 0, z: null}
+    label: Theta Draconis
+    coordinates:
+      x: -48.6
+      y: 0
+      z: 
   real: true
   interesting: false
   type: star
 Theta Cygni:
   Mandel:
-    label: "Theta Cygni"
-    coordinates: {x: -58.4, y: -7.6, z: null}
+    label: Theta Cygni
+    coordinates:
+      x: -58.4
+      y: -7.6
+      z: 
   Maynard:
-    label: "Theta Cygni"
-    coordinates: {x: 61.8, y: 27.7, z: 23.2}
+    label: Theta Cygni
+    coordinates:
+      x: 61.8
+      y: 27.7
+      z: 23.2
   real: true
   type: star
 Volchok Prime:
   Mandel:
-    label: "Volchok"
-    coordinates: {x: -55.1, y: -19.8, z: null}
+    label: Volchok
+    coordinates:
+      x: -55.1
+      y: -19.8
+      z: 
 Irtok:
   Mandel:
-    label: "Irtok"
-    coordinates: {x: -52.1, y: -21, z: null}
+    label: Irtok
+    coordinates:
+      x: -52.1
+      y: -21
+      z: 
 Rog:
   Mandel:
-    label: "Rog"
-    coordinates: {x: -57.3, y: -21, z: null}
+    label: Rog
+    coordinates:
+      x: -57.3
+      y: -21
+      z: 
+  fractions:
+  - ferengi
 Clarus:
   Mandel:
-    label: "Clarus"
-    coordinates: {x: -62.6, y: -19.4, z: null}
+    label: Clarus
+    coordinates:
+      x: -62.6
+      y: -19.4
+      z: 
+  fractions:
+  - ferengi
 Sepia:
   Mandel:
-    label: "Sepia"
-    coordinates: {x: -57.5, y: -25.5, z: null}
+    label: Sepia
+    coordinates:
+      x: -57.5
+      y: -25.5
+      z: 
 Balancar:
   Mandel:
-    label: "Balancar"
-    coordinates: {x: -63, y: -25.2, z: null}
+    label: Balancar
+    coordinates:
+      x: -63
+      y: -25.2
+      z: 
 Tarahong:
   Mandel:
-    label: "Tarahong"
-    coordinates: {x: -56.7, y: -29.1, z: null}
-Lappa:
+    label: Tarahong
+    coordinates:
+      x: -56.7
+      y: -29.1
+      z: 
+Lappa IV:
   Mandel:
-    label: "Lappa"
-    coordinates: {x: -60.1, y: -30.9, z: null}
+    label: Lappa
+    coordinates:
+      x: -60.1
+      y: -30.9
+      z: 
+  fractions:
+  - ferengi
 Thalos VII:
   Mandel:
-    label: "Thalos"
-    coordinates: {x: -54.5, y: -31.6, z: null}
+    label: Thalos
+    coordinates:
+      x: -54.5
+      y: -31.6
+      z: 
 15 Sagittae:
   Mandel:
-    label: "15 Sagittae"
-    coordinates: {x: -47.6, y: -31.7, z: null}
+    label: 15 Sagittae
+    coordinates:
+      x: -47.6
+      y: -31.7
+      z: 
   type: star
   real: true
 31 Aquilae:
   Mandel:
-    label: "31 Aquilae"
-    coordinates: {x: -36.3, y: -33.7, z: null}
+    label: 31 Aquilae
+    coordinates:
+      x: -36.3
+      y: -33.7
+      z: 
   real: true
   type: star
 Baham:
   Mandel:
-    label: "Baham (Theta Pegasi)"
-    coordinates: {x: -69.5, y: -29.2, z: null}
-  real: yes
+    label: Baham (Theta Pegasi)
+    coordinates:
+      x: -69.5
+      y: -29.2
+      z: 
+  real: true
   type: star
 Prexnak:
   Mandel:
-    label: "Prexnak"
-    coordinates: {x: -69.7, y: -33.6, z: null}
+    label: Prexnak
+    coordinates:
+      x: -69.7
+      y: -33.6
+      z: 
   type: star
+Povin:
+  sto:
+    label: Mivic
+    coordinates:
+      x: -68
+      y: -39
+      z: 
 Lytasia:
   Mandel:
-    label: "Lytasia"
-    coordinates: {x: -74.9, y: -39.7, z: null}
+    label: Lytasia
+    coordinates:
+      x: -74.9
+      y: -39.7
+      z: 
 Hupyria:
   Mandel:
-    label: "Hupyria (Tau Coronae Borealis)"
-    coordinates: {x: -65.1, y: -40.4, z: null}
+    label: Hupyria (Tau Coronae Borealis)
+    coordinates:
+      x: -65.1
+      y: -40.4
+      z: 
     star: Tau Coronae Borealis
     parent-wd: Q5098360
 Huranzi:
   sto:
     label: Huranzi
-    coordinates: {x: -59.8, y: -37.9, z: null}
+    coordinates:
+      x: -59.8
+      y: -37.9
+      z: 
 Draconis III:
   sto:
     label: 20 Draconis
-    coordinates: {x: -96.187, y: -28.3, z: null}
+    coordinates:
+      x: -96.187
+      y: -28.3
+      z: 
 Deep Space K-13:
   type: station
   sto:
     label: K-13
-    coordinates: {x: -94.492, y: -26.62, z: null}
-
+    coordinates:
+      x: -94.492
+      y: -26.62
+      z: 
 Izar:
   Mandel:
-    label: "Izar (Epsilon Bootis)"
-    coordinates: {x: -56.7, y: -69.6, z: null}
+    label: Izar (Epsilon Bootis)
+    coordinates:
+      x: -56.7
+      y: -69.6
+      z: 
   Johnson:
-    label: "Izar"
-    coordinates: {x: 36.7, y: 84.7, z: 17.6}
+    label: Izar
+    coordinates:
+      x: 36.7
+      y: 84.7
+      z: 17.6
   fractions:
-    - federation
+  - federation
 Fesarius:
   Mandel:
-    label: "Fesarius"
-    coordinates: {x: -44.5, y: -53.8, z: null}
+    label: Fesarius
+    coordinates:
+      x: -44.5
+      y: -53.8
+      z: 
 Bolarus IX:
   Mandel:
-    label: "Bolarus"
-    coordinates: {x: 8, y: -27.1, z: null}
+    label: Bolarus
+    coordinates:
+      x: 8
+      y: -27.1
+      z: 
   Shisma:
-    label: "Bolarus Ⅸ"
-    coordinates: {x: 8, y: -27.1, z: null}
+    label: Bolarus Ⅸ
+    coordinates:
+      x: 8
+      y: -27.1
+      z: 
   fractions:
   - federation
 Devron:
   Mandel:
-    label: "Devron"
-    coordinates: {x: 21.1, y: -23.9, z: null}
+    label: Devron
+    coordinates:
+      x: 21.1
+      y: -23.9
+      z: 
 Zeta Trianguli Australis:
   Mandel:
-    label: "Zeta Trianguli Australis"
-    coordinates: {x: 24.8, y: -29.3, z: null}
+    label: Zeta Trianguli Australis
+    coordinates:
+      x: 24.8
+      y: -29.3
+      z: 
   canon: false
   real: true
   type: star
 Eden:
   Mandel:
-    label: "Eden (Vorta Vor, Qui´Tu)"
-    coordinates: {x: 20.8, y: -31.6, z: null}
+    label: Eden (Vorta Vor, Qui´Tu)
+    coordinates:
+      x: 20.8
+      y: -31.6
+      z: 
   Maynard:
-    label: "Eden"
-    coordinates: {x: -146, y: -190.1, z: 2.8}
+    label: Eden
+    coordinates:
+      x: -146
+      y: -190.1
+      z: 2.8
 Gamma Tucanae:
   Mandel:
-    label: "Gamma Tucanae"
-    coordinates: {x: 24.2, y: -33.8, z: null}
+    label: Gamma Tucanae
+    coordinates:
+      x: 24.2
+      y: -33.8
+      z: 
   canon: false
   real: true
   type: star
 Romii:
   Mandel:
-    label: "Romii"
-    coordinates: {x: 29.5, y: -39.3, z: null}
-  Maynard: 
     label: Romii
-    coordinates: {x: —180.0, y: —156.4, z: —1.8}
+    coordinates:
+      x: 29.5
+      y: -39.3
+      z: 
+  Maynard:
+    label: Romii
+    coordinates:
+      x: "—180.0"
+      y: "—156.4"
+      z: "—1.8"
 Epsilon Phoenicis:
   Mandel:
-    label: "Epsilon Phoenicis"
-    coordinates: {x: 28.5, y: -39.8, z: null}
+    label: Epsilon Phoenicis
+    coordinates:
+      x: 28.5
+      y: -39.8
+      z: 
   canon: false
   real: true
   type: star
 Nimbus III:
   Mandel:
-    label: "Nimbus"
-    coordinates: {x: 35.2, y: -56.3, z: null}
-  sto: 
     label: Nimbus
-    coordinates: {x: 20.787, y: -39.468, z: null }
-  Shisma: 
+    coordinates:
+      x: 35.2
+      y: -56.3
+      z: 
+  sto:
+    label: Nimbus
+    coordinates:
+      x: 20.787
+      y: -39.468
+      z: 
+  Shisma:
     label: Nimbus III
-    coordinates: {x: 20.787, y: -39.468, z: null }
+    coordinates:
+      x: 20.787
+      y: -39.468
+      z: 
   fractions:
-    - federation
-    - klingon
-    - romulan
+  - federation
+  - klingon
+  - romulan
 Iota Pavonis:
   Mandel:
-    label: "Iota Pavonis"
-    coordinates: {x: 25.5, y: -48.6, z: null}
+    label: Iota Pavonis
+    coordinates:
+      x: 25.5
+      y: -48.6
+      z: 
   canon: false
   real: true
 Menkenkt:
   Mandel:
-    label: "Menkenkt (Theta Centauri)"
-    coordinates: {x: 36.3, y: -42.5, z: null}
+    label: Menkenkt (Theta Centauri)
+    coordinates:
+      x: 36.3
+      y: -42.5
+      z: 
 Caldos:
   Mandel:
-    label: "Caldos (Beta Octantis)"
-    coordinates: {x: 91.1, y: -72.2, z: 231}
+    label: Caldos (Beta Octantis)
+    coordinates:
+      x: 91.1
+      y: -72.2
+      z: 231
   fractions:
-    - federation
+  - federation
 Gamma Hydra IV:
   Mandel:
-    label: "Gamma Hydrae"
-    coordinates: {x: 77.2, y: -67.5, z: null}
+    label: Gamma Hydrae
+    coordinates:
+      x: 77.2
+      y: -67.5
+      z: 
     star: Gamma Hydrae
   Maynard:
-    label: "Gamma Hydrae"
-    coordinates: {x: 36.9, y: 87.9, z: -18.6}
+    label: Gamma Hydrae
+    coordinates:
+      x: 36.9
+      y: 87.9
+      z: -18.6
   fractions:
   - federation
 Psi Octantis:
   Mandel:
-    label: "Psi Octantis"
-    coordinates: {x: 74.3, y: -68.5, z: null}
+    label: Psi Octantis
+    coordinates:
+      x: 74.3
+      y: -68.5
+      z: 
   canon: false
   real: true
   type: star
 Norkan:
   Mandel:
-    label: "Norkan (Pi Hydrae)"
-    coordinates: {x: 51.1, y: -68.1, z: null}
+    label: Norkan (Pi Hydrae)
+    coordinates:
+      x: 51.1
+      y: -68.1
+      z: 
   fractions:
   - federation
 Epsilon Pavonis:
   Mandel:
-    label: "Epsilon Pavonis"
-    coordinates: {x: 56.1, y: -72.1, z: null}
+    label: Epsilon Pavonis
+    coordinates:
+      x: 56.1
+      y: -72.1
+      z: 
   canon: false
   real: true
 Zakdorn:
   Mandel:
-    label: "Zakdorn"
-    coordinates: {x: 113.1, y: -74.5, z: null}
+    label: Zakdorn
+    coordinates:
+      x: 113.1
+      y: -74.5
+      z: 
   fractions:
   - federation
 Tau Centauri:
   Mandel:
-    label: "Tau Centauri"
-    coordinates: {x: 110, y: -65.2, z: null}
+    label: Tau Centauri
+    coordinates:
+      x: 110
+      y: -65.2
+      z: 
   canon: false
   real: true
   type: star
 Gamma Centauri:
   Mandel:
-    label: "Gamma Centauri"
-    coordinates: {x: 108.4, y: -66, z: null}
+    label: Gamma Centauri
+    coordinates:
+      x: 108.4
+      y: -66
+      z: 
   canon: false
   real: true
   type: star
 Iota Cassiopeiae:
   Mandel:
-    label: "Iota Cassiopeiae"
-    coordinates: {x: -104.6, y: 94.7, z: null}
+    label: Iota Cassiopeiae
+    coordinates:
+      x: -104.6
+      y: 94.7
+      z: 
   canon: false
   real: true
   type: star
 Galen:
   Mandel:
-    label: "Galen"
-    coordinates: {x: -75.2, y: 94.7, z: null}
+    label: Galen
+    coordinates:
+      x: -75.2
+      y: 94.7
+      z: 
   fractions:
   - federation
 Beta Trianguli:
   Mandel:
-    label: "Beta Trianguli"
-    coordinates: {x: -71.6, y: 87.1, z: null}
+    label: Beta Trianguli
+    coordinates:
+      x: -71.6
+      y: 87.1
+      z: 
   canon: false
   real: true
 Gamma Trianguli VI:
   Mandel:
-    label: "Gamma Trianguli"
-    coordinates: {x: -64.4, y: 84.5, z: null}
+    label: Gamma Trianguli
+    coordinates:
+      x: -64.4
+      y: 84.5
+      z: 
   Johnson:
-    label: "Gamma Trianguli VI"
-    coordinates: {x: -170.5, y: -126, z: 91.6}
+    label: Gamma Trianguli VI
+    coordinates:
+      x: -170.5
+      y: -126
+      z: 91.6
   canon: true
   real: true
 Betazed:
   wd: Q10861953
   Mandel:
-    label: "Betazed"
-    coordinates: {x: -16.6, y: 49.8, z: null}
+    label: Betazed
+    coordinates:
+      x: -16.6
+      y: 49.8
+      z: 
   Johnson:
-    label: "Betazed"
-    coordinates: {x: -292.3, y: -93.3, z: -88.1}
+    label: Betazed
+    coordinates:
+      x: -292.3
+      y: -93.3
+      z: -88.1
   fractions:
   - federation
 Megara:
   Mandel:
-    label: "Megara"
-    coordinates: {x: -107, y: 103.7, z: null}
+    label: Megara
+    coordinates:
+      x: -107
+      y: 103.7
+      z: 
   canon: false
 Fedrick-M:
   Mandel:
-    label: "Fedrick-M"
-    coordinates: {x: -113.3, y: 90.3, z: null}
+    label: Fedrick-M
+    coordinates:
+      x: -113.3
+      y: 90.3
+      z: 
   canon: false
 Cygnet XIV:
-  real: yes
+  real: true
   Mandel:
-    label: "Cygnet"
-    coordinates: {x: -16.4, y: 117.5, z: null}
+    label: Cygnet
+    coordinates:
+      x: -16.4
+      y: 117.5
+      z: 
   Maynard:
-    label: "Cygnet"
-    coordinates: {x: 54.5, y: -30, z: -22.4}
+    label: Cygnet
+    coordinates:
+      x: 54.5
+      y: -30
+      z: -22.4
   fractions:
   - federation
 Iota Geminorum IV:
-  Shisma: 
+  Shisma:
     label: Iota Geminorum IV
-    coordinates: {x: 22.2, y: 117.5, z: null}
+    coordinates:
+      x: 22.2
+      y: 117.5
+      z: 
   Mandel:
-    label: "Tribble Prime (Iota Geminorum)"
-    coordinates: {x: 22.2, y: 117.5, z: null}
+    label: Tribble Prime (Iota Geminorum)
+    coordinates:
+      x: 22.2
+      y: 117.5
+      z: 
 Boreth:
   wd: Q24229354
   Mandel:
-    label: "Boreth"
-    coordinates: {x: 24, y: 101.5, z: null}
+    label: Boreth
+    coordinates:
+      x: 24
+      y: 101.5
+      z: 
   fractions:
   - klingon
 Alhena:
   Mandel:
-    label: "Alhena (Gamma Geminorum)"
-    coordinates: {x: 30.1, y: 100.5, z: null}
+    label: Alhena (Gamma Geminorum)
+    coordinates:
+      x: 30.1
+      y: 100.5
+      z: 
   canon: false
   type: star
 Amar:
   Mandel:
-    label: "Amar"
-    coordinates: {x: 18.5, y: 82.8, z: null}
+    label: Amar
+    coordinates:
+      x: 18.5
+      y: 82.8
+      z: 
   DIS:
-    label: "Amar"
-    coordinates: {x: 18.5, y: 82.8, z: null}
+    label: Amar
+    coordinates:
+      x: 18.5
+      y: 82.8
+      z: 
   fractions:
   - klingon
 Sherman:
   Mandel:
-    label: "Shermans Planet"
-    coordinates: {x: 20.3, y: 74.4, z: null}
+    label: Shermans Planet
+    coordinates:
+      x: 20.3
+      y: 74.4
+      z: 
   Maynard:
-    label: "Sherman's Planet"
-    coordinates: {x: —171.3, y: 119.2, z: —4.3}
+    label: Sherman's Planet
+    coordinates:
+      x: "—171.3"
+      y: 119.2
+      z: "—4.3"
   fractions:
   - federation
   - klingon
 Lambda Geminorum:
   DIS:
-    label: "Lambda Geminorum"
-    coordinates: {x: 32.6, y: 83.3, z: null}
+    label: Lambda Geminorum
+    coordinates:
+      x: 32.6
+      y: 83.3
+      z: 
   Mandel:
-    coordinates: {x: 32.6, y: 86.3, z: null}
+    coordinates:
+      x: 32.6
+      y: 86.3
+      z: 
   fractions:
   - klingon
   real: true
   type: star
 Ardana:
   DIS:
-    label: "Ardana"
-    coordinates: {x: 34.6, y: 76, z: null}
+    label: Ardana
+    coordinates:
+      x: 34.6
+      y: 76
+      z: 
   Mandel:
-    label: "Ardana (Rasalas, Mu Leonis)"
-    coordinates: {x: 34.6, y: 78.2, z: null}
+    label: Ardana (Rasalas, Mu Leonis)
+    coordinates:
+      x: 34.6
+      y: 78.2
+      z: 
   Maynard:
-    label: "Ardana"
-    star: "Mu Leonis"
-    coordinates: {x: 8.5, y: 106.3, z: 9.8}
+    label: Ardana
+    star: Mu Leonis
+    coordinates:
+      x: 8.5
+      y: 106.3
+      z: 9.8
   fractions:
   - klingon
 Donatu V:
   Mandel:
-    label: "Donatu"
-    coordinates: {x: 32, y: 71.2, z: null}
+    label: Donatu
+    coordinates:
+      x: 32
+      y: 71.2
+      z: 
 14 Eridani:
   Mandel:
-    label: "14 Eridani"
-    coordinates: {x: 14.9, y: 69.6, z: null}
-  real: yes
+    label: 14 Eridani
+    coordinates:
+      x: 14.9
+      y: 69.6
+      z: 
+  real: true
   type: star
 Cursa:
   Mandel:
-    label: "Cursa (Beta Eridani)"
-    coordinates: {x: 34.4, y: 72.9, z: null}
+    label: Cursa (Beta Eridani)
+    coordinates:
+      x: 34.4
+      y: 72.9
+      z: 
   fractions:
   - klingon
   type: star
-  real: yes
+  real: true
 74 Orionis:
   Mandel:
-    label: "74 Orionis"
-    coordinates: {x: 19.8, y: 61, z: null}
+    label: 74 Orionis
+    coordinates:
+      x: 19.8
+      y: 61
+      z: 
   type: star
 Aldebaran III:
   Mandel:
-    label: "Aldebaran (Alpha Tauri)"
-    coordinates: {x: 0.9, y: 61.3, z: null}
+    label: Aldebaran (Alpha Tauri)
+    coordinates:
+      x: 0.9
+      y: 61.3
+      z: 
   Maynard:
-    label: "Aldebaran"
-    coordinates: {x: 10.6, y: 56.5, z: -15.1}
+    label: Aldebaran
+    coordinates:
+      x: 10.6
+      y: 56.5
+      z: -15.1
   fractions:
   - federation
 Ajilon Prime:
   Mandel:
-    label: "Ajilon (Tanadra Bay)"
-    coordinates: {x: 47.8, y: 61.9, z: null}
+    label: Ajilon (Tanadra Bay)
+    coordinates:
+      x: 47.8
+      y: 61.9
+      z: 
   fractions:
   - federation
 Beta Leonis Minoris:
   Mandel:
-    label: "Beta Leonis Minoris (Beta Xila)"
-    coordinates: {x: 8.4, y: 76.7, z: null}
+    label: Beta Leonis Minoris (Beta Xila)
+    coordinates:
+      x: 8.4
+      y: 76.7
+      z: 
   type: star
   wd: Q3304919
-  real: yes
+  real: true
 Ba'ku:
   Mandel:
-    label: "Ba'ku"
-    coordinates: {x: 17.9, y: 51.7, z: null}
+    label: Ba'ku
+    coordinates:
+      x: 17.9
+      y: 51.7
+      z: 
 Alzirr:
   Mandel:
-    label: "Alzirr (Xi Geminorum)"
-    coordinates: {x: 20.2, y: 53.6, z: null}
+    label: Alzirr (Xi Geminorum)
+    coordinates:
+      x: 20.2
+      y: 53.6
+      z: 
 Goren:
   Mandel:
-    label: "Goren (Delta Geminorum)"
-    coordinates: {x: 15.5, y: 54.7, z: null}
+    label: Goren (Delta Geminorum)
+    coordinates:
+      x: 15.5
+      y: 54.7
+      z: 
 Pahvo:
   wd: Q42762633
   DIS:
-    label: "Pahvo"
-    coordinates: {x: 7.548, y: 46.62, z: null}
+    label: Pahvo
+    coordinates:
+      x: 7.548
+      y: 46.62
+      z: 
 Castor:
   Mandel:
-    label: "Castor (Alpha Geminorum)"
-    coordinates: {x: 6.2, y: 47.4, z: null}
+    label: Castor (Alpha Geminorum)
+    coordinates:
+      x: 6.2
+      y: 47.4
+      z: 
   canon: false
   type: star
 Elora:
   Mandel:
-    label: "Elora"
-    coordinates: {x: 9.2, y: 56.4, z: null}
+    label: Elora
+    coordinates:
+      x: 9.2
+      y: 56.4
+      z: 
 Son'a:
   Mandel:
-    label: "Son´a"
-    coordinates: {x: 14.7, y: 58.9, z: null}
+    label: Son´a
+    coordinates:
+      x: 14.7
+      y: 58.9
+      z: 
 Preenos:
   Mandel:
-    label: "Preenos (Rho Geminorum)"
-    coordinates: {x: 6.9, y: 56.2, z: null}
+    label: Preenos (Rho Geminorum)
+    coordinates:
+      x: 6.9
+      y: 56.2
+      z: 
 Manzar:
   Mandel:
-    label: "Manzar (Mazar)"
-    coordinates: {x: 1.5, y: 41.7, z: null}
+    label: Manzar (Mazar)
+    coordinates:
+      x: 1.5
+      y: 41.7
+      z: 
 Toroth:
   Mandel:
-    label: "Toroth"
-    coordinates: {x: 4.9, y: 38.3, z: null}
+    label: Toroth
+    coordinates:
+      x: 4.9
+      y: 38.3
+      z: 
 Tellun:
   Mandel:
-    label: "Tellun (Elas, Troyius)"
-    coordinates: {x: 13.3, y: 37.4, z: null}
+    label: Tellun (Elas, Troyius)
+    coordinates:
+      x: 13.3
+      y: 37.4
+      z: 
   Maynard:
-    label: "Tellun"
-    coordinates: {x: —209.9, y: —38.9, z: —9.6}
+    label: Tellun
+    coordinates:
+      x: "—209.9"
+      y: "—38.9"
+      z: "—9.6"
   fractions:
   - federation
 Risa:
   wd: Q1249325
   Mandel:
-    label: "Risa (Epsilon Ceti)"
-    coordinates: {x: 5.5, y: 43.3, z: null}
+    label: Risa (Epsilon Ceti)
+    coordinates:
+      x: 5.5
+      y: 43.3
+      z: 
 Evora:
   Mandel:
-    label: "Evora"
-    coordinates: {x: 0.4, y: 42.7, z: null}
+    label: Evora
+    coordinates:
+      x: 0.4
+      y: 42.7
+      z: 
   fractions:
   - federation
 Kantare:
   Mandel:
-    label: "Kantare (37 Geminorum)"
-    coordinates: {x: 9.9, y: 54.4, z: null}
+    label: Kantare (37 Geminorum)
+    coordinates:
+      x: 9.9
+      y: 54.4
+      z: 
 Gamma Ceti:
   Mandel:
-    label: "Gamma Ceti"
-    coordinates: {x: -10.4, y: 52.5, z: null}
+    label: Gamma Ceti
+    coordinates:
+      x: -10.4
+      y: 52.5
+      z: 
   type: star
 Niburon IV:
   Mandel:
-    label: "Niburon (Mu Ceti)"
-    coordinates: {x: -17.6, y: 58.6, z: null}
+    label: Niburon (Mu Ceti)
+    coordinates:
+      x: -17.6
+      y: 58.6
+      z: 
   canon: false
 Minos Korva:
   Mandel:
-    label: "Minos Korva"
-    coordinates: {x: -22.1, y: 52.3, z: null}
+    label: Minos Korva
+    coordinates:
+      x: -22.1
+      y: 52.3
+      z: 
 Setlik III:
   Mandel:
-    label: "Setlik"
-    coordinates: {x: -29.8, y: 56.2, z: null}
+    label: Setlik
+    coordinates:
+      x: -29.8
+      y: 56.2
+      z: 
 Kelrabi:
   Mandel:
-    label: "Kelrabi"
-    coordinates: {x: -33.4, y: 54.9, z: null}
+    label: Kelrabi
+    coordinates:
+      x: -33.4
+      y: 54.9
+      z: 
 Camor:
   Mandel:
-    label: "Camor"
-    coordinates: {x: -35.4, y: 57.4, z: null}
+    label: Camor
+    coordinates:
+      x: -35.4
+      y: 57.4
+      z: 
 Umoth VIII:
   Mandel:
-    label: "Umoth"
-    coordinates: {x: -42.1, y: 57.1, z: null}
+    label: Umoth
+    coordinates:
+      x: -42.1
+      y: 57.1
+      z: 
   fractions:
   - federation
 Ronara:
   Mandel:
-    label: "Ronara"
-    coordinates: {x: -47.1, y: 58.5, z: null}
+    label: Ronara
+    coordinates:
+      x: -47.1
+      y: 58.5
+      z: 
 Rakal:
   Mandel:
-    label: "Rakal"
-    coordinates: {x: -46.5, y: 54.9, z: null}
+    label: Rakal
+    coordinates:
+      x: -46.5
+      y: 54.9
+      z: 
   fractions:
   - cardassian
 Chin'Toka:
   Mandel:
-    label: "Chin´Toka"
-    coordinates: {x: -30.1, y: 47.2, z: null}
+    label: Chin´Toka
+    coordinates:
+      x: -30.1
+      y: 47.2
+      z: 
   fractions:
   - cardassian
 Volon:
   Mandel:
-    label: "Volon"
-    coordinates: {x: -33.4, y: 45.6, z: null}
+    label: Volon
+    coordinates:
+      x: -33.4
+      y: 45.6
+      z: 
 Torga:
   Mandel:
-    label: "Torga"
-    coordinates: {x: -37.4, y: 46.3, z: null}
+    label: Torga
+    coordinates:
+      x: -37.4
+      y: 46.3
+      z: 
 Alpha Trianguli:
   Mandel:
-    label: "Alpha Trianguli"
-    coordinates: {x: -36.2, y: 41.2, z: null}
+    label: Alpha Trianguli
+    coordinates:
+      x: -36.2
+      y: 41.2
+      z: 
   interesting: false
   type: star
 Merak II:
   Johnson:
-    label: "Merak II"
-    coordinates: {x: 11.2, y: 72.7, z: 17.1}
+    label: Merak II
+    coordinates:
+      x: 11.2
+      y: 72.7
+      z: 17.1
   Maynard:
-    label: "Merak"
-    coordinates: {x: 11.2, y: 72.7, z: 17.1}
+    label: Merak
+    coordinates:
+      x: 11.2
+      y: 72.7
+      z: 17.1
 Solosos III:
   Mandel:
-    label: "Solosos"
-    coordinates: {x: -43.6, y: 39, z: null}
+    label: Solosos
+    coordinates:
+      x: -43.6
+      y: 39
+      z: 
 Valo III:
   Mandel:
-    label: "Valo"
-    coordinates: {x: -47.1, y: 40.2, z: null}
+    label: Valo
+    coordinates:
+      x: -47.1
+      y: 40.2
+      z: 
 Trivas:
   Mandel:
-    label: "Trivas"
-    coordinates: {x: -57.9, y: 38.8, z: null}
+    label: Trivas
+    coordinates:
+      x: -57.9
+      y: 38.8
+      z: 
 Bardeezi:
   Mandel:
-    label: "Bardeezi"
-    coordinates: {x: -52.7, y: 38.2, z: null}
+    label: Bardeezi
+    coordinates:
+      x: -52.7
+      y: 38.2
+      z: 
 Koralis:
   Mandel:
-    label: "Koralis"
-    coordinates: {x: -52.4, y: 33, z: null}
+    label: Koralis
+    coordinates:
+      x: -52.4
+      y: 33
+      z: 
 Regulon:
   Mandel:
-    label: "Regulon"
-    coordinates: {x: -47.5, y: 31.7, z: null}
+    label: Regulon
+    coordinates:
+      x: -47.5
+      y: 31.7
+      z: 
 Olmerak:
   Mandel:
-    label: "Olmerak"
-    coordinates: {x: -62, y: 28.7, z: null}
+    label: Olmerak
+    coordinates:
+      x: -62
+      y: 28.7
+      z: 
 Fahleena:
   Mandel:
-    label: "Fahleena"
-    coordinates: {x: -55.5, y: 27.7, z: null}
+    label: Fahleena
+    coordinates:
+      x: -55.5
+      y: 27.7
+      z: 
 Regulak IV:
   Mandel:
-    label: "Regulak"
-    coordinates: {x: -67.9, y: 29.5, z: null}
-Amleth:
+    label: Regulak
+    coordinates:
+      x: -67.9
+      y: 29.5
+      z: 
+Amleth Prime:
   Mandel:
-    label: "Amleth"
-    coordinates: {x: -59.1, y: 42.4, z: null}
+    label: Amleth
+    coordinates:
+      x: -59.1
+      y: 42.4
+      z: 
   fractions:
   - cardassian
 Alpha 441:
   Mandel:
-    label: "Alpha 441"
-    coordinates: {x: -62.9, y: 18.9, z: null}
+    label: Alpha 441
+    coordinates:
+      x: -62.9
+      y: 18.9
+      z: 
 Lameda:
   Mandel:
-    label: "Lameda"
-    coordinates: {x: -60.9, y: 13.9, z: null}
+    label: Lameda
+    coordinates:
+      x: -60.9
+      y: 13.9
+      z: 
 Trill:
   wd: Q3998789
   Mandel:
-    label: "Trill (Tirllus Prime)"
-    coordinates: {x: -35.5, y: 23.1, z: null}
+    label: Trill (Tirllus Prime)
+    coordinates:
+      x: -35.5
+      y: 23.1
+      z: 
   fractions:
   - federation
 Klaestron IV:
   Mandel:
-    label: "Klaestron"
-    coordinates: {x: -37.1, y: 26.4, z: null}
+    label: Klaestron
+    coordinates:
+      x: -37.1
+      y: 26.4
+      z: 
 Farius Prime:
   Mandel:
-    label: "Farius"
-    coordinates: {x: -30.5, y: 28.1, z: null}
+    label: Farius
+    coordinates:
+      x: -30.5
+      y: 28.1
+      z: 
 Galador:
   Mandel:
-    label: "Galador"
-    coordinates: {x: -30.8, y: 27.4, z: null}
+    label: Galador
+    coordinates:
+      x: -30.8
+      y: 27.4
+      z: 
 Kotaki:
   Mandel:
-    label: "Kotaki"
-    coordinates: {x: -28.1, y: 29.2, z: null}
+    label: Kotaki
+    coordinates:
+      x: -28.1
+      y: 29.2
+      z: 
 Kressari:
   Mandel:
-    label: "Kressari"
-    coordinates: {x: -22, y: 33.5, z: null}
+    label: Kressari
+    coordinates:
+      x: -22
+      y: 33.5
+      z: 
 Kalandra:
   Mandel:
-    label: "Kalandra"
-    coordinates: {x: -32.9, y: 34.3, z: null}
+    label: Kalandra
+    coordinates:
+      x: -32.9
+      y: 34.3
+      z: 
 Hanolan:
   Mandel:
-    label: "Hanolan"
-    coordinates: {x: -25.7, y: 36.2, z: null}
+    label: Hanolan
+    coordinates:
+      x: -25.7
+      y: 36.2
+      z: 
   fractions:
-    - federation
+  - federation
 Temecklia:
   Mandel:
-    label: "Temecklia"
-    coordinates: {x: -44.3, y: 20.8, z: null}
+    label: Temecklia
+    coordinates:
+      x: -44.3
+      y: 20.8
+      z: 
 Kelvas V:
   Mandel:
-    label: "Kelvas"
-    coordinates: {x: -74, y: 42.4, z: null}
+    label: Kelvas
+    coordinates:
+      x: -74
+      y: 42.4
+      z: 
   fractions:
   - cardassian
 Simperia:
   Mandel:
-    label: "Simperia"
-    coordinates: {x: -84.3, y: 29.4, z: null}
+    label: Simperia
+    coordinates:
+      x: -84.3
+      y: 29.4
+      z: 
+  fractions:
+  - cardassian
 Torros III:
   Mandel:
-    label: "Torros"
-    coordinates: {x: -75.1, y: 38, z: null}
+    label: Torros
+    coordinates:
+      x: -75.1
+      y: 38
+      z: 
   fractions:
   - cardassian
 Monac IV:
   Mandel:
-    label: "Monac"
-    coordinates: {x: -77.5, y: 34.2, z: null}
+    label: Monac
+    coordinates:
+      x: -77.5
+      y: 34.2
+      z: 
 Dopa:
   Mandel:
-    label: "Dopa"
-    coordinates: {x: -96.4, y: 50.7, z: null}
+    label: Dopa
+    coordinates:
+      x: -96.4
+      y: 50.7
+      z: 
   fractions:
   - cardassian
 Vanden:
   Mandel:
-    label: "Vanden"
-    coordinates: {x: -106.6, y: 48.6, z: null}
+    label: Vanden
+    coordinates:
+      x: -106.6
+      y: 48.6
+      z: 
 Rudellia:
   Mandel:
-    label: "Rudellia"
-    coordinates: {x: -95.3, y: 60.9, z: null}
+    label: Rudellia
+    coordinates:
+      x: -95.3
+      y: 60.9
+      z: 
 Vitar:
   Mandel:
-    label: "Vitar (Vetar)"
-    coordinates: {x: -89.3, y: 57.8, z: null}
+    label: Vitar (Vetar)
+    coordinates:
+      x: -89.3
+      y: 57.8
+      z: 
 Algira:
   Mandel:
-    label: "Algira"
-    coordinates: {x: -73.9, y: 51.8, z: null}
+    label: Algira
+    coordinates:
+      x: -73.9
+      y: 51.8
+      z: 
   type: star
 Torman:
   Mandel:
-    label: "Torman"
-    coordinates: {x: -79.5, y: 60.2, z: null}
+    label: Torman
+    coordinates:
+      x: -79.5
+      y: 60.2
+      z: 
 Veloz Prime:
   Mandel:
-    label: "Velos (Veloz Prime)"
-    coordinates: {x: -78.3, y: 55.7, z: null}
+    label: Velos (Veloz Prime)
+    coordinates:
+      x: -78.3
+      y: 55.7
+      z: 
   fractions:
   - cardassian
 Omekla III:
   Mandel:
-    label: "Omekla"
-    coordinates: {x: -66.4, y: 53.9, z: null}
+    label: Omekla
+    coordinates:
+      x: -66.4
+      y: 53.9
+      z: 
 Prophet's Landing:
   Mandel:
-    label: "Prophet´s Landing (Bajor)"
-    coordinates: {x: -59.4, y: 31.1, z: null}
+    label: Prophet´s Landing (Bajor)
+    coordinates:
+      x: -59.4
+      y: 31.1
+      z: 
 Delavi III:
   Mandel:
-    label: "Delavi"
-    coordinates: {x: -81.8, y: 18.6, z: null}
+    label: Delavi
+    coordinates:
+      x: -81.8
+      y: 18.6
+      z: 
 Portas:
   Mandel:
-    label: "Portas"
-    coordinates: {x: -108, y: 22.1, z: null}
+    label: Portas
+    coordinates:
+      x: -108
+      y: 22.1
+      z: 
 Dozaria:
   Mandel:
-    label: "Dozaria"
-    coordinates: {x: -109, y: 27.5, z: null}
+    label: Dozaria
+    coordinates:
+      x: -109
+      y: 27.5
+      z: 
 Ultima Thule:
   Mandel:
-    label: "Ultima Thule"
-    coordinates: {x: -108.5, y: 7.6, z: null}
+    label: Ultima Thule
+    coordinates:
+      x: -108.5
+      y: 7.6
+      z: 
 Gelmulon:
   Mandel:
-    label: "Gelmulon"
-    coordinates: {x: -71, y: 2.8, z: null}
+    label: Gelmulon
+    coordinates:
+      x: -71
+      y: 2.8
+      z: 
 Kavaria:
   Mandel:
-    label: "Kavaria"
-    coordinates: {x: -76.8, y: 8.1, z: null}
+    label: Kavaria
+    coordinates:
+      x: -76.8
+      y: 8.1
+      z: 
 Dreon VII:
   Mandel:
-    label: "Dreon (Bajor)"
-    coordinates: {x: -80.6, y: 11, z: null}
+    label: Dreon (Bajor)
+    coordinates:
+      x: -80.6
+      y: 11
+      z: 
 Inkaria:
   Mandel:
-    label: "Inkaria"
-    coordinates: {x: -91.2, y: 13.7, z: null}
+    label: Inkaria
+    coordinates:
+      x: -91.2
+      y: 13.7
+      z: 
 Edasich:
   Mandel:
-    label: "Edasich (Iota Draconis)"
-    coordinates: {x: -67.3, y: 4.5, z: null}
+    label: Edasich (Iota Draconis)
+    coordinates:
+      x: -67.3
+      y: 4.5
+      z: 
   type: star
 Free Haven:
   Mandel:
-    label: "Free Haven (Bajor)"
-    coordinates: {x: -67.3, y: 11, z: null}
+    label: Free Haven (Bajor)
+    coordinates:
+      x: -67.3
+      y: 11
+      z: 
 Omega Piscium:
   Mandel:
-    label: "Omega Piscium"
-    coordinates: {x: -61.6, y: 11.6, z: null}
+    label: Omega Piscium
+    coordinates:
+      x: -61.6
+      y: 11.6
+      z: 
   interesting: false
   type: star
 Gienah:
   Mandel:
-    label: "Gienah (Epsilon Cygni)"
-    coordinates: {x: -69.7, y: -17.5, z: null}
+    label: Gienah (Epsilon Cygni)
+    coordinates:
+      x: -69.7
+      y: -17.5
+      z: 
   type: star
 Alrakis:
   Mandel:
-    label: "Alrakis (Mu Draconis)"
-    coordinates: {x: -69.5, y: -9.5, z: null}
+    label: Alrakis (Mu Draconis)
+    coordinates:
+      x: -69.5
+      y: -9.5
+      z: 
   type: star
 16 Cygni:
   Mandel:
-    label: "16 Cygni"
-    coordinates: {x: -68.2, y: -8, z: null}
+    label: 16 Cygni
+    coordinates:
+      x: -68.2
+      y: -8
+      z: 
   type: star
 Gavaria:
   Mandel:
-    label: "Gavaria (Sigma Oegasi)"
-    coordinates: {x: -63.2, y: -10.3, z: null}
+    label: Gavaria (Sigma Oegasi)
+    coordinates:
+      x: -63.2
+      y: -10.3
+      z: 
   type: star
 Krolfa:
   Mandel:
-    label: "Krolfa"
-    coordinates: {x: -54, y: -29.8, z: null}
+    label: Krolfa
+    coordinates:
+      x: -54
+      y: -29.8
+      z: 
   type: star
 Tyberius:
   Mandel:
-    label: "Tyberius (Mu Aquilae)"
-    coordinates: {x: -76.9, y: -79.1, z: null}
-  real: yes
+    label: Tyberius (Mu Aquilae)
+    coordinates:
+      x: -76.9
+      y: -79.1
+      z: 
+  real: true
   type: star
 Gamma Voronae Boralis:
   Mandel:
-    label: "Gamma Voronae Boralis"
-    coordinates: {x: -59.5, y: -67.2, z: null}
-  real: yes
+    label: Gamma Voronae Boralis
+    coordinates:
+      x: -59.5
+      y: -67.2
+      z: 
+  real: true
   type: star
 Kornephoris:
   Mandel:
-    label: "Kornephoris (Beta Herculis)"
-    coordinates: {x: -71, y: -88.3, z: null}
-  real: yes
+    label: Kornephoris (Beta Herculis)
+    coordinates:
+      x: -71
+      y: -88.3
+      z: 
+  real: true
   type: star
 Nashira:
   Mandel:
-    label: "Nashira (Gamma Caricorni)"
-    coordinates: {x: -58, y: -80.5, z: null}
+    label: Nashira (Gamma Caricorni)
+    coordinates:
+      x: -58
+      y: -80.5
+      z: 
   type: star
 Neural:
   Mandel:
-    label: "Neural (Zeta Bootis)"
+    label: Neural (Zeta Bootis)
     star: Zeta Bootis
     parent-wd: Q2549695
-    coordinates: {x: -16.3, y: -86, z: null}
+    coordinates:
+      x: -16.3
+      y: -86
+      z: 
   Johnson:
     star: Zeta Bootis
-    label: "Zeta Bootis III"
+    label: Zeta Bootis III
     parent-wd: Q2549695
-    coordinates: {x: 57.8, y: 114.1, z: 33.1}
+    coordinates:
+      x: 57.8
+      y: 114.1
+      z: 33.1
 Yed Posterior:
   Mandel:
-    label: "Yed Posterior (Epsilon Ophiuchi)"
-    coordinates: {x: -13.7, y: -91.7, z: null}
+    label: Yed Posterior (Epsilon Ophiuchi)
+    coordinates:
+      x: -13.7
+      y: -91.7
+      z: 
   type: star
 Ascella:
   Mandel:
-    label: "Ascella (Zeta Sagittarii)"
-    coordinates: {x: -10.2, y: -85.9, z: null}
+    label: Ascella (Zeta Sagittarii)
+    coordinates:
+      x: -10.2
+      y: -85.9
+      z: 
   type: star
 Zeta Microssopii:
   Mandel:
-    label: "Zeta Microssopii"
-    coordinates: {x: -6.1, y: -86.6, z: null}
-  real: yes
-  interesting: no
+    label: Zeta Microssopii
+    coordinates:
+      x: -6.1
+      y: -86.6
+      z: 
+  real: true
+  interesting: false
   type: star
 Angel I:
   present-in-work:
-    - Q3231803
+  - Q3231803
   Mandel:
-    label: "Angel (Al Nair, Alpha Gruis)"
+    label: Angel (Al Nair, Alpha Gruis)
     star: Alpha Gruis
     parent-wd: Q854042
-    coordinates: {x: 10.8, y: -61.1, z: null}
+    coordinates:
+      x: 10.8
+      y: -61.1
+      z: 
 Delta IV:
   Mandel:
-    label: "Delta"
-    coordinates: {x: -13.2, y: -43.5, z: null}
+    label: Delta
+    coordinates:
+      x: -13.2
+      y: -43.5
+      z: 
   Johnson:
-    label: "Delta"
-    coordinates: {x: 187.3, y: 89.9, z: -17.3}
+    label: Delta
+    coordinates:
+      x: 187.3
+      y: 89.9
+      z: -17.3
   fractions:
   - federation
 Argus X:
   Mandel:
-    label: "Argus"
-    coordinates: {x: -33.7, y: -35, z: null}
+    label: Argus
+    coordinates:
+      x: -33.7
+      y: -35
+      z: 
   Maynard:
-    label: "Argus"
-    coordinates: {x: -9, y: -99.8, z: 69}
+    label: Argus
+    coordinates:
+      x: -9
+      y: -99.8
+      z: 69
 Delta Aquilae:
   Mandel:
-    label: "Delta Aquilae"
-    coordinates: {x: -31.7, y: -38.6, z: null}
-  real: yes
+    label: Delta Aquilae
+    coordinates:
+      x: -31.7
+      y: -38.6
+      z: 
+  real: true
   type: star
 Sauria:
   wd: Q53574296
   Mandel:
-    label: "Sauria (Psi Serpentis)"
-    coordinates: {x: -6, y: -35.3, z: null}
+    label: Sauria (Psi Serpentis)
+    coordinates:
+      x: -6
+      y: -35.3
+      z: 
   Johnson:
-    label: "Sauria"
-    coordinates: {x: -166.3, y: -43.3, z: 62.1}
+    label: Sauria
+    coordinates:
+      x: -166.3
+      y: -43.3
+      z: 62.1
 Stameris:
   Mandel:
-    label: "Stameris (Lambda Serpentis)"
-    coordinates: {x: -7.5, y: -26.6, z: null}
+    label: Stameris (Lambda Serpentis)
+    coordinates:
+      x: -7.5
+      y: -26.6
+      z: 
   type: star
 Zetar:
   Mandel:
-    label: "Zetar"
-    coordinates: {x: -14.8, y: -24.6, z: null}
-  Maynard: 
-    label: "Zetar"
-    coordinates: {x: -92.6, y: –116.2, z: –23.8}
+    label: Zetar
+    coordinates:
+      x: -14.8
+      y: -24.6
+      z: 
+  Maynard:
+    label: Zetar
+    coordinates:
+      x: -92.6
+      y: -116.2
+      z: -23.8
 Gamma Serpentis:
   Mandel:
-    label: "Gamma Serpentis"
-    coordinates: {x: -11.8, y: -22.5, z: null}
+    label: Gamma Serpentis
+    coordinates:
+      x: -11.8
+      y: -22.5
+      z: 
   type: star
 Gamma II:
   Mandel:
-    label: "Gamma (Alpha Coronae Borealis)"
-    coordinates: {x: -29.5, y: -33, z: null}
+    label: Gamma (Alpha Coronae Borealis)
+    coordinates:
+      x: -29.5
+      y: -33
+      z: 
 Alshain:
   Mandel:
-    label: "Alshain (Beta Aquilae)"
-    coordinates: {x: -31.7, y: -30.5, z: null}
+    label: Alshain (Beta Aquilae)
+    coordinates:
+      x: -31.7
+      y: -30.5
+      z: 
 Omega Sagitta:
   Mandel:
-    label: "Omega Sagitta (Madena, Altec, Straleb)"
-    coordinates: {x: -38.4, y: -26.2, z: null}
+    label: Omega Sagitta (Madena, Altec, Straleb)
+    coordinates:
+      x: -38.4
+      y: -26.2
+      z: 
   type: star
 Ludugia:
   Mandel:
-    label: "Ludugia (Rho Coronae Boralis)"
-    coordinates: {x: -30, y: -22.3, z: null}
+    label: Ludugia (Rho Coronae Boralis)
+    coordinates:
+      x: -30
+      y: -22.3
+      z: 
 Eta Coonae Boralis:
   Mandel:
-    label: "Eta Coonae Boralis"
-    coordinates: {x: -24.6, y: -22.7, z: null}
+    label: Eta Coonae Boralis
+    coordinates:
+      x: -24.6
+      y: -22.7
+      z: 
   type: star
 Halee II:
   Mandel:
-    label: "Halee"
-    coordinates: {x: 98, y: 69.5, z: null}
+    label: Halee
+    coordinates:
+      x: 98
+      y: 69.5
+      z: 
   fractions:
   - klingon
 B'Moth:
   Mandel:
-    label: "B'Moth"
-    coordinates: {x: 95, y: 75, z: null}
+    label: B'Moth
+    coordinates:
+      x: 95
+      y: 75
+      z: 
   fractions:
   - klingon
 Rura Penthe:
   wd: Q7417586
   Mandel:
-    label: "Rura Penthe"
-    coordinates: {x: 80.8, y: 59.1, z: null}
+    label: Rura Penthe
+    coordinates:
+      x: 80.8
+      y: 59.1
+      z: 
 Brestant:
   Mandel:
-    label: "Brestant (Delta Leporis)"
-    coordinates: {x: 77, y: 72, z: null}
+    label: Brestant (Delta Leporis)
+    coordinates:
+      x: 77
+      y: 72
+      z: 
   DIS:
-    label: "Brestant (Delta Leporis)"
-    coordinates: {x: 77, y: 72, z: null}
+    label: Brestant (Delta Leporis)
+    coordinates:
+      x: 77
+      y: 72
+      z: 
   fractions:
   - klingon
 Gorath:
   Mandel:
-    label: "Gorath (Theta Hydrae)"
-    coordinates: {x: 81.4, y: 72.1, z: null}
+    label: Gorath (Theta Hydrae)
+    coordinates:
+      x: 81.4
+      y: 72.1
+      z: 
   fractions:
   - klingon
 Qu'Vat:
   Mandel:
-    label: "Qu´Vat"
-    coordinates: {x: 83.8, y: 63.9, z: null}
+    label: Qu´Vat
+    coordinates:
+      x: 83.8
+      y: 63.9
+      z: 
   fractions:
   - klingon
 Acamar:
   Mandel:
-    label: "Acamar (Theta Eridani)"
-    coordinates: {x: 73, y: 30.1, z: null}
+    label: Acamar (Theta Eridani)
+    coordinates:
+      x: 73
+      y: 30.1
+      z: 
 Jourot:
   Mandel:
-    label: "Jourot (New Providence)"
-    coordinates: {x: 61.5, y: 23.2, z: null}
+    label: Jourot (New Providence)
+    coordinates:
+      x: 61.5
+      y: 23.2
+      z: 
 Gamma Hromi II:
   Mandel:
-    label: "Gamma Hromi"
-    coordinates: {x: 60.2, y: 49.2, z: null}
+    label: Gamma Hromi
+    coordinates:
+      x: 60.2
+      y: 49.2
+      z: 
 Suliban Helix:
   Mandel:
-    label: "Suliban Helix"
-    coordinates: {x: 42.7, y: 37.2, z: null}
+    label: Suliban Helix
+    coordinates:
+      x: 42.7
+      y: 37.2
+      z: 
 Suliban:
   Mandel:
-    label: "Suliban"
-    coordinates: {x: 24.074, y: 47.348, z: null}
+    label: Suliban
+    coordinates:
+      x: 24.074
+      y: 47.348
+      z: 
 Regulus:
   Mandel:
-    label: "Regulus (Alpha Leonis)"
-    coordinates: {x: 36.9, y: 35.5, z: null}
+    label: Regulus (Alpha Leonis)
+    coordinates:
+      x: 36.9
+      y: 35.5
+      z: 
   Johnson:
-    label: "Regulus"
-    coordinates: {x: 10.7, y: 83.9, z: .7}
+    label: Regulus
+    coordinates:
+      x: 10.7
+      y: 83.9
+      z: 0.7
   Maynard:
-    label: "Regulus"
+    label: Regulus
     star: Alpha Leonis
-    coordinates: {x: 10.7, y: 83.9, z: .7}
-  real: yes 
+    coordinates:
+      x: 10.7
+      y: 83.9
+      z: 0.7
+  real: true
   type: star
 Rigel V:
   Mandel:
-    label: "Beta Rigel"
-    coordinates: {x: 15.7, y: 27.6, z: null}
+    label: Beta Rigel
+    coordinates:
+      x: 15.7
+      y: 27.6
+      z: 
   Johnson:
-    label: "Rigel II, IV, V, VI, VII, VIII"
-    multiple: yes
-    coordinates: {x: -209.9, y: 7.7, z: -136}
+    label: Rigel II, IV, V, VI, VII, VIII
+    multiple: true
+    coordinates:
+      x: -209.9
+      y: 7.7
+      z: -136
 Deneva:
   wd: Q57004803
   Mandel:
-    label: "Deneva (Kappa Fornacis)"
+    label: Deneva (Kappa Fornacis)
     parent-wd: Q9017189
-    coordinates: {x: 12.2, y: 22.4, z: null}
+    coordinates:
+      x: 12.2
+      y: 22.4
+      z: 
   Maynard:
-    label: "Deneva"
-    coordinates: {x: 45.8, y: 52.8, z: 96.9}
+    label: Deneva
+    coordinates:
+      x: 45.8
+      y: 52.8
+      z: 96.9
   fractions:
   - federation
 Orion:
   wd: Q55738565
   DIS:
-    label: "Orion"
-    coordinates: {x: 4.7, y: 23.8, z: null}
+    label: Orion
+    coordinates:
+      x: 4.7
+      y: 23.8
+      z: 
   Mandel:
-    label: "Orion (Pi 3 Orionis)"
-    coordinates: {x: 4.7, y: 23.8, z: null}
+    label: Orion (Pi 3 Orionis)
+    coordinates:
+      x: 4.7
+      y: 23.8
+      z: 
 Valakis:
   Mandel:
-    label: "Valakis"
-    coordinates: {x: 9, y: 25.6, z: null}
+    label: Valakis
+    coordinates:
+      x: 9
+      y: 25.6
+      z: 
 Cordian:
   Mandel:
-    label: "Cordian (Chi 1 Orionis)"
-    coordinates: {x: 4, y: 28, z: null}
-  Maynard: 
-    label: "Coridan"
-    coordinates: {x: 29.7, y: 64.3, z: 29.9}
+    label: Cordian (Chi 1 Orionis)
+    coordinates:
+      x: 4
+      y: 28
+      z: 
+  Maynard:
+    label: Coridan
+    coordinates:
+      x: 29.7
+      y: 64.3
+      z: 29.9
   Johnson:
-    label: "Coridan"
-    coordinates: {x: 29.7, y: 64.3, z: 29.9}
+    label: Coridan
+    coordinates:
+      x: 29.7
+      y: 64.3
+      z: 29.9
   fractions:
   - federation
 Maluria:
   Mandel:
-    label: "Maluria (Epsilon Fornacis)"
+    label: Maluria (Epsilon Fornacis)
     star: Epsilon Fornacis
-    coordinates: {x: 32.1, y: 35.3, z: null}
+    coordinates:
+      x: 32.1
+      y: 35.3
+      z: 
   Maynard:
     label: 
     star: Omega Cygni
-    coordinates: {x: 58.2, y: 9.1, z: 14.6}
+    coordinates:
+      x: 58.2
+      y: 9.1
+      z: 14.6
 Nausicaa:
   wd: Q55739206
   Mandel:
-    label: "Nausicaa"
-    coordinates: {x: 28.2, y: 30.5, z: null}
+    label: Nausicaa
+    coordinates:
+      x: 28.2
+      y: 30.5
+      z: 
 Xarantine:
   Mandel:
-    label: "Xarantine (Zeta Leporis)"
-    coordinates: {x: 41.6, y: 50.9, z: null}
+    label: Xarantine (Zeta Leporis)
+    coordinates:
+      x: 41.6
+      y: 50.9
+      z: 
 81 Cancri:
   Mandel:
-    label: "81 Cancri"
-    coordinates: {x: 29.9, y: 43.7, z: null}
+    label: 81 Cancri
+    coordinates:
+      x: 29.9
+      y: 43.7
+      z: 
   type: star
-  real: yes
+  real: true
   wd: Q3599937
 Yridia Prime:
   Mandel:
-    label: "Yridia"
-    coordinates: {x: 32.8, y: 40.5, z: null}
+    label: Yridia
+    coordinates:
+      x: 32.8
+      y: 40.5
+      z: 
 O'Ryan's Planet:
   Mandel:
-    label: "O´Ryan's Planet (Shamin)"
-    coordinates: {x: -17.1, y: 70.9, z: null}
+    label: O´Ryan's Planet (Shamin)
+    coordinates:
+      x: -17.1
+      y: 70.9
+      z: 
 Planet Q:
   wd: Q48976105
   Mandel:
-    label: "Planet Q"
-    coordinates: {x: -4, y: 69.5, z: null}
+    label: Planet Q
+    coordinates:
+      x: -4
+      y: 69.5
+      z: 
   Maynard:
-    label: "Planet Q"
-    coordinates: {x: 4.7, y: —192.7, z: —216.8}
+    label: Planet Q
+    coordinates:
+      x: 4.7
+      y: "—192.7"
+      z: "—216.8"
 Zibal:
   Mandel:
-    label: "Zibal"
-    coordinates: {x: -13.1, y: 79.9, z: null}
+    label: Zibal
+    coordinates:
+      x: -13.1
+      y: 79.9
+      z: 
 Zibal (Zeta Eridani):
   Mandel:
-    label: "Zibal (Zeta Eridani)"
-    coordinates: {x: 15, y: 73.8, z: null}
+    label: Zibal (Zeta Eridani)
+    coordinates:
+      x: 15
+      y: 73.8
+      z: 
 Bre'el:
   Mandel:
-    label: "Bre'el"
-    coordinates: {x: -8.2, y: 98, z: null}
+    label: Bre'el
+    coordinates:
+      x: -8.2
+      y: 98
+      z: 
   fractions:
   - federation
 Tau Ursae Majoris:
   Mandel:
-    label: "Tau Ursae Majoris"
-    coordinates: {x: -45.4, y: 82.7, z: null}
-  real: yes
+    label: Tau Ursae Majoris
+    coordinates:
+      x: -45.4
+      y: 82.7
+      z: 
+  real: true
   type: star
 Kappa Persei:
   Mandel:
-    label: "Kappa Persei"
-    coordinates: {x: -59.9, y: 92.9, z: null}
+    label: Kappa Persei
+    coordinates:
+      x: -59.9
+      y: 92.9
+      z: 
   type: star
-  real: yes
+  real: true
 Talar:
   wd: Q3983044
   Mandel:
-    label: "Talar"
-    coordinates: {x: -86.1, y: 77.1, z: null}
+    label: Talar
+    coordinates:
+      x: -86.1
+      y: 77.1
+      z: 
 Beloti:
   Mandel:
-    label: "Beloti"
-    coordinates: {x: -69.7, y: 70.5, z: null}
+    label: Beloti
+    coordinates:
+      x: -69.7
+      y: 70.5
+      z: 
 D'Deridex:
   Mandel:
-    label: "D'Deridex"
-    coordinates: {x: 91, y: 21, z: null}
+    label: D'Deridex
+    coordinates:
+      x: 91
+      y: 21
+      z: 
   fractions:
   - klingon
 Dinasia:
   Mandel:
-    label: "Dinasia"
-    coordinates: {x: 101, y: 17.5, z: null}
+    label: Dinasia
+    coordinates:
+      x: 101
+      y: 17.5
+      z: 
   fractions:
   - klingon
 Iccobar:
   Mandel:
-    label: "Iccobar"
-    coordinates: {x: 97, y: 18.5, z: null}
+    label: Iccobar
+    coordinates:
+      x: 97
+      y: 18.5
+      z: 
   fractions:
   - klingon
 Balduk:
   Mandel:
-    label: "Balduk"
-    coordinates: {x: 99, y: 23, z: null}
+    label: Balduk
+    coordinates:
+      x: 99
+      y: 23
+      z: 
   fractions:
   - klingon
 Dewa III:
   Mandel:
-    label: "Dewa"
-    coordinates: {x: 96, y: 20, z: null}
+    label: Dewa
+    coordinates:
+      x: 96
+      y: 20
+      z: 
   sto:
     label: New Romulus
-    coordinates: {x: 76.409, y: 26.615, z: null}
+    coordinates:
+      x: 76.409
+      y: 26.615
+      z: 
     fractions:
     - romulan
   Shisma:
     label: Dewa III
-    coordinates: {x: 96, y: 20, z: null}
+    coordinates:
+      x: 96
+      y: 20
+      z: 
   fractions:
   - klingon
 Tranome Sar:
   DIS:
-    label: "Tranome Sar"
-    coordinates: {x: 93.3, y: 22.9, z: null}
+    label: Tranome Sar
+    coordinates:
+      x: 93.3
+      y: 22.9
+      z: 
   Mandel:
-    coordinates: {x: 109.3, y: 22.9, z: null}
+    coordinates:
+      x: 109.3
+      y: 22.9
+      z: 
   fractions:
   - klingon
 Nequencia:
   DIS:
-    label: "Nequencia"
-    coordinates: {x: 88.3, y: 24.6, z: null}
+    label: Nequencia
+    coordinates:
+      x: 88.3
+      y: 24.6
+      z: 
   Mandel:
-    coordinates: {x: 98.3, y: 24.6, z: null}
+    coordinates:
+      x: 98.3
+      y: 24.6
+      z: 
   fractions:
   - klingon
 Chaltok IV:
   Mandel:
-    label: "Chaltok"
-    coordinates: {x: 108.7, y: 8.5, z: null}
+    label: Chaltok
+    coordinates:
+      x: 108.7
+      y: 8.5
+      z: 
   fractions:
   - romulan
 Gasko II:
   DIS:
-    label: "Gasko"
-    coordinates: {x: 90.8, y: 13.5, z: null}
+    label: Gasko
+    coordinates:
+      x: 90.8
+      y: 13.5
+      z: 
   Mandel:
-    coordinates: {x: 98.8, y: 13.5, z: null}
+    coordinates:
+      x: 98.8
+      y: 13.5
+      z: 
   fractions:
   - klingon
 Zeta Pictoris:
   Mandel:
-    label: "Zeta Pictoris"
-    coordinates: {x: 94.3, y: 21.3, z: null}
+    label: Zeta Pictoris
+    coordinates:
+      x: 94.3
+      y: 21.3
+      z: 
   canon: false
-  real: yes
+  real: true
   type: star
 Eta Antliae:
   Mandel:
-    label: "Eta Antliae"
-    coordinates: {x: 102.7, y: 3.8, z: null}
+    label: Eta Antliae
+    coordinates:
+      x: 102.7
+      y: 3.8
+      z: 
   real: true
   type: star
 Khazara:
   Mandel:
-    label: "Khazara"
-    coordinates: {x: 117.6, y: -3.3, z: null}
+    label: Khazara
+    coordinates:
+      x: 117.6
+      y: -3.3
+      z: 
 Delta Doradus:
   Mandel:
-    label: "Delta Doradus"
-    coordinates: {x: 123.5, y: -11.8, z: null}
+    label: Delta Doradus
+    coordinates:
+      x: 123.5
+      y: -11.8
+      z: 
   type: star
-  real: yes
+  real: true
 Unroth III:
   Mandel:
-    label: "Unroth"
-    coordinates: {x: 65, y: 14.4, z: null}
+    label: Unroth
+    coordinates:
+      x: 65
+      y: 14.4
+      z: 
   fractions:
   - romulan
 Alpha Onias III:
   Mandel:
-    label: "Alpha Onias"
-    coordinates: {x: 66.6, y: 12.4, z: null}
+    label: Alpha Onias
+    coordinates:
+      x: 66.6
+      y: 12.4
+      z: 
 Devoras:
   Mandel:
-    label: "Devoras"
-    coordinates: {x: 84.5, y: 6.3, z: null}
+    label: Devoras
+    coordinates:
+      x: 84.5
+      y: 6.3
+      z: 
 Psi Velorum:
   Mandel:
-    label: "Psi Velorum"
-    coordinates: {x: 60, y: 3.4, z: null}
+    label: Psi Velorum
+    coordinates:
+      x: 60
+      y: 3.4
+      z: 
   real: true
   type: star
 Iota Horologii:
   Mandel:
-    label: "Iota Horologii"
-    coordinates: {x: 29.5, y: 0.6, z: null}
+    label: Iota Horologii
+    coordinates:
+      x: 29.5
+      y: 0.6
+      z: 
   real: true
   type: star
 Delta Velorum:
   Mandel:
-    label: "Delta Velorum"
-    coordinates: {x: 79.2, y: -2.8, z: null}
+    label: Delta Velorum
+    coordinates:
+      x: 79.2
+      y: -2.8
+      z: 
   type: star
-  real: yes
+  real: true
 Hyralan:
   Mandel:
-    label: "Hyralan (Alpha Caeli)"
-    coordinates: {x: 45, y: 20, z: null}
+    label: Hyralan (Alpha Caeli)
+    coordinates:
+      x: 45
+      y: 20
+      z: 
 Iconia:
   Mandel:
-    label: "Iconia"
-    coordinates: {x: 96, y: 11.6, z: null}
+    label: Iconia
+    coordinates:
+      x: 96
+      y: 11.6
+      z: 
 Eta Horologii:
   Mandel:
-    label: "Eta Horologii"
-    coordinates: {x: 77.3, y: -3.1, z: null}
+    label: Eta Horologii
+    coordinates:
+      x: 77.3
+      y: -3.1
+      z: 
   real: true
   type: star
 Alpha Pictoris:
   Mandel:
-    label: "Alpha Pictoris"
-    coordinates: {x: 90.4, y: -3, z: null}
+    label: Alpha Pictoris
+    coordinates:
+      x: 90.4
+      y: -3
+      z: 
   type: star
-  real: yes
+  real: true
 Vendor:
   Mandel:
-    label: "Vendor"
-    coordinates: {x: 48.2, y: -6.9, z: null}
+    label: Vendor
+    coordinates:
+      x: 48.2
+      y: -6.9
+      z: 
   fractions:
   - romulan
 Carraya IV:
   Mandel:
-    label: "Carraya"
-    coordinates: {x: 81.421, y: 28.552, z: null}
+    label: Carraya
+    coordinates:
+      x: 81.421
+      y: 28.552
+      z: 
 Iota Cainae:
   Mandel:
-    label: "Iota Cainae"
-    coordinates: {x: 47.2, y: -20.3, z: null}
+    label: Iota Cainae
+    coordinates:
+      x: 47.2
+      y: -20.3
+      z: 
   type: star
-  real: yes
+  real: true
 Pi Mensae:
   Mandel:
-    label: "Pi Mensae"
-    coordinates: {x: 47.5, y: -19.7, z: null}
+    label: Pi Mensae
+    coordinates:
+      x: 47.5
+      y: -19.7
+      z: 
   type: star
-  real: yes
+  real: true
 Kappa Tucanae:
   Mandel:
-    label: "Kappa Tucanae"
-    coordinates: {x: 38.8, y: -22.1, z: null}
+    label: Kappa Tucanae
+    coordinates:
+      x: 38.8
+      y: -22.1
+      z: 
   type: star
-  real: yes
+  real: true
 Algorab:
   Mandel:
-    label: "Algorab (Delta Corvi)"
-    coordinates: {x: 55.2, y: -26.3, z: null}
+    label: Algorab (Delta Corvi)
+    coordinates:
+      x: 55.2
+      y: -26.3
+      z: 
   type: star
-  real: yes
+  real: true
 Achernar Prime:
   Mandel:
-    label: "Achernar (Alpha Eridani)"
-    coordinates: {x: 69.7, y: -26.7, z: null}
+    label: Achernar (Alpha Eridani)
+    coordinates:
+      x: 69.7
+      y: -26.7
+      z: 
     star: Alpha Eridani
     parent-wd: Q12183
-
 Eta Crucis:
   Mandel:
-    label: "Eta Crucis"
-    coordinates: {x: 56.7, y: -30.4, z: null}
+    label: Eta Crucis
+    coordinates:
+      x: 56.7
+      y: -30.4
+      z: 
   type: star
-  real: yes
+  real: true
 Iota Hydri:
   Mandel:
-    label: "Iota Hydri"
-    coordinates: {x: 70.2, y: -30.9, z: null}
+    label: Iota Hydri
+    coordinates:
+      x: 70.2
+      y: -30.9
+      z: 
   type: star
-  real: yes
+  real: true
 Beta Reticuli:
   Mandel:
-    label: "Beta Reticuli"
-    coordinates: {x: 71.4, y: -11.6, z: null}
+    label: Beta Reticuli
+    coordinates:
+      x: 71.4
+      y: -11.6
+      z: 
   type: star
-  real: yes
+  real: true
 Mu Horologii:
   Mandel:
-    label: "Mu Horologii"
-    coordinates: {x: 87.3, y: -11.2, z: null}
+    label: Mu Horologii
+    coordinates:
+      x: 87.3
+      y: -11.2
+      z: 
   type: star
-  real: yes
+  real: true
 Beta Velantis:
   Mandel:
-    label: "Beta Velantis"
-    coordinates: {x: 102.3, y: -18.5, z: null}
+    label: Beta Velantis
+    coordinates:
+      x: 102.3
+      y: -18.5
+      z: 
   type: star
 Gamma Mensae:
   Mandel:
-    label: "Gamma Mensae"
-    coordinates: {x: 82.1, y: -26.6, z: null}
-  real: yes
+    label: Gamma Mensae
+    coordinates:
+      x: 82.1
+      y: -26.6
+      z: 
+  real: true
   type: star
 Terix:
   Mandel:
-    label: "Terix"
-    coordinates: {x: 35.5, y: -31.5, z: null}
+    label: Terix
+    coordinates:
+      x: 35.5
+      y: -31.5
+      z: 
 Gacrux:
   Mandel:
-    label: "Gacrux (Gamma Crucis)"
-    coordinates: {x: 75.8, y: -44.1, z: null}
+    label: Gacrux (Gamma Crucis)
+    coordinates:
+      x: 75.8
+      y: -44.1
+      z: 
   type: star
-  real: yes
+  real: true
 Belak:
   Mandel:
-    label: "Belak"
-    coordinates: {x: 52.1, y: -41.7, z: null}
+    label: Belak
+    coordinates:
+      x: 52.1
+      y: -41.7
+      z: 
 Haakona:
   Mandel:
-    label: "Haakona"
-    coordinates: {x: 67.6, y: -37.8, z: null}
+    label: Haakona
+    coordinates:
+      x: 67.6
+      y: -37.8
+      z: 
 Rho Tucanae:
   Mandel:
-    label: "Rho Tucanae"
-    coordinates: {x: 68, y: -46.8, z: null}
+    label: Rho Tucanae
+    coordinates:
+      x: 68
+      y: -46.8
+      z: 
   type: star
-  real: yes
+  real: true
 Garadius IV:
   Mandel:
-    label: "Garadius (Delta Muscae)"
+    label: Garadius (Delta Muscae)
     star: Delta Muscae
     parent-wd: Q3292863
-    coordinates: {x: 74.9, y: -50.1, z: null}
+    coordinates:
+      x: 74.9
+      y: -50.1
+      z: 
 Talvath:
   Mandel:
-    label: "Talvath"
-    coordinates: {x: 107.1, y: -41.9, z: null}
+    label: Talvath
+    coordinates:
+      x: 107.1
+      y: -41.9
+      z: 
   type: star
 Zeta Volantis:
   Mandel:
-    label: "Zeta Volantis"
-    coordinates: {x: 120.2, y: -31.3, z: null}
+    label: Zeta Volantis
+    coordinates:
+      x: 120.2
+      y: -31.3
+      z: 
   type: star
-  real: yes
+  real: true
 Alpha Volantis:
   Mandel:
-    label: "Alpha Volantis"
-    coordinates: {x: 118.1, y: -26.6, z: null}
+    label: Alpha Volantis
+    coordinates:
+      x: 118.1
+      y: -26.6
+      z: 
   type: star
-  real: yes
+  real: true
 Xi Hydrae:
   Mandel:
-    label: "Xi Hydrae"
-    coordinates: {x: 110.8, y: -27.9, z: null}
+    label: Xi Hydrae
+    coordinates:
+      x: 110.8
+      y: -27.9
+      z: 
   type: star
-  real: yes
+  real: true
 Mu Velorum:
   Mandel:
-    label: "Mu Velorum"
-    coordinates: {x: 111.7, y: -25.9, z: null}
+    label: Mu Velorum
+    coordinates:
+      x: 111.7
+      y: -25.9
+      z: 
   type: star
-  real: yes
+  real: true
 Gortas:
   Mandel:
-    label: "Gortas"
-    coordinates: {x: 190.2, y: 77.7, z: null}
+    label: Gortas
+    coordinates:
+      x: 190.2
+      y: 77.7
+      z: 
 Tessen III:
   Mandel:
-    label: "Tessen"
-    coordinates: {x: 149.6, y: 57.9, z: null}
+    label: Tessen
+    coordinates:
+      x: 149.6
+      y: 57.9
+      z: 
   fractions:
   - federation
 Moselina:
   Mandel:
-    label: "Moselina"
-    coordinates: {x: 147.9, y: 61, z: null}
+    label: Moselina
+    coordinates:
+      x: 147.9
+      y: 61
+      z: 
 Kostolain:
   Mandel:
-    label: "Kostolain"
-    coordinates: {x: 142.3, y: 54.6, z: null}
+    label: Kostolain
+    coordinates:
+      x: 142.3
+      y: 54.6
+      z: 
 Beta Lankal:
   Mandel:
-    label: "Beta Lankal"
-    coordinates: {x: 86.1, y: 51.2, z: null}
+    label: Beta Lankal
+    coordinates:
+      x: 86.1
+      y: 51.2
+      z: 
   fractions:
   - klingon
 Mempa:
   Mandel:
-    label: "Mempa"
-    coordinates: {x: 83.1, y: 57.2, z: null}
+    label: Mempa
+    coordinates:
+      x: 83.1
+      y: 57.2
+      z: 
   fractions:
   - klingon
 Narendra III:
   DIS:
-    label: "Narendra"
-    coordinates: {x: 92, y: 34.6, z: null}
+    label: Narendra
+    coordinates:
+      x: 92
+      y: 34.6
+      z: 
   Mandel:
-    coordinates: {x: 108.5, y: 34.6, z: null}
+    coordinates:
+      x: 108.5
+      y: 34.6
+      z: 
   fractions:
   - klingon
 Klach D'kel Brakt:
   DIS:
-    label: "Klach D'kel Brakt"
-    coordinates: {x: 110, y: 34.6, z: null}
+    label: Klach D'kel Brakt
+    coordinates:
+      x: 110
+      y: 34.6
+      z: 
   Mandel:
-    coordinates: {x: 140.1, y: 31.3, z: null}
+    coordinates:
+      x: 140.1
+      y: 31.3
+      z: 
   fractions:
   - klingon
 Archer:
   DIS:
-    label: "Archer"
-    coordinates: {x: 96.8, y: 37.9, z: null}
+    label: Archer
+    coordinates:
+      x: 96.8
+      y: 37.9
+      z: 
   Mandel:
-    coordinates: {x: 120.8, y: 37.9, z: null}
+    coordinates:
+      x: 120.8
+      y: 37.9
+      z: 
   fractions:
   - klingon
 Amargosa:
   Mandel:
-    label: "Amargosa"
-    coordinates: {x: 189.4, y: 29, z: null}
+    label: Amargosa
+    coordinates:
+      x: 189.4
+      y: 29
+      z: 
   type: star
 Nehru:
   Mandel:
-    label: "Nehru"
-    coordinates: {x: -31.7, y: 9.4, z: null}
+    label: Nehru
+    coordinates:
+      x: -31.7
+      y: 9.4
+      z: 
   fractions:
-    - federation
+  - federation
 Alkaid:
   Mandel:
-    label: "Alkaid (Era Ursae Majoris)"
-    coordinates: {x: -41.3, y: 7.7, z: null}
+    label: Alkaid (Era Ursae Majoris)
+    coordinates:
+      x: -41.3
+      y: 7.7
+      z: 
   type: star
 Mizar II:
   Mandel:
-    label: "Mizar (Zeta Ursae Majoris)"
-    coordinates: {x: -34.2, y: 14.7, z: null}
+    label: Mizar (Zeta Ursae Majoris)
+    coordinates:
+      x: -34.2
+      y: 14.7
+      z: 
 Pree:
   Mandel:
-    label: "Pree (Iota Pisium)"
-    coordinates: {x: -27, y: 1, z: null}
+    label: Pree (Iota Pisium)
+    coordinates:
+      x: -27
+      y: 1
+      z: 
 Deneb Kaitos:
   Mandel:
-    label: "Deneb Kaitos (Beta 16 Ceti)"
-    coordinates: {x: -14.5, y: 5.6, z: null}
+    label: Deneb Kaitos (Beta 16 Ceti)
+    coordinates:
+      x: -14.5
+      y: 5.6
+      z: 
   interesting: false
 Deneb IV:
   wd: Q13576156
   Maynard:
-    label: "Deneb"
-    coordinates: {x: 142.7, y: -143.4, z: 382.5}
-    star: "Alpha Cygni"
+    label: Deneb
+    coordinates:
+      x: 142.7
+      y: -143.4
+      z: 382.5
+    star: Alpha Cygni
     parent-wd: Q12179
   Johnson:
-    label: "Deneb II, IV, V"
-    multiple: yes
-    coordinates: {x: 142.7, y: -143.4, z: 382.5}
+    label: Deneb II, IV, V
+    multiple: true
+    coordinates:
+      x: 142.7
+      y: -143.4
+      z: 382.5
 Denobula:
   wd: Q55739207
   Mandel:
-    label: "Denobula Triaxa (Iota Bootis)"
+    label: Denobula Triaxa (Iota Bootis)
     star: Iota Bootis
     parent-wd: Q1672154
-    coordinates: {x: -22.3, y: -3.8, z: null}
+    coordinates:
+      x: -22.3
+      y: -3.8
+      z: 
 Beta Comae Berenices:
   Mandel:
-    label: "Beta Comae Berenices"
-    coordinates: {x: -1.7, y: -1.7, z: null}
+    label: Beta Comae Berenices
+    coordinates:
+      x: -1.7
+      y: -1.7
+      z: 
   real: true
   interesting: false
   type: star
 Sarin:
   Mandel:
-    label: "Sarin (Delta Hercules)"
-    coordinates: {x: -48.8, y: -46.2, z: null}
+    label: Sarin (Delta Hercules)
+    coordinates:
+      x: -48.8
+      y: -46.2
+      z: 
 Balosnee:
   Mandel:
-    label: "Balosnee"
-    coordinates: {x: -47.5, y: -41.1, z: null}
+    label: Balosnee
+    coordinates:
+      x: -47.5
+      y: -41.1
+      z: 
 Nusakan:
   Mandel:
-    label: "Nusakan (Beta Coronae Boralis)"
-    coordinates: {x: -45.9, y: -45.4, z: null}
+    label: Nusakan (Beta Coronae Boralis)
+    coordinates:
+      x: -45.9
+      y: -45.4
+      z: 
 Zaran:
   Mandel:
-    label: "Zaran (Mu Capicorini)"
-    coordinates: {x: -41.5, y: -46.7, z: null}
+    label: Zaran (Mu Capicorini)
+    coordinates:
+      x: -41.5
+      y: -46.7
+      z: 
 Talos IV:
   wd: Q48892470
   Mandel:
-    label: "Talos"
-    coordinates: {x: -34.1, y: 79.7, z: null}
+    label: Talos
+    coordinates:
+      x: -34.1
+      y: 79.7
+      z: 
   Johnson:
-    label: "Talos IV"
-    coordinates: {x: -119.4, y: -43.7, z: -24}
+    label: Talos IV
+    coordinates:
+      x: -119.4
+      y: -43.7
+      z: -24
   Maynard:
-    label: "Talos IV"
-    coordinates: {x: -119.4, y: -43.7, z: -24}
+    label: Talos IV
+    coordinates:
+      x: -119.4
+      y: -43.7
+      z: -24
 K'Normia:
   Mandel:
-    label: "K´Normia (Psi Tauri)"
-    coordinates: {x: -20.2, y: 84, z: null}
+    label: K´Normia (Psi Tauri)
+    coordinates:
+      x: -20.2
+      y: 84
+      z: 
 Antares:
   type: star
   Mandel:
-    label: "Antares (Alpha Scorpii)"
-    coordinates: {x: 78.947, y: -572.368, z: null}
+    label: Antares (Alpha Scorpii)
+    coordinates:
+      x: 78.947
+      y: -572.368
+      z: 
   Maynard:
-    label: "Antares"
-    coordinates: {x: 172.1, y: 118.9, z: -13.9}
+    label: Antares
+    coordinates:
+      x: 172.1
+      y: 118.9
+      z: -13.9
   fractions:
   - federation
 Berengaria VII:
   Mandel:
-    label: "Berengaria"
-    coordinates: {x: -64.7, y: -75.2, z: null}
-  Maynard: 
-    label: "Berengaria"
-    coordinates: {x: -21.4, y: -51.8, z: -60.3}
+    label: Berengaria
+    coordinates:
+      x: -64.7
+      y: -75.2
+      z: 
+  Maynard:
+    label: Berengaria
+    coordinates:
+      x: -21.4
+      y: -51.8
+      z: -60.3
   Johnson:
-    label: "Berengaria VII"
-    coordinates: {x: -21.4, y: -51.8, z: -60.3}
+    label: Berengaria VII
+    coordinates:
+      x: -21.4
+      y: -51.8
+      z: -60.3
   fractions:
   - federation
 Arbazan:
   Mandel:
-    label: "Arbazan"
-    coordinates: {x: -21.2, y: -74.1, z: null}
+    label: Arbazan
+    coordinates:
+      x: -21.2
+      y: -74.1
+      z: 
   fractions:
   - federation
 Aaamazzara:
   Mandel:
-    label: "Aaamazzara (Therbia, Epsilon Serpentis)"
+    label: Aaamazzara (Therbia, Epsilon Serpentis)
     parent-wd: Q3304261
     star: Epsilon Serpentis
-    coordinates: {x: -11.9, y: -51.4, z: null}
+    coordinates:
+      x: -11.9
+      y: -51.4
+      z: 
   fractions:
   - federation
 Unukalhai:
   Mandel:
-    label: "Unukalhai (Alpha Serpentis)"
+    label: Unukalhai (Alpha Serpentis)
     star: Alpha Serpentis
     parent-wd: Q1333626
-    coordinates: {x: -13, y: -51.3, z: null}
+    coordinates:
+      x: -13
+      y: -51.3
+      z: 
 Eta Serpentis:
   Mandel:
-    label: "Eta Serpentis"
-    coordinates: {x: -27.8, y: -55.2, z: null}
-  Maynard: 
-    label: "Eta Serpentis"
-    coordinates: {x: 40.8, y: 61.6, z: 7.2}
+    label: Eta Serpentis
+    coordinates:
+      x: -27.8
+      y: -55.2
+      z: 
+  Maynard:
+    label: Eta Serpentis
+    coordinates:
+      x: 40.8
+      y: 61.6
+      z: 7.2
 Heathercrist:
   Mandel:
-    label: "Heathercrist"
-    coordinates: {x: -32.7, y: -74.7, z: null}
+    label: Heathercrist
+    coordinates:
+      x: -32.7
+      y: -74.7
+      z: 
   type: star
 Cestus III:
   wd: Q49263188
   Mandel:
-    label: "Cestus"
-    coordinates: {x: 81.295, y: 199.678, z: null}
+    label: Cestus
+    coordinates:
+      x: 81.295
+      y: 199.678
+      z: 
   Maynard:
-    label: "Cestus"
-    coordinates: {x: -44.2, y: -169.1, z: -113.9}
+    label: Cestus
+    coordinates:
+      x: -44.2
+      y: -169.1
+      z: -113.9
   fractions:
   - federation
 Betelgeuse II:
-  real: yes
+  real: true
   Mandel:
-    label: "Betelgeuse (Alpha Orionis)"
-    coordinates: {x: 155.816, y: 190.79, z: null}
+    label: Betelgeuse (Alpha Orionis)
+    coordinates:
+      x: 155.816
+      y: 190.79
+      z: 
   fractions:
   - federation
 Kazar:
   Mandel:
-    label: "Kazar"
-    coordinates: {x: -27.4, y: 94.4, z: null}
+    label: Kazar
+    coordinates:
+      x: -27.4
+      y: 94.4
+      z: 
 Japori II:
   Mandel:
-    label: "Japori (Beta Caeli)"
+    label: Japori (Beta Caeli)
     star: Beta Caeli
     parent-wd: Q3236154
-    coordinates: {x: 59, y: 34.6, z: null}
+    coordinates:
+      x: 59
+      y: 34.6
+      z: 
 Barolia:
   Mandel:
-    label: "Barolia (Wazn, Beta Columbae)"
+    label: Barolia (Wazn, Beta Columbae)
     star: Beta Columbae
     parent-wd: Q830856
-    coordinates: {x: 67.2, y: 37.1, z: null}
+    coordinates:
+      x: 67.2
+      y: 37.1
+      z: 
 Gamma Eridon:
   Mandel:
-    label: "Gamma Eridon"
-    coordinates: {x: 55.9, y: 82.1, z: null}
+    label: Gamma Eridon
+    coordinates:
+      x: 55.9
+      y: 82.1
+      z: 
   fractions:
   - klingon
 Cait:
   Mandel:
-    label: "Cait (15 Lyncis)"
-    coordinates: {x: -57.894, y: 147.369, z: null}
+    label: Cait (15 Lyncis)
+    coordinates:
+      x: -57.894
+      y: 147.369
+      z: 
   Johnson:
-    label: "Cait"
-    coordinates: {x: 41.9, y: -228.3, z: -12.6}
+    label: Cait
+    coordinates:
+      x: 41.9
+      y: -228.3
+      z: -12.6
   fractions:
   - federation
 Pacifica:
   Mandel:
-    label: "Pacifica"
-    coordinates: {x: -39.474, y: 197.368, z: null}
+    label: Pacifica
+    coordinates:
+      x: -39.474
+      y: 197.368
+      z: 
   fractions:
   - federation
 Loval:
   Mandel:
-    label: "Loval"
-    coordinates: {x: -55.8, y: 46.3, z: null}
+    label: Loval
+    coordinates:
+      x: -55.8
+      y: 46.3
+      z: 
   fractions:
   - cardassian
 Almatha:
   Mandel:
-    label: "Almatha"
-    coordinates: {x: -52.7, y: 50.9, z: null}
+    label: Almatha
+    coordinates:
+      x: -52.7
+      y: 50.9
+      z: 
 Quatal Prime:
   Mandel:
-    label: "Quatal"
-    coordinates: {x: -37, y: 43.4, z: null}
+    label: Quatal
+    coordinates:
+      x: -37
+      y: 43.4
+      z: 
 Kotara Barath:
   Mandel:
-    label: "Kotara Barath (Kentare)"
-    coordinates: {x: -28.4, y: 47, z: null}
+    label: Kotara Barath (Kentare)
+    coordinates:
+      x: -28.4
+      y: 47
+      z: 
 Korma:
   Mandel:
-    label: "Korma"
-    coordinates: {x: -54.6, y: 41, z: null}
+    label: Korma
+    coordinates:
+      x: -54.6
+      y: 41
+      z: 
 Unefra III:
   Mandel:
-    label: "Unefra"
-    coordinates: {x: -94, y: 45.7, z: null}
+    label: Unefra
+    coordinates:
+      x: -94
+      y: 45.7
+      z: 
 Sarpedion V:
   Mandel:
-    label: "Sarpedion"
-    coordinates: {x: -86.3, y: 42.1, z: null}
+    label: Sarpedion
+    coordinates:
+      x: -86.3
+      y: 42.1
+      z: 
   fractions:
   - cardassian
 Atbar Prime:
   Mandel:
-    label: "Atbar"
-    coordinates: {x: -76.8, y: 27.7, z: null}
+    label: Atbar
+    coordinates:
+      x: -76.8
+      y: 27.7
+      z: 
   fractions:
   - cardassian
 Septimus III:
   Mandel:
-    label: "Septimus"
-    coordinates: {x: -86.5, y: 21.8, z: null}
+    label: Septimus
+    coordinates:
+      x: -86.5
+      y: 21.8
+      z: 
   fractions:
   - cardassian
 Lazon II:
   Mandel:
-    label: "Lazon"
-    coordinates: {x: -96.8, y: 28, z: null}
+    label: Lazon
+    coordinates:
+      x: -96.8
+      y: 28
+      z: 
   fractions:
   - cardassian
 Kobheeria:
   Mandel:
-    label: "Kobheeria"
-    coordinates: {x: -99.8, y: 19.8, z: null}
+    label: Kobheeria
+    coordinates:
+      x: -99.8
+      y: 19.8
+      z: 
 Tammeron:
   Mandel:
-    label: "Tammeron"
-    coordinates: {x: -16.2, y: 64.3, z: null}
+    label: Tammeron
+    coordinates:
+      x: -16.2
+      y: 64.3
+      z: 
 H'atoria:
   Mandel:
-    label: "H'atoria"
-    coordinates: {x: 84.5, y: 41, z: null}
+    label: H'atoria
+    coordinates:
+      x: 84.5
+      y: 41
+      z: 
   fractions:
   - klingon
 Beta Thoridar:
   Mandel:
-    label: "Beta Thoridar"
-    coordinates: {x: 81.5, y: 42, z: null}
+    label: Beta Thoridar
+    coordinates:
+      x: 81.5
+      y: 42
+      z: 
   fractions:
   - klingon
 Morska:
   DIS:
-    label: "Morska"
-    coordinates: {x: 79.6, y: 56.2, z: null}
+    label: Morska
+    coordinates:
+      x: 79.6
+      y: 56.2
+      z: 
   Mandel:
-    coordinates: {x: 78.6, y: 57.2, z: null}
+    coordinates:
+      x: 78.6
+      y: 57.2
+      z: 
   fractions:
   - klingon
 Pheben V:
   DIS:
-    label: "Pheben"
-    coordinates: {x: 94, y: 43.6, z: null}
+    label: Pheben
+    coordinates:
+      x: 94
+      y: 43.6
+      z: 
   Mandel:
-    coordinates:  {x: 108, y: 43.6, z: null}
+    coordinates:
+      x: 108
+      y: 43.6
+      z: 
   fractions:
   - klingon
 K'T'Inga:
   DIS:
-    label: "K'T'Inga"
-    coordinates: {x: 94, y: 56.8, z: null}
+    label: K'T'Inga
+    coordinates:
+      x: 94
+      y: 56.8
+      z: 
   Mandel:
-    label: "K'T'Inga"
-    coordinates: {x: 116.5, y: 55.8, z: null}
+    label: K'T'Inga
+    coordinates:
+      x: 116.5
+      y: 55.8
+      z: 
   fractions:
   - klingon
   type: star
 Ramatis III:
   Mandel:
-    label: "Ramatis"
-    coordinates: {x: 67.7, y: 54.4, z: null}
+    label: Ramatis
+    coordinates:
+      x: 67.7
+      y: 54.4
+      z: 
   fractions:
   - federation
 Klothos:
   Mandel:
-    label: "Klothos"
-    coordinates: {x: 152.5, y: 117.5, z: null}
+    label: Klothos
+    coordinates:
+      x: 152.5
+      y: 117.5
+      z: 
 Epsilon Monocerotis:
   Mandel:
-    label: "Epsilon Monocerotis"
-    coordinates: {x: 55.3, y: 116.3, z: null}
+    label: Epsilon Monocerotis
+    coordinates:
+      x: 55.3
+      y: 116.3
+      z: 
   real: true
   interesting: false
   type: star
 Ty'Gokor:
   Mandel:
-    label: "Ty´Gokor"
-    coordinates: {x: 130.8, y: 99.1, z: null}
+    label: Ty´Gokor
+    coordinates:
+      x: 130.8
+      y: 99.1
+      z: 
   fractions:
   - klingon
 Ikalia:
   DIS:
-    label: "Ikalia"
-    coordinates: {x: 103.1, y: 74.8, z: null}
+    label: Ikalia
+    coordinates:
+      x: 103.1
+      y: 74.8
+      z: 
   Mandel:
-    label: "Ikalia"
-    coordinates: {x: 147.4, y: 86.1, z: null}
+    label: Ikalia
+    coordinates:
+      x: 147.4
+      y: 86.1
+      z: 
   fractions:
   - klingon
 Valt:
   present-in-work:
-    - Q7756695
+  - Q7756695
   Mandel:
-    label: "Valt"
-    coordinates: {x: 103, y: 68, z: null}
+    label: Valt
+    coordinates:
+      x: 103
+      y: 68
+      z: 
   fractions:
   - klingon
 Krios Prime:
   Mandel:
-    label: "Krios"
-    coordinates: {x: 103.3, y: 70.2, z: null}
+    label: Krios
+    coordinates:
+      x: 103.3
+      y: 70.2
+      z: 
   fractions:
   - klingon
 Tagra IV:
   Mandel:
-    label: "Tagra"
-    coordinates: {x: -18.9, y: 42.1, z: null}
+    label: Tagra
+    coordinates:
+      x: -18.9
+      y: 42.1
+      z: 
 Zalkon:
   Mandel:
-    label: "Zalkon"
-    coordinates: {x: 158.8, y: -96.8, z: null}
+    label: Zalkon
+    coordinates:
+      x: 158.8
+      y: -96.8
+      z: 
 Kessik IV:
   Shisma:
-    label: Kessik IV 
-    coordinates: {x: 29.384, y: 210.931, z: null}
+    label: Kessik IV
+    coordinates:
+      x: 29.384
+      y: 210.931
+      z: 
   Mandel:
-    label: "Kessik"
-    coordinates: {x: 29.384, y: 210.931, z: null}
+    label: Kessik
+    coordinates:
+      x: 29.384
+      y: 210.931
+      z: 
   fractions:
   - federation
 Bellatrix:
   Mandel:
-    label: "Bellatrix (Gamma Orionis)"
-    coordinates: {x: 68.054, y: 226.915, z: null}
+    label: Bellatrix (Gamma Orionis)
+    coordinates:
+      x: 68.054
+      y: 226.915
+      z: 
   type: star
-  real: yes
+  real: true
 FGC-82659:
   Mandel:
-    label: "FGC-82659"
-    coordinates: {x: 13.079, y: 251.8, z: null}
+    label: FGC-82659
+    coordinates:
+      x: 13.079
+      y: 251.8
+      z: 
   canon: false
   type: star
 Ventax II:
   Mandel:
-    label: "Ventax"
-    coordinates: {x: 7.217, y: 186.574, z: null}
+    label: Ventax
+    coordinates:
+      x: 7.217
+      y: 186.574
+      z: 
 Gamma Tauri IV:
   Mandel:
-    label: "Gamma Tauri"
+    label: Gamma Tauri
     parent-wd: Q1493218
     star: Gamma Tauri
-    coordinates: {x: -3.505, y: 142.58, z: null}
+    coordinates:
+      x: -3.505
+      y: 142.58
+      z: 
 Grazer:
   Mandel:
-    label: "Grazer"
-    coordinates: {x: -84.462, y: 105.239, z: null}
+    label: Grazer
+    coordinates:
+      x: -84.462
+      y: 105.239
+      z: 
   fractions:
   - federation
 Toh'Kaht:
   Mandel:
-    label: "Toh'Kaht"
-    coordinates: {x: 278.977, y: 136.732, z: null}
+    label: Toh'Kaht
+    coordinates:
+      x: 278.977
+      y: 136.732
+      z: 
 N'Yengoren:
   Mandel:
-    label: "N'Yengoren"
-    coordinates: {x: 175.639, y: 95.636, z: null}
+    label: N'Yengoren
+    coordinates:
+      x: 175.639
+      y: 95.636
+      z: 
 Bortas:
   Mandel:
-    label: "Bortas"
-    coordinates: {x: 196.187, y: 80.475, z: null}
+    label: Bortas
+    coordinates:
+      x: 196.187
+      y: 80.475
+      z: 
 Canopus:
   Mandel:
-    label: "Canopus"
-    coordinates: {x: 288.35, y: 44.765, z: null}
+    label: Canopus
+    coordinates:
+      x: 288.35
+      y: 44.765
+      z: 
   Maynard:
-    label: "Canopus"
-    star: "Alpha Carinae"
-    coordinates: {x: 15.4, y: 63.7, z: -20.7}
+    label: Canopus
+    star: Alpha Carinae
+    coordinates:
+      x: 15.4
+      y: 63.7
+      z: -20.7
   real: true
   type: star
 Delphi Ardu:
   Mandel:
-    label: "Delphi Ardu"
-    coordinates: {x: -7.987, y: 155.563, z: null}
+    label: Delphi Ardu
+    coordinates:
+      x: -7.987
+      y: 155.563
+      z: 
   real: true
   type: star
 Breen:
   Mandel:
-    label: "Breen"
-    coordinates: {x: -125.87, y: -31.079, z: null}
+    label: Breen
+    coordinates:
+      x: -125.87
+      y: -31.079
+      z: 
   sto:
-    label: "Breen"
-    coordinates: {x: -100.035 , y: -16.904, z: null}
+    label: Breen
+    coordinates:
+      x: -100.035
+      y: -16.904
+      z: 
 Aspet:
   type: star
   sto:
-    label: "Aspet"
-    coordinates: {x: -87.9 , y: -10.363, z: null}
+    label: Aspet
+    coordinates:
+      x: -87.9
+      y: -10.363
+      z: 
 Latroci:
   type: star
   sto:
-    label: "Latroci"
-    coordinates: {x: -98.209 , y: -4.2, z: null}
+    label: Latroci
+    coordinates:
+      x: -98.209
+      y: -4.2
+      z: 
 Mariah:
   type: star
   sto:
-    label: "Mariah"
-    coordinates: {x: -92.144, y: -9.8, z: null}
+    label: Mariah
+    coordinates:
+      x: -92.144
+      y: -9.8
+      z: 
 Vorenus:
   type: star
   sto:
-    label: "Vorenus"
-    coordinates: {x: -100.361, y: 11.5, z: null}
+    label: Vorenus
+    coordinates:
+      x: -100.361
+      y: 11.5
+      z: 
 Tiburon:
   Mandel:
-    label: "Tiburon (Omega Fornacis)"
+    label: Tiburon (Omega Fornacis)
     star: Omega Fornacis
     parent-wd: Q629292
-    coordinates: {x: 118.572, y: 133.358, z: null}
+    coordinates:
+      x: 118.572
+      y: 133.358
+      z: 
   Johnson:
-    label: "Tiburon"
-    coordinates: {x: -121.9, y: -207.4, z: 236.4}
+    label: Tiburon
+    coordinates:
+      x: -121.9
+      y: -207.4
+      z: 236.4
   Maynard:
-    label: "Tiburon"
+    label: Tiburon
     star: Omega Fornacis
     parent-wd: Q629292
-    coordinates: {x: -121.9, y: -207.4, z: 236.4}
+    coordinates:
+      x: -121.9
+      y: -207.4
+      z: 236.4
 Beta Renner:
   wd: Q55738952
   Mandel:
-    label: "Beta Renner (Antica, Selay)"
-    coordinates: {x: -266, y: 241, z: null}
+    label: Beta Renner (Antica, Selay)
+    coordinates:
+      x: -266
+      y: 241
+      z: 
 Verdanis:
   Mandel:
-    label: "Verdanis (Terratin, Beta Cephei)"
-    coordinates: {x: -566, y: 177, z: null}
+    label: Verdanis (Terratin, Beta Cephei)
+    coordinates:
+      x: -566
+      y: 177
+      z: 
 Tau Cygna V:
   wd: Q57033782
   Mandel:
-    label: "Tau Cygna"
-    coordinates: {x: -487, y: -40, z: null}
+    label: Tau Cygna
+    coordinates:
+      x: -487
+      y: -40
+      z: 
 Omicron Cephei:
   Mandel:
-    label: "Omicron Cephei"
-    coordinates: {x: -196, y: 88, z: null}
+    label: Omicron Cephei
+    coordinates:
+      x: -196
+      y: 88
+      z: 
   canon: false
   real: true
   interesting: false
   type: star
 Albired:
   Mandel:
-    label: "Albired (Beta Cygia Minor)"
-    coordinates: {x: -347.171, y: -185.885, z: null}
+    label: Albired (Beta Cygia Minor)
+    coordinates:
+      x: -347.171
+      y: -185.885
+      z: 
   canon: false
   real: true
   interesting: false
   type: star
 Enif:
   Mandel:
-    label: "Enif (Epsilon Pegasi)"
-    coordinates: {x: -534.799, y: -244.309, z: null}
+    label: Enif (Epsilon Pegasi)
+    coordinates:
+      x: -534.799
+      y: -244.309
+      z: 
   canon: false
   real: true
   interesting: false
   type: star
 Cerberus:
   Mandel:
-    label: "Cerberus (Eta Lupi)"
+    label: Cerberus (Eta Lupi)
     star: Eta Lupi
     parent-wd: Q3059192
-    coordinates: {x: 183.371, y: -462.277, z: null}
+    coordinates:
+      x: 183.371
+      y: -462.277
+      z: 
   canon: false
   real: true
   interesting: false
   type: star
 Denab:
   Mandel:
-    label: "Denab"
-    coordinates: {x: -344.19, y: -654.274, z: null}
+    label: Denab
+    coordinates:
+      x: -344.19
+      y: -654.274
+      z: 
   canon: false
   real: true
   interesting: false
   type: star
 Mintaka:
   Mandel:
-    label: "Mintaka (Delta Orionis)"
+    label: Mintaka (Delta Orionis)
     star: Delta Orionis
     parent-wd: Q680341
-    coordinates: {x: 357.805, y: 823.973, z: null}
+    coordinates:
+      x: 357.805
+      y: 823.973
+      z: 
 Rigel:
   wd: Q55724022
   Mandel:
-    label: "Rigel (Beta Orionis)"
+    label: Rigel (Beta Orionis)
     star: Beta Orionis
     parent-wd: Q12126
-    coordinates: {x: 348.024, y: 629.976, z: null}
+    coordinates:
+      x: 348.024
+      y: 629.976
+      z: 
   Maynard:
     label: Rigel
     parent-wd: Q12126
     star: Beta Orionis
-    coordinates: {x: -209.9, y: 7.7, z: -136}
+    coordinates:
+      x: -209.9
+      y: 7.7
+      z: -136
 Velara III:
   Mandel:
-    label: "Velara"
-    coordinates: {x: -82.357, y: 339.795, z: null}
+    label: Velara
+    coordinates:
+      x: -82.357
+      y: 339.795
+      z: 
   Johnson:
-    label: "Velara III"
-    coordinates: {x: 199.2, y: 18.4, z: 45.7}
+    label: Velara III
+    coordinates:
+      x: 199.2
+      y: 18.4
+      z: 45.7
 Typerias:
   type: star
   Mandel:
-    label: "Typerias"
+    label: Typerias
     star: Lamda Persei
-    coordinates: {x: -170.934, y: 312.973, z: null}
+    coordinates:
+      x: -170.934
+      y: 312.973
+      z: 
   Maynard:
-    label: "Typerias"
+    label: Typerias
     star: Lambda Persei
-    coordinates: {x: -286.2, y: -62.1, z: 171.6}
+    coordinates:
+      x: -286.2
+      y: -62.1
+      z: 171.6
 Marcos XII:
   Johnson:
-    label: "Marcos"
-    coordinates: {x: 26.9, y: 82.8, z: -2.2}
+    label: Marcos
+    coordinates:
+      x: 26.9
+      y: 82.8
+      z: -2.2
   Maynard:
-    label: "Marcos"
-    coordinates: {x: 26.9, y: 82.8, z: -2.2}
+    label: Marcos
+    coordinates:
+      x: 26.9
+      y: 82.8
+      z: -2.2
 Antos IV:
-  Maynard: 
-    label: "Antos IV"
-    coordinates: {x: 18.1, y: -20.4, z: -6.1}
+  Maynard:
+    label: Antos IV
+    coordinates:
+      x: 18.1
+      y: -20.4
+      z: -6.1
   Johnson:
-    label: "Antos IV"
-    coordinates: {x: 18.1, y: -20.4, z: -6.1}
+    label: Antos IV
+    coordinates:
+      x: 18.1
+      y: -20.4
+      z: -6.1
   sto:
     label: Antos
-    coordinates: {x: -78.761, y: -54.9, z: null}
+    coordinates:
+      x: -78.761
+      y: -54.9
+      z: 
 Catulla:
   Johnson:
-    label: "Catulla"
-    coordinates: {x: 277.6, y: -73.7, z: -13.9}
+    label: Catulla
+    coordinates:
+      x: 277.6
+      y: -73.7
+      z: -13.9
 Daran V:
   Johnson:
-    label: "Daran V"
-    coordinates: {x: -127.5, y: -139.2, z: -19.7}
+    label: Daran V
+    coordinates:
+      x: -127.5
+      y: -139.2
+      z: -19.7
 Aurelia:
   Johnson:
-    label: "Aurelia"
-    coordinates: {x: 176.7, y: 44.5, z: -63.3}
+    label: Aurelia
+    coordinates:
+      x: 176.7
+      y: 44.5
+      z: -63.3
 Mantilles:
   Johnson:
-    label: "Mantilles"
-    coordinates: {x: 245.5, y: 188.3, z: -56.1}
+    label: Mantilles
+    coordinates:
+      x: 245.5
+      y: 188.3
+      z: -56.1
 Medusa:
   wd: Q57033838
   Johnson:
-    label: "Medusa"
-    coordinates: {x: 27.2, y: 137.6, z: -41.3}
+    label: Medusa
+    coordinates:
+      x: 27.2
+      y: 137.6
+      z: -41.3
   Maynard:
-    label: "Medusa"
-    coordinates: {x: 27.2, y: 137.6, z: -41.3}
+    label: Medusa
+    coordinates:
+      x: 27.2
+      y: 137.6
+      z: -41.3
   fractions:
-    - federation
+  - federation
 Yonada:
   Johnson:
-    label: "Yonada"
-    coordinates: {x: -51.1, y: -93.6, z: -91.4}
+    label: Yonada
+    coordinates:
+      x: -51.1
+      y: -93.6
+      z: -91.4
 Bynaus:
   wd: Q55739216
   Johnson:
-    label: "Bynaus"
-    coordinates: {x: -296.4, y: 98.9, z: -46.3}
+    label: Bynaus
+    coordinates:
+      x: -296.4
+      y: 98.9
+      z: -46.3
 Phylos II:
   Johnson:
-    label: "Phylos II"
-    coordinates: {x: 306.5, y: -98.9, z: 187.4}
+    label: Phylos II
+    coordinates:
+      x: 306.5
+      y: -98.9
+      z: 187.4
 Mu Leonis II:
   Johnson:
-    label: "Mu Leonis II"
-    coordinates: {x: 8.5, y: 106.3, z: 9.8}
+    label: Mu Leonis II
+    coordinates:
+      x: 8.5
+      y: 106.3
+      z: 9.8
 Theta Kiokis II:
   Johnson:
-    label: "Theta Kiokis II"
-    coordinates: {x: -76.9, y: -145.9, z: -12.7}
+    label: Theta Kiokis II
+    coordinates:
+      x: -76.9
+      y: -145.9
+      z: -12.7
 Antares B III:
   Johnson:
-    label: "Antares B III"
-    coordinates: {x: 172.1, y: 118.9, z: -13.9}
+    label: Antares B III
+    coordinates:
+      x: 172.1
+      y: 118.9
+      z: -13.9
 Argo:
   Johnson:
-    label: "Argo"
-    coordinates: {x: 133.4, y: -45.5, z: 32.9}
+    label: Argo
+    coordinates:
+      x: 133.4
+      y: -45.5
+      z: 32.9
 Ornara III, IV:
   Johnson:
-    label: "Ornara III, IV"
-    coordinates: {x: 262.3, y: -43.2, z: -93.5}
+    label: Ornara III, IV
+    coordinates:
+      x: 262.3
+      y: -43.2
+      z: -93.5
 Dimorus IV:
   Maynard:
-    label: "Dimorus"
-    coordinates: {x: -26.7, y: -18.8, z: -27.9}
+    label: Dimorus
+    coordinates:
+      x: -26.7
+      y: -18.8
+      z: -27.9
   Johnson:
-    label: "Dimorus IV"
-    coordinates: {x: -26.7, y: -18.8, z: -27.9}
+    label: Dimorus IV
+    coordinates:
+      x: -26.7
+      y: -18.8
+      z: -27.9
 892-IV:
   wd: Q49225047
   Johnson:
-    label: "892-IV"
-    coordinates: {x: -132.1, y: -101.1, z: -56.7}
+    label: 892-IV
+    coordinates:
+      x: -132.1
+      y: -101.1
+      z: -56.7
+  Maynard:
+    label: UFC 892
+    coordinates:
+      x: -132.1
+      y: -101.1
+      z: -56.7
 Eminiar VII:
   Maynard:
-    label: "Eminiar"
-    coordinates: {x: -37, y: 222.3, z: 25.1}
+    label: Eminiar
+    coordinates:
+      x: -37
+      y: 222.3
+      z: 25.1
   Johnson:
-    label: "Eminiar III, VII"
-    coordinates: {x: -37, y: 222.3, z: 25.1}
+    label: Eminiar III, VII
+    coordinates:
+      x: -37
+      y: 222.3
+      z: 25.1
 Excalbia:
   Maynard:
-    label: "Excalbia"
-    coordinates: {x: -54.8, y: -157.7, z: -193.4}
+    label: Excalbia
+    coordinates:
+      x: -54.8
+      y: -157.7
+      z: -193.4
   Johnson:
-    label: "Excalbia I"
-    coordinates: {x: -54.8, y: -157.7, z: -193.4}
+    label: Excalbia I
+    coordinates:
+      x: -54.8
+      y: -157.7
+      z: -193.4
 Iotia:
   Johnson:
-    label: "Iotia"
-    coordinates: {x: -5.7, y: -144.2, z: -109.1}
+    label: Iotia
+    coordinates:
+      x: -5.7
+      y: -144.2
+      z: -109.1
 Janus VI:
   wd: Q48906622
   Johnson:
-    label: "Janus VI"
-    coordinates: {x: -123.8, y: -30.1, z: -15.8}
+    label: Janus VI
+    coordinates:
+      x: -123.8
+      y: -30.1
+      z: -15.8
   Maynard:
-    label: "Janus VI"
-    coordinates: {x: -123.8, y: -30.1, z: -15.8}
+    label: Janus VI
+    coordinates:
+      x: -123.8
+      y: -30.1
+      z: -15.8
 Lactra VII:
   Johnson:
-    label: "Lactra VII"
-    coordinates: {x: 264.7, y: 65.4, z: 98.1}
+    label: Lactra VII
+    coordinates:
+      x: 264.7
+      y: 65.4
+      z: 98.1
 M-113:
   wd: Q48891808
   Johnson:
-    label: "M-113"
-    coordinates: {x: -23.6, y: -81.9, z: 0.7}
-M24-Alpha II:
+    label: M-113
+    coordinates:
+      x: -23.6
+      y: -81.9
+      z: 0.7
+  Maynard:
+    label: UFC 113
+    coordinates:
+      x: -23.6
+      y: -81.9
+      z: 0.7
+Barsoom IV:
   Johnson:
-    label: "M24-Alpha II"
-    coordinates: {x: -85.5, y: -59.1, z: -75.8}
+    label: Barsoom 9 (IV)
+    coordinates:
+      x: -68.081 
+      y: -72.486
+      z: null
+Triskelion:
+  Johnson:
+    label: M24-Alpha II
+    coordinates:
+      x: -85.5
+      y: -59.1
+      z: -75.8
 Mudd:
   Johnson:
-    label: "Mudd"
-    coordinates: {x: -13.3, y: 225.1, z: -45.5}
+    label: Mudd
+    coordinates:
+      x: -13.3
+      y: 225.1
+      z: -45.5
   Maynard:
-    label: "Mudd"
-    coordinates: {x: -13.3, y: 225.1, z: -45.5}
+    label: Mudd
+    coordinates:
+      x: -13.3
+      y: 225.1
+      z: -45.5
 Tau Lacertae IX:
   Johnson:
-    label: "Tau Lacertae IX"
-    coordinates: {x: -421.3, y: -166.7, z: 67.7}
+    label: Tau Lacertae IX
+    coordinates:
+      x: -421.3
+      y: -166.7
+      z: 67.7
 Wrigley:
   wd: Q3570114
   Maynard:
     label: Wrigley´s Pleasure Planet
-    coordinates: {x: -20, y: -48.1, z: -.8}
+    coordinates:
+      x: -20
+      y: -48.1
+      z: -0.8
 Adhara:
   Maynard:
-    label: "Adhara"
-    star: "Epsilon Canaris"
-    coordinates: {x: -119, y: 105.3, z: -145.4}
+    label: Adhara
+    star: Epsilon Canaris
+    coordinates:
+      x: -119
+      y: 105.3
+      z: -145.4
   Mandel:
-    label: "Adhara (Epsilon Canaris)"
-    star: "Epsilon Canaris"
-    coordinates: {x: 374.531, y: 218.658, z: null}
-  real: yes
+    label: Adhara (Epsilon Canaris)
+    star: Epsilon Canaris
+    coordinates:
+      x: 374.531
+      y: 218.658
+      z: 
+  real: true
   type: star
 Alfa 117:
   wd: Q48891888
   Maynard:
-    label: "Alfa 117"
-    coordinates: {x: -36.3, y: -52.6, z: -56.7}
+    label: Alfa 117
+    coordinates:
+      x: -36.3
+      y: -52.6
+      z: -56.7
 Albireo:
   Maynard:
-    label: "Albireo"
-    star: "Beta Cygni"
-    coordinates: {x: 86.8, y: -67.4, z: -31.7}
+    label: Albireo
+    star: Beta Cygni
+    coordinates:
+      x: 86.8
+      y: -67.4
+      z: -31.7
   type: star
-  real: yes
+  real: true
 Taurus II:
   Maynard:
-    label: "Al Nath"
-    star: 'Beta Tauri'
-    coordinates: {x: -66.5, y: 47.4, z: 8.1}
+    label: Al Nath
+    star: Beta Tauri
+    coordinates:
+      x: -66.5
+      y: 47.4
+      z: 8.1
   Johnson:
-    label: "Taurus II"
-    coordinates: {x: -66.5, y: 47.4, z: 8.1}
+    label: Taurus II
+    coordinates:
+      x: -66.5
+      y: 47.4
+      z: 8.1
 Murasaki 312:
   Maynard:
     label: Murasaki 312
-    coordinates: {x: -66.5, y: 47.4, z: 8.1}
+    coordinates:
+      x: -66.5
+      y: 47.4
+      z: 8.1
   type: quasar
 Alpha Majoris I:
   Maynard:
-    label: "Alpha Majoris"
-    coordinates: {x: -154.5, y: -17.5, z: -71.6}
+    label: Alpha Majoris
+    coordinates:
+      x: -154.5
+      y: -17.5
+      z: -71.6
 Alpha Eridani II:
   Maynard:
-    label: "Alpha Proxima"
-    coordinates: {x: 142.4, y: -99.1, z: 42.1}
+    label: Alpha Proxima
+    coordinates:
+      x: 142.4
+      y: -99.1
+      z: 42.1
 Amerind:
   wd: Q49669200
   Maynard:
-    label: "Amerind"
-    coordinates: {x: -93.5, y: -157.6, z: -166.2}
+    label: Amerind
+    coordinates:
+      x: -93.5
+      y: -157.6
+      z: -166.2
 Ariannus:
   Maynard:
-    label: "Ariannus"
-    coordinates: {x: -30.7, y: 57.6, z: -20.4}
+    label: Ariannus
+    coordinates:
+      x: -30.7
+      y: 57.6
+      z: -20.4
 Arret:
-  Maynard: 
-    label: "Arret"
-    coordinates: {x: -36.1, y: -136.3, z: -98.5}
+  Maynard:
+    label: Arret
+    coordinates:
+      x: -36.1
+      y: -136.3
+      z: -98.5
 Benecia:
   Maynard:
-    label: "Benecia"
-    coordinates: {x: -.6, y: -59.7, z: -313}
+    label: Benecia 8 (III)
+    coordinates:
+      x: -0.6
+      y: -59.7
+      z: -313
 Sarpeidon:
   Maynard:
-    label: "Beta Niobe"
-    coordinates: {x: -73.1, y: -166.7, z: -210.1}
+    label: Beta Niobe
+    coordinates:
+      x: -73.1
+      y: -166.7
+      z: -210.1
   real: false
 Beta 6:
-  Maynard: 
-    label: "Beta 6"
-    coordinates: {x: -109.1, y: -106.3, z: -74.2}
+  Maynard:
+    label: Beta 6
+    coordinates:
+      x: -109.1
+      y: -106.3
+      z: -74.2
 Beta XII-A:
   Maynard:
-    label: "Beta XII-A"
-    coordinates: {x: -195, y: 61.7, z: 54.3}
-Camus:
+    label: Beta XII-A
+    coordinates:
+      x: -195
+      y: 61.7
+      z: 54.3
+Camus II:
   Maynard:
-    label: "Camus"
-    coordinates: {x: -55, y: -62.8, z: -360.2}
+    label: Camus 4 (II)
+    coordinates:
+      x: -55
+      y: -62.8
+      z: -360.2
 Cheleb:
   Maynard:
-    label: "Cheleb"
-    star: "Beta Ophiuchi"
-    coordinates: {x: 56.2, y: 65.7, z: 20.1}
+    label: Cheleb
+    star: Beta Ophiuchi
+    coordinates:
+      x: 56.2
+      y: 65.7
+      z: 20.1
 Delta Vega:
-  Maynard: 
-    label: "Delta Vega"
-    coordinates: {x: 140.7, y: 47.7, z: 187.8 }
+  Maynard:
+    label: Delta Vega
+    coordinates:
+      x: 140.7
+      y: 47.7
+      z: 187.8
 Elba:
   Maynard:
-    label: "Elba"
-    coordinates: {x: -18.3, y: -119.5, z: -7.1}
+    label: Elba
+    coordinates:
+      x: -18.3
+      y: -119.5
+      z: -7.1
 Exo-III:
   wd: Q48892171
   Maynard:
-    label: "Exo"
-    coordinates: {x: 52.2, y: 73.1, z: 70.6}
-  Shisma: 
+    label: Exo
+    coordinates:
+      x: 52.2
+      y: 73.1
+      z: 70.6
+  Shisma:
     label: Exo-III
-    coordinates: {x: 52.2, y: 73.1, z: 70.6}
+    coordinates:
+      x: 52.2
+      y: 73.1
+      z: 70.6
 Fabrina:
   Maynard:
-    label: "Fabrina"
-    coordinates: {x: -126.1, y: -144.7, z: -7.8}
+    label: Fabrina
+    coordinates:
+      x: -126.1
+      y: -144.7
+      z: -7.8
 Gamma 7:
   Maynard:
-    label: "Gamma 7"
-    coordinates: {x: 134.5, y: 176.7, z: 11.7}
+    label: Gamma 7
+    coordinates:
+      x: 134.5
+      y: 176.7
+      z: 11.7
 Gamma Vertis IV:
   Maynard:
-    label: "Gamma Vertis"
-    coordinates: {x: 26.8, y: 200.4, z: 7.8}
+    label: Gamma Vertis
+    coordinates:
+      x: 26.8
+      y: 200.4
+      z: 7.8
 Gideon:
   wd: Q57034012
   Maynard:
-    label: "Gideon"
-    star: "Delta Dorado"
-    coordinates: {x: 54.5, y: 42.7, z: -242.9}
+    label: Gideon
+    star: Delta Dorado
+    coordinates:
+      x: 54.5
+      y: 42.7
+      z: -242.9
   Johnson:
-    label: "Delta Dorado VII"
-    coordinates: {x: 54.5, y: 42.7, z: -242.9}
+    label: Delta Dorado VII
+    coordinates:
+      x: 54.5
+      y: 42.7
+      z: -242.9
+Ringworld:
+  Maynard:
+    label: Ringworld
+    coordinates:
+      x: -94.931
+      y: -176.349
+      z: null
+  type: megastructure
+  canon: false
+Kinkuthanza III:
+  canon: false
+  Maynard:
+    label: Kinkuthanza 8 (II, III)
+    coordinates:
+      x: -227.385 
+      y: -52.05 
+      z: null
+  fractions:
+    - klingon
+Maraville VIII:
+  canon: false
+  Maynard:
+    label: Maraville 10 (VIII)
+    coordinates:
+      x: -19.943
+      y: -3.777
+      z: null
+Arachne IV:
+  canon: false
+  Maynard:
+    label: Arachne 5 (IV)
+    coordinates:
+      x: -229.073
+      y: -6.101 
+      z: null
+  fractions:
+    - klingon
+Asimov II:
+  canon: false
+  Maynard:
+    label: Asimov 5 (II)
+    coordinates:
+      x: -30.305
+      y: -68.451 
+      z: null
+Cole IV:
+  canon: false
+  Maynard:
+    label: Cole's Star 5 (IV)
+    coordinates:
+      x: -25.066
+      y: -92.089 
+      z: null
+Winston II:
+  canon: false
+  Maynard:
+    label: Winston's Star 7 (II)
+    coordinates:
+      x: -32.951
+      y: -125.18
+      z: null
+Argona II:
+  canon: false
+  Maynard:
+    label: Argona 6 (II)
+    coordinates:
+      x: -27.484 
+      y: -78.524  
+      z: null
+Communication Relay Gamma 1:
+  Maynard:
+    label: Gamma 1
+    coordinates:
+      x: -98.04
+      y: -19.746
+      z: null
+  type: relay
+Communication Relay Gamma 2:
+  Maynard:
+    label: Gamma 2
+    coordinates:
+      x: -83.147
+      y: -55.818
+      z: null
+  type: relay
+Communication Relay Gamma 3:
+  Maynard:
+    label: Gamma 3
+    coordinates:
+      x: -55.625
+      y: -83.453 
+      z: null
+  type: relay
+Communication Relay Gamma 4:
+  Maynard:
+    label: Gamma 4
+    coordinates:
+      x: -18.721
+      y: -99.011 
+      z: null
+  type: relay
+Communication Relay Gamma 5:
+  Maynard:
+    label: Gamma 5
+    coordinates:
+      x: -195.948
+      y: -39.129
+      z: null
+  type: relay
+Communication Relay Gamma 6:
+  Maynard:
+    label: Gamma 6
+    coordinates:
+      x: -167.051
+      y: -111.744
+      z: null
+  type: relay
+Communication Relay Gamma 7:
+  Maynard:
+    label: Gamma 7
+    coordinates:
+      x: -112.243
+      y: -167.085
+      z: null
+  type: relay
+Communication Relay Gamma 8:
+  Maynard:
+    label: Gamma 8
+    coordinates:
+      x: -37.303
+      y: -197.688
+      z: null
+  type: relay
 Gothos:
   wd: Q48976428
   Maynard:
-    label: "Gothos"
-    coordinates: {x: -132.6, y: -125.7, z: -114.3}
+    label: Gothos
+    coordinates:
+      x: -132.6
+      y: -125.7
+      z: -114.3
+Star Desert:
+  Maynard:
+    type: void
+    outline: M642.493,557.044 C644.569,557.044 640.89,559.715 639.644,559.715 C638.398,559.715 636.439,560.249 634.302,559.893 C632.166,559.537 629.495,558.825 627.536,557.4 C625.578,555.976 621.661,555.264 620.058,556.866 C618.456,558.469 618.1,559.893 616.319,560.961 C614.539,562.03 608.129,562.03 606.527,561.496 C604.924,560.961 596.912,552.059 595.666,551.169 C594.419,550.278 587.831,550.991 586.229,549.922 C584.626,548.854 583.558,545.649 582.134,544.047 C580.709,542.444 573.231,541.02 571.807,537.281 C570.382,533.542 570.382,528.912 570.56,527.31 C570.739,525.707 569.848,524.283 569.848,522.503 C569.848,520.722 571.451,517.695 573.053,516.627 C574.656,515.559 575.368,513.244 574.656,510.039 C573.943,506.834 572.519,507.724 573.231,505.41 C573.943,503.095 575.368,500.246 575.368,498.466 C575.368,496.685 578.751,493.302 579.107,491.7 C579.463,490.098 579.641,483.154 580.175,481.551 C580.709,479.949 583.736,479.236 584.983,478.346 C586.229,477.456 586.229,474.785 588.544,474.429 C590.858,474.073 599.049,471.758 600.473,471.758 C601.897,471.758 604.212,474.251 604.924,474.251 C605.636,474.251 607.595,472.649 608.841,472.649 C610.088,472.649 616.854,471.58 619.168,472.471 C621.483,473.361 633.056,478.346 633.59,479.771 C634.124,481.195 635.015,485.468 637.329,487.605 C639.644,489.741 644.629,494.905 645.698,497.398 C646.766,499.89 652.285,511.463 651.929,513.956 C651.573,516.449 645.876,522.859 645.876,525.351 C645.876,527.844 649.259,542.8 648.19,546.183 C647.122,549.566 641.959,557.044 642.493,557.044 z
 Halka:
-  Maynard: 
-    label: "Halka"
-    coordinates: {x: -29.2, y: -137.3, z: -6.7}
+  Maynard:
+    label: Halka
+    coordinates:
+      x: -29.2
+      y: -137.3
+      z: -6.7
 Hanson's Planet:
-  Maynard: 
-    label: "Hanson´s Planet"
-    coordinates: {x: 188.8, y: 34.9, z: 12.6}
+  Maynard:
+    label: Hanson´s Planet
+    coordinates:
+      x: 188.8
+      y: 34.9
+      z: 12.6
 Ingraham:
   Maynard:
-    label: "Ingraham"
-    coordinates:  {x: 52, y: 39.9, z: 27.9 }
+    label: Ingraham
+    coordinates:
+      x: 52
+      y: 39.9
+      z: 27.9
 Kalandan Outpost Transit Station:
-  Shisma: 
-    label: "Kalandan Outpost Transit Station"
-    coordinates: {x: -552.51, y: 36.203, z: -34}
+  Shisma:
+    label: Kalandan Outpost Transit Station
+    coordinates:
+      x: -552.51
+      y: 36.203
+      z: -34
   type: station
 Kalandan Outpost:
-  Maynard: 
-    label: "Kalandan Outpost"
-    coordinates: {x: 12.8, y: 231.2, z: -34}
+  Maynard:
+    label: Kalandan Outpost
+    coordinates:
+      x: 12.8
+      y: 231.2
+      z: -34
 CNB:
   type: buoy
   Maynard:
     label: Central Navigation Beacon
-    coordinates: {x: 0, y: 0, z: 0}
+    coordinates:
+      x: 0
+      y: 0
+      z: 0
   Shisma:
     label: CNB-1
-    coordinates: {x: 22, y: -6.77, z: 0}
+    coordinates:
+      x: 22
+      y: -6.77
+      z: 0
 L-370:
   Maynard:
     label: L-370
-    coordinates: {x: -217.9, y: 7.2, z: 141.4}
+    coordinates:
+      x: -217.9
+      y: 7.2
+      z: 141.4
 L-374:
   Maynard:
     label: L-374
-    coordinates: {x: -215.7, y: 7.5, z: 139.5}
+    coordinates:
+      x: -215.7
+      y: 7.5
+      z: 139.5
 Lavinus:
   Maynard:
     label: Lavinus
-    coordinates: {x: 140.7, y: 11.1, z: -10.4}
+    coordinates:
+      x: 140.7
+      y: 11.1
+      z: -10.4
 M24-Alpha:
   Maynard:
     label: M24-Alpha
-    coordinates: {x: 85.5, y: -59.1, z: -75.8}
+    coordinates:
+      x: 85.5
+      y: -59.1
+      z: -75.8
 Makus III:
   Maynard:
     label: Makus
-    coordinates: {x: -8.6, y: 124.6, z: 32.5}
+    coordinates:
+      x: -8.6
+      y: 124.6
+      z: 32.5
   fractions:
-    - federation
-Manark:
-  Maynard: 
-    label: Manark
-    coordinates: {x: 53.1, y: 45.1, z: -12}
+  - federation
+Manark IV:
+  Maynard:
+    label: Manark 4 (IV)
+    coordinates:
+      x: 53.1
+      y: 45.1
+      z: -12
 Marcus:
   Maynard:
     label: Marcus
-    coordinates: {x: 42.5, y: -20.4, z: 10.6}
+    coordinates:
+      x: 42.5
+      y: -20.4
+      z: 10.6
 Melkot:
   wd: Q49643724
   Maynard:
     label: Melkot
-    coordinates: {x: -76.9, y: -145.9, z: -12.7}
+    coordinates:
+      x: -76.9
+      y: -145.9
+      z: -12.7
 Menkalina:
   Maynard:
     label: Menkalina
     star: Beta Aurigae
-    coordinates: {x: -1.4, y: 61.4, z: 9.1}
+    coordinates:
+      x: -1.4
+      y: 61.4
+      z: 9.1
 Midos V:
   wd: Q57034057
-  Maynard: 
+  Maynard:
     label: Midos
-    coordinates: {x: 42.2, y: 47.4, z: 96.9}
+    coordinates:
+      x: 42.2
+      y: 47.4
+      z: 96.9
   fractions:
-    - federation
+  - federation
 Minara:
   Maynard:
     label: Minara
-    coordinates: {x: -193.0, y: -87.1, z: -11.3}
+    coordinates:
+      x: -193
+      y: -87.1
+      z: -11.3
 Mira:
   wd: Q48906483
   Maynard:
     label: Mira
     star: Omicron Ceti
-    coordinates: {x: 7.9, y: 36.1, z: -8.9}
+    coordinates:
+      x: 7.9
+      y: 36.1
+      z: -8.9
 New Paris:
   Maynard:
     label: New Paris
-    coordinates: {x: -26.3, y: 200.6, z: -147.6}
+    coordinates:
+      x: -26.3
+      y: 200.6
+      z: -147.6
 Omega:
-  Maynard: 
+  Maynard:
     label: Omega
-    coordinates: {x: -88.4, y: 224.4, z: 2}
+    coordinates:
+      x: -88.4
+      y: 224.4
+      z: 2
 Omicron Delta:
   Maynard:
     label: Omicron Delta
-    coordinates: {x: -109.4, y: -6.7, z: -46.4}
+    coordinates:
+      x: -109.4
+      y: -6.7
+      z: -46.4
 Platonius:
   wd: Q48890865
   Maynard:
     label: Platonius
-    coordinates: {x: -116.8, y: -73.6, z: 65.6}
+    coordinates:
+      x: -116.8
+      y: -73.6
+      z: 65.6
 Psi 2000:
   wd: Q48891978
   Maynard:
     label: Psi 2000
-    coordinates: {x: 51.9, y: -15.1, z: -34.3}
+    coordinates:
+      x: 51.9
+      y: -15.1
+      z: -34.3
 Pyris:
-  Maynard: 
+  Maynard:
     label: Pyris
-    coordinates: {x: -1.6, y: -93.4, z: -2.6}
+    coordinates:
+      x: -1.6
+      y: -93.4
+      z: -2.6
 Sandara:
   Maynard:
     label: Sandara
-    coordinates: {x: -45.9, y: 147.7, z: 70.2}
+    coordinates:
+      x: -45.9
+      y: 147.7
+      z: 70.2
 Scalos:
   Maynard:
     label: Scalos
-    coordinates: {x: -70.1, y: -121.1, z: -183.2}
+    coordinates:
+      x: -70.1
+      y: -121.1
+      z: -183.2
 Sigma Iotia Ⅱ:
   wd: Q55313125
-  Maynard: 
+  Maynard:
     label: Sigma Iotia
-    coordinates: {x: -5.7, y: -144.2, z: -109.1}
+    coordinates:
+      x: -5.7
+      y: -144.2
+      z: -109.1
   Shisma:
     label: Sigma Iotia Ⅱ
-    coordinates: {x: -5.7, y: -144.2, z: -109.1}
+    coordinates:
+      x: -5.7
+      y: -144.2
+      z: -109.1
 Tarsus IV:
-  Maynard: 
+  Maynard:
     label: Tarsus
-    coordinates: {x: -76.5, y: 138.5, z: -27}
+    coordinates:
+      x: -76.5
+      y: 138.5
+      z: -27
 Thasus:
-  Maynard: 
+  Maynard:
     label: Thasus
-    coordinates: {x: 45.8, y: 59.0, z: -12.6}
+    coordinates:
+      x: 45.8
+      y: 59
+      z: -12.6
 Time Planet:
-  Maynard: 
+  Maynard:
     label: Time Planet
-    coordinates: {x: -10.4, y: -51.8, z: -212.9}
+    coordinates:
+      x: -10.4
+      y: -51.8
+      z: -212.9
   sto:
     label: Gateway
-    coordinates: {x: 75.999, y: 42.913, z: 0}
+    coordinates:
+      x: 75.999
+      y: 42.913
+      z: 0
   wd: Q55440409
 Tantalus V:
   wd: Q48976062
   Maynard:
     label: Tantalus
-    coordinates:  {x: -89.7, y: -11.7, z: -3.3}
-  Shisma: 
+    coordinates:
+      x: -89.7
+      y: -11.7
+      z: -3.3
+  Shisma:
     label: Tantalus Ⅴ
-    coordinates:  {x: -89.7, y: -11.7, z: -3.3}
+    coordinates:
+      x: -89.7
+      y: -11.7
+      z: -3.3
 Tycho:
-  Maynard: 
-    label: Tycho
-    coordinates:  {x: 61.8, y: 216.1, z: -13.4} 
-UFC113:
-  type: star
   Maynard:
-    label: UFC 113
-    coordinates: {x: -23.6, y: -81.9, z: .7}
+    label: Tycho
+    coordinates:
+      x: 61.8
+      y: 216.1
+      z: -13.4
 UFC611:
   type: star
   Maynard:
-    label: UFC 611 
-    coordinates: {x: 90.1, y: 71.9, z: -2.4}
-UFC892:
-  type: star
-  Maynard:
-    label: UFC 892 
-    coordinates: {x: -132.1, y: -101.1, z: -56.7}
-UFC347601:
-  type: star
-  Maynard:
-    label: UFC 347601 
-    coordinates: {x: -43.3, y: -103.5, z: -82.3}
+    label: UFC 611
+    coordinates:
+      x: 90.1
+      y: 71.9
+      z: -2.4
+
 Ursula:
-  Maynard: 
+  Maynard:
     label: Ursula
     star: Beta Vela
-    coordinates: {x: -68.4, y: 215.3, z: -335.6}
+    coordinates:
+      x: -68.4
+      y: 215.3
+      z: -335.6
 Tzenketh:
   sto:
     label: Tzenketh
-    coordinates: {x: -48.908, y: 13.907, z: null}
+    coordinates:
+      x: -48.908
+      y: 13.907
+      z: 
 Na'Kuhl:
   sto:
     label: Na'Kuhl
-    coordinates: {x: -56.303, y: 7.948, z: null}
+    coordinates:
+      x: -56.303
+      y: 7.948
+      z: 
 Ba'aja:
   sto:
     label: Ba'aja
-    coordinates: {x: 3.515, y: 89.839, z: null}
+    coordinates:
+      x: 3.515
+      y: 89.839
+      z: 
 Beytan:
-  sto: 
+  sto:
     label: Beytan
-    coordinates: {x: 14.516, y: 7.948, z: null }
+    coordinates:
+      x: 14.516
+      y: 7.948
+      z: 
   label: Beytan V
 Bhea:
   type: star
   sto:
     label: Bhea
-    coordinates: {x: 16.839, y: 12.5, z: null }
+    coordinates:
+      x: 16.839
+      y: 12.5
+      z: 
   fractions:
   - orion syndicate
 Badlads:
   sto:
     label: Badlads
-    coordinates: {x: -67.041, y: 23.606, z: 0}
+    coordinates:
+      x: -67.041
+      y: 23.606
+      z: 0
   DS9:
     label: Badlads
-    coordinates: {x: -64.73, y: 23.151, z: 0}
-    outline: M-65.06,16.145 C-63.829,16.145 -63.789,17.098 -63.75,18.091 C-63.71,19.083 -63.472,19.917 -62.558,20.354 C-61.645,20.791 -59.858,21.784 -59.699,23.094 C-59.54,24.405 -59.937,25.715 -60.295,25.794 C-60.652,25.874 -62.161,25.238 -62.638,25.755 C-63.114,26.271 -64.226,28.495 -65.298,28.495 C-66.018,28.495 -66.887,26.628 -67.244,26.152 C-67.602,25.675 -69.23,24.484 -69.23,22.935 C-69.23,21.387 -69.309,20.87 -68.316,20.314 C-67.324,19.758 -66.569,19.282 -66.569,18.289 C-66.569,17.296 -66.291,16.145 -65.06,16.145 z M-68.161,17.333 C-67.624,17.499 -67.792,17.347 -67.562,17.654 C-67.284,18.17 -67.959,18.766 -68.832,19.282 C-69.706,19.798 -69.231,20.989 -69.587,21.228 C-69.943,21.466 -70.659,21.625 -71.255,21.665 C-71.851,21.704 -72.93,24.156 -73.637,23.968 C-74.233,23.809 -74.154,23.571 -74.114,23.094 C-74.074,22.618 -73.439,22.816 -71.056,19.838 C-70.261,18.776 -69.371,17.88 -68.161,17.333 z M-59.684,16.124 C-58.959,16.107 -58.527,16.482 -58.031,16.939 C-56.999,17.971 -56.721,18.766 -56.88,19.282 C-57.039,19.798 -57.674,20.076 -58.468,20.116 C-59.063,20.146 -60.255,19.719 -60.573,19.004 C-60.89,18.289 -60.89,16.145 -60.176,16.145 L-59.684,16.124 z
+    coordinates:
+      x: -64.73
+      y: 23.151
+      z: 0
+    outline: M-65.06,16.145 C-63.829,16.145 -63.789,17.098 -63.75,18.091 C-63.71,19.083
+      -63.472,19.917 -62.558,20.354 C-61.645,20.791 -59.858,21.784 -59.699,23.094
+      C-59.54,24.405 -59.937,25.715 -60.295,25.794 C-60.652,25.874 -62.161,25.238
+      -62.638,25.755 C-63.114,26.271 -64.226,28.495 -65.298,28.495 C-66.018,28.495
+      -66.887,26.628 -67.244,26.152 C-67.602,25.675 -69.23,24.484 -69.23,22.935 C-69.23,21.387
+      -69.309,20.87 -68.316,20.314 C-67.324,19.758 -66.569,19.282 -66.569,18.289 C-66.569,17.296
+      -66.291,16.145 -65.06,16.145 z M-68.161,17.333 C-67.624,17.499 -67.792,17.347
+      -67.562,17.654 C-67.284,18.17 -67.959,18.766 -68.832,19.282 C-69.706,19.798
+      -69.231,20.989 -69.587,21.228 C-69.943,21.466 -70.659,21.625 -71.255,21.665
+      C-71.851,21.704 -72.93,24.156 -73.637,23.968 C-74.233,23.809 -74.154,23.571
+      -74.114,23.094 C-74.074,22.618 -73.439,22.816 -71.056,19.838 C-70.261,18.776
+      -69.371,17.88 -68.161,17.333 z M-59.684,16.124 C-58.959,16.107 -58.527,16.482
+      -58.031,16.939 C-56.999,17.971 -56.721,18.766 -56.88,19.282 C-57.039,19.798
+      -57.674,20.076 -58.468,20.116 C-59.063,20.146 -60.255,19.719 -60.573,19.004
+      C-60.89,18.289 -60.89,16.145 -60.176,16.145 L-59.684,16.124 z
 McAllister:
   Mandel:
     label: McAllister C-5 Nebula
-    coordinates: {x: -36.226, y: 50.3, z: 0}
-    outline: M-36.359,52.193 C-37.574,52.158 -37.591,51.627 -37.857,51.094 C-38.124,50.562 -37.891,50.295 -38.456,49.596 C-39.022,48.897 -39.289,48.731 -39.089,48.398 C-38.889,48.065 -37.491,48.598 -36.959,48.664 C-36.426,48.731 -35.161,48.298 -34.429,48.798 C-33.696,49.297 -34.129,50.628 -34.529,51.028 C-34.928,51.427 -35.194,52.226 -36.359,52.193 z
+    coordinates:
+      x: -36.226
+      y: 50.3
+      z: 0
+    outline: M-36.359,52.193 C-37.574,52.158 -37.591,51.627 -37.857,51.094 C-38.124,50.562
+      -37.891,50.295 -38.456,49.596 C-39.022,48.897 -39.289,48.731 -39.089,48.398
+      C-38.889,48.065 -37.491,48.598 -36.959,48.664 C-36.426,48.731 -35.161,48.298
+      -34.429,48.798 C-33.696,49.297 -34.129,50.628 -34.529,51.028 C-34.928,51.427
+      -35.194,52.226 -36.359,52.193 z
 Hugora Nebula:
   Mandel:
     label: Hugora Nebula
-    coordinates: {x: -52.768, y: 60.3, z: 0}
-    outline: M-53.601,60.969 C-53.898,60.021 -54.753,60.234 -54.753,59.817 C-54.753,59.401 -53.528,59.253 -53.405,58.641 C-53.283,58.028 -53.16,57.832 -52.204,58.028 C-51.249,58.224 -50.342,58.959 -50.734,59.278 C-51.126,59.597 -50.416,60.675 -50.636,60.773 C-50.857,60.871 -51.2,60.822 -51.42,61.042 C-51.641,61.263 -52.302,61.974 -52.719,61.974 C-53.136,61.974 -53.479,61.361 -53.601,60.969 z
+    coordinates:
+      x: -52.768
+      y: 60.3
+      z: 0
+    outline: M-53.601,60.969 C-53.898,60.021 -54.753,60.234 -54.753,59.817 C-54.753,59.401
+      -53.528,59.253 -53.405,58.641 C-53.283,58.028 -53.16,57.832 -52.204,58.028 C-51.249,58.224
+      -50.342,58.959 -50.734,59.278 C-51.126,59.597 -50.416,60.675 -50.636,60.773
+      C-50.857,60.871 -51.2,60.822 -51.42,61.042 C-51.641,61.263 -52.302,61.974 -52.719,61.974
+      C-53.136,61.974 -53.479,61.361 -53.601,60.969 z
 Tong Beak Nebula:
   Mandel:
     label: Tong Beak Nebula
-    coordinates: {x: -79.401, y: 51.8, z: 0}
-    outline: M-76.473,55.147 C-76.886,55.333 -77.677,54.692 -78.1,53.781 C-78.523,52.87 -78.685,52.382 -79.173,52.545 C-79.661,52.707 -80.702,54.496 -81.19,54.496 C-81.678,54.496 -82.231,54.132 -82.263,53.924 C-82.296,53.716 -80.8,52.87 -81.125,52.187 C-81.45,51.504 -83.467,50.658 -83.467,50.203 C-83.467,49.747 -83.044,49.552 -82.491,49.812 C-81.938,50.072 -81.938,50.625 -80.897,50.105 C-79.856,49.584 -79.596,50.528 -78.555,49.78 C-77.514,49.031 -76.441,48.413 -76.571,49.162 C-76.701,49.91 -77.417,50.886 -77.352,51.796 C-77.286,52.707 -75.823,54.854 -76.473,55.147 z
+    coordinates:
+      x: -79.401
+      y: 51.8
+      z: 0
+    outline: M-76.473,55.147 C-76.886,55.333 -77.677,54.692 -78.1,53.781 C-78.523,52.87
+      -78.685,52.382 -79.173,52.545 C-79.661,52.707 -80.702,54.496 -81.19,54.496 C-81.678,54.496
+      -82.231,54.132 -82.263,53.924 C-82.296,53.716 -80.8,52.87 -81.125,52.187 C-81.45,51.504
+      -83.467,50.658 -83.467,50.203 C-83.467,49.747 -83.044,49.552 -82.491,49.812
+      C-81.938,50.072 -81.938,50.625 -80.897,50.105 C-79.856,49.584 -79.596,50.528
+      -78.555,49.78 C-77.514,49.031 -76.441,48.413 -76.571,49.162 C-76.701,49.91 -77.417,50.886
+      -77.352,51.796 C-77.286,52.707 -75.823,54.854 -76.473,55.147 z
 Hydrae:
   Mandel:
-    outline: M81.581,95.811 C82.337,95.811 80.568,95.777 80.568,95.405 C80.568,95.034 80.635,94.662 80.365,94.358 C80.095,94.054 77.46,94.02 76.885,93.716 C76.311,93.412 76.108,92.23 76.514,92.196 C76.919,92.162 77.797,92.737 77.899,92.162 C78,91.588 77.561,91.284 77.561,91.047 C77.561,90.811 78.034,90.845 78.068,90.372 C78.102,89.899 77.966,89.595 78.743,89.426 C79.52,89.257 80.5,89.122 80.534,89.561 C80.568,90 80.77,90.237 81.581,90.27 C82.392,90.304 83.721,90.507 83.53,90.946 C83.338,91.385 83.064,92.095 83.53,92.365 C83.996,92.635 83.831,93.401 83.53,93.581 C83.473,93.615 82.966,94.291 83.338,94.527 C83.71,94.764 83.473,95.203 82.899,95.405 C82.324,95.608 81.48,95.811 81.581,95.811 z
+    outline: M81.581,95.811 C82.337,95.811 80.568,95.777 80.568,95.405 C80.568,95.034
+      80.635,94.662 80.365,94.358 C80.095,94.054 77.46,94.02 76.885,93.716 C76.311,93.412
+      76.108,92.23 76.514,92.196 C76.919,92.162 77.797,92.737 77.899,92.162 C78,91.588
+      77.561,91.284 77.561,91.047 C77.561,90.811 78.034,90.845 78.068,90.372 C78.102,89.899
+      77.966,89.595 78.743,89.426 C79.52,89.257 80.5,89.122 80.534,89.561 C80.568,90
+      80.77,90.237 81.581,90.27 C82.392,90.304 83.721,90.507 83.53,90.946 C83.338,91.385
+      83.064,92.095 83.53,92.365 C83.996,92.635 83.831,93.401 83.53,93.581 C83.473,93.615
+      82.966,94.291 83.338,94.527 C83.71,94.764 83.473,95.203 82.899,95.405 C82.324,95.608
+      81.48,95.811 81.581,95.811 z
 Briar Patch:
   type: nebula
   DIS:
     label: Briar Patch
-    coordinates: {x: 17.829, y: 50.445, z: 0}
-    outline: M19.488 55.036c-.255.237-.237.817-.672.516-.436-.301-.99-1.547-1.505-1.804-.514-.258-1.03.558-1.9.343-.87-.214-.87-.3-.87-.902 0-.601.751-.558 1.068-.601.317-.043 1.148.644 1.227-.043.079-.687 0-1.289-.317-1.504-.316-.214-1.029-.171-1.345-.386-.317-.215-.04-1.031-.238-1.246-.198-.215-.752-.344-1.108.172-.357.515-.515.902-.99.859-.475-.043-.874-.84-.874-1.214s.817-1.339 1.543-1.438c.725-.098 2.104-.079 3.23.532 1.125.61 1.542 1.024 2.649.984 1.107-.039 1.27-.196 1.47.434.199.63.217 1.831 1.143 2.363.925.531 1.524.295 1.76.157.236-.138.835-.295.926.611.09.905-.127 1.043-.309 1.043-.181 0-.599-.374-.907-.374-.309 0-1.035.866-1.325 1.122-.29.256-.599.394-1.161.355-.563-.04-1.283-.174-1.495.021z
+    coordinates:
+      x: 17.829
+      y: 50.445
+      z: 0
+    outline: M19.488 55.036c-.255.237-.237.817-.672.516-.436-.301-.99-1.547-1.505-1.804-.514-.258-1.03.558-1.9.343-.87-.214-.87-.3-.87-.902
+      0-.601.751-.558 1.068-.601.317-.043 1.148.644 1.227-.043.079-.687 0-1.289-.317-1.504-.316-.214-1.029-.171-1.345-.386-.317-.215-.04-1.031-.238-1.246-.198-.215-.752-.344-1.108.172-.357.515-.515.902-.99.859-.475-.043-.874-.84-.874-1.214s.817-1.339
+      1.543-1.438c.725-.098 2.104-.079 3.23.532 1.125.61 1.542 1.024 2.649.984 1.107-.039
+      1.27-.196 1.47.434.199.63.217 1.831 1.143 2.363.925.531 1.524.295 1.76.157.236-.138.835-.295.926.611.09.905-.127
+      1.043-.309 1.043-.181 0-.599-.374-.907-.374-.309 0-1.035.866-1.325 1.122-.29.256-.599.394-1.161.355-.563-.04-1.283-.174-1.495.021z
 Gon'Cra Nebula:
   type: nebula
   sto:
     label: Gon'Cra Nebula
-    coordinates: {x: -96.03, y: -67.529, z: 0}
-    outline: M-94.432,-65.347 C-94.742,-64.666 -95.81,-65.52 -97.015,-65.405 C-98.221,-65.29 -99.369,-64.314 -100.459,-64.888 C-101.55,-65.462 -99.713,-66.725 -99.828,-67.299 C-99.943,-67.873 -100.402,-70.284 -99.598,-69.653 C-98.795,-69.021 -98.048,-69.366 -97.647,-70.054 C-97.245,-70.743 -96.843,-71.26 -95.81,-71.26 C-94.776,-71.26 -92.94,-70.973 -92.94,-70.054 C-92.94,-69.136 -94.891,-67.816 -94.891,-67.299 C-94.891,-66.783 -94.145,-65.979 -94.432,-65.347 z
+    coordinates:
+      x: -96.03
+      y: -67.529
+      z: 0
+    outline: M-94.432,-65.347 C-94.742,-64.666 -95.81,-65.52 -97.015,-65.405 C-98.221,-65.29
+      -99.369,-64.314 -100.459,-64.888 C-101.55,-65.462 -99.713,-66.725 -99.828,-67.299
+      C-99.943,-67.873 -100.402,-70.284 -99.598,-69.653 C-98.795,-69.021 -98.048,-69.366
+      -97.647,-70.054 C-97.245,-70.743 -96.843,-71.26 -95.81,-71.26 C-94.776,-71.26
+      -92.94,-70.973 -92.94,-70.054 C-92.94,-69.136 -94.891,-67.816 -94.891,-67.299
+      C-94.891,-66.783 -94.145,-65.979 -94.432,-65.347 z
 Gon'Cra II:
   sto:
-    label: Gon'Cra 
-    coordinates: {x: -89.036, y: -73.5, z: 0}
+    label: Gon'Cra
+    coordinates:
+      x: -89.036
+      y: -73.5
+      z: 0
 Khufano:
   sto:
     label: Jod'Cor
-    coordinates: {x: -74.058, y: -47.3, z: 0}
+    coordinates:
+      x: -74.058
+      y: -47.3
+      z: 0
 Hromi Cluster:
   type: cluster
   DIS:
     label: Hromi Cluster
-    coordinates: {x: 60.247, y: 47.511, z: 0}
-    outline: M56.598 50.739c-.647-.726-.614-1.369-.477-1.85.136-.481.102-.629-.171-.74-.273-.111-1.329-.592-2.182-.777-.852-.185-1.704-.259-1.773-.74-.068-.481 1.126-1.48 1.91-1.517.784-.037 1.432-.148 1.772.074.341.222.989.296 1.739.259.75-.037 1.364-.481 1.875.185.512.666.58 1.441.921 1.776.341.335.886-.185 1.159-.185s1.295.481 1.295 1.48-.477 2.072-1.329 2.627c-.852.554-1.671.813-2.557.776-.886-.037-1.159-.222-2.182-1.368z
-
+    coordinates:
+      x: 60.247
+      y: 47.511
+      z: 0
+    outline: M56.598 50.739c-.647-.726-.614-1.369-.477-1.85.136-.481.102-.629-.171-.74-.273-.111-1.329-.592-2.182-.777-.852-.185-1.704-.259-1.773-.74-.068-.481
+      1.126-1.48 1.91-1.517.784-.037 1.432-.148 1.772.074.341.222.989.296 1.739.259.75-.037
+      1.364-.481 1.875.185.512.666.58 1.441.921 1.776.341.335.886-.185 1.159-.185s1.295.481
+      1.295 1.48-.477 2.072-1.329 2.627c-.852.554-1.671.813-2.557.776-.886-.037-1.159-.222-2.182-1.368z
 Typhon Expanse:
   type: expanse
   Mandel:
     label: Typhon Expanse
-    coordinates: {x: 37.841, y: -81, z: 0}
-    outline: M29.657,-79.159 C30.325,-77.74 28.926,-75.911 30.144,-74.855 C31.362,-73.799 33.879,-74.287 35.585,-72.987 C37.29,-71.688 37.128,-69.82 38.508,-70.145 C39.889,-70.47 38.021,-72.744 39.401,-74.205 C40.782,-75.667 42.325,-75.83 44.274,-75.748 C46.223,-75.667 48.902,-75.099 50.039,-76.479 C51.176,-77.86 49.958,-80.54 48.74,-80.702 C47.522,-80.864 45.979,-79.403 44.923,-79.727 C43.868,-80.052 43.543,-80.783 43.624,-81.514 C43.705,-82.245 45.005,-81.92 45.086,-82.732 C45.167,-83.544 43.787,-83.788 43.787,-84.194 C43.787,-84.6 45.817,-85.331 46.872,-85.331 C47.928,-85.331 50.527,-85.249 51.014,-86.143 C51.501,-87.036 49.796,-88.01 48.821,-87.929 C47.847,-87.848 45.248,-87.117 43.949,-87.686 C42.65,-88.254 41.675,-88.741 41.594,-89.472 C41.513,-90.203 39.726,-90.771 37.371,-90.365 C35.016,-89.959 32.255,-88.66 32.499,-88.01 C32.743,-87.361 35.016,-85.493 34.285,-85.006 C33.555,-84.519 31.768,-86.224 30.875,-86.143 C29.982,-86.061 27.545,-84.843 27.545,-83.057 C27.545,-81.27 29.007,-80.54 29.657,-79.159 z
-
+    coordinates:
+      x: 37.841
+      y: -81
+      z: 0
+    outline: M29.657,-79.159 C30.325,-77.74 28.926,-75.911 30.144,-74.855 C31.362,-73.799
+      33.879,-74.287 35.585,-72.987 C37.29,-71.688 37.128,-69.82 38.508,-70.145 C39.889,-70.47
+      38.021,-72.744 39.401,-74.205 C40.782,-75.667 42.325,-75.83 44.274,-75.748 C46.223,-75.667
+      48.902,-75.099 50.039,-76.479 C51.176,-77.86 49.958,-80.54 48.74,-80.702 C47.522,-80.864
+      45.979,-79.403 44.923,-79.727 C43.868,-80.052 43.543,-80.783 43.624,-81.514
+      C43.705,-82.245 45.005,-81.92 45.086,-82.732 C45.167,-83.544 43.787,-83.788
+      43.787,-84.194 C43.787,-84.6 45.817,-85.331 46.872,-85.331 C47.928,-85.331 50.527,-85.249
+      51.014,-86.143 C51.501,-87.036 49.796,-88.01 48.821,-87.929 C47.847,-87.848
+      45.248,-87.117 43.949,-87.686 C42.65,-88.254 41.675,-88.741 41.594,-89.472 C41.513,-90.203
+      39.726,-90.771 37.371,-90.365 C35.016,-89.959 32.255,-88.66 32.499,-88.01 C32.743,-87.361
+      35.016,-85.493 34.285,-85.006 C33.555,-84.519 31.768,-86.224 30.875,-86.143
+      C29.982,-86.061 27.545,-84.843 27.545,-83.057 C27.545,-81.27 29.007,-80.54 29.657,-79.159
+      z
 Paulson Nebula:
   type: nebula
   DIS:
     label: Paulson Nebula
-    coordinates: {x: 57.274, y: 25.401, z: 0}
-    outline: M57.463 28.631c-.647-.814.055-1.012-.548-1.785-.603-.774-1.042-.834-1.864-.834-.823 0-1.179-.029-1.262-.565-.082-.535.028-.863.467-1.041.438-.179 1.069-.565 1.288-.863.219-.297.411-1.339.877-1.339.467 0 1.207.506 1.234.923.028.416-.329.743.302 1.309.63.565 1.809.981 2.001 2.172.192 1.19-.301 1.279-.74 1.725-.439.446-1.234.952-1.755.298z
+    coordinates:
+      x: 57.274
+      y: 25.401
+      z: 0
+    outline: M57.463 28.631c-.647-.814.055-1.012-.548-1.785-.603-.774-1.042-.834-1.864-.834-.823
+      0-1.179-.029-1.262-.565-.082-.535.028-.863.467-1.041.438-.179 1.069-.565 1.288-.863.219-.297.411-1.339.877-1.339.467
+      0 1.207.506 1.234.923.028.416-.329.743.302 1.309.63.565 1.809.981 2.001 2.172.192
+      1.19-.301 1.279-.74 1.725-.439.446-1.234.952-1.755.298z
 Arachnid Nebula:
   Mandel:
     label: Arachnid Nebula
-    coordinates: {x: -10.349, y: 35.115, z: 0}
-    outline: M-7.52,39.614 C-8.036,40.09 -8.592,38.978 -8.592,38.621 C-8.592,38.263 -8.751,37.827 -9.068,37.866 C-9.386,37.906 -8.91,39.495 -9.307,39.495 C-9.704,39.495 -9.942,38.303 -10.379,38.184 C-10.816,38.065 -11.451,39.018 -12.007,39.018 C-12.563,39.018 -12.801,38.7 -12.325,38.462 C-11.848,38.224 -11.411,37.906 -11.451,37.35 C-11.491,36.794 -11.848,37.072 -12.603,36.715 C-13.357,36.357 -12.523,36 -12.801,35.563 C-13.079,35.126 -14.191,34.332 -13.357,34.372 C-12.523,34.412 -12.245,35.007 -11.769,34.491 C-11.292,33.975 -13.039,33.697 -13,33.26 C-12.96,32.823 -11.61,33.776 -11.57,33.26 C-11.53,32.744 -11.213,32.823 -10.895,33.26 C-10.577,33.697 -10.577,34.292 -10.299,34.173 C-10.021,34.054 -10.061,33.3 -9.744,33.3 C-9.426,33.3 -9.823,33.816 -9.267,33.816 C-8.711,33.816 -8.155,33.975 -8.115,34.65 C-8.076,35.325 -7.758,36.357 -6.686,36.556 C-5.614,36.754 -5.653,36.754 -5.733,37.152 C-5.812,37.549 -7.559,36.477 -8.076,37.231 C-8.592,37.986 -7.004,39.137 -7.52,39.614 z
+    coordinates:
+      x: -10.349
+      y: 35.115
+      z: 0
+    outline: M-7.52,39.614 C-8.036,40.09 -8.592,38.978 -8.592,38.621 C-8.592,38.263
+      -8.751,37.827 -9.068,37.866 C-9.386,37.906 -8.91,39.495 -9.307,39.495 C-9.704,39.495
+      -9.942,38.303 -10.379,38.184 C-10.816,38.065 -11.451,39.018 -12.007,39.018 C-12.563,39.018
+      -12.801,38.7 -12.325,38.462 C-11.848,38.224 -11.411,37.906 -11.451,37.35 C-11.491,36.794
+      -11.848,37.072 -12.603,36.715 C-13.357,36.357 -12.523,36 -12.801,35.563 C-13.079,35.126
+      -14.191,34.332 -13.357,34.372 C-12.523,34.412 -12.245,35.007 -11.769,34.491
+      C-11.292,33.975 -13.039,33.697 -13,33.26 C-12.96,32.823 -11.61,33.776 -11.57,33.26
+      C-11.53,32.744 -11.213,32.823 -10.895,33.26 C-10.577,33.697 -10.577,34.292 -10.299,34.173
+      C-10.021,34.054 -10.061,33.3 -9.744,33.3 C-9.426,33.3 -9.823,33.816 -9.267,33.816
+      C-8.711,33.816 -8.155,33.975 -8.115,34.65 C-8.076,35.325 -7.758,36.357 -6.686,36.556
+      C-5.614,36.754 -5.653,36.754 -5.733,37.152 C-5.812,37.549 -7.559,36.477 -8.076,37.231
+      C-8.592,37.986 -7.004,39.137 -7.52,39.614 z
 Delta Triangle:
   type: region
   Mandel:
     label: Delta Triangle
-    coordinates: {x: 40.098, y: 234.09, z: 0}
+    coordinates:
+      x: 40.098
+      y: 234.09
+      z: 0
     outline: M68.054,226.915 L13.079,251.8 L29.384,210.931 Z
 Lembatta Cluster:
   type: cluster
   Mandel:
     label: Lembatta Cluster
-    coordinates: {x: 21.863 , y: 163.799, z: null}
-    outline: M21.863,169.926 C19.884,169.926 19.372,168.927 18.6,167.462 C17.829,165.997 16.07,165.331 15.204,164.998 C14.339,164.665 14.272,163.666 15.471,162.734 C16.669,161.801 17.202,161.402 17.202,159.87 C17.202,158.339 18.6,157.539 19.666,157.872 C20.731,158.205 20.998,158.072 21.863,157.872 C22.729,157.673 23.994,156.674 25.526,156.94 C27.058,157.206 26.525,158.205 26.259,158.605 C25.992,159.004 25.792,159.67 26.925,160.27 C28.057,160.869 28.323,161.62 27.457,163.176 C26.592,164.731 27.324,165.331 27.191,166.463 C27.058,167.595 25.46,167.994 24.927,168.86 C24.394,169.726 23.129,169.926 21.863,169.926 z
+    coordinates:
+      x: 21.863
+      y: 163.799
+      z: 
+    outline: M21.863,169.926 C19.884,169.926 19.372,168.927 18.6,167.462 C17.829,165.997
+      16.07,165.331 15.204,164.998 C14.339,164.665 14.272,163.666 15.471,162.734 C16.669,161.801
+      17.202,161.402 17.202,159.87 C17.202,158.339 18.6,157.539 19.666,157.872 C20.731,158.205
+      20.998,158.072 21.863,157.872 C22.729,157.673 23.994,156.674 25.526,156.94 C27.058,157.206
+      26.525,158.205 26.259,158.605 C25.992,159.004 25.792,159.67 26.925,160.27 C28.057,160.869
+      28.323,161.62 27.457,163.176 C26.592,164.731 27.324,165.331 27.191,166.463 C27.058,167.595
+      25.46,167.994 24.927,168.86 C24.394,169.726 23.129,169.926 21.863,169.926 z
 Mutara:
   type: nebula
   Mandel:
     label: Mutara Nebula
-    coordinates: {x: 177.917, y: 293.173, z: null}
-    outline: M175.492,320.984 C167.19,321.838 157.582,321.283 151.9,316.199 C146.219,311.116 158.479,301.176 158.479,294.369 C158.479,287.562 154.592,282.921 157.582,278.328 C160.573,273.735 169.778,279.631 175.492,278.328 C181.207,277.024 181.506,260.577 187.188,260.577 C192.87,260.577 192.158,269.74 195.953,274.034 C199.748,278.328 202.346,288.986 199.15,291.977 C195.953,294.967 188.384,299.453 193.468,302.742 C198.552,306.032 203.336,310.218 200.645,313.508 C197.953,316.797 187.123,319.788 175.492,320.984 z
+    coordinates:
+      x: 177.917
+      y: 293.173
+      z: 
+    outline: M175.492,320.984 C167.19,321.838 157.582,321.283 151.9,316.199 C146.219,311.116
+      158.479,301.176 158.479,294.369 C158.479,287.562 154.592,282.921 157.582,278.328
+      C160.573,273.735 169.778,279.631 175.492,278.328 C181.207,277.024 181.506,260.577
+      187.188,260.577 C192.87,260.577 192.158,269.74 195.953,274.034 C199.748,278.328
+      202.346,288.986 199.15,291.977 C195.953,294.967 188.384,299.453 193.468,302.742
+      C198.552,306.032 203.336,310.218 200.645,313.508 C197.953,316.797 187.123,319.788
+      175.492,320.984 z
 Muliphen:
-  Mandel: 
+  Mandel:
     label: Muliphen (Gamma Canaris Majoris)
     star: Gamma Canaris Majoris
-    coordinates: {x: 305.612, y: 274.066, z: null}
+    coordinates:
+      x: 305.612
+      y: 274.066
+      z: 
 Binaries:
   Shisma:
     label: The Binaries
-    # Should be within 6 Light Years of Gamma Hydra
-    coordinates: {x: 80.775, y: -67.29, z: null}
+    coordinates:
+      x: 80.775
+      y: -67.29
+      z: 
   type: star
   fractions:
   - klingon
@@ -3356,159 +5656,268 @@ Pleiades:
   type: cluster
   Mandel:
     label: Pleiades Cluster
-    coordinates: {x: -86.247, y: 384.129, z: null}
-    outline: M-91.822,359.478 C-87.127,359.478 -75.389,360.946 -73.335,365.348 C-71.28,369.75 -76.269,376.793 -76.269,382.662 C-76.269,388.53 -77.443,397.824 -80.965,401.541 C-84.486,405.258 -87.714,407.312 -93.29,407.019 C-102.667,406.525 -103.267,401.542 -103.267,396.504 C-103.267,391.465 -93.29,387.064 -93.29,382.955 C-93.29,378.847 -92.703,373.271 -97.105,372.097 C-101.507,370.923 -107.669,368.869 -107.669,365.935 C-107.669,363 -102.68,361.533 -97.692,363.88 C-92.703,366.228 -96.518,359.478 -91.822,359.478 z M-110.376,377.217 C-111.939,377.243 -116.209,376.91 -116.766,379.14 C-116.766,381.488 -114.419,388.53 -110.604,388.53 C-102.99,388.53 -103.561,380.607 -105.908,378.553 C-107.257,377.605 -108.728,377.37 -110.376,377.217 z
+    coordinates:
+      x: -86.247
+      y: 384.129
+      z: 
+    outline: M-91.822,359.478 C-87.127,359.478 -75.389,360.946 -73.335,365.348 C-71.28,369.75
+      -76.269,376.793 -76.269,382.662 C-76.269,388.53 -77.443,397.824 -80.965,401.541
+      C-84.486,405.258 -87.714,407.312 -93.29,407.019 C-102.667,406.525 -103.267,401.542
+      -103.267,396.504 C-103.267,391.465 -93.29,387.064 -93.29,382.955 C-93.29,378.847
+      -92.703,373.271 -97.105,372.097 C-101.507,370.923 -107.669,368.869 -107.669,365.935
+      C-107.669,363 -102.68,361.533 -97.692,363.88 C-92.703,366.228 -96.518,359.478
+      -91.822,359.478 z M-110.376,377.217 C-111.939,377.243 -116.209,376.91 -116.766,379.14
+      C-116.766,381.488 -114.419,388.53 -110.604,388.53 C-102.99,388.53 -103.561,380.607
+      -105.908,378.553 C-107.257,377.605 -108.728,377.37 -110.376,377.217 z
 Azure:
-  Mandel: 
+  Mandel:
     label: Anzure Nebula
-    coordinates: {x: 80.536, y: 37.914}
-    outline: M81.645,40.002 C80.922,40.055 80.601,39.447 79.883,39.447 C79.166,39.447 78.481,39.871 78.089,39.447 C77.698,39.023 78.383,39.023 78.383,38.306 C78.383,37.588 77.926,37.555 77.861,37.294 C77.796,37.033 77.991,36.349 78.187,36.218 C78.383,36.088 78.579,36.283 79.166,36.512 C79.753,36.74 80.307,36.577 80.568,36.055 C80.829,35.533 80.974,34.913 81.971,35.011 C82.968,35.109 83.178,35.598 82.754,36.609 C82.33,37.621 83.243,38.599 83.21,39.023 C83.178,39.447 82.525,39.936 81.645,40.002 z
+    coordinates:
+      x: 80.536
+      y: 37.914
+    outline: M81.645,40.002 C80.922,40.055 80.601,39.447 79.883,39.447 C79.166,39.447
+      78.481,39.871 78.089,39.447 C77.698,39.023 78.383,39.023 78.383,38.306 C78.383,37.588
+      77.926,37.555 77.861,37.294 C77.796,37.033 77.991,36.349 78.187,36.218 C78.383,36.088
+      78.579,36.283 79.166,36.512 C79.753,36.74 80.307,36.577 80.568,36.055 C80.829,35.533
+      80.974,34.913 81.971,35.011 C82.968,35.109 83.178,35.598 82.754,36.609 C82.33,37.621
+      83.243,38.599 83.21,39.023 C83.178,39.447 82.525,39.936 81.645,40.002 z
 Adelphous:
-  Mandel: 
+  Mandel:
     label: Adelphous
-    coordinates: {x: 75.121, y: 32.108, z: null}
+    coordinates:
+      x: 75.121
+      y: 32.108
+      z: 
 Delta Volanis:
   type: cluster
   sto:
     label: Delta Volanis Cluster
-    coordinates: {x: -0.637, y: 16.812 }
-    outline: M-1.092,18.672 C-2.084,18.672 -2.993,19.251 -3.944,19.044 C-4.895,18.837 -4.564,17.432 -3.861,17.101 C-3.159,16.771 -2.911,16.436 -2.911,15.944 C-2.911,15.452 -2.043,14.787 -1.299,14.911 C-0.555,15.035 0.148,15.283 0.231,14.787 C0.313,14.291 0.522,13.34 1.678,13.423 C2.835,13.505 4.281,14.373 4.281,14.828 C4.281,15.283 2.256,15.985 2.421,16.523 C2.587,17.06 3.865,17.845 3.515,18.176 C3.165,18.507 2.115,19.292 1.057,19.333 C-0,19.375 -0.348,18.672 -1.092,18.672 z
+    coordinates:
+      x: -0.637
+      y: 16.812
+    outline: M-1.092,18.672 C-2.084,18.672 -2.993,19.251 -3.944,19.044 C-4.895,18.837
+      -4.564,17.432 -3.861,17.101 C-3.159,16.771 -2.911,16.436 -2.911,15.944 C-2.911,15.452
+      -2.043,14.787 -1.299,14.911 C-0.555,15.035 0.148,15.283 0.231,14.787 C0.313,14.291
+      0.522,13.34 1.678,13.423 C2.835,13.505 4.281,14.373 4.281,14.828 C4.281,15.283
+      2.256,15.985 2.421,16.523 C2.587,17.06 3.865,17.845 3.515,18.176 C3.165,18.507
+      2.115,19.292 1.057,19.333 C-0,19.375 -0.348,18.672 -1.092,18.672 z
 Khazan Cluster:
   type: cluster
-  sto: 
+  sto:
     label: Khazan Cluster
-    coordinates: {x: 57.93, y: -13.197 }
-    outline: M57.274,-11.595 C57.008,-12.262 56.195,-12.709 55.568,-12.918 C54.942,-13.127 54.385,-13.405 54.385,-13.962 C54.385,-14.519 55.967,-14.603 56.066,-15.099 C56.166,-15.595 56.661,-15.992 57.133,-15.992 C57.604,-15.992 57.728,-14.851 58.496,-14.851 C59.265,-14.851 59.687,-16.066 60.133,-16.066 C60.579,-16.066 61.596,-15.223 61.893,-14.777 C62.191,-14.33 62.786,-12.967 62.116,-12.57 C61.447,-12.173 60.703,-11.528 60.629,-11.305 C60.554,-11.082 60.062,-10.611 59.391,-10.611 C58.719,-10.611 57.564,-10.869 57.274,-11.595 z
+    coordinates:
+      x: 57.93
+      y: -13.197
+    outline: M57.274,-11.595 C57.008,-12.262 56.195,-12.709 55.568,-12.918 C54.942,-13.127
+      54.385,-13.405 54.385,-13.962 C54.385,-14.519 55.967,-14.603 56.066,-15.099
+      C56.166,-15.595 56.661,-15.992 57.133,-15.992 C57.604,-15.992 57.728,-14.851
+      58.496,-14.851 C59.265,-14.851 59.687,-16.066 60.133,-16.066 C60.579,-16.066
+      61.596,-15.223 61.893,-14.777 C62.191,-14.33 62.786,-12.967 62.116,-12.57 C61.447,-12.173
+      60.703,-11.528 60.629,-11.305 C60.554,-11.082 60.062,-10.611 59.391,-10.611
+      C58.719,-10.611 57.564,-10.869 57.274,-11.595 z
 NGC-863:
   type: anomaly
   sto:
     label: NGC 863
-    coordinates: {x: 29.525, y: -14.029, z: null} 
+    coordinates:
+      x: 29.525
+      y: -14.029
+      z: 
 Hobus:
   sto:
     label: Hobus
-    coordinates: {x: 34.517, y: -31.255, z: null}
+    coordinates:
+      x: 34.517
+      y: -31.255
+      z: 
   type: star
 Drozana:
   sto:
     label: Drozana
-    coordinates: {x: 28.523, y: 76.362, z: null}
+    coordinates:
+      x: 28.523
+      y: 76.362
+      z: 
   type: station
 Eridan Belt:
   type: region
   sto:
     label: Eridan Belt
-    outline: M2.508,-36.674 C1.82,-36.65 0.684,-36.915 0.546,-37.604 C0.408,-38.292 0.821,-39.084 0.546,-39.084 C0.271,-39.084 -0.168,-38.326 -0.637,-38.464 C-1.106,-38.602 -1.554,-39.428 -1.554,-40.151 C-1.554,-40.874 -0.959,-42.56 0,-42.939 C0.959,-43.318 0.856,-43.455 0.856,-44.11 C0.856,-44.764 1.261,-45.486 1.678,-45.762 C2.095,-46.037 2.921,-45.314 3.369,-44.798 C3.816,-44.282 4.677,-43.593 4.677,-43.008 C4.677,-42.423 3.515,-41.665 3.515,-41.218 C3.515,-40.77 4.677,-40.082 4.47,-38.843 C4.264,-37.604 3.506,-36.709 2.508,-36.674 z
-    coordinates: {x: 2.715, y: -40.013, z: null}
+    outline: M2.508,-36.674 C1.82,-36.65 0.684,-36.915 0.546,-37.604 C0.408,-38.292
+      0.821,-39.084 0.546,-39.084 C0.271,-39.084 -0.168,-38.326 -0.637,-38.464 C-1.106,-38.602
+      -1.554,-39.428 -1.554,-40.151 C-1.554,-40.874 -0.959,-42.56 0,-42.939 C0.959,-43.318
+      0.856,-43.455 0.856,-44.11 C0.856,-44.764 1.261,-45.486 1.678,-45.762 C2.095,-46.037
+      2.921,-45.314 3.369,-44.798 C3.816,-44.282 4.677,-43.593 4.677,-43.008 C4.677,-42.423
+      3.515,-41.665 3.515,-41.218 C3.515,-40.77 4.677,-40.082 4.47,-38.843 C4.264,-37.604
+      3.506,-36.709 2.508,-36.674 z
+    coordinates:
+      x: 2.715
+      y: -40.013
+      z: 
 Rhi III:
   sto:
     label: Rhi
-    coordinates: {x: 36.881, y: -8.878, z: null}
+    coordinates:
+      x: 36.881
+      y: -8.878
+      z: 
     fractions:
     - romulan
   Shisma:
     label: Rhi III
-    coordinates: {x: 36.881, y: -8.878, z: null}
+    coordinates:
+      x: 36.881
+      y: -8.878
+      z: 
 Crateris:
   sto:
     label: Crateris
-    coordinates: {x: 70.595, y: 36.924, z: null}
-
-
-
+    coordinates:
+      x: 70.595
+      y: 36.924
+      z: 
 Praetus:
   judgement rites:
     label: Praetus
-    coordinates: {y: 97.5, x: 131}
+    coordinates:
+      y: 97.5
+      x: 131
 Delphi:
   judgement rites:
     label: Delphi
-    coordinates: {y: 95, x: 113.5}
+    coordinates:
+      y: 95
+      x: 113.5
 Omega Corvus:
   judgement rites:
     label: Omega Corvus
-    coordinates: {y: 115, x: 68.5 }
+    coordinates:
+      y: 115
+      x: 68.5
 Symphony Alpha:
   judgement rites:
     label: Symphony Alpha
-    coordinates: {y: 78.5, x: 104}
+    coordinates:
+      y: 78.5
+      x: 104
 Epsilon Sierra:
   judgement rites:
     label: Epsilon Sierra
-    coordinates: {y: 48.5, x: 139}
+    coordinates:
+      y: 48.5
+      x: 139
 Zhraad:
   judgement rites:
     label: Zhraad
-    coordinates: {y: 19.5, x: 137.5}
+    coordinates:
+      y: 19.5
+      x: 137.5
 Borea IV:
   judgement rites:
     label: Borea IV
-    coordinates: {y: -18.5, x: 136.5 }
+    coordinates:
+      y: -18.5
+      x: 136.5
 Atabis:
   judgement rites:
     label: Atabis
-    coordinates: {y: -79, x: 141 }
-Klahmac: 
+    coordinates:
+      y: -79
+      x: 141
+Klahmac:
   judgement rites:
     label: Klahmac
-    coordinates: {y: -103.5, x: 132.5 }
+    coordinates:
+      y: -103.5
+      x: 132.5
 Stonrak:
-  judgement rites: 
+  judgement rites:
     label: Stonrak
-    coordinates: {y: -73, x: 127}
+    coordinates:
+      y: -73
+      x: 127
 Onyius II:
   judgement rites:
     label: Onyius II
-    coordinates: {y: 40, x: 82.5 }
+    coordinates:
+      y: 40
+      x: 82.5
 Espoir Station:
   judgement rites:
     label: Espoir Station
-    coordinates: {y: 4, x: 107.5 }
+    coordinates:
+      y: 4
+      x: 107.5
   type: station
 Saracles:
-  judgement rites: 
+  judgement rites:
     label: Saracles
-    coordinates: {y: -32, x: 105 }
+    coordinates:
+      y: -32
+      x: 105
 Beta Chimera:
-  judgement rites: 
+  judgement rites:
     label: Beta Chimera
-    coordinates: {y: -66.5, x: 75}
+    coordinates:
+      y: -66.5
+      x: 75
 Antares Rift:
   judgement rites:
     label: Antares Rift
-    coordinates: {y: -87.5, x: 100}
+    coordinates:
+      y: -87.5
+      x: 100
 Nova Altar:
-  judgement rites: 
+  judgement rites:
     label: Nova Altar
-    coordinates: {y: 54, x: 43.5}
+    coordinates:
+      y: 54
+      x: 43.5
 Diogenes:
   judgement rites:
     label: Diogenes
-    coordinates: {y: 16, x: 65}
+    coordinates:
+      y: 16
+      x: 65
 Lachian:
   wd: Q57034249
   judgement rites:
     label: Lachian
-    coordinates: {y: 8.5, x: 45}
+    coordinates:
+      y: 8.5
+      x: 45
 Balkos III:
   wd: Q57034256
   judgement rites:
     label: Balkos III
-    coordinates: {y: -36.5, x: 66.5}
+    coordinates:
+      y: -36.5
+      x: 66.5
 Alpha Nexus I:
   wd: Q57034260
   judgement rites:
-    label: Alpha Nexus I 
-    coordinates: {y: -91, x: 56}
-Genesis: 
+    label: Alpha Nexus I
+    coordinates:
+      y: -91
+      x: 56
+Genesis:
   wd: Q5890374
 Talax:
   wd: Q24229363
 Miri:
   wd: Q48976033
   Johnson:
-    label: "Onlies"
-    coordinates: {x: -43.3, y: -103.5, z: -82.3}
+    label: Onlies
+    coordinates:
+      x: -43.3
+      y: -103.5
+      z: -82.3
+  Maynard:
+    label: UFC 347601
+    coordinates:
+      x: -43.3
+      y: -103.5
+      z: -82.3
 Beta Omicron Delta Ⅲ:
   wd: Q48976200
 Omega Ⅳ:
@@ -3516,26 +5925,41 @@ Omega Ⅳ:
 Ekos:
   wd: Q49973947
   Johnson:
-    label: "M43-Alpha IV, V"
-    coordinates: {x: 72.8, y: -29.1, z: -68.7}
+    label: M43-Alpha IV, V
+    coordinates:
+      x: 72.8
+      y: -29.1
+      z: -68.7
   Maynard:
     label: M43-Alpha
-    coordinates: {x: 72.8, y: -29.1, z: -68.7}
+    coordinates:
+      x: 72.8
+      y: -29.1
+      z: -68.7
   Shisma:
-    label: "Ekos"
+    label: Ekos
 Tellar Prime:
   wd: Q3983044
   Mandel:
-    label: "Tellar (61 Cygni)"
-    coordinates: {x: -11.1, y: -1.4, z: null}
+    label: Tellar (61 Cygni)
+    coordinates:
+      x: -11.1
+      y: -1.4
+      z: 
   Johnson:
-    label: "Tellar Prime"
-    coordinates: {x: 25, y: 60.1, z: 2.6}
+    label: Tellar Prime
+    coordinates:
+      x: 25
+      y: 60.1
+      z: 2.6
   Maynard:
-    label: "Tellar"
+    label: Tellar
     star: 61 Cygni
     parent-wd: Q249302
-    coordinates: {x: 25, y: 60.1, z: 2.6}
+    coordinates:
+      x: 25
+      y: 60.1
+      z: 2.6
   fractions:
   - federation
 DS9:
@@ -3560,471 +5984,717 @@ Alpha Carinae V:
   parent-wd: Q12189
 Delta 1:
   Mandel:
-    label: "1"
-    coordinates: {x: 14.5, y: 121, z: null}
+    label: '1'
+    coordinates:
+      x: 14.5
+      y: 121
+      z: 
   type: post
 Delta 2:
   Mandel:
-    label: "2"
-    coordinates: {x: 16.538, y: 113, z: null}
+    label: '2'
+    coordinates:
+      x: 16.538
+      y: 113
+      z: 
   type: post
 Delta 3:
   Mandel:
-    label: "3"
-    coordinates: {x: 14.762, y: 105.43, z: null}
+    label: '3'
+    coordinates:
+      x: 14.762
+      y: 105.43
+      z: 
   type: post
 Delta 4:
   Mandel:
-    label: "4"
-    coordinates: {x: 10.8, y: 98.92, z: null}
+    label: '4'
+    coordinates:
+      x: 10.8
+      y: 98.92
+      z: 
   type: post
 Delta 5:
   Mandel:
-    label: "5"
-    coordinates: {x: 8.897, y: 92.736, z: null}
+    label: '5'
+    coordinates:
+      x: 8.897
+      y: 92.736
+      z: 
   type: post
 Delta 6:
   Mandel:
-    label: "6"
-    coordinates: {x: 9.381, y: 85.525, z: null}
+    label: '6'
+    coordinates:
+      x: 9.381
+      y: 85.525
+      z: 
   type: post
 38 Lyncis:
   Mandel:
-    label: "38 Lyncis"
-    coordinates: {x: 10.3, y: 86.8, z: null}
+    label: 38 Lyncis
+    coordinates:
+      x: 10.3
+      y: 86.8
+      z: 
   canon: false
   real: true
   type: star
 Delta 7:
   Mandel:
-    label: "7"
-    coordinates: {x: 13.07, y: 79.589, z: null}
+    label: '7'
+    coordinates:
+      x: 13.07
+      y: 79.589
+      z: 
   type: post
 Delta 8:
   Mandel:
-    label: "8"
-    coordinates: {x: 19.351, y: 75.83, z: null}
+    label: '8'
+    coordinates:
+      x: 19.351
+      y: 75.83
+      z: 
   type: post
 Delta 9:
   Mandel:
-    label: "9"
-    coordinates: {x: 25.62, y: 72.516, z: null}
+    label: '9'
+    coordinates:
+      x: 25.62
+      y: 72.516
+      z: 
   type: post
 Delta 10:
   Mandel:
-    label: "10"
-    coordinates: {x: 31.467, y: 69.318, z: null}
+    label: '10'
+    coordinates:
+      x: 31.467
+      y: 69.318
+      z: 
   type: post
 Delta 11:
   Mandel:
-    label: "11"
-    coordinates: {x: 36.572, y: 66.12 , z: null}
+    label: '11'
+    coordinates:
+      x: 36.572
+      y: 66.12
+      z: 
   type: post
 Epsilon 1:
   Mandel:
-    label: "1"
-    coordinates: {x: 43.03, y: 63.16, z: null}
+    label: '1'
+    coordinates:
+      x: 43.03
+      y: 63.16
+      z: 
   type: post
 Epsilon 3:
   Mandel:
-    label: "3"
-    coordinates: {x: 56.254, y: 62.491, z: null}
+    label: '3'
+    coordinates:
+      x: 56.254
+      y: 62.491
+      z: 
   type: post
 Epsilon 4:
   Mandel:
-    label: "4"
-    coordinates: {x: 62.836, y: 65.197, z: null}
+    label: '4'
+    coordinates:
+      x: 62.836
+      y: 65.197
+      z: 
   type: post
 Epsilon 5:
   Mandel:
-    label: "5"
-    coordinates: {x: 69.233, y: 66.304, z: null}
+    label: '5'
+    coordinates:
+      x: 69.233
+      y: 66.304
+      z: 
   type: post
 Epsilon 6:
   Mandel:
-    label: "6"
-    coordinates: {x: 74.401, y: 62.339, z: null}
+    label: '6'
+    coordinates:
+      x: 74.401
+      y: 62.339
+      z: 
   type: post
 Epsilon 7:
   Mandel:
-    label: "7"
-    coordinates: {x: 77.658, y: 55.755, z: null}
+    label: '7'
+    coordinates:
+      x: 77.658
+      y: 55.755
+      z: 
   type: post
 Epsilon 8:
   Mandel:
-    label: "8"
-    coordinates: {x: 76.66, y: 49, z: null}
+    label: '8'
+    coordinates:
+      x: 76.66
+      y: 49
+      z: 
   type: post
 Epsilon 9:
   Mandel:
-    label: "9"
-    coordinates: {x: 75.817 , y: 42.2, z: null}
+    label: '9'
+    coordinates:
+      x: 75.817
+      y: 42.2
+      z: 
   type: post
 Epsilon 10:
   Mandel:
-    label: "10"
-    coordinates: {x: 78.649 , y: 36, z: null}
+    label: '10'
+    coordinates:
+      x: 78.649
+      y: 36
+      z: 
   type: post
 Epsilon 11:
   Mandel:
-    label: "11"
-    coordinates: {x: 84.525 , y: 32.8, z: null}
+    label: '11'
+    coordinates:
+      x: 84.525
+      y: 32.8
+      z: 
   type: post
 Quebec I:
   Mandel:
-    label: "I"
-    coordinates: {x: 58.236, y: 14.92, z: null}
+    label: I
+    coordinates:
+      x: 58.236
+      y: 14.92
+      z: 
   type: post
 Quebec II:
   Mandel:
-    label: "II"
-    coordinates: {x: 54.991, y: 13.268, z: null}
+    label: II
+    coordinates:
+      x: 54.991
+      y: 13.268
+      z: 
   type: post
 Quebec III:
   Mandel:
-    label: "III"
-    coordinates: {x: 51.746 , y: 11.7, z: null}
+    label: III
+    coordinates:
+      x: 51.746
+      y: 11.7
+      z: 
   type: post
 Quebec IV:
   Mandel:
-    label: "IV"
-    coordinates: {x: 48.442  , y: 9.3, z: null}
+    label: IV
+    coordinates:
+      x: 48.442
+      y: 9.3
+      z: 
   type: post
 Quebec V:
   Mandel:
-    label: "V"
-    coordinates: {x: 45.61, y: 8.1, z: null}
+    label: V
+    coordinates:
+      x: 45.61
+      y: 8.1
+      z: 
   type: post
 Galorndon Core:
   Mandel:
-    label: "Galorndon Core"
-    coordinates: {x: 48.5, y: 11.1, z: null}
+    label: Galorndon Core
+    coordinates:
+      x: 48.5
+      y: 11.1
+      z: 
 Quebec VI:
   Mandel:
-    label: "VI"
-    coordinates: {x: 42.778, y: 5.9, z: null}
+    label: VI
+    coordinates:
+      x: 42.778
+      y: 5.9
+      z: 
   type: post
-
 Meridian:
   Mandel:
-    label: "Meridian"
-    coordinates: {x: 55.1, y: 16, z: null}
+    label: Meridian
+    coordinates:
+      x: 55.1
+      y: 16
+      z: 
 Romeo I:
   Mandel:
-    label: "I"
-    coordinates: {x: 39.533, y: 4.1, z: null}
+    label: I
+    coordinates:
+      x: 39.533
+      y: 4.1
+      z: 
   type: post
 Romeo II:
   Mandel:
-    label: "II"
-    coordinates: {x: 36.996, y: 2.1, z: null}
+    label: II
+    coordinates:
+      x: 36.996
+      y: 2.1
+      z: 
   type: post
 Romeo III:
   Mandel:
-    label: "III"
-    coordinates: {x: 33.633, y: .9, z: null}
+    label: III
+    coordinates:
+      x: 33.633
+      y: 0.9
+      z: 
   type: post
 Sierra I:
   Mandel:
-    label: "I"
-    coordinates: {x: 31.096, y: -2.248, z: null}
+    label: I
+    coordinates:
+      x: 31.096
+      y: -2.248
+      z: 
   type: post
 Sierra II:
   Mandel:
-    label: "II"
-    coordinates: {x: 29.031, y: 3.8, z: null}
+    label: II
+    coordinates:
+      x: 29.031
+      y: 3.8
+      z: 
   type: post
 Sierra III:
   Mandel:
-    label: "III"
-    coordinates: {x: 26.553, y: -7.8, z: null}
+    label: III
+    coordinates:
+      x: 26.553
+      y: -7.8
+      z: 
   type: post
 Sierra IV:
   Mandel:
-    label: "IV"
-    coordinates: {x: 22.98, y: -8.9, z: null}
+    label: IV
+    coordinates:
+      x: 22.98
+      y: -8.9
+      z: 
   type: post
 Sierra V:
   Mandel:
-    label: "V"
-    coordinates: {x: 22.574, y: -12.277, z: null}
+    label: V
+    coordinates:
+      x: 22.574
+      y: -12.277
+      z: 
   type: post
-
 Sierra VI:
   Mandel:
-    label: "VI"
-    coordinates: {x: 21.356, y: -15.4, z: null}
+    label: VI
+    coordinates:
+      x: 21.356
+      y: -15.4
+      z: 
   type: post
 Sierra VII:
   Mandel:
-    label: "VII"
-    coordinates: {x: 20.382, y: -18.692, z: null}
+    label: VII
+    coordinates:
+      x: 20.382
+      y: -18.692
+      z: 
   type: post
-
 Tango Sierra:
   Mandel:
-    label: "Science Station Tango Sierra"
-    coordinates: {x: 20.138, y: -20.88, z: null}
+    label: Science Station Tango Sierra
+    coordinates:
+      x: 20.138
+      y: -20.88
+      z: 
   type: station
-
 Tango I:
   Mandel:
-    label: "I"
-    coordinates: {x: 18.92, y: -23.4, z: null}
+    label: I
+    coordinates:
+      x: 18.92
+      y: -23.4
+      z: 
   type: post
-
 Gamma Pavonis:
   Mandel:
-    label: "Gamma Pavonis"
-    coordinates: {x: 12.7, y: -19.4, z: null}
+    label: Gamma Pavonis
+    coordinates:
+      x: 12.7
+      y: -19.4
+      z: 
   real: true
   interesting: false
   type: star
-
 Tango II:
   Mandel:
-    label: "II"
-    coordinates: {x: 17.702, y: -28.7, z: null}
+    label: II
+    coordinates:
+      x: 17.702
+      y: -28.7
+      z: 
   type: post
-
 Tango III:
   Mandel:
-    label: "III"
-    coordinates: {x: 17.783, y: -31.9, z: null}
+    label: III
+    coordinates:
+      x: 17.783
+      y: -31.9
+      z: 
   type: post
 Tango IV:
   Mandel:
-    label: "IV"
-    coordinates: {x: 16.565, y: -35.258, z: null}
+    label: IV
+    coordinates:
+      x: 16.565
+      y: -35.258
+      z: 
   type: post
-
 Earth 1:
   Mandel:
-    label: "I"
-    coordinates: {x: 16.24, y: -38.912, z: null}
+    label: I
+    coordinates:
+      x: 16.24
+      y: -38.912
+      z: 
   type: post
-
 Earth 2:
   Mandel:
-    label: "2"
-    coordinates: {x: 18.433, y: -40.6, z: null}
+    label: '2'
+    coordinates:
+      x: 18.433
+      y: -40.6
+      z: 
   type: post
-
 Earth 3:
   Mandel:
-    label: "3"
-    coordinates: {x: 19.732, y: -43.7, z: null}
+    label: '3'
+    coordinates:
+      x: 19.732
+      y: -43.7
+      z: 
   type: post
-
 Earth 4:
   Mandel:
-    label: "4"
-    coordinates: {x: 20.05, y: -47, z: null}
+    label: '4'
+    coordinates:
+      x: 20.05
+      y: -47
+      z: 
   type: post
-
 Mu Arae:
   Mandel:
-    label: "Mu Arae"
-    coordinates: {x: 16.7, y: -45.9, z: null}
-  real: yes
+    label: Mu Arae
+    coordinates:
+      x: 16.7
+      y: -45.9
+      z: 
+  real: true
   type: star
-
 Earth 5:
   Mandel:
-    label: "5"
-    coordinates: {x: 22.25, y: -49.7, z: null}
+    label: '5'
+    coordinates:
+      x: 22.25
+      y: -49.7
+      z: 
   type: post
-
 Earth 6:
   Mandel:
-    label: "6"
-    coordinates: {x: 24.443, y: -52.473, z: null}
+    label: '6'
+    coordinates:
+      x: 24.443
+      y: -52.473
+      z: 
   type: post
-
 Earth 7:
   Mandel:
-    label: "7"
-    coordinates: {x: 27.123, y: -54.747, z: null}
+    label: '7'
+    coordinates:
+      x: 27.123
+      y: -54.747
+      z: 
   type: post
-
 Earth 8:
   Mandel:
-    label: "8"
-    coordinates: {x: 29.884, y: -58, z: null}
+    label: '8'
+    coordinates:
+      x: 29.884
+      y: -58
+      z: 
   type: post
-
 Earth 9:
   Mandel:
-    label: "9"
-    coordinates: {x: 33.213, y: -59.5, z: null}
+    label: '9'
+    coordinates:
+      x: 33.213
+      y: -59.5
+      z: 
   type: post
-
 Earth 10:
   Mandel:
-    label: "10"
-    coordinates: {x: 36.786, y: -60.35, z: null}
+    label: '10'
+    coordinates:
+      x: 36.786
+      y: -60.35
+      z: 
   type: post
-
 Earth 11:
   Mandel:
-    label: "11"
-    coordinates: {x: 40.278, y: -61, z: null}
+    label: '11'
+    coordinates:
+      x: 40.278
+      y: -61
+      z: 
   type: post
-
-
 Earth 12:
   Mandel:
-    label: "12"
-    coordinates: {x: 43.689, y: -61.3, z: null}
+    label: '12'
+    coordinates:
+      x: 43.689
+      y: -61.3
+      z: 
   type: post
-
 Earth 13:
   Mandel:
-    label: "13"
-    coordinates: {x: 46.775, y: -61.5, z: null}
+    label: '13'
+    coordinates:
+      x: 46.775
+      y: -61.5
+      z: 
   type: post
 Earth 14:
   Mandel:
-    label: "14"
-    coordinates: {x: 50.023, y: -61.8, z: null}
+    label: '14'
+    coordinates:
+      x: 50.023
+      y: -61.8
+      z: 
   type: post
-
 Earth 15:
   Mandel:
-    label: "15"
-    coordinates: {x: 53.434, y: -60.5, z: null}
+    label: '15'
+    coordinates:
+      x: 53.434
+      y: -60.5
+      z: 
   type: post
-
 Earth 16:
   Mandel:
-    label: "16"
-    coordinates: {x: 57.169, y: -59.75, z: null}
+    label: '16'
+    coordinates:
+      x: 57.169
+      y: -59.75
+      z: 
   type: post
-
 Earth 17:
   Mandel:
-    label: "17"
-    coordinates: {x: 59.686, y: -59.3, z: null}
+    label: '17'
+    coordinates:
+      x: 59.686
+      y: -59.3
+      z: 
   type: post
-
 Earth 18:
   Mandel:
-    label: "18"
-    coordinates: {x: 62.609, y: -59.1, z: null}
+    label: '18'
+    coordinates:
+      x: 62.609
+      y: -59.1
+      z: 
   type: post
-
 Earth 19:
   Mandel:
-    label: "19"
-    coordinates: {x: 65.045, y: -57.3, z: null}
+    label: '19'
+    coordinates:
+      x: 65.045
+      y: -57.3
+      z: 
   type: post
-
 Earth 21:
   Mandel:
-    label: "21"
-    coordinates: {x: 67.887, y: -56.1, z: null}
+    label: '21'
+    coordinates:
+      x: 67.887
+      y: -56.1
+      z: 
   type: post
-
 Earth 22:
   Mandel:
-    label: "22"
-    coordinates: {x: 70.973, y: -54.26, z: null}
+    label: '22'
+    coordinates:
+      x: 70.973
+      y: -54.26
+      z: 
   type: post
-
 Earth 23:
   Mandel:
-    label: "23"
-    coordinates: {x: 74.14, y: -52.798, z: null}
+    label: '23'
+    coordinates:
+      x: 74.14
+      y: -52.798
+      z: 
   type: post
-
-
 Tarod IX:
   Mandel:
-    label: "Tarod"
-    coordinates: {x: 28.26, y: -59.6, z: null}
-
+    label: Tarod
+    coordinates:
+      x: 28.26
+      y: -59.6
+      z: 
 59 Eridani:
   Mandel:
-    label: "59 Eridani"
-    coordinates: {x: 65.844, y: 93.6, z: null}
+    label: 59 Eridani
+    coordinates:
+      x: 65.844
+      y: 93.6
+      z: 
     type: star
-
 Epsilon IV:
   Mandel:
-    label: "Epsilon Hydrae (Epsilon IV)"
-    coordinates: {x: 80.186, y: 91.226, z: null}
-
+    label: Epsilon Hydrae (Epsilon IV)
+    coordinates:
+      x: 80.186
+      y: 91.226
+      z: 
 Devolin:
   Mandel:
-    label: "Devolin"
-    coordinates: {x: 49.211, y: -58.2, z: null}
+    label: Devolin
+    coordinates:
+      x: 49.211
+      y: -58.2
+      z: 
   type: star
-
 Tyrellia:
   Mandel:
-    label: "Tyrellia"
-    coordinates: {x: 137.438, y: 12.491, z: null}
+    label: Tyrellia
+    coordinates:
+      x: 137.438
+      y: 12.491
+      z: 
   fractions:
-    - federation
-
+  - federation
 Zalda:
   Mandel:
-    label: "Zalda"
-    coordinates: {x: 145.076, y: 17.36, z: null}
+    label: Zalda
+    coordinates:
+      x: 145.076
+      y: 17.36
+      z: 
   fractions:
-    - federation
-
+  - federation
+Starbase 18:
+  Maynard:
+    label: 18
+    coordinates:
+      x: 0
+      y: -64.237
+      z: null
+  type: station
+Starbase 15:
+  Maynard:
+    label: 15
+    coordinates:
+      x: 0
+      y: 0
+      z: 0
+  type: station
 Starbase 123:
   Mandel:
-    label: "Starbase 123"
-    coordinates: {x: 153.891, y: 15.2, z: null}
+    label: Starbase 123
+    coordinates:
+      x: 153.891
+      y: 15.2
+      z: 
   type: station
-
 Starbase 117:
   Mandel:
-    label: "Starbase 117"
-    coordinates: {x: 166.83, y: 62.616, z: null}
+    label: Starbase 117
+    coordinates:
+      x: 166.83
+      y: 62.616
+      z: 
   type: station
-
-
 Starbase 173:
   Mandel:
     label: Starbase 173
-    coordinates: {x: 132.321, y: -5.757, z: null}
+    coordinates:
+      x: 132.321
+      y: -5.757
+      z: 
   type: station
-
 Ingraham B Transit Station:
   Shisma:
     label: Ingraham B Transit Station
-    coordinates:  {x: 71.2, y: -91.5, z: 27.9 }
+    coordinates:
+      x: 71.2
+      y: -91.5
+      z: 27.9
   type: station
-
-Povin:
-  sto:
-    label: Mivic
-    coordinates: {x: -68, y: -39, z: null}
+Iczerone Stimson:
+  type: star
+  Shisma:
+    label: Iczerone Stimson
+Adarak Prime:
+  type: planet
   fractions:
-    - ferengi
-
-### Vanguard
-
+  - cardassian
+Aschelan V:
+  type: planet
+  fractions:
+  - cardassian
+Avenal VII:
+  type: planet
+  fractions:
+  - cardassian
+Bryma:
+  type: planet
+  fractions:
+  - cardassian
+Dorvan V:
+  type: planet
+  fractions:
+  - cardassian
+Kora II:
+  fractions:
+  - cardassian
+Orias III:
+  fractions:
+  - cardassian
+Panora:
+  fractions:
+  - cardassian
+Pentath III:
+  fractions:
+  - cardassian
+Pullock V:
+  fractions:
+  - cardassian
+Quinor VII:
+  fractions:
+  - cardassian
+Rondac III:
+  fractions:
+  - cardassian
 Ravanar IV:
   wd: Q57034267
   present-in-work:
-    - Q16385914
+  - Q16385914
   Shisma:
     label: Ravanar IV
-    # Near the klingon border
-    coordinates: {x: 12, y: 128.6, z: null}
-
+    coordinates:
+      x: 12
+      y: 128.6
+      z: 
 Trinay III:
   wd: Q57034270
   present-in-work:
   - Q16385914
   Shisma:
     label: Trinay III
-    # Federation outpost supplied by SB-47
-    coordinates: {x: 4, y: 148.4, z: null}
-
-
-
+    coordinates:
+      x: 4
+      y: 148.4
+      z: 
