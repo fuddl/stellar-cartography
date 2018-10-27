@@ -7,6 +7,46 @@ Deep Space K-7:
       y: 63.6
       z: 
   type: station
+Deep Space K-8:
+  Maynard:
+    label: K-8
+    coordinates:
+      x: -190.885
+      y: -14.697
+      z: null
+  type: station
+Deep Space K-9:
+  Maynard:
+    label: K-9
+    coordinates:
+      x: -173.415 
+      y: -100.224
+      z: null
+  type: station
+Deep Space K-10:
+  Maynard:
+    label: K-10
+    coordinates:
+      x: -132.313
+      y: -159.55
+      z: null
+  type: station
+Deep Space K-11:
+  Maynard:
+    label: K-11
+    coordinates:
+      x: -67.429 
+      y: -186.952
+      z: null
+  type: station
+Deep Space K-12:
+  Maynard:
+    label: K-12
+    coordinates:
+      x: -17.796
+      y: -220.299
+      z: null
+  type: station
 Starbase 12:
   Mandel:
     label: Starbase 12
@@ -38,13 +78,29 @@ Starbase 24:
       y: 47.44
       z: 
   type: station
+Starbase 27:
+  Maynard:
+    label: 27
+    coordinates:
+      x: -164.723
+      y: 0
+      z: null
+  type: station
+Starbase 26:
+  Maynard:
+    label: 26
+    coordinates:
+      x: 0
+      y: -165.784
+      z: null
+  type: station
 Starbase 234:
   Mandel:
     label: Starbase 234
     coordinates:
       x: 82.844
       y: 31.44
-      z: 
+      z: 9
   type: station
 Starbase 211:
   Mandel:
@@ -76,8 +132,28 @@ Starbase 10:
     coordinates:
       x: 15.5
       y: -25.87
-      z: 
+      z: null
+  Maynard:
+    label: 10
+    coordinates: 
+      x: -63.664
+      y: -64.103
+      z: null
   type: station
+Briamos II:
+  Maynard:
+    label: Briamos 6 (II)
+    coordinates:
+      x: -129.986
+      y: -185.011
+      z: 
+Mandel II:
+  Maynard:
+    label: Mandel's Star 7 (II)
+    coordinates:
+      x: -134.886
+      y: -198.921
+      z: 
 MZ5:
   Mandel:
     label: Outpost MZ-5
@@ -144,6 +220,22 @@ Starbase 310:
       y: 41
       z: 
   type: station
+Starbase 9:
+  Maynard:
+    label: 9
+    coordinates:
+      x: 0
+      y: -90.564
+      z: null
+  type: station
+Black Star:
+  Maynard:
+    label: Black Star
+    coordinates:
+      x: -3.627
+      y: -119.538
+      z: null
+  type: black hole
 Starbase 2:
   Mandel:
     label: Starbase 2
@@ -158,7 +250,13 @@ Starbase 11:
     coordinates:
       x: -21.078
       y: 74.729
-      z: 
+      z: null
+  Maynard:
+    label: 11
+    coordinates: 
+      x: -89.993
+      y: 0
+      z: null
   type: station
 Starbase 47:
   Mandel:
@@ -268,6 +366,13 @@ Benzar:
         z: 84.4
   fractions:
   - federation
+Theta VII:
+  Maynard:
+    label: Theta 11 (VII)
+    coordinates:
+      x: -151.219
+      y: -85.294
+      z: null
 Theta Sculptoris:
   Mandel:
     label: Theta Sculptoris
@@ -774,7 +879,7 @@ Argelius II:
       y: 13.4
       z: 
   Maynard:
-    label: Argelius II
+    label: Argelius 10 (II)
     coordinates:
       x: -154.7
       y: -59.2
@@ -1055,6 +1160,12 @@ Romulus:
       x: -176.3
       y: -158.5
       z: -1.8
+  Maynard:
+    label: Romulus 2 (A B)
+    coordinates:
+      x: -176.798
+      y: -160.669 
+      z: 
   fractions:
   - romulan
 Rator III:
@@ -1066,6 +1177,10 @@ Rator III:
       z: null
   Maynard:
     label: Rator 4 (III)
+    coordinates:
+      x: -194.447
+      y: -128.291
+      z: null
   fractions:
   - romulan
 Quo'Nos:
@@ -1201,13 +1316,14 @@ Memory Alpha:
     coordinates:
       x: -8.4
       y: -18.7
-      z: 
+      z: null
   Maynard:
     label: Memory Alpha
     coordinates:
-      x: 116.9
-      y: 115.5
+      x: -116.9
+      y: -115.5
       z: 0
+      note: according to the map the coordinates are x=-116.9, y=-115.5
 Vega IX:
   Mandel:
     label: Vega (Alpha Lyrae)
@@ -1515,6 +1631,11 @@ Fesarius:
       x: -44.5
       y: -53.8
       z: 
+  Maynard:
+    label: Fesarius 11 (II, II, V)
+    coordinates:
+      x: -96.081
+      y: -240.529
 Bolarus IX:
   Mandel:
     label: Bolarus
@@ -1570,7 +1691,7 @@ Gamma Tucanae:
   canon: false
   real: true
   type: star
-Romii:
+Romii I:
   Mandel:
     label: Romii
     coordinates:
@@ -1578,11 +1699,11 @@ Romii:
       y: -39.3
       z: 
   Maynard:
-    label: Romii
+    label: Romii 4 (I)
     coordinates:
-      x: "—180.0"
-      y: "—156.4"
-      z: "—1.8"
+      x: -180.0
+      y: -156.4
+      z: -1.8
 Epsilon Phoenicis:
   Mandel:
     label: Epsilon Phoenicis
@@ -2056,7 +2177,7 @@ Tellun:
       y: 37.4
       z: 
   Maynard:
-    label: Tellun
+    label: Tellun 7 (I, II)
     coordinates:
       x: "—209.9"
       y: "—38.9"
@@ -2201,6 +2322,13 @@ Merak II:
       x: 11.2
       y: 72.7
       z: 17.1
+Kyros III:
+  Maynard:
+    label: Kyros 7 (III)
+    coordinates:
+      x: -208.075
+      y: -4.155 
+      z: 
 Solosos III:
   Mandel:
     label: Solosos
@@ -2733,7 +2861,7 @@ Zetar:
       y: -24.6
       z: 
   Maynard:
-    label: Zetar
+    label: Zetar 3 (III)
     coordinates:
       x: -92.6
       y: -116.2
@@ -2842,6 +2970,13 @@ Qu'Vat:
       z: 
   fractions:
   - klingon
+Acadia:
+  Maynard:
+    label: Acadia 7 (III)
+    coordinates:
+      x: -35.98
+      y: -209.765
+      z: 
 Acamar:
   Mandel:
     label: Acamar (Theta Eridani)
@@ -3323,13 +3458,19 @@ Alpha Pictoris:
       z: 
   type: star
   real: true
-Vendor:
+Vendor II:
   Mandel:
     label: Vendor
     coordinates:
       x: 48.2
       y: -6.9
       z: 
+  Maynard:
+    label: Vendor 3 (II)
+    coordinates: 
+      x: -118.921
+      y: -174.465
+      z: null
   fractions:
   - romulan
 Carraya IV:
@@ -3780,9 +3921,9 @@ Berengaria VII:
     coordinates:
       x: -64.7
       y: -75.2
-      z: 
+      z: null
   Maynard:
-    label: Berengaria
+    label: Berengaria 13 (VI, VII)
     coordinates:
       x: -21.4
       y: -51.8
@@ -3845,6 +3986,13 @@ Heathercrist:
       y: -74.7
       z: 
   type: star
+Szell 342K:
+  Maynard:
+    label: Szell 342K 10
+    coordinates: 
+      x: -50.997
+      y: -184.157
+      z:
 Cestus III:
   wd: Q49263188
   Mandel:
@@ -3854,7 +4002,7 @@ Cestus III:
       y: 199.678
       z: 
   Maynard:
-    label: Cestus
+    label: Cestus 14 (III)
     coordinates:
       x: -44.2
       y: -169.1
@@ -3945,6 +4093,13 @@ Almatha:
       x: -52.7
       y: 50.9
       z: 
+Metron III:
+  Maynard:
+    label: Metron 10 (III)
+  coordinates:
+    x: -33.369 
+    y: -226.76 
+    z: 
 Quatal Prime:
   Mandel:
     label: Quatal
@@ -4334,7 +4489,7 @@ Tiburon:
       y: -207.4
       z: 236.4
   Maynard:
-    label: Tiburon
+    label: Tiburon Omega Fornacis 7 (III)
     star: Omega Fornacis
     parent-wd: Q629292
     coordinates:
@@ -4523,6 +4678,12 @@ Daran V:
       x: -127.5
       y: -139.2
       z: -19.7
+  Maynard:
+    label: Daran 10 (V)
+    coordinates:
+      x: -127.5
+      y: -139.2
+      z: -19.7
 Aurelia:
   Johnson:
     label: Aurelia
@@ -4575,6 +4736,12 @@ Phylos II:
       x: 306.5
       y: -98.9
       z: 187.4
+  Maynard: 
+    label: Phylos 5 (II)
+    coordinates: 
+      x: -166.332
+      y: -71.764
+      z: null 
 Mu Leonis II:
   Johnson:
     label: Mu Leonis II
@@ -4589,6 +4756,13 @@ Theta Kiokis II:
       x: -76.9
       y: -145.9
       z: -12.7
+  wd: Q49643724
+  Maynard:
+    label: Melkot 6 (III)
+    coordinates:
+      x: -76.9
+      y: -145.9
+      z: -12.7
 Antares B III:
   Johnson:
     label: Antares B III
@@ -4596,13 +4770,19 @@ Antares B III:
       x: 172.1
       y: 118.9
       z: -13.9
-Argo:
+Argo III:
   Johnson:
     label: Argo
     coordinates:
       x: 133.4
       y: -45.5
       z: 32.9
+  Maynard:
+    label: Argo 38 (III)
+    coordinates:
+      x: -160.178
+      y: -101.277
+      z: null
 Ornara III, IV:
   Johnson:
     label: Ornara III, IV
@@ -4632,7 +4812,7 @@ Dimorus IV:
       y: -101.1
       z: -56.7
   Maynard:
-    label: UFC 892
+    label: UFC 892 11 (III)
     coordinates:
       x: -132.1
       y: -101.1
@@ -4652,7 +4832,7 @@ Eminiar VII:
       z: 25.1
 Excalbia:
   Maynard:
-    label: Excalbia
+    label: Excalbia 3 (I)
     coordinates:
       x: -54.8
       y: -157.7
@@ -4663,6 +4843,13 @@ Excalbia:
       x: -54.8
       y: -157.7
       z: -193.4
+Anomaly:
+  Maynard: 
+    label: Anomaly 1
+    coordinates:
+      x: -45.477
+      y: -147.518
+      z: null
 Iotia:
   Johnson:
     label: Iotia
@@ -4670,6 +4857,13 @@ Iotia:
       x: -5.7
       y: -144.2
       z: -109.1
+Pal III:
+  Maynard:
+    label: Pal's Star 5 (III)
+    coordinates:
+      x: -104.003
+      y: -49.508 px
+      z: null
 Janus VI:
   wd: Q48906622
   Johnson:
@@ -4691,6 +4885,12 @@ Lactra VII:
       x: 264.7
       y: 65.4
       z: 98.1
+  Maynard:
+    label: Lactra 8 (VII)
+    coordinates:
+      x: -96.474 
+      y: -203.393
+      z: null 
 M-113:
   wd: Q48891808
   Johnson:
@@ -4806,7 +5006,7 @@ Murasaki 312:
   type: quasar
 Alpha Majoris I:
   Maynard:
-    label: Alpha Majoris
+    label: Alpha Majoris 2 (I)
     coordinates:
       x: -154.5
       y: -17.5
@@ -4818,10 +5018,10 @@ Alpha Eridani II:
       x: 142.4
       y: -99.1
       z: 42.1
-Amerind:
+Amerind IV:
   wd: Q49669200
   Maynard:
-    label: Amerind
+    label: Amerind 8 (IV)
     coordinates:
       x: -93.5
       y: -157.6
@@ -4835,7 +5035,7 @@ Ariannus:
       z: -20.4
 Arret:
   Maynard:
-    label: Arret
+    label: Arret 4 (I)
     coordinates:
       x: -36.1
       y: -136.3
@@ -4855,9 +5055,10 @@ Sarpeidon:
       y: -166.7
       z: -210.1
   real: false
+  type: supernova
 Beta 6:
   Maynard:
-    label: Beta 6
+    label: Beta 6 Colony 7 (VI)
     coordinates:
       x: -109.1
       y: -106.3
@@ -4898,6 +5099,21 @@ Elba:
       x: -18.3
       y: -119.5
       z: -7.1
+UFC 328877:
+  type: star
+  Maynard:
+    label: UFC 328877
+    coordinates:
+      x: -24.313
+      y: -176.24
+      z: null
+UFC 347601 III:
+  Maynard:
+    label: UFC 347601 10 (III)
+    coordinates:
+      x: -44.191
+      y: -104.547
+      z: null
 Exo-III:
   wd: Q48892171
   Maynard:
@@ -4954,6 +5170,15 @@ Ringworld:
     coordinates:
       x: -94.931
       y: -176.349
+      z: null
+  type: megastructure
+  canon: false
+Chatalia:
+  Maynard:
+    label: Chatalia
+    coordinates:
+      x: -61.822
+      y: -201.163
       z: null
   type: megastructure
   canon: false
@@ -5016,6 +5241,35 @@ Argona II:
     coordinates:
       x: -27.484 
       y: -78.524  
+      z: null
+Suligowski's Star:
+  Maynard:
+    label: Suligowski's Star 5
+    coordinates:
+      x: -50.31
+      y: -114.61
+      z: null
+  type: star
+Sackett II:
+  Maynard:
+    label: Sackett's Star 3 (II)
+    coordinates:
+      x: -77.269
+      y: -86.778
+      z: null
+Roddenberry III:
+  Maynard:
+    label: Roddenberry 3 (III)
+    coordinates:
+      x: -130.179 
+      y: -5.902 
+      z: null
+New Chicago II:
+  Maynard:
+    label: New Chicago 9 (II)
+    coordinates:
+      x: -72.86
+      y: -3.509
       z: null
 Communication Relay Gamma 1:
   Maynard:
@@ -5095,7 +5349,7 @@ Star Desert:
     outline: M642.493,557.044 C644.569,557.044 640.89,559.715 639.644,559.715 C638.398,559.715 636.439,560.249 634.302,559.893 C632.166,559.537 629.495,558.825 627.536,557.4 C625.578,555.976 621.661,555.264 620.058,556.866 C618.456,558.469 618.1,559.893 616.319,560.961 C614.539,562.03 608.129,562.03 606.527,561.496 C604.924,560.961 596.912,552.059 595.666,551.169 C594.419,550.278 587.831,550.991 586.229,549.922 C584.626,548.854 583.558,545.649 582.134,544.047 C580.709,542.444 573.231,541.02 571.807,537.281 C570.382,533.542 570.382,528.912 570.56,527.31 C570.739,525.707 569.848,524.283 569.848,522.503 C569.848,520.722 571.451,517.695 573.053,516.627 C574.656,515.559 575.368,513.244 574.656,510.039 C573.943,506.834 572.519,507.724 573.231,505.41 C573.943,503.095 575.368,500.246 575.368,498.466 C575.368,496.685 578.751,493.302 579.107,491.7 C579.463,490.098 579.641,483.154 580.175,481.551 C580.709,479.949 583.736,479.236 584.983,478.346 C586.229,477.456 586.229,474.785 588.544,474.429 C590.858,474.073 599.049,471.758 600.473,471.758 C601.897,471.758 604.212,474.251 604.924,474.251 C605.636,474.251 607.595,472.649 608.841,472.649 C610.088,472.649 616.854,471.58 619.168,472.471 C621.483,473.361 633.056,478.346 633.59,479.771 C634.124,481.195 635.015,485.468 637.329,487.605 C639.644,489.741 644.629,494.905 645.698,497.398 C646.766,499.89 652.285,511.463 651.929,513.956 C651.573,516.449 645.876,522.859 645.876,525.351 C645.876,527.844 649.259,542.8 648.19,546.183 C647.122,549.566 641.959,557.044 642.493,557.044 z
 Halka:
   Maynard:
-    label: Halka
+    label: Halka 3 (III)
     coordinates:
       x: -29.2
       y: -137.3
@@ -5194,14 +5448,6 @@ Marcus:
       x: 42.5
       y: -20.4
       z: 10.6
-Melkot:
-  wd: Q49643724
-  Maynard:
-    label: Melkot
-    coordinates:
-      x: -76.9
-      y: -145.9
-      z: -12.7
 Menkalina:
   Maynard:
     label: Menkalina
@@ -5220,6 +5466,13 @@ Midos V:
       z: 96.9
   fractions:
   - federation
+Puttkamer II:
+  Maynard:
+    label: Puttkamer 9 (II)
+    coordinates: 
+      x: -118.921
+      y: -150.912
+      z: null
 Minara:
   Maynard:
     label: Minara
@@ -5245,14 +5498,14 @@ New Paris:
       z: -147.6
 Omega:
   Maynard:
-    label: Omega
+    label: Omega 8 (IV VII)
     coordinates:
       x: -88.4
       y: 224.4
       z: 2
 Omicron Delta:
   Maynard:
-    label: Omicron Delta
+    label: Omicron Delta 10 (IV)
     coordinates:
       x: -109.4
       y: -6.7
@@ -5260,7 +5513,7 @@ Omicron Delta:
 Platonius:
   wd: Q48890865
   Maynard:
-    label: Platonius
+    label: Platonius 4 (IV)
     coordinates:
       x: -116.8
       y: -73.6
@@ -5289,15 +5542,23 @@ Sandara:
       z: 70.2
 Scalos:
   Maynard:
-    label: Scalos
+    label: Scalos 5 (III)
     coordinates:
       x: -70.1
       y: -121.1
       z: -183.2
+UFC 3897381:
+  type: star
+  Maynard:
+    label: M Planet UFC 3897381 6 (II)
+    coordinates:
+      x: -206.543
+      y: -113.498
+      z: 
 Sigma Iotia Ⅱ:
   wd: Q55313125
   Maynard:
-    label: Sigma Iotia
+    label: Sigma Iotia 9 (II)
     coordinates:
       x: -5.7
       y: -144.2
@@ -6593,13 +6854,20 @@ Starbase 18:
       y: -64.237
       z: null
   type: station
+Delta Theta III:
+  Maynard:
+    label: Delta Theta 7 (III)
+    coordinates:
+      x: -81.423
+      y: -198.318
+      z: null
 Starbase 15:
   Maynard:
     label: 15
     coordinates:
       x: 0
       y: 0
-      z: 0
+      z: null
   type: station
 Starbase 123:
   Mandel:

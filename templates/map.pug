@@ -37,7 +37,6 @@ html
             femergenode(in='composite2')
             femergenode(in='composite1')
         filter#cluster(filterUnits="userSpaceOnUse")
-          feGaussianBlur(in="SourceGraphic" stdDeviation="100" restult="blurred")
           feTurbulence(type="turbulence" baseFrequency="9" numOctaves="4" result="turbulence")
           feDisplacementMap(in2="turbulence" in="SourceGraphic" scale="6" xChannelSelector="R" yChannelSelector="G" result="displaced")
           feGaussianBlur(in="displaced" stdDeviation=".05")
