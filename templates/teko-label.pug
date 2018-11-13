@@ -1,6 +1,6 @@
 - var labelBoxes = [];
 
-mixin teko-label(x, y, text, weight, direction, marker)
+mixin teko-label(x, y, text, weight, direction, marker, style)
   g
     - text = text.toUpperCase();
     - const zoom = .15;
@@ -13,8 +13,11 @@ mixin teko-label(x, y, text, weight, direction, marker)
     - const textXOffset = 3 * zoom;
     - let textYOffset = -1.5 * zoom;
     - const hboxpadding = 1 * zoom;
+
     if direction == 'bottom'
       - textYOffset = (fontSize + 10) * zoom;
+    if direction == 'top'
+      - textYOffset = (fontSize - 10) * zoom;
 
 
     - const rCRadius = cRadius-cStrokeWidth;
@@ -31,7 +34,7 @@ mixin teko-label(x, y, text, weight, direction, marker)
     
     if direction == 'left'
       - textX = x-cRadius-textXOffset;
-    if direction == 'bottom' 
+    if direction == 'bottom' || direction == 'top'
       - textX = x;
 
     - const textY = y+textYOffset;
@@ -39,15 +42,15 @@ mixin teko-label(x, y, text, weight, direction, marker)
     - let textAnchor = '';
     if direction == 'left'
       - textAnchor = 'end';
-    if direction == 'bottom'
+    if direction == 'bottom' || direction == 'top'
       - textAnchor = 'middle';
 
     
     - let box = [x+cRadius+textXOffset, y+(textYOffset-fontSize)*.8, x+cRadius+textXOffset+width, (y+(textYOffset-fontSize)*.8)+fontSize];
     if direction == 'left'
       - box = [x-cRadius-textXOffset-width, y+(textYOffset-fontSize)*.8, x-cRadius-textXOffset, (y+(textYOffset-fontSize)*.8)+fontSize];
-    if direction == 'bottom'
-      box = [textX-(width / 2), y+(textYOffset-fontSize)*.8, textX+(width / 2), (y+(textYOffset-fontSize)*.8)+fontSize];
+    if direction == 'bottom' || direction == 'top'
+      - box = [textX-(width / 2), y+(textYOffset-fontSize)*.8, textX+(width / 2), (y+(textYOffset-fontSize)*.8)+fontSize];
 
 
     if intersect(labelBoxes, [box]).length == 0
@@ -71,10 +74,13 @@ mixin teko-label(x, y, text, weight, direction, marker)
       if direction == 'right' || direction == 'left'
         line(x1=lineStartX,y1=y,x2=lineEndX, y2=y, stroke="white", stroke-width=cStrokeWidth)
 
-      text.label(x=textX, y=textY, width=width, font-size=fontSize, font-weight=weight, text-anchor=textAnchor)= text
+      text.label(x=textX, y=textY, width=width, font-size=fontSize, font-weight=weight, text-anchor=textAnchor, font-style=style)= text
       
     else if direction == 'right'
-      +teko-label(x, y, text, weight, 'left', marker)
+      +teko-label(x, y, text, weight, 'left', marker, style)
+      text.label(x=textX, y=textY, width=width, font-size=fontSize, font-weight=weight, text-anchor=textAnchor, opacity=.1, style)= text
       //-rect(x=x+cRadius+textXOffset, y=y+(textYOffset-fontSize)*.75, height=fontSize width=width fill="red", opacity=.5)
     else if direction == 'bottom'
-      +teko-label(x, y, text, weight, 'top', marker)
+      +teko-label(x, y, text, weight, 'top', marker, style)
+      text.label(x=textX, y=textY, width=width, font-size=fontSize, font-weight=weight, text-anchor=textAnchor, opacity=.1, style)= text
+

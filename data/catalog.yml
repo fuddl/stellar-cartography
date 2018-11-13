@@ -70,6 +70,20 @@ Khitomer:
       z: 
   fractions:
   - klingon
+Starbase 22:
+  Mandel_2018:
+    label: Starbase 22
+    coordinates:
+      x: 29.538
+      y: 17.353
+      z: 
+Starbase 88:
+  Mandel_2018:
+    label: Starbase 88
+    coordinates:
+      x: 31.048
+      y: 49.308
+      z: 
 Starbase 24:
   Mandel:
     label: Starbase 24
@@ -227,6 +241,12 @@ Starbase 9:
       x: 0
       y: -90.564
       z: null
+  Mandel_2018:
+    label: Starbase 9
+    coordinates: 
+      x: -10.579
+      y: 13.376
+      z: 
   type: station
 Black Star:
   Maynard:
@@ -621,7 +641,7 @@ Ankaa:
       x: 13.8
       y: -16.4
       z: 
-Alpha Centauri VII:
+Proxima:
   Mandel:
     label: Alpha Centrauri (Proxima)
     parent-wd: Q12176
@@ -668,8 +688,8 @@ Wolf 359:
   Mandel:
     label: Wolf 359
     coordinates:
-      x: 4.24
-      y: 1.89
+      x: 3.872
+      y: 1.759
       z: 
 Sirius:
   type: star
@@ -841,6 +861,26 @@ Pollux IV:
       x: 13.9
       y: 65.6
       z: 0.6
+The Binaries:
+  nickname: yes
+  type: star
+  Mandel_2018:
+    label: Battle at the Binary Stars (2256)
+    coordinates:
+      x: 20.409
+      y: 69.913
+      z: 
+Binaries:
+  nickname: yes
+  Shisma:
+    label: The Binaries
+    coordinates:
+      x: 80.775
+      y: -67.29
+      z: 
+  type: star
+  fractions:
+  - klingon
 Kaferia:
   Mandel:
     label: Kaferia (Tau Ceti)
@@ -849,6 +889,14 @@ Kaferia:
     coordinates:
       x: -0.25
       y: 3.5
+      z: 
+  Mandel_2018:
+    label: Kaferia
+    parent-wd: Q15820
+    star: Tau Ceti
+    coordinates:
+      x: -0.77
+      y: 3.375
       z: 
   Johnson:
     label: Kaferia
@@ -898,16 +946,7 @@ Barradas III:
     coordinates:
       x: 33.5
       y: 5.15
-      z: 
-Cheron:
-  Mandel:
-    label: Cheron (83 Leonis)
-    star: 83 Leonis
-    parent-wd: Q272242
-    coordinates:
-      x: 29.45
-      y: 5.73
-      z: 
+      z:  
 Draken IV:
   Mandel:
     label: Draken
@@ -1669,6 +1708,7 @@ Zeta Trianguli Australis:
   real: true
   type: star
 Eden:
+  nickname: yes
   Mandel:
     label: Eden (Vorta Vor, Qui´Tu)
     coordinates:
@@ -2154,6 +2194,13 @@ Preenos:
     coordinates:
       x: 6.9
       y: 56.2
+      z:
+Azati Prime:
+  Mandel_2018:
+    label: Azati Prime
+    coordinates:
+      x: 17.166
+      y: 13.667
       z: 
 Manzar:
   Mandel:
@@ -3182,7 +3229,8 @@ Zibal:
       x: -13.1
       y: 79.9
       z: 
-Zibal (Zeta Eridani):
+Zeta Eridani:
+  type: star
   Mandel:
     label: Zibal (Zeta Eridani)
     coordinates:
@@ -3600,7 +3648,39 @@ Belak:
     coordinates:
       x: 52.1
       y: -41.7
+      z:
+Denobula:
+  wd: Q55739207
+  Mandel:
+    label: Denobula Triaxa (Iota Bootis)
+    star: Iota Bootis
+    parent-wd: Q1672154
+    coordinates:
+      x: -22.3
+      y: -3.8
       z: 
+  Mandel_2018:
+    label: Denobula Prime
+    coordinates: 
+      x: 29.033 
+      y: 5.518
+      z: 
+Cheron:
+  Mandel:
+    label: Cheron (83 Leonis)
+    star: 83 Leonis
+    parent-wd: Q272242
+    coordinates:
+      x: 29.45
+      y: 5.73
+      z:  
+Cold Station 12:
+  type: station
+  Mandel_2018:
+    coordinates:
+      x: 24.053
+      y: 4.839
+      z:
 Haakona:
   Mandel:
     label: Haakona
@@ -3746,7 +3826,7 @@ Klach D'kel Brakt:
       z: 
   fractions:
   - klingon
-Archer:
+Archer IV:
   DIS:
     label: Archer
     coordinates:
@@ -3757,6 +3837,12 @@ Archer:
     coordinates:
       x: 120.8
       y: 37.9
+      z: 
+  Mandel_2018:
+    label: Archer²
+    coordinates:
+      x: 120.016
+      y: 36.596
       z: 
   fractions:
   - klingon
@@ -3785,6 +3871,13 @@ Alkaid:
       y: 7.7
       z: 
   type: star
+Veridian III:
+  Mandel_2018:
+    label: Veridian
+    coordinates:
+      x: 346.172
+      y: 32.303
+      Z:
 Mizar II:
   Mandel:
     label: Mizar (Zeta Ursae Majoris)
@@ -3824,15 +3917,12 @@ Deneb IV:
       x: 142.7
       y: -143.4
       z: 382.5
-Denobula:
-  wd: Q55739207
-  Mandel:
-    label: Denobula Triaxa (Iota Bootis)
-    star: Iota Bootis
-    parent-wd: Q1672154
+Veda:
+  type: star
+  Mandel_2018:
     coordinates:
-      x: -22.3
-      y: -3.8
+      x: 21.364
+      y: -0.99
       z: 
 Beta Comae Berenices:
   Mandel:
@@ -4000,6 +4090,12 @@ Cestus III:
     coordinates:
       x: 81.295
       y: 199.678
+      z:
+  sto:
+    label: Cestus
+    coordinates:
+      x: 45.074
+      y: 99.971 
       z: 
   Maynard:
     label: Cestus 14 (III)
@@ -4035,6 +4131,15 @@ Japori II:
       x: 59
       y: 34.6
       z: 
+Crateris:
+  sto:
+    label: Crateris
+    coordinates:
+      x: 70.595
+      y: 36.924
+      z: 
+  fractions:
+    - romulan
 Barolia:
   Mandel:
     label: Barolia (Wazn, Beta Columbae)
@@ -4996,7 +5101,19 @@ Taurus II:
       x: -66.5
       y: 47.4
       z: 8.1
+  Mandel_2018:
+    label: Beta Tauri
+    coordinates:
+      x: -4.466
+      y: 130.476
+      z: 
 Murasaki 312:
+  Mandel_2018:
+    label: Murasaki 312
+    coordinates:
+      x: -9.098
+      y: 126.874
+      z: 
   Maynard:
     label: Murasaki 312
     coordinates:
@@ -5903,16 +6020,6 @@ Muliphen:
       x: 305.612
       y: 274.066
       z: 
-Binaries:
-  Shisma:
-    label: The Binaries
-    coordinates:
-      x: 80.775
-      y: -67.29
-      z: 
-  type: star
-  fractions:
-  - klingon
 Pleiades:
   type: cluster
   Mandel:
@@ -6029,13 +6136,6 @@ Rhi III:
     coordinates:
       x: 36.881
       y: -8.878
-      z: 
-Crateris:
-  sto:
-    label: Crateris
-    coordinates:
-      x: 70.595
-      y: 36.924
       z: 
 Praetus:
   judgement rites:
@@ -6476,9 +6576,9 @@ Quebec VI:
       y: 5.9
       z: 
   type: post
-Meridian:
+Miridian:
   Mandel:
-    label: Meridian
+    label: Miridian
     coordinates:
       x: 55.1
       y: 16
@@ -6846,6 +6946,14 @@ Zalda:
       z: 
   fractions:
   - federation
+Starbase 1:
+  type: station
+  Mandel_2018:
+    label: SB 1
+    coordinates:
+      x: 0.498
+      y: 1.436
+      z: 
 Starbase 18:
   Maynard:
     label: 18
@@ -6946,6 +7054,320 @@ Quinor VII:
 Rondac III:
   fractions:
   - cardassian
+Idran:
+  type: star
+  Mandel:
+    label: Idran
+    coordinates:
+      x: -40052.54
+      y: -50410.52
+      z: 
+Callinon VII:
+  Mandel:
+    label: Callinon
+    coordinates:
+      x: 13.944
+      y: -146.783
+      z: 
+      relative-to: Idran
+New Bajor:
+  Mandel:
+    label: New Bajor
+    coordinates:
+      x: -21.66 
+      y: 17.366
+      z: 
+      relative-to: Idran
+Ennis:
+  Mandel:
+    label: Ennis/Nol-Ennis
+    coordinates:
+      x: 22.904
+      y: 20.393
+      z: 
+      relative-to: Idran
+Stakoron II:
+  Mandel:
+    label: Stakoron
+    coordinates:
+      x: 43.588
+      y: -25.516
+      z: 
+      relative-to: Idran
+Dosi:
+  Mandel:
+    label: Dosi
+    coordinates:
+      x: -18.632
+      y: -27.366
+      z: 
+      relative-to: Idran
+Relay Station G1:
+  type: relay
+  Mandel:
+    label: Relay Station G1
+    coordinates:
+      x: 10.46
+      y: -11.727
+      z: 
+      relative-to: Idran 
+Karemma:
+  Mandel:
+    label: Karemma
+    coordinates:
+      x: -10.056 
+      y: -47.041
+      z: 
+      relative-to: Idran
+T-Rogoran:
+  Mandel:
+    label: Karemma
+    coordinates:
+      x: -141.866
+      y: -79.47
+      z: 
+      relative-to: Idran
+Saltha'na:
+  Mandel:
+    label: Saltha'na
+    coordinates:
+      x: -54.342 
+      y: -40.067
+      z: 
+      relative-to: Idran
+Parada:
+  Mandel:
+    label: Parada
+    coordinates:
+      x: -64.803
+      y: -22.283
+      z: 
+      relative-to: Idran
+Argratha:
+  Mandel:
+    label: Argratha
+    coordinates:
+      x: -155.814
+      y: 62.103
+      z: 
+      relative-to: Idran
+Rakhar:
+  Mandel:
+    label: Rakhar
+    coordinates:
+      x: -11.8
+      y: 91.045
+      z: 
+      relative-to: Idran
+L-S:
+  type: star
+  Mandel:
+    label: L-S
+    coordinates:
+      x: -4.128 
+      y: 10.146
+      z: 
+      relative-to: Idran
+Torad:
+  Mandel:
+    label: Torad
+    coordinates:
+      x: 155.588
+      y: 59.039
+      z: 
+      relative-to: Idran
+Kar Telos:
+  Mandel:
+    label: Kar Telos
+    coordinates:
+      x: 212.452 
+      y: -29.101
+      z: 
+      relative-to: Idran
+Yadera:
+  Mandel:
+    label: Yadera
+    coordinates:
+      x: 187.523
+      y: -129.786
+      z: 
+      relative-to: Idran
+Yadera II:
+  Mandel:
+    label: Yadera II
+    coordinates:
+      x: 381.315
+      y: -21.011
+      z: 
+      relative-to: Idran
+Kurill Prime:
+  Mandel:
+    label: Kurill Prime
+    coordinates:
+      x: 90.505
+      y: -359.111 
+      z: 
+      relative-to: Idran
+Founder Homeworld:
+  Mandel:
+    label: Founder Homeworld
+    coordinates:
+      x: 123.329 
+      y: -507.232
+      z: 
+      relative-to: Idran
+Sigma Epsilon:
+  Mandel:
+    label: Sigma Epsilon
+    coordinates:
+      x: -124.854 
+      y: -623.074
+      z: 
+      relative-to: Idran
+Brax:
+  Mandel:
+    label: Sigma Epsilon
+    coordinates:
+      x: -350.543
+      y: -670.526
+      z: 
+      relative-to: Idran
+Hoek IV:
+  Mandel:
+    label: Hoek IV
+    coordinates:
+      x: -395.419
+      y: -424.839
+      z: 
+      relative-to: Idran
+Sampale:
+  Mandel:
+    label: Sampale
+    coordinates:
+      x: -322.892
+      y: -409.88
+      z: 
+      relative-to: Idran
+Vandros:
+  Mandel:
+    label: Vandros
+    coordinates:
+      x: -411.72
+      y: -301.54
+      z: 
+      relative-to: Idran
+Gaia:
+  Mandel:
+    label: Gaia
+    coordinates:
+      x: 450.768 
+      y: -155.54 
+      z: 
+      relative-to: Idran
+Teplan:
+  Mandel:
+    label: Teplan
+    coordinates:
+      x: 313.107
+      y: -219.84
+      z: 
+      relative-to: Idran
+Kendi:
+  Mandel:
+    label: Kendi
+    coordinates:
+      x: 302.773
+      y: -247.971
+      z: 
+      relative-to: Idran
+Merik:
+  Mandel:
+    label: Merik
+    coordinates:
+      x: 644.025
+      y: 42.326
+      z: 
+      relative-to: Idran
+Bopak:
+  Mandel:
+    label: Bopak
+    coordinates:
+      x: 661.9
+      y: 21.743
+      z: 
+      relative-to: Idran
+Meridian:
+  Mandel:
+    label: Trialus (Meridian)
+    coordinates:
+      x: 661.9
+      y: 21.743
+      z: 
+      relative-to: Idran
+Kylata:
+  Mandel:
+    label: Kylata
+    coordinates:
+      x: 724.192
+      y: -110.916
+      z: 
+      relative-to: Idran
+Torga (Gamma):
+  Mandel:
+    label: Torga
+    coordinates:
+      x: 485.712
+      y: -325
+Inernment Camp 371:
+  type: station
+  Mandel:
+    label: Inernment Camp 371
+    coordinates:
+      x: 295.47
+      y: -419.72
+      z: 
+Hur'q Outpost:
+  Mandel:
+    label: Hur'q Outpost
+    coordinates:
+      x: 867.724
+      y: -337.205 
+      z: 
+Erabus:
+  Mandel:
+    label: Erabus
+    coordinates:
+      x: 461.263
+      y: -678.724
+      z: 
+Gavara:
+  Mandel:
+    label: Gavara
+    coordinates:
+      x: 354.3
+      y: -266.151
+      z:  
+New Founder Homeworld:
+  Mandel:
+    label: New Founder Homeworld
+    coordinates:
+      x: 760.543
+      y: -553.688
+      z: 
+Tautine:
+  Mandel:
+    label: Tautine
+    coordinates:
+      x: 910.784
+      y: -638.693
+      z:  
+Errikang:
+  Mandel:
+    label: Errikang
+    coordinates:
+      x: 558.314
+      y: -780.476
+      z:  
 Ravanar IV:
   wd: Q57034267
   present-in-work:

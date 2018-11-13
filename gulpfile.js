@@ -47,11 +47,26 @@ function normalizeCoordinates(catalog) {
       }
     }
   }
+
+  let sources = ['Maynard', 'Johnson', 'judgement rites', 'DS9', 'ENT', 'DIS', 'Mandel', 'sto', 'Mandel-2018'];
+  for(thing in catalog) {
+    for(entryType of sources) {
+      if(entryType in catalog[thing] && catalog[thing][entryType].coordinates && catalog[thing][entryType].coordinates.hasOwnProperty('relative-to') ) {
+        
+        let rela = catalog[thing][entryType].coordinates['relative-to'];
+        for(coordinate of coordinates) {
+          if(coordinate in catalog[thing][entryType].coordinates) {
+            catalog[thing][entryType].coordinates[coordinate] = catalog[thing][entryType].coordinates[coordinate] + catalog[rela][entryType].coordinates[coordinate];
+          }
+        }
+      }
+    }
+  }
   return catalog;
 }
 
 function addPreferredValues(catalog) {
-  let priorities = ['Shisma', 'DS9', 'ENT', 'DIS', 'Mandel', 'sto', 'Maynard', 'Johnson', 'judgement rites'];
+  let priorities = ['Shisma', 'DS9', 'ENT', 'DIS', 'Mandel_2018', 'Mandel', 'sto', 'Maynard', 'Johnson', 'judgement rites'];
   for(thing in catalog) {
     for(source of priorities) {
       if (catalog[thing][source]) {
