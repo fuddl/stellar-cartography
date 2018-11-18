@@ -97,10 +97,10 @@ html
       +line(['Vulcan','Starbase 12', 'Deneva'])(stroke="#1687A9")
       +line(['Starbase 12','Argelius II'])(stroke="#1687A9")
       +line(['Argelius II','Starbase 23', 'Jourot'])(stroke="#1687A9")
-      +line(['Starbase 23', 'Starbase 234', 'Starbase 105', 'Tessen III'])(stroke="#1687A9")
+      +line(['Starbase 23', 'Starbase 234', 'Starbase 105', 'Tessen III', 'Starbase 117', 'Starbase 152', 'Starbase 6', 'Starbase 212'])(stroke="#1687A9")
       +line(['Starbase 105', 'Zalda'])(stroke="#1687A9")
-      +line(['Starbase 105', 'Tyrellia'])(stroke="#1687A9")
-      +line(['Starbase 23', 'Ramatis III'])(stroke="#1687A9")
+      +line(['Starbase 105', 'Tyrellia','Starbase 173' , 'Omicron Kappa II', 'Calbriden Prime'])(stroke="#1687A9")
+      +line(['Starbase 23','Starbase 24', 'Ramatis III'])(stroke="#1687A9")
       +line(['Ramatis III', 'Ajilon Prime'])(stroke="#1687A9")
       +line(['Starbase 12','Cordian'])(stroke="#1687A9")
       +line(['Starbase 12','Tellun'])(stroke="#1687A9")
@@ -114,11 +114,11 @@ html
       +line(['Yorktown', 'Bre\'el'])(stroke="#1687A9")
       +line(['Yorktown', 'Cait'])(stroke="#1687A9")
       +line(['Yorktown', 'Galen'])(stroke="#1687A9")
-      +line(['Yorktown', 'Grazer', 'Makus III'])(stroke="#1687A9")
-      +line(['Yorktown', 'Pacifica', 'Kessik IV', 'Cestus III', 'Betelgeuse II'])(stroke="#1687A9")
+      +line(['Yorktown', 'Grazer'])(stroke="#1687A9")
+      +line(['Yorktown', 'Makus III', 'Pacifica', 'Kessik IV', 'Cestus III', 'Betelgeuse II'])(stroke="#1687A9")
       +line(['Starbase 718', 'Midos V'])(stroke="#1687A9")
       +line(['Starbase 718', 'Norkan', 'Gamma Hydra IV', 'Caldos', 'Zakdorn'])(stroke="#1687A9")
-      +line(['Caldos', 'Ingraham B Transit Station'])(stroke="#1687A9")
+      +line(['Caldos', 'Ingraham B Transit Station', 'Antares'])(stroke="#1687A9")
       +line(['Starbase 718', 'Nimbus III'])(stroke="#1687A9")
       +line(['Starbase 138', 'Hanolan'])(stroke="#1687A9")
 
@@ -155,7 +155,7 @@ html
       +line(['Mempa', 'Beta Lankal', 'Pheben V', 'Archer', 'Narendra III', 'H\'atoria'])(stroke="#9e0c01")
 
       
-      +line(['Barolia', 'Rigel V'])(stroke="#333")
+      +line(['Barolia', 'Rigel V', 'Orion'])(stroke="#333")
       +line(['Barolia', 'Rator III'])(stroke="#333")
       
       +line(['Cardassia Prime', 'Amleth Prime', 'Loval'])(stroke="#9b6200")
@@ -238,7 +238,7 @@ html
           - let attr = {};
           if thing.coordinates
             - let weight = 300;
-            - let direction = 'right';
+            - let direction = 'ne';
             - let marker = 'circle';
             - let style = false;
             if thing.type == 'star'
@@ -246,11 +246,11 @@ html
               - weight = 700
             if thing.type == 'station' || thing.type == 'megastructure'
               - weight = 500
-              - direction = 'bottom'
+              - direction = 's'
               - marker = 'triangle'
             if thing.type == 'post' || thing.type == 'relay'
               - weight = 700
-              - direction = 'bottom'
+              - direction = 's'
               - marker = 'triangle'
             if thing.nickname
               - style = 'italic';
