@@ -14,6 +14,10 @@ mixin line(locations)
       polyline(points=points, stroke="black", stroke-width=".2", fill="none")&attributes(bgattributes)
       polyline(points=points, stroke="white", stroke-width=".1", fill="none")&attributes(attributes)
 
+mixin frame(minX, maxX, minY, maxY)
+  - const zoom = 7;
+  svg.frame(viewBox=[minX, minY, maxX-minX, maxY-minY].join(' '), width=Math.abs(minX-maxX)*zoom, height=Math.abs(minY-maxY)*zoom)
+    use(href="#map")
 
 - function pcToLj(p) { return p * 3.26156; }
 
@@ -21,10 +25,19 @@ doctype html
 html
   head
     meta(charset="utf-8")
+    style.
+      .frame { border: 3px solid white }
   body
     //-svg(xmlns='http://www.w3.org/2000/svg', viewBox='-44959 -55502 3000 3000', height="20000" width="20000")
     //-svg(xmlns='http://www.w3.org/2000/svg', viewBox='-50000 -76200 100000 100000', height="200000" width="200000")
-    svg(xmlns='http://www.w3.org/2000/svg', viewBox='-800 -800 1800 1800', height="20000" width="20000")
+    +frame(-100, 100, -100, 100)
+    - gammaX = -40052.54;
+    - gammaY = -50410.52;
+    +frame(gammaX-75,gammaX+1000, gammaY-787,gammaY+107)
+    - delta1X = 18000;
+    - delra1Y = -45600;
+    +frame(delta1X-350,delta1X+80, delra1Y-80,delra1Y+1500)
+    svg(style="display: none")
       defs
         filter#nebula(filterUnits="userSpaceOnUse")
           fegaussianblur(stddeviation='.5 .5', in='SourceGraphic', edgemode='none', result='blur')
@@ -59,206 +72,210 @@ html
         body {
           background-color: black;
         }
+      g#map
+    
+        +concentric-grid(cx=0 cy=-26200 min-r=20 r=50000 concentric-subdivisions=2493, radial-subdivisions=8400 stroke="#333" stroke-width=.15/4, min-arc=89.755)
 
-  
-      +concentric-grid(cx=0 cy=-26200 min-r=20 r=50000 concentric-subdivisions=2493, radial-subdivisions=8400 stroke="#333" stroke-width=.15/4, min-arc=89.755)
-
-      +concentric-grid(cx=0 cy=-26200 min-r=26112.2 r=26332.6 concentric-subdivisions=10, radial-subdivisions=14 stroke="white" stroke-width=.15/4, min-arc=89.755 max-arc=90.355, opacity=.25)
-      
-      
-      
-      //-+concentric-grid(cx=catalog.CNB.Maynard.coordinates.x cy=catalog.CNB.Maynard.coordinates.y min-r=0 r=pcToLj(190) concentric-subdivisions=24, radial-subdivisions=24 stroke="#193980" stroke-width=.15/4, opacity=.5)
-      g#quadrant-border
-        - var x = 22;
-        line(x1=x, x2=x, y1="-26200" y2="10000", stroke="#fff", stroke-width=".1") 
-
-      //-path(d="M -57.1,35.8 v-54446.32 h-43995.44 z", fill="none" stroke="red", stroke-width="100")
-
-      +line(['Earth','Proxima'])(stroke="#1687A9")
-      +line(['Tellar Prime', 'Vega IX'])(stroke="#1687A9")
-      +line(['Tellar Prime', 'Altair'])(stroke="#1687A9")
-      +line(['Earth','Tellar Prime'])(stroke="#1687A9")
-      +line(['Earth', 'Denobula'])(stroke="#1687A9")
-      +line(['Earth','Andoria'])(stroke="#1687A9")
-      +line(['Earth','Vulcan'])(stroke="#1687A9")
-      +line(['Tellar Prime','Terra Nova'])(stroke="#1687A9")
-      +line(['Terra Nova','Peliar Zel II'])(stroke="#1687A9")
-      +line(['Terra Nova','Alpha III'])(stroke="#1687A9")
-      +line(['Altair','Bolarus IX'])(stroke="#1687A9")
-      +line(['Altair','Inferna Prime'])(stroke="#1687A9")
-      +line(['Bolarus IX','Starbase 10'])(stroke="#1687A9")
-      +line(['Bolarus IX','Starbase 718'])(stroke="#1687A9")
-      +line(['Bolarus IX','Delta IV'])(stroke="#1687A9")
-      +line(['Bolarus IX','Benzar'])(stroke="#1687A9")
-      +line(['Bolarus IX','Aaamazzara', 'Arbazan', 'Izar', 'Berengaria VII', 'Medusa', 'Kalandan Outpost Transit Station'])(stroke="#1687A9")
-      +line(['Berengaria VII', 'Omega Corvus','Antares B III' , 'Mantilles'])(stroke="#1687A9")
-      +line(['Zakdorn','Deneb IV'])(stroke="#1687A9")
-      +line(['Peliar Zel II','Trill', 'Starbase 621'])(stroke="#1687A9")
-      +line(['Vulcan','Starbase 12', 'Deneva'])(stroke="#1687A9")
-      +line(['Starbase 12','Argelius II'])(stroke="#1687A9")
-      +line(['Argelius II','Starbase 23', 'Jourot'])(stroke="#1687A9")
-      +line(['Starbase 23', 'Starbase 234', 'Starbase 105', 'Tessen III', 'Starbase 117', 'Starbase 152', 'Starbase 6', 'Starbase 212'])(stroke="#1687A9")
-      +line(['Starbase 105', 'Zalda'])(stroke="#1687A9")
-      +line(['Starbase 105', 'Tyrellia','Starbase 173' , 'Omicron Kappa II', 'Calbriden Prime'])(stroke="#1687A9")
-      +line(['Starbase 23','Starbase 24', 'Ramatis III'])(stroke="#1687A9")
-      +line(['Ramatis III', 'Ajilon Prime'])(stroke="#1687A9")
-      +line(['Starbase 12','Cordian'])(stroke="#1687A9")
-      +line(['Starbase 12','Tellun'])(stroke="#1687A9")
-      +line(['Starbase 12','Dakala', 'Betazed', 'Starbase 211', 'Setlik III'])(stroke="#1687A9")
-      +line(['Starbase 211','Umoth VIII', 'Starbase 129'])(stroke="#1687A9")
-      +line(['Starbase 211','Starbase 310', 'Solosos III'])(stroke="#1687A9")
-      +line(['Starbase 211','Hanolan'])(stroke="#1687A9")
-      +line(['Betazed','Aldebaran III', 'Sherman'])(stroke="#1687A9")
-      +line(['Aldebaran III','Starbase 2' , 'Starbase 11', 'Yorktown'])(stroke="#1687A9")
-      +line(['Yorktown', 'Cygnet XIV'])(stroke="#1687A9")
-      +line(['Yorktown', 'Bre\'el'])(stroke="#1687A9")
-      +line(['Yorktown', 'Cait'])(stroke="#1687A9")
-      +line(['Yorktown', 'Galen'])(stroke="#1687A9")
-      +line(['Yorktown', 'Grazer'])(stroke="#1687A9")
-      +line(['Yorktown', 'Makus III', 'Pacifica', 'Kessik IV', 'Cestus III', 'Betelgeuse II'])(stroke="#1687A9")
-      +line(['Starbase 718', 'Midos V'])(stroke="#1687A9")
-      +line(['Starbase 718', 'Norkan', 'Gamma Hydra IV', 'Caldos', 'Zakdorn'])(stroke="#1687A9")
-      +line(['Caldos', 'Ingraham B Transit Station', 'Antares'])(stroke="#1687A9")
-      +line(['Starbase 718', 'Nimbus III'])(stroke="#1687A9")
-      +line(['Starbase 138', 'Hanolan'])(stroke="#1687A9")
-
-      +line(['Starbase 15','Communication Relay Gamma 3', 'Communication Relay Gamma 7'])(stroke="#1687A9", stroke-dasharray=".1,.5")
-      +line(['Starbase 15','Communication Relay Gamma 1', 'Communication Relay Gamma 5'])(stroke="#1687A9", stroke-dasharray=".1,.5")
-      +line(['Starbase 15','Communication Relay Gamma 4', 'Communication Relay Gamma 8'])(stroke="#1687A9", stroke-dasharray=".1,.5")
-      +line(['Starbase 15','Communication Relay Gamma 2', 'Communication Relay Gamma 6'])(stroke="#1687A9", stroke-dasharray=".1,.5")
-
-      +line(['Communication Relay Gamma 5', 'Communication Relay Gamma 6', 'Communication Relay Gamma 7', 'Communication Relay Gamma 8'])(stroke="#1687A9", stroke-dasharray=".1,.5")
-      +line(['Communication Relay Gamma 1', 'Communication Relay Gamma 2', 'Communication Relay Gamma 3', 'Communication Relay Gamma 4'])(stroke="#1687A9", stroke-dasharray=".1,.5")
-      +line(['Communication Relay Gamma 1', 'Communication Relay Gamma 2', 'Communication Relay Gamma 3', 'Communication Relay Gamma 4'])(stroke="#1687A9", stroke-dasharray=".1,.5")
-      
-      +line(['Sherman', 'Deep Space K-7'])(stroke="white", opacity=.25)
-      
-
-      +line(['Quo\'Nos', 'Qu\'Vat'])(stroke="#9e0c01")
-      +line(['Quo\'Nos', 'Korvat'])(stroke="#9e0c01")
-      +line(['Quo\'Nos', 'Gamma Eridon'])(stroke="#9e0c01")
-      +line(['Quo\'Nos', 'Anarchis', 'Ganalda IV', 'Ardana'])(stroke="#9e0c01")
-      +line(['Ganalda IV', 'Gamma Eridon'])(stroke="#9e0c01")
-      +line(['Sherman', 'Organia', 'Amar', 'Ardana', 'Gamma Eridon'])(stroke="#9e0c01")
-      +line(['Quo\'Nos', 'Krios Prime'])(stroke="#9e0c01")
-      +line(['Krios Prime', 'Halee II'])(stroke="#9e0c01")
-      +line(['Krios Prime', 'Valt'])(stroke="#9e0c01")
-      +line(['Krios Prime', 'Ikalia'])(stroke="#9e0c01")
-      +line(['Krios Prime', 'Ty\'Gokor'])(stroke="#9e0c01")
-      +line(['Krios Prime', 'Qu\'Vat'])(stroke="#9e0c01")
-      +line(['Krios Prime', 'MZ5'])(stroke="#9e0c01")
-      +line(['Quo\'Nos', 'Ganalda IV'])(stroke="#9e0c01")
-      +line(['Quo\'Nos', 'B\'Moth'])(stroke="#9e0c01")
-      +line(['Quo\'Nos', 'Kinkuthanza III', 'Arachne IV'])(stroke="#9e0c01")
-      +line(['Korvat', 'Morska'])(stroke="#9e0c01")
-      +line(['Korvat', 'Qu\'Vat', 'Mempa', 'Beta Lankal'])(stroke="#9e0c01")
-      +line(['Mempa', 'Beta Lankal', 'Pheben V', 'Archer', 'Narendra III', 'H\'atoria'])(stroke="#9e0c01")
-
-      
-      +line(['Barolia', 'Rigel V', 'Orion'])(stroke="#333")
-      +line(['Barolia', 'Rator III'])(stroke="#333")
-      
-      +line(['Cardassia Prime', 'Amleth Prime', 'Loval'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Atbar Prime'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Kelvas V'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Korma'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Lazon II'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Monac IV'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Omekla III'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Quatal Prime', 'Chin\'Toka'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Rakal'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Regulak IV'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Torros III', 'Sarpedion V', 'Dopa'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Septimus III'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Simperia'])(stroke="#9b6200")
-      +line(['Cardassia Prime', 'Veloz Prime'])(stroke="#9b6200")
-      +line(['Sarpedion V', 'Unefra III'])(stroke="#9b6200")
-
-      +line(['Ferenginar', 'Lappa IV'])(stroke="#DAA520")
-      +line(['Ferenginar', 'Clarus'])(stroke="#DAA520")
-      +line(['Ferenginar', 'Clarus'])(stroke="#DAA520")
-      +line(['Ferenginar', 'Rog'])(stroke="#DAA520")
-      +line(['Ferenginar', 'Thalos VI'])(stroke="#DAA520")
-      +line(['Ferenginar', 'Volchok Prime'])(stroke="#DAA520")
-      +line(['Ferenginar', 'Balancar'])(stroke="#DAA520")
-
-
-      +line(['Romulus', 'Achernar Prime'])(stroke="green")
-      +line(['Romulus', 'Romii I'])(stroke="green")
-      +line(['Romulus', 'Nimbus III'])(stroke="green")
-      +line(['Romulus', 'Rator III', 'Unroth III', 'Chaltok IV', 'Achernar Prime'])(stroke="green")
-      +line(['Rator III', 'Rhi III'])(stroke="green")
-      +line(['Romulus', 'Unroth III'])(stroke="green")
-
-      +line(['Idran', 'New Bajor'])(stroke="blue")
-
-
-      each thing, key in catalog
-        if thing.coordinates && thing.fractions && thing.fractions.includes('federation')
-          circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=4, fill="none", stroke="#1687A9", stroke-width=.1, stroke-dasharray=".1,.2")
-
-        if thing.coordinates && thing.fractions && thing.fractions.includes('klingon') && thing.type != 'star'
-          circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=3.8, fill="none", stroke="#9e0c01", stroke-width=.1, stroke-dasharray=".1,.2")
-
-        if thing.coordinates && thing.fractions && thing.fractions.includes('romulan')
-          circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=3.9, fill="none", stroke="green", stroke-width=.1, stroke-dasharray=".1,.2")
-
-        if thing.coordinates && thing.fractions && thing.fractions.includes('cardassian')
-          circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=3.9, fill="none", stroke="#9b6200", stroke-width=.1, stroke-dasharray=".1,.2")
-
-        if thing.coordinates && thing.fractions && thing.fractions.includes('ferengi')
-          circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=3.9, fill="none", stroke="#DAA520", stroke-width=.1, stroke-dasharray=".1,.2")
-
-
-      each star, key in stars
-        - var x = star[2] * 3.26156;
-        - var y = star[3] * 3.26156;
-        if x > -800 && x < 1800 && y > -800 && y < 1800
-          if star[0]
-            //-circle(cx=x, cy=y, r=.2, fill="#333")
-            //-text(x=x, y=y, fill="#333", font-size='.5')= star[0] 
-          else 
-            //-circle(cx=x, cy=y, r=.1, fill="#333")
-
-      each thing, key in catalog
-        if thing.outline
-          - let filter = "url(#nebula)"
-          - let fill = "white";
-          - let stroke = "none";
-          if thing.type == 'cluster'
-            - filter = 'url(#cluster)';
-          if thing.type == 'area'
-            - filter = false;
-            - fill = "none";
-            - stroke = "blue";
-
-          path(d=thing.outline, fill=fill filter=filter, opacity=.5, stroke=stroke)
-          if thing.coordinates
-            text(x=thing.coordinates.x, y=thing.coordinates.y, font-size='1.5', font-weight='300', text-anchor='middle', fill="black")= key.toUpperCase()
+        +concentric-grid(cx=0 cy=-26200 min-r=26112.2 r=26332.6 concentric-subdivisions=10, radial-subdivisions=14 stroke="white" stroke-width=.15/4, min-arc=89.755 max-arc=90.355, opacity=.25)
+        
+        +concentric-grid(cx=0 cy=-26200 min-r=46693.5 r=46873.5 concentric-subdivisions=8, radial-subdivisions=10 stroke="white", min-arc=211.0405 max-arc=211.255, stroke-width=.15/4)
         
         
-      each thing, key in catalog
-        if !thing.outline
-          //-+circular-marker(x=thing.coordinates.x, y=thing.coordinates.y, cx=catalog.CNB.coordinates.x, cy=catalog.CNB.coordinates.y)=thing.label.replace(/\([^\)]+\)/, '')
+        
+        //-+concentric-grid(cx=catalog.CNB.Maynard.coordinates.x cy=catalog.CNB.Maynard.coordinates.y min-r=0 r=pcToLj(190) concentric-subdivisions=24, radial-subdivisions=24 stroke="#193980" stroke-width=.15/4, opacity=.5)
+        g#quadrant-border
+          - var x = 22;
+          line(x1=x, x2=x, y1="-26200" y2="10000", stroke="#fff", stroke-width=".1") 
 
-          - let attr = {};
-          if thing.coordinates
-            - let weight = 300;
-            - let direction = 'ne';
-            - let marker = 'circle';
-            - let style = false;
-            if thing.type == 'star'
-              - marker = 'diamond'
-              - weight = 700
-            if thing.type == 'station' || thing.type == 'megastructure'
-              - weight = 500
-              - direction = 's'
-              - marker = 'triangle'
-            if thing.type == 'post' || thing.type == 'relay'
-              - weight = 700
-              - direction = 's'
-              - marker = 'triangle'
-            if thing.nickname
-              - style = 'italic';
-            +teko-label(thing.coordinates.x, thing.coordinates.y, key, weight, direction, marker, style)&attributes(attr)
+        //-path(d="M -57.1,35.8 v-54446.32 h-43995.44 z", fill="none" stroke="red", stroke-width="100")
+
+        +line(['Earth','Proxima'])(stroke="#1687A9")
+        +line(['Tellar Prime', 'Vega IX'])(stroke="#1687A9")
+        +line(['Tellar Prime', 'Altair'])(stroke="#1687A9")
+        +line(['Earth','Tellar Prime'])(stroke="#1687A9")
+        +line(['Earth', 'Denobula'])(stroke="#1687A9")
+        +line(['Earth','Andoria'])(stroke="#1687A9")
+        +line(['Earth','Vulcan'])(stroke="#1687A9")
+        +line(['Tellar Prime','Terra Nova'])(stroke="#1687A9")
+        +line(['Terra Nova','Peliar Zel II'])(stroke="#1687A9")
+        +line(['Terra Nova','Alpha III'])(stroke="#1687A9")
+        +line(['Altair','Bolarus IX'])(stroke="#1687A9")
+        +line(['Altair','Inferna Prime'])(stroke="#1687A9")
+        +line(['Bolarus IX','Starbase 10'])(stroke="#1687A9")
+        +line(['Bolarus IX','Starbase 718'])(stroke="#1687A9")
+        +line(['Bolarus IX','Delta IV'])(stroke="#1687A9")
+        +line(['Bolarus IX','Benzar'])(stroke="#1687A9")
+        +line(['Bolarus IX','Aaamazzara', 'Arbazan', 'Izar', 'Berengaria VII', 'Medusa', 'Kalandan Outpost Transit Station'])(stroke="#1687A9")
+        +line(['Berengaria VII', 'Omega Corvus','Antares B III' , 'Mantilles'])(stroke="#1687A9")
+        +line(['Zakdorn','Deneb IV'])(stroke="#1687A9")
+        +line(['Peliar Zel II','Trill', 'Starbase 621'])(stroke="#1687A9")
+        +line(['Vulcan','Starbase 12', 'Deneva'])(stroke="#1687A9")
+        +line(['Starbase 12','Argelius II'])(stroke="#1687A9")
+        +line(['Argelius II','Starbase 23', 'Jourot'])(stroke="#1687A9")
+        +line(['Starbase 23', 'Starbase 234', 'Starbase 105', 'Tessen III', 'Starbase 117', 'Starbase 152', 'Starbase 6', 'Starbase 212'])(stroke="#1687A9")
+        +line(['Starbase 105', 'Zalda'])(stroke="#1687A9")
+        +line(['Starbase 105', 'Tyrellia','Starbase 173' , 'Omicron Kappa II', 'Calbriden Prime'])(stroke="#1687A9")
+        +line(['Starbase 23','Starbase 24', 'Ramatis III'])(stroke="#1687A9")
+        +line(['Ramatis III', 'Ajilon Prime'])(stroke="#1687A9")
+        +line(['Starbase 12','Cordian'])(stroke="#1687A9")
+        +line(['Starbase 12','Tellun'])(stroke="#1687A9")
+        +line(['Starbase 12','Dakala', 'Betazed', 'Starbase 211', 'Setlik III'])(stroke="#1687A9")
+        +line(['Starbase 211','Umoth VIII', 'Starbase 129'])(stroke="#1687A9")
+        +line(['Starbase 211','Starbase 310', 'Solosos III'])(stroke="#1687A9")
+        +line(['Starbase 211','Hanolan'])(stroke="#1687A9")
+        +line(['Betazed','Aldebaran III', 'Sherman'])(stroke="#1687A9")
+        +line(['Aldebaran III','Starbase 2' , 'Starbase 11', 'Yorktown'])(stroke="#1687A9")
+        +line(['Yorktown', 'Cygnet XIV'])(stroke="#1687A9")
+        +line(['Yorktown', 'Bre\'el'])(stroke="#1687A9")
+        +line(['Yorktown', 'Cait'])(stroke="#1687A9")
+        +line(['Yorktown', 'Galen'])(stroke="#1687A9")
+        +line(['Yorktown', 'Grazer'])(stroke="#1687A9")
+        +line(['Yorktown', 'Makus III', 'Pacifica', 'Kessik IV', 'Cestus III', 'Betelgeuse II'])(stroke="#1687A9")
+        +line(['Starbase 718', 'Midos V'])(stroke="#1687A9")
+        +line(['Starbase 718', 'Norkan', 'Gamma Hydra IV', 'Caldos', 'Zakdorn'])(stroke="#1687A9")
+        +line(['Caldos', 'Ingraham B Transit Station', 'Antares'])(stroke="#1687A9")
+        +line(['Starbase 718', 'Nimbus III'])(stroke="#1687A9")
+        +line(['Starbase 138', 'Hanolan'])(stroke="#1687A9")
+
+        +line(['Starbase 15','Communication Relay Gamma 3', 'Communication Relay Gamma 7'])(stroke="#1687A9", stroke-dasharray=".1,.5")
+        +line(['Starbase 15','Communication Relay Gamma 1', 'Communication Relay Gamma 5'])(stroke="#1687A9", stroke-dasharray=".1,.5")
+        +line(['Starbase 15','Communication Relay Gamma 4', 'Communication Relay Gamma 8'])(stroke="#1687A9", stroke-dasharray=".1,.5")
+        +line(['Starbase 15','Communication Relay Gamma 2', 'Communication Relay Gamma 6'])(stroke="#1687A9", stroke-dasharray=".1,.5")
+
+        +line(['Communication Relay Gamma 5', 'Communication Relay Gamma 6', 'Communication Relay Gamma 7', 'Communication Relay Gamma 8'])(stroke="#1687A9", stroke-dasharray=".1,.5")
+        +line(['Communication Relay Gamma 1', 'Communication Relay Gamma 2', 'Communication Relay Gamma 3', 'Communication Relay Gamma 4'])(stroke="#1687A9", stroke-dasharray=".1,.5")
+        +line(['Communication Relay Gamma 1', 'Communication Relay Gamma 2', 'Communication Relay Gamma 3', 'Communication Relay Gamma 4'])(stroke="#1687A9", stroke-dasharray=".1,.5")
+        
+        +line(['Sherman', 'Deep Space K-7'])(stroke="white", opacity=.25)
+        
+
+        +line(['Quo\'Nos', 'Qu\'Vat'])(stroke="#9e0c01")
+        +line(['Quo\'Nos', 'Korvat'])(stroke="#9e0c01")
+        +line(['Quo\'Nos', 'Gamma Eridon'])(stroke="#9e0c01")
+        +line(['Quo\'Nos', 'Anarchis', 'Ganalda IV', 'Ardana'])(stroke="#9e0c01")
+        +line(['Ganalda IV', 'Gamma Eridon'])(stroke="#9e0c01")
+        +line(['Sherman', 'Organia', 'Amar', 'Ardana', 'Gamma Eridon'])(stroke="#9e0c01")
+        +line(['Quo\'Nos', 'Krios Prime'])(stroke="#9e0c01")
+        +line(['Krios Prime', 'Halee II'])(stroke="#9e0c01")
+        +line(['Krios Prime', 'Valt'])(stroke="#9e0c01")
+        +line(['Krios Prime', 'Ikalia'])(stroke="#9e0c01")
+        +line(['Krios Prime', 'Ty\'Gokor'])(stroke="#9e0c01")
+        +line(['Krios Prime', 'Qu\'Vat'])(stroke="#9e0c01")
+        +line(['Krios Prime', 'MZ5'])(stroke="#9e0c01")
+        +line(['Quo\'Nos', 'Ganalda IV'])(stroke="#9e0c01")
+        +line(['Quo\'Nos', 'B\'Moth'])(stroke="#9e0c01")
+        +line(['Quo\'Nos', 'Kinkuthanza III', 'Arachne IV'])(stroke="#9e0c01")
+        +line(['Korvat', 'Morska'])(stroke="#9e0c01")
+        +line(['Korvat', 'Qu\'Vat', 'Mempa', 'Beta Lankal'])(stroke="#9e0c01")
+        +line(['Mempa', 'Beta Lankal', 'Pheben V', 'Archer', 'Narendra III', 'H\'atoria'])(stroke="#9e0c01")
+
+        
+        +line(['Barolia', 'Rigel V', 'Orion'])(stroke="#333")
+        +line(['Barolia', 'Rator III'])(stroke="#333")
+        
+        +line(['Cardassia Prime', 'Amleth Prime', 'Loval'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Atbar Prime'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Kelvas V'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Korma'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Lazon II'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Monac IV'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Omekla III'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Quatal Prime', 'Chin\'Toka'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Rakal'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Regulak IV'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Torros III', 'Sarpedion V', 'Dopa'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Septimus III'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Simperia'])(stroke="#9b6200")
+        +line(['Cardassia Prime', 'Veloz Prime'])(stroke="#9b6200")
+        +line(['Sarpedion V', 'Unefra III'])(stroke="#9b6200")
+
+        +line(['Ferenginar', 'Lappa IV'])(stroke="#DAA520")
+        +line(['Ferenginar', 'Clarus'])(stroke="#DAA520")
+        +line(['Ferenginar', 'Clarus'])(stroke="#DAA520")
+        +line(['Ferenginar', 'Rog'])(stroke="#DAA520")
+        +line(['Ferenginar', 'Thalos VI'])(stroke="#DAA520")
+        +line(['Ferenginar', 'Volchok Prime'])(stroke="#DAA520")
+        +line(['Ferenginar', 'Balancar'])(stroke="#DAA520")
+
+
+        +line(['Romulus', 'Achernar Prime'])(stroke="green")
+        +line(['Romulus', 'Romii I'])(stroke="green")
+        +line(['Romulus', 'Nimbus III'])(stroke="green")
+        +line(['Romulus', 'Rator III', 'Unroth III', 'Chaltok IV', 'Achernar Prime'])(stroke="green")
+        +line(['Rator III', 'Rhi III'])(stroke="green")
+        +line(['Romulus', 'Unroth III'])(stroke="green")
+
+        +line(['Idran', 'Hur\'q Outpost'])(stroke="blue")
+        
+        +line(['Ocampa', 'Markov-Kalto','Rogue Planet' , 'Banea', 'FGC-486237', 'Sikaris', 'Ilidaria', 'Avery', 'Briori', 'Tarok', 'Supspiria\'s Array', 'Sky Spirits Homeworld', 'Pralor', 'Mokra', 'Rakosa V', 'Hemikek IV', 'Fina Prime', 'Kolhari', 'Drayan II', 'Kohl Settlement', 'New Earth', 'Hanon IV', 'Takar', 'Heva VII', 'Akritirian Prison Satellite', 'Enara Prime', 'Mislen', 'Tak Tak', 'Arakis Prime', 'Nekrit Station'])(stroke="blue")
+
+
+        each thing, key in catalog
+          if thing.coordinates && thing.fractions && thing.fractions.includes('federation')
+            circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=4, fill="none", stroke="#1687A9", stroke-width=.1, stroke-dasharray=".1,.2")
+
+          if thing.coordinates && thing.fractions && thing.fractions.includes('klingon') && thing.type != 'star'
+            circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=3.8, fill="none", stroke="#9e0c01", stroke-width=.1, stroke-dasharray=".1,.2")
+
+          if thing.coordinates && thing.fractions && thing.fractions.includes('romulan')
+            circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=3.9, fill="none", stroke="green", stroke-width=.1, stroke-dasharray=".1,.2")
+
+          if thing.coordinates && thing.fractions && thing.fractions.includes('cardassian')
+            circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=3.9, fill="none", stroke="#9b6200", stroke-width=.1, stroke-dasharray=".1,.2")
+
+          if thing.coordinates && thing.fractions && thing.fractions.includes('ferengi')
+            circle(cx=thing.coordinates.x, cy=thing.coordinates.y, r=3.9, fill="none", stroke="#DAA520", stroke-width=.1, stroke-dasharray=".1,.2")
+
+
+        each star, key in stars
+          - var x = star[2] * 3.26156;
+          - var y = star[3] * 3.26156;
+          if x > -800 && x < 1800 && y > -800 && y < 1800
+            if star[0]
+              //-circle(cx=x, cy=y, r=.2, fill="#333")
+              //-text(x=x, y=y, fill="#333", font-size='.5')= star[0] 
+            else 
+              //-circle(cx=x, cy=y, r=.1, fill="#333")
+
+        each thing, key in catalog
+          if thing.outline
+            - let filter = "url(#nebula)"
+            - let fill = "white";
+            - let stroke = "none";
+            if thing.type == 'cluster'
+              - filter = 'url(#cluster)';
+            if thing.type == 'area'
+              - filter = false;
+              - fill = "none";
+              - stroke = "blue";
+
+            path(d=thing.outline, fill=fill filter=filter, opacity=.5, stroke=stroke)
+            if thing.coordinates
+              text(x=thing.coordinates.x, y=thing.coordinates.y, font-size='1.5', font-weight='300', text-anchor='middle', fill="black")= key.toUpperCase()
+          
+          
+        each thing, key in catalog
+          if !thing.outline
+            //-+circular-marker(x=thing.coordinates.x, y=thing.coordinates.y, cx=catalog.CNB.coordinates.x, cy=catalog.CNB.coordinates.y)=thing.label.replace(/\([^\)]+\)/, '')
+
+            - let attr = {};
+            if thing.coordinates
+              - let weight = 300;
+              - let direction = 'ne';
+              - let marker = 'circle';
+              - let style = false;
+              if thing.type == 'star'
+                - marker = 'diamond'
+                - weight = 700
+              if thing.type == 'station' || thing.type == 'megastructure'
+                - weight = 500
+                - direction = 's'
+                - marker = 'triangle'
+              if thing.type == 'post' || thing.type == 'relay'
+                - weight = 700
+                - direction = 's'
+                - marker = 'triangle'
+              if thing.nickname || thing.discriptive
+                - style = 'italic';
+              +teko-label(thing.coordinates.x, thing.coordinates.y, key, weight, direction, marker, style)&attributes(attr)
 

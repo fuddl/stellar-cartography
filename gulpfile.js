@@ -48,7 +48,13 @@ function normalizeCoordinates(catalog) {
     }
   }
 
+  return catalog;
+}
+
+function resolveRelativeCoordinates(catalog) {
   let sources = ['Maynard', 'Johnson', 'judgement rites', 'DS9', 'ENT', 'DIS', 'Mandel', 'sto', 'Mandel-2018'];
+  let coordinates = ['x', 'y', 'z'];
+
   for(thing in catalog) {
     for(entryType of sources) {
       if(entryType in catalog[thing] && catalog[thing][entryType].coordinates && catalog[thing][entryType].coordinates.hasOwnProperty('relative-to') ) {
@@ -56,7 +62,9 @@ function normalizeCoordinates(catalog) {
         let rela = catalog[thing][entryType].coordinates['relative-to'];
         for(coordinate of coordinates) {
           if(coordinate in catalog[thing][entryType].coordinates) {
-            catalog[thing][entryType].coordinates[coordinate] = catalog[thing][entryType].coordinates[coordinate] + catalog[rela][entryType].coordinates[coordinate];
+            catalog[thing][entryType].coordinates[coordinate] = 
+              catalog[thing][entryType].coordinates[coordinate] + 
+              catalog[rela]['Mandel'].coordinates[coordinate];
           }
         }
       }
@@ -81,6 +89,7 @@ function addPreferredValues(catalog) {
 gulp.task('pug', function () {
 	var catalog = yaml.safeLoad(fs.readFileSync('data/catalog.yml', 'utf8'));
   var catalog = normalizeCoordinates(catalog);
+  var catalog = resolveRelativeCoordinates(catalog);
 	var catalog = addPreferredValues(catalog);
 
   var stars = parse(fs.readFileSync('data/stars.csv', 'utf8'));

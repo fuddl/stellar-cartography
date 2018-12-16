@@ -6869,8 +6869,6 @@ Genesis:
       y: 300.636
       z: 
   type: star
-Talax:
-  wd: Q24229363
 Miri:
   wd: Q48976033
   Johnson:
@@ -7728,6 +7726,22 @@ Callinon VII:
       y: -146.783
       z: 
       relative-to: Idran
+Klaxinoth:
+  sto:
+    label: Klaxinoth
+    coordinates:
+      x: 54.459
+      y: -32.858
+      z: 
+      relative-to: Idran
+Varaka:
+  sto:
+    label: Varaka #Varala?
+    coordinates:
+      x: 33.332
+      y: -39.006
+      z: 
+      relative-to: Idran
 New Bajor:
   Mandel:
     label: New Bajor
@@ -7735,6 +7749,13 @@ New Bajor:
       x: -21.66 
       y: 17.366
       z: 
+      relative-to: Idran
+  sto:
+    label: New Bajor
+    coordinates:
+      x: -4.803
+      y: 6.214
+      z:
       relative-to: Idran
 Ennis:
   Mandel:
@@ -7817,6 +7838,13 @@ Rakhar:
       y: 91.045
       z: 
       relative-to: Idran
+    sto:
+      label: Rakhar
+      coordinates:
+        x: -2.44
+        y: 18.008
+        z: 
+        relative-to: Idran
 L-S:
   type: star
   Mandel:
@@ -7842,6 +7870,13 @@ Kar Telos:
       y: -29.101
       z: 
       relative-to: Idran
+  sto:
+    label: Kar-Telos
+    coordinates:
+      x: 42.931
+      y: -5.777
+      z: 
+      relative-to: Idran
 Yadera:
   Mandel:
     label: Yadera
@@ -7864,6 +7899,14 @@ Kurill Prime:
     coordinates:
       x: 90.505
       y: -359.111 
+      z: 
+      relative-to: Idran
+Baen:
+  sto:
+    label: Kurill Prime
+    coordinates:
+      x: -11.043
+      y: -27.184
       z: 
       relative-to: Idran
 Founder Homeworld:
@@ -7950,8 +7993,8 @@ Bopak:
   Mandel:
     label: Bopak
     coordinates:
-      x: 661.9
-      y: 21.743
+      x: 661.427
+      y: 21.757
       z: 
       relative-to: Idran
 Meridian:
@@ -7988,9 +8031,10 @@ Hur'q Outpost:
   Mandel:
     label: Hur'q Outpost
     coordinates:
-      x: 867.724
-      y: -337.205 
+      x: 866.76
+      y: -337.228
       z: 
+      relative-to: Idran
 Erabus:
   Mandel:
     label: Erabus
@@ -7998,6 +8042,7 @@ Erabus:
       x: 461.263
       y: -678.724
       z: 
+      relative-to: Idran
 Gavara:
   Mandel:
     label: Gavara
@@ -8005,6 +8050,7 @@ Gavara:
       x: 354.3
       y: -266.151
       z:  
+      relative-to: Idran
 New Founder Homeworld:
   Mandel:
     label: New Founder Homeworld
@@ -8012,6 +8058,7 @@ New Founder Homeworld:
       x: 760.543
       y: -553.688
       z: 
+      relative-to: Idran
 Tautine:
   Mandel:
     label: Tautine
@@ -8019,6 +8066,7 @@ Tautine:
       x: 910.784
       y: -638.693
       z:  
+      relative-to: Idran
 Errikang:
   Mandel:
     label: Errikang
@@ -8026,6 +8074,7 @@ Errikang:
       x: 558.314
       y: -780.476
       z:  
+      relative-to: Idran
 Ravanar IV:
   wd: Q57034267
   present-in-work:
@@ -8046,3 +8095,451 @@ Trinay III:
       x: 4
       y: 148.4
       z: 
+Ocampa:
+  Mandel: 
+    label: Ocampa
+    coordinates:
+      x: 18000
+      y: -45600
+      z: 
+Caretakers Array:
+  nickname: yes
+  type: station
+  Mandel: 
+    label: Caretakers Array
+    coordinates:
+      x: 0
+      y: 0
+      z:
+      relative-to: Ocampa 
+Oblissa:
+  Mandel: 
+    label: Oblissa # Oblissian cabbage
+    coordinates:
+      x: -22.066 
+      y: 11.899
+      z: 
+      relative-to: Ocampa
+Rectilia:
+  Mandel: 
+    label: Rectilia # Rectilian vulture
+    coordinates:
+      x: -87.733
+      y: 28.637
+      z: 
+      relative-to: Ocampa
+Keloda:
+  Mandel: 
+    label: Keloda
+    coordinates:
+      x: 45.133
+      y: -21.632
+      z: 
+      relative-to: Ocampa
+Oshionian Prime:
+  Mandel: 
+    label: Oshionian
+    coordinates:
+      x: 33.547
+      y: -45.551 
+      z: 
+      relative-to: Ocampa
+Markov-Kalto:
+  Mandel: 
+    label: Markov-Kalto
+    coordinates:
+      x: -26.935
+      y: 101.403 
+      z: 
+      relative-to: Ocampa
+Rogue Planet:
+  discriptive: true
+  Mandel: 
+    label: Rogue Planet
+    coordinates:
+      x: -44.07
+      y: 120.315
+      z: 
+      relative-to: Ocampa
+Banea:
+  Mandel: 
+    label: Banea
+    coordinates:
+      x: -42.996
+      y: 150.208
+      z: 
+      relative-to: Ocampa
+Numiri:
+  Mandel: 
+    label: Numiri
+    coordinates:
+      x: -55.388
+      y: 148.407
+      z: 
+      relative-to: Ocampa
+FGC-486237:
+  Mandel: 
+    label: FGC-486237
+    coordinates:
+      x: -30.177 
+      y: 160.473 
+      z: 
+      relative-to: Ocampa
+Sikaris:
+  Mandel: 
+    label: Sikaris
+    coordinates:
+      x: -49.659 
+      y: 168.836
+      z: 
+      relative-to: Ocampa
+Ilidaria:
+  Mandel: 
+    label: Ilidaria
+    coordinates:
+      x: -66.333
+      y: 207.075
+      z: 
+      relative-to: Ocampa
+Avery:
+  Mandel: 
+    label: Avery (Vidiia)
+    coordinates:
+      x: -81.794
+      y: 227.585
+      z: 
+      relative-to: Ocampa
+Briori:
+  Mandel: 
+    label: Briori
+    coordinates:
+      x: -118.605
+      y: 309.459
+      z: 
+      relative-to: Ocampa
+Talax:
+  wd: Q24229363
+  Mandel: 
+    label: Talax
+    coordinates:
+      x: -96.642
+      y: -42.141
+      z: 
+      relative-to: Ocampa
+Mylea:
+  Mandel: 
+    label: Mylea # Mylean
+    coordinates:
+      x: -102.058
+      y: -29.102
+      z: 
+      relative-to: Ocampa
+Gree:
+  Mandel: 
+    label: Gree
+    coordinates:
+      x: -116.1
+      y: -57.988
+      z: 
+      relative-to: Ocampa
+Mithren:
+  Mandel: 
+    label: Mithren
+    coordinates:
+      x: -152.05
+      y: -45.31
+      z: 
+      relative-to: Ocampa
+Jibalia:
+  Mandel: 
+    label: Jibalia
+    coordinates:
+      x: -17.775
+      y: -56.895
+      z: 
+      relative-to: Ocampa
+Tarok:
+  Mandel: 
+    label: Tarok (Kazon)
+    coordinates:
+      x: -113.911
+      y: 318.21
+      z: 
+      relative-to: Ocampa
+Supspiria's Array:
+  nickname: yes
+  type: station
+  Mandel: 
+    label: Supspiria's Array
+    coordinates:
+      x: -115.825
+      y: 328.712
+      z: 
+      relative-to: Ocampa
+Sky Spirits Homeworld:
+  discriptive: true
+  Mandel: 
+    label: Sky Spirits Homeworld
+    coordinates:
+      x: -128.147
+      y: 342.221
+      z: 
+      relative-to: Ocampa
+Pralor:
+  Mandel: 
+    label: Pralor
+    coordinates:
+      x: -125.565
+      y: 416.844 
+      z: 
+      relative-to: Ocampa
+Mokra:
+  Mandel: 
+    label: Mokra (Alsauria)
+    coordinates:
+      x: -133.8
+      y: 426.697
+      z: 
+      relative-to: Ocampa
+Cravic:
+  Mandel: 
+    label: Cravic
+    coordinates:
+      x: -164.373
+      y: 409.164
+      z: 
+      relative-to: Ocampa
+Kotati:
+  Mandel: 
+    label: Kotati
+    coordinates:
+      x: -204.945
+      y: 508.709
+      z: 
+      relative-to: Ocampa
+Rakosa V:
+  Mandel: 
+    label: Rakosa
+    coordinates:
+      x: -174.392
+      y: 501.307
+      z: 
+      relative-to: Ocampa
+Hemikek IV:
+  Mandel: 
+    label: Hemikek
+    coordinates:
+      x: -167.974
+      y: 528.951
+      z: 
+      relative-to: Ocampa
+Fina Prime:
+  Mandel: 
+    label: Fina (Vidiia)
+    coordinates:
+      x: -190.638
+      y: 530.932
+      z: 
+      relative-to: Ocampa
+Kolhari:
+  Mandel: 
+    label: Kolhari
+    coordinates:
+      x: -196.091
+      y: 536.921
+      z: 
+      relative-to: Ocampa
+Vidiian Colony:
+  discriptive: true
+  Mandel: 
+    label: Vidiian Colony
+    coordinates:
+      x: -210.912
+      y: 543.468
+      z: 
+      relative-to: Ocampa
+Drayan II:
+  Mandel: 
+    label: Draya (Crysala)
+    coordinates:
+      x: -190.752
+      y: 550.75
+      z: 
+      relative-to: Ocampa
+Kohl Settlement:
+  discriptive: true
+  Mandel: 
+    label: Draya (Crysala)
+    coordinates:
+      x: -186.754
+      y: 557.746
+      z: 
+      relative-to: Ocampa
+New Earth:
+  nickname: true
+  Mandel: 
+    label: New Earth
+    coordinates:
+      x: -206.494
+      y: 606.972
+      z: 
+      relative-to: Ocampa
+Gema IV:
+  Mandel: 
+    label: Gema
+    coordinates:
+      x: -222.273
+      y: 739.294
+      z: 
+      relative-to: Ocampa
+Hanon IV:
+  Mandel: 
+    label: Hanon
+    coordinates:
+      x: -246.118
+      y: 744.327
+      z: 
+      relative-to: Ocampa
+Prema II:
+  Mandel: 
+    label: Prema (Talax)
+    coordinates:
+      x: -278.59
+      y: 745.948
+      z: 
+      relative-to: Ocampa
+Gand:
+  type: star
+  Mandel: 
+    label: Gand
+    coordinates:
+      x: -197.012
+      y: 803.068
+      z: 
+      relative-to: Ocampa
+Nechani:
+  Mandel: 
+    label: Nechani
+    coordinates:
+      x: -275.589 
+      y: 758.2 
+      z: 
+      relative-to: Ocampa
+Takar:
+  nickname: true
+  Mandel: 
+    label: Nechani
+    coordinates:
+      x: -289.424 
+      y: 763.828
+      z: 
+      relative-to: Ocampa
+Porakas IV:
+  Mandel: 
+    label: Porakas
+    coordinates:
+      x: -299.2
+      y: 771.055
+      z: 
+      relative-to: Ocampa
+Heva VII:
+  Mandel: 
+    label: Heva 
+    coordinates:
+      x: -295.306
+      y: 788.837
+      z: 
+      relative-to: Ocampa
+Akritiri:
+  Mandel: 
+    label: Akritiri 
+    coordinates:
+      x: -304.041
+      y: 794.308
+      z: 
+      relative-to: Ocampa
+Akritirian Prison Satellite:
+  discriptive: true
+  type: station
+  Mandel: 
+    label: Akritirian Prison Satellite 
+    coordinates:
+      x: -298.387
+      y: 796.205
+      z: 
+      relative-to: Ocampa
+Enara Prime:
+  Mandel: 
+    label: Enara 
+    coordinates:
+      x: -291.442
+      y: 802.699
+      z: 
+      relative-to: Ocampa
+Fima:
+  Mandel: 
+    label: Enara 
+    coordinates:
+      x: -287.44
+      y: 806.546
+      z: 
+      relative-to: Ocampa
+Mislen:
+  Mandel: 
+    label: Mislen 
+    coordinates:
+      x: -288.678
+      y: 812.893
+      z: 
+      relative-to: Ocampa
+Tak Tak:
+  Mandel: 
+    label: Tak Tak 
+    coordinates:
+      x: -299.901
+      y: 914.157
+      z: 
+      relative-to: Ocampa
+Arakis Prime:
+  Mandel: 
+    label: Arakis
+    coordinates:
+      x: -306.033
+      y: 924.108
+      z: 
+      relative-to: Ocampa
+Toffa:
+  Mandel: 
+    label: Toffa # Toffa ale
+    coordinates:
+      x: -322.463
+      y: 918.438
+      z: 
+      relative-to: Ocampa
+Ubea:
+  Mandel: 
+    label: Ubea # Ubean
+    coordinates:
+      x: -319.57
+      y: 924.802
+      z: 
+      relative-to: Ocampa
+Kolaati:
+  Mandel: 
+    label: Kolaati
+    coordinates:
+      x: -276.76
+      y: 929.893
+      z: 
+      relative-to: Ocampa
+Nekrit Station:
+  type: station
+  Mandel: 
+    label: Kolaati
+    coordinates:
+      x: -300.248
+      y: 932.554
+      z: 
+      relative-to: Ocampa
+
+
