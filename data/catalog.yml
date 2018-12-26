@@ -6197,7 +6197,7 @@ New Paris:
       x: -26.3
       y: 200.6
       z: -147.6
-Omega:
+Omega IV:
   Maynard:
     label: Omega 8 (IV VII)
     coordinates:
@@ -8102,6 +8102,13 @@ Ocampa:
       x: 18000
       y: -45600
       z: 
+Krenim:
+  Mandel:
+    label: Krenim
+    coordinates:
+      x: 17635
+      y: -36300
+      z: 
 Caretakers Array:
   nickname: yes
   type: station
@@ -8541,5 +8548,294 @@ Nekrit Station:
       y: 932.554
       z: 
       relative-to: Ocampa
-
-
+Marayna's space station:
+  discriptive: true
+  type: station
+  Mandel: 
+    label: Marayna's space station
+    coordinates:
+      x: -322.248
+      y: 956.667
+      z: 
+      relative-to: Ocampa
+FGC-505183:
+  Mandel: 
+    label: FGC-505183
+    coordinates:
+      x: -323.45
+      y: 998.085
+      z: 
+      relative-to: Ocampa
+Sakari:
+  Mandel: 
+    label: Sakari
+    coordinates:
+      x: -327.191
+      y: 1014.474 
+      z: 
+      relative-to: Ocampa
+Farn:
+  Mandel: 
+    label: Sakari
+    coordinates:
+      x: -304.258
+      y: 1065.318
+      z: 
+      relative-to: Ocampa
+Nezu Colony:
+  discriptive: true
+  Mandel: 
+    label: Nezu Colony
+    coordinates:
+      x: -344.128
+      y: 1106.08 
+      z: 
+      relative-to: Ocampa
+FGC-506930:
+  Mandel: 
+    label: FGC-506930
+    coordinates:
+      x: -334.532
+      y: 1123.162
+      z: 
+      relative-to: Ocampa
+Argala:
+  Mandel: 
+    label: Argala
+    coordinates:
+      x: -303.387 
+      y: 1147.196
+      z: 
+      relative-to: Ocampa
+Taresia:
+  Mandel: 
+    label: Taresia
+    coordinates:
+      x: -351.414
+      y: 1129.619
+      z: 
+      relative-to: Ocampa
+Mikhal Traveler Outpost:
+  discriptive: true
+  type: station
+  Mandel: 
+    label: Mikhal Traveler Outpost
+    coordinates:
+      x: -330.866 
+      y: 1117.489
+      z: 
+      relative-to: Ocampa
+Astral eddy:
+  type: anomaly
+  Mandel: 
+    label: Astral eddy
+    coordinates:
+      x: -356.739
+      y: 1143.679
+      z: 
+      relative-to: Ocampa
+Vostigye Space Station:
+  discriptive: true
+  type: station
+  Mandel: 
+    label: Vostigye Space Station
+    coordinates:
+      x: -359.315
+      y: 1139.977
+      z: 
+      relative-to: Ocampa
+Nyria V:
+  Mandel: 
+    label: Nyria V
+    coordinates:
+      x: -371.387
+      y: 1154.624 
+      z: 
+      relative-to: Ocampa
+Borg Colony:
+  discriptive: true
+  Mandel: 
+    label: Borg Colony
+    coordinates:
+      x: -359.959
+      y: 1165.73
+      z: 
+      relative-to: Ocampa
+Jarleth:
+  Mandel: 
+    label: Jarleth # Jarlath?
+    coordinates:
+      x: -436.079 
+      y: 1109.647
+      z: 
+North West Passage:
+  nickname: yes
+  type: region
+  Mandel:
+    label: North West Passage
+    coordinates:
+      x: -364.856 
+      y: 1187.249 
+      z: 
+      relative-to: Ocampa
+    outline: M Z # todo
+Kradin-Vori:
+  nickname: true
+  Mandel: 
+    label: Kradin-Vori
+    coordinates:
+      x: -51.491
+      y: -126.185
+      z: 
+      relative-to: Krenim
+Arrithea:
+  Mandel: 
+    label: Arrithea
+    coordinates:
+      x: -42.897 
+      y: -114.637 
+      z: 
+      relative-to: Krenim
+Seros:
+  Mandel: 
+    label: Seros
+    coordinates:
+      x: 0.194
+      y: -94.748
+      z: 
+      relative-to: Krenim
+Garenor:
+  Mandel: 
+    label: Garenor
+    coordinates:
+      x: -52.516
+      y: -105.307
+      z: 
+      relative-to: Krenim
+Nassordin:
+  Mandel: 
+    label: Nassordin
+    coordinates:
+      x: -94.794 
+      y: -36.589
+      z: 
+      relative-to: Krenim
+FGC-7861340:
+  Mandel: 
+    label: FGC-7861340
+    coordinates:
+      x: -117.812
+      y: -23.034
+      z: 
+      relative-to: Krenim
+Mari:
+  Mandel: 
+    label: Mari
+    coordinates:
+      x: -68.452
+      y: 0.751
+      z: 
+      relative-to: Krenim
+Tau:
+  Mandel: 
+    label: Tau # ?
+    coordinates:
+      x: -58.094
+      y: 10.486
+      z: 
+      relative-to: Krenim
+Hirogen Relay Station:
+  type: relay
+  Mandel: 
+    label: Hirogen Relay Station
+    coordinates:
+      x: -43.644
+      y: 56.76
+      z: 
+      relative-to: Krenim
+Enthara:
+  Mandel: 
+    label: Enthara
+    coordinates:
+      x: -58.478
+      y: 85.037
+      z: 
+      relative-to: Krenim
+Kendren IV:
+  Mandel: 
+    label: Kendren
+    coordinates:
+      x: -81.751
+      y: 97.569
+      z: 
+      relative-to: Krenim
+Omega:
+  nickname: true
+  Mandel: 
+    label: Omega
+    coordinates:
+      x: -100.165
+      y: 122.36
+      z: 
+      relative-to: Krenim
+Mikah:
+  Mandel: 
+    label: Mikah
+    coordinates:
+      x: -110.906
+      y: 129.393
+      z: 
+      relative-to: Krenim
+Vaska:
+  Mandel: 
+    label: Kyrian-Vaskan
+    coordinates:
+      x: -120.507
+      y: 136.427
+      z: 
+      relative-to: Krenim
+Demon Planetoid:
+  nickname: true
+  Mandel: 
+    label: Class-Y Planet (Mimetic Life forms)
+    coordinates:
+      x: -123.832
+      y: 147.552
+      z: 
+      relative-to: Krenim
+Swallow Nebula:
+  Mandel:
+    label: Swallow Nebula (Mutara-class)
+    coordinates:
+      x: -190.27
+      y: 195.398
+      z:
+      relative-to: Krenim
+    outline: M z
+Trading Colony:
+  discriptive: true
+  Mandel: 
+    label: Trading Colony
+    coordinates:
+      x: -223.344
+      y: 246.831 
+      z: 
+      relative-to: Krenim
+Vortex Void:
+  discriptive: true
+  Mandel: 
+    label: Vortex
+    coordinates:
+      x: -279.665
+      y: 418.89
+      z: 
+      relative-to: Krenim
+Vortex:
+  discriptive: true
+  Mandel: 
+    label: Vortex
+    coordinates:
+      x: 17355.335
+      y: -33381.11
+      z: 
+      relative-to: Krenim

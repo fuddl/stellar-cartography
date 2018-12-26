@@ -30,13 +30,16 @@ html
   body
     //-svg(xmlns='http://www.w3.org/2000/svg', viewBox='-44959 -55502 3000 3000', height="20000" width="20000")
     //-svg(xmlns='http://www.w3.org/2000/svg', viewBox='-50000 -76200 100000 100000', height="200000" width="200000")
-    +frame(-100, 100, -100, 100)
+    //-+frame(-100, 100, -100, 100)
     - gammaX = -40052.54;
     - gammaY = -50410.52;
-    +frame(gammaX-75,gammaX+1000, gammaY-787,gammaY+107)
-    - delta1X = 18000;
-    - delra1Y = -45600;
-    +frame(delta1X-350,delta1X+80, delra1Y-80,delra1Y+1500)
+    //-+frame(gammaX-75,gammaX+1000, gammaY-787,gammaY+107)
+    - delta2X = catalog.Krenim.Mandel.coordinates.x;
+    - delra2Y = catalog.Krenim.Mandel.coordinates.y;
+    +frame(delta2X-500,delta2X+80, delra2Y-130,delra2Y+1400)
+    - delta1X = catalog.Ocampa.Mandel.coordinates.x;
+    - delra1Y = catalog.Ocampa.Mandel.coordinates.y;
+    +frame(delta1X-400,delta1X+80, delra1Y-80,delra1Y+1200)
     svg(style="display: none")
       defs
         filter#nebula(filterUnits="userSpaceOnUse")
@@ -88,7 +91,7 @@ html
           line(x1=x, x2=x, y1="-26200" y2="10000", stroke="#fff", stroke-width=".1") 
 
         //-path(d="M -57.1,35.8 v-54446.32 h-43995.44 z", fill="none" stroke="red", stroke-width="100")
-
+  
         +line(['Earth','Proxima'])(stroke="#1687A9")
         +line(['Tellar Prime', 'Vega IX'])(stroke="#1687A9")
         +line(['Tellar Prime', 'Altair'])(stroke="#1687A9")
@@ -207,7 +210,7 @@ html
 
         +line(['Idran', 'Hur\'q Outpost'])(stroke="blue")
         
-        +line(['Ocampa', 'Markov-Kalto','Rogue Planet' , 'Banea', 'FGC-486237', 'Sikaris', 'Ilidaria', 'Avery', 'Briori', 'Tarok', 'Supspiria\'s Array', 'Sky Spirits Homeworld', 'Pralor', 'Mokra', 'Rakosa V', 'Hemikek IV', 'Fina Prime', 'Kolhari', 'Drayan II', 'Kohl Settlement', 'New Earth', 'Hanon IV', 'Takar', 'Heva VII', 'Akritirian Prison Satellite', 'Enara Prime', 'Mislen', 'Tak Tak', 'Arakis Prime', 'Nekrit Station'])(stroke="blue")
+        +line(['Ocampa', 'Markov-Kalto','Rogue Planet' , 'Banea', 'FGC-486237', 'Sikaris', 'Ilidaria', 'Avery', 'Briori', 'Tarok', 'Supspiria\'s Array', 'Sky Spirits Homeworld', 'Pralor', 'Mokra', 'Rakosa V', 'Hemikek IV', 'Fina Prime', 'Kolhari', 'Drayan II', 'Kohl Settlement', 'New Earth', 'Hanon IV', 'Takar', 'Heva VII', 'Akritirian Prison Satellite', 'Enara Prime', 'Mislen', 'Tak Tak', 'Arakis Prime', 'Nekrit Station', 'FGC-505183', 'Sakari', 'Parein', 'Nezu Colony', 'Mikhal Traveler Outpost', 'Taresia', 'Vostigye Space Station', 'Nyria V', 'Borg Colony', 'North West Passage', 'Kradin-Vori', 'Arrithea', 'Garenor', 'Nassordin', 'FGC-7861340', 'Mari', 'Tau', 'Hirogen Relay Station', 'Enthara', 'Kendren IV', 'Omega', 'Mikah', 'Vaska', 'Demon Planetoid', 'Trading Colony', 'Vortex Void', 'Vortex'])(stroke="blue")
 
 
         each thing, key in catalog

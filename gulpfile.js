@@ -52,7 +52,7 @@ function normalizeCoordinates(catalog) {
 }
 
 function resolveRelativeCoordinates(catalog) {
-  let sources = ['Maynard', 'Johnson', 'judgement rites', 'DS9', 'ENT', 'DIS', 'Mandel', 'sto', 'Mandel-2018'];
+  let sources = ['Shisma', 'Maynard', 'Johnson', 'judgement rites', 'DS9', 'ENT', 'DIS', 'Mandel', 'sto', 'Mandel-2018'];
   let coordinates = ['x', 'y', 'z'];
 
   for(thing in catalog) {
