@@ -1,0 +1,109 @@
+mixin line(locations)
+  - var points = '';
+  each location in locations
+    if catalog[location]
+      - points += ' ' + catalog[location].coordinates.x + ',' + catalog[location].coordinates.y
+      - bgattributes = [];
+      each key, value in attributes
+        - bgattributes[key] = key != 'stroke-dasharray' ? value : '';
+      polyline(points=points, stroke="white", stroke-width="100", fill="none")&attributes(attributes)
+
+- function getDis(x1, y1, x2, y2) { var a = x1 - x2; var b = y1 - y2; var c = Math.sqrt( a*a + b*b ); }
+
+
+doctype html
+html(lang='')
+  head
+    title Test
+  body
+    svg#map(viewBox='-50000 -76200 100000 100000')
+      circle(cx='22', cy='-26200', r='50000', stroke-width='100', fill='none', stroke='black')
+      line(x1='22', y1='-76200', x2='22', y2='100000', stroke='black', stroke-width='100')
+      line(x1='-50000', y1='-26200', x2='50000', y2='-26200', stroke='black', stroke-width='100')
+      text(x='0', y='0', font-size='1000') Earth
+      text(x='-57.1', y='35.8', font-size='1000', text-anchor='end') Bajor
+      text(x='-64.73', y='23.151', font-size='1000', text-anchor='end') Badlands
+      text(
+        x=catalog.Idran.Mandel.coordinates.x,
+        y=catalog.Idran.Mandel.coordinates.y,
+        font-size='1000'
+      ) Idran
+      circle(cx='-57.1', cy='35.8', r='70000', fill='none', stroke='black', stroke-width='50')
+      circle(cx='-64.73', cy='23.151', r='70000', fill='none', stroke='red', stroke-width='50')
+      circle(cx='-36000', cy='-60000', r='70000', fill='none', stroke='red', stroke-width='50')
+      text(
+        x=catalog.Ocampa.Mandel.coordinates.x,
+        y=catalog.Ocampa.Mandel.coordinates.y,
+        font-size='1000'
+      ) Ocampa
+      text(
+        x=catalog['North West Passage'].Mandel.coordinates.x,
+        y=catalog['North West Passage'].Mandel.coordinates.y,
+        font-size='1000'
+      ) North West Passage
+      circle(cx=catalog['North West Passage'].Mandel.coordinates.x cy=catalog['North West Passage'].Mandel.coordinates.y r='9500', stroke='green', stroke-width='50' fill='none')
+
+      text(
+        x=catalog.Krenim.Mandel.coordinates.x,
+        y=catalog.Krenim.Mandel.coordinates.y,
+        font-size='1000'
+      ) Kremin
+
+      line(
+        x1=0,
+        y1=0,
+        x2=catalog['North West Passage'].Mandel.coordinates.x,
+        y2=catalog['North West Passage'].Mandel.coordinates.y,
+        stroke='black',
+        stroke-width='100'
+      )
+      
+      text(
+        x=catalog['Vortex Void'].Mandel.coordinates.x,
+        y=catalog['Vortex Void'].Mandel.coordinates.y,
+        font-size='1000',
+        text-anchor='end'
+      ) Void
+
+      circle(
+        cx=(catalog['Vortex Void'].Mandel.coordinates.x + catalog['Vortex'].Mandel.coordinates.x) / 2,
+        cy=(catalog['Vortex Void'].Mandel.coordinates.y + catalog['Vortex'].Mandel.coordinates.y) / 2,
+        r='1250', stroke='blue', stroke-width='50' fill='none'
+      ) 
+
+      text(
+        x=catalog['Vortex'].Mandel.coordinates.x,
+        y=catalog['Vortex'].Mandel.coordinates.y,
+        font-size='1000',
+        text-anchor='end'
+      ) Void
+
+
+      line(
+        x1=0,
+        y1=0,
+        x2=catalog['FGC-521407'].Mandel.coordinates.x,
+        y2=catalog['FGC-521407'].Mandel.coordinates.y,
+        stroke='black',
+        stroke-width='100'
+      )
+      circle(
+        cx=(catalog['FGC-521407'].Mandel.coordinates.x),
+        cy=(catalog['FGC-521407'].Mandel.coordinates.y),
+        r='10000', stroke='red', stroke-width='50' fill='none'
+      ) 
+
+      text(
+        x=catalog['The Waters'].Mandel.coordinates.x,
+        y=catalog['The Waters'].Mandel.coordinates.y,
+        font-size='1000',
+        text-anchor='end'
+      ) The Waters
+
+      circle(
+        cx=(catalog['Natori'].Mandel.coordinates.x),
+        cy=(catalog['Natori'].Mandel.coordinates.y),
+        r='20000', stroke='red', stroke-width='50' fill='none'
+      )
+
+      +line(['Ocampa', 'Markov-Kalto','Rogue Planet' , 'Banea', 'FGC-486237', 'Sikaris', 'Ilidaria', 'Avery', 'Briori', 'Tarok', 'Supspiria\'s Array', 'Sky Spirits Homeworld', 'Pralor', 'Mokra', 'Rakosa V', 'Hemikek IV', 'Fina Prime', 'Kolhari', 'Drayan II', 'Kohl Settlement', 'New Earth', 'Hanon IV', 'Takar', 'Heva VII', 'Akritirian Prison Satellite', 'Enara Prime', 'Mislen', 'Tak Tak', 'Arakis Prime', 'Nekrit Station', 'FGC-505183', 'Sakari', 'Parein', 'Nezu Colony', 'Mikhal Traveler Outpost', 'Taresia', 'Vostigye Space Station', 'Nyria V', 'Borg Colony', 'North West Passage', 'Kradin-Vori', 'Arrithea', 'Garenor', 'Nassordin', 'FGC-7861340', 'Mari', 'Tau', 'Hirogen Relay Station', 'Enthara', 'Kendren IV', 'Omega', 'Mikah', 'Vaska', 'Demon Planetoid', 'Trading Colony', 'Vortex Void', 'Vortex', 'FGC-521443', 'FGC-521407', 'The Waters', "Lav'oti V", 'Tehara', 'Torat', 'Telepathic pitcher plant', 'Subspace sinkhole', 'Natori', 'FGC-527205', 'Think Tank', 'FGC-527609', 'Kadi', 'FGC-529006', 'FGC-530007', 'Markonian outpost', 'Devore Colony', 'Vaadwaur', "Abbadon's Repository", 'Particle Fountain', 'Graviton Catapult','Pendari', 'Norcadia Prime', 'Tachyon-Core Planet', 'Qomar', 'Brunali', 'Selnia', 'Wyanti', 'Selnia', 'FGC-538960','Dinaal', 'FGC-542081','Lokirrim', 'Kraylor','Hirogen Space Station', 'Vojean','Quarra' , 'Uxal' , 'Ledos' , 'New Talax', 'Earth'])(stroke="blue")

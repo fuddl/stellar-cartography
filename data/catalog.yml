@@ -7715,8 +7715,8 @@ Idran:
   Mandel:
     label: Idran
     coordinates:
-      x: -40052.54
-      y: -50410.52
+      x: -36502
+      y: -59920
       z: 
 Callinon VII:
   Mandel:
@@ -8099,15 +8099,15 @@ Ocampa:
   Mandel: 
     label: Ocampa
     coordinates:
-      x: 18000
-      y: -45600
+      x: 36525
+      y: -59376
       z: 
 Krenim:
   Mandel:
     label: Krenim
     coordinates:
-      x: 17635
-      y: -36300
+      x: 26652
+      y: -56036
       z: 
 Caretakers Array:
   nickname: yes
@@ -8830,12 +8830,698 @@ Vortex Void:
       y: 418.89
       z: 
       relative-to: Krenim
+Tekara:
+  Mandel: 
+    label: Tekara
+    coordinates:
+      x: 24555.335
+      y: -53581.11
+      z: 
 Vortex:
   discriptive: true
   Mandel: 
     label: Vortex
     coordinates:
-      x: 17355.335
-      y: -33381.11
+      x: -17.563
+      y: -35.127
       z: 
-      relative-to: Krenim
+      relative-to: Tekara
+Terrasphere 8:
+  type: station
+  Mandel: 
+    label: Terrasphere 8 (Species 8472)
+    coordinates:
+      x: -16.1
+      y: -19.586
+      z: 
+      relative-to: Tekara
+FGC-521443:
+  Mandel: 
+    label: FGC-521443
+    coordinates:
+      x: -16.1
+      y: -11.706
+      z: 
+      relative-to: Tekara
+Protonebula:
+  type: nebula
+  discriptive: true
+  Mandel: 
+    label: Protonebula
+    coordinates:
+      x: 0
+      y: -30.654
+      z: 
+      outline: M Z
+      relative-to: Tekara
+FGC-521407:
+  Mandel: 
+    label: FGC-521407
+    coordinates:
+      x: -12.723
+      y: 8.33
+      z: 
+      relative-to: Tekara
+Lav'oti V:
+  Mandel: 
+    label: Lav'oti
+    coordinates:
+      x: 20801.335
+      y: -44972.24
+      z: 
+The Waters:
+  Mandel: 
+    label: Monea
+    coordinates:
+      x: 3.263
+      y: -18.512
+      z: 
+      relative-to: Lav'oti V
+Devore Automated Sensor Array:
+  discriptive: true
+  type: post
+  Mandel: 
+    label: Devore Automated Sensor Array
+    coordinates:
+      x: -1.1
+      y: 7.94
+      z: 
+      relative-to: Lav'oti V
+Torat:
+  nickname: true
+  Mandel: 
+    label: Torat
+    coordinates:
+      x: 0.636
+      y: 28.061
+      z: 
+      relative-to: Lav'oti V
+Tehara:
+  type: star
+  Mandel: 
+    label: Tehara
+    coordinates:
+      x: -24.475
+      y: 20.321
+      z: 
+      relative-to: Lav'oti V
+Telepathic pitcher plant:
+  discriptive: true
+  Mandel: 
+    label: Bioplasmic lifeform
+    coordinates:
+      x: -27.364
+      y: 74.946
+      z: 
+      relative-to: Lav'oti V
+Subspace sinkhole:
+  discriptive: true
+  Mandel: 
+    label: Sinkhole
+    coordinates:
+      x: -18.229
+      y: 84.515
+      z: 
+      relative-to: Lav'oti V
+Natori:
+  Mandel: 
+    label: Natori
+    coordinates:
+      x: -35.51
+      y: 88.51
+      z: 
+      relative-to: Lav'oti V
+Noss:
+  Mandel: 
+    label: Noss *
+    coordinates:
+      x: -93.616
+      y: 77.085
+      z: 
+      relative-to: Lav'oti V
+Kadi:
+  Mandel: 
+    label: Kadi
+    coordinates:
+      x: 25339
+      y: -28039
+      z: 
+Rivos:
+  Mandel: 
+    label: Rivos
+    coordinates:
+      x: 5.426
+      y: -39.111
+      z: 
+      relative-to: Kadi
+FGC-527205:
+  Mandel: 
+    label: FGC-527205
+    coordinates:
+      x: 17.759
+      y: -35.061
+      z: 
+      relative-to: Kadi
+Think Tank:
+  type: station
+  Mandel: 
+    label: Think Tank
+    coordinates:
+      x: 10.325
+      y: -30.942
+      z: 
+      relative-to: Kadi
+FGC-527609:
+  Mandel: 
+    label: FGC-527609
+    coordinates:
+      x: 15.756
+      y: -12.944
+      z: 
+      relative-to: Kadi
+FGC-529006:
+  Mandel: 
+    label: FGC-529006
+    coordinates:
+      x: -7.012
+      y: 44.146
+      z: 
+      relative-to: Kadi
+Salina Prime:
+  Mandel: 
+    label: Salina
+    coordinates:
+      x: -3.614
+      y: 46.877
+      z: 
+      relative-to: Kadi
+Druoda:
+  Mandel: 
+    label: Druoda
+    coordinates:
+      x: -58.6
+      y: 46.467
+      z: 
+      relative-to: Kadi
+Hazari:
+  Mandel: 
+    label: Hazari
+    coordinates:
+      x: -38.413
+      y: -17.638
+      z: 
+      relative-to: Kadi
+FGC-530007:
+  Mandel: 
+    label: FGC-530007
+    coordinates:
+      x: 17.058
+      y: 93.549
+      z: 
+      relative-to: Kadi
+Markonian outpost:
+  discriptive: true
+  type: station
+  Mandel: 
+    label: Markonian outpost
+    coordinates:
+      x: 14.793
+      y: 106.659
+      z: 
+      relative-to: Kadi
+Markonia:
+  Mandel: 
+    label: Markonia
+    coordinates:
+      x: 22.778
+      y: 112.341 
+      z: 
+      relative-to: Kadi
+Orendal V:
+  Mandel: 
+    label: Orendal
+    coordinates:
+      x: 21.243 
+      y: 118.944
+      z: 
+      relative-to: Kadi
+Morphinia:
+  Mandel: 
+    label: Morphinia
+    coordinates:
+      x: 2.815
+      y: 117.255
+      z: 
+      relative-to: Kadi
+Shivolia:
+  Mandel: 
+    label: Shivolia
+    coordinates:
+      x: -3.634
+      y: 110.652
+      z: 
+      relative-to: Kadi
+Kinbar:
+  Mandel: 
+    label: Kinbar # Kinbori?
+    coordinates:
+      x: 12.029
+      y: 123.551
+      z: 
+      relative-to: Kadi
+Devore Colony:
+  discriptive: true
+  Mandel: 
+    label: Devore Colony
+    coordinates:
+      x: -6.398
+      y: 138.293 
+      z: 
+      relative-to: Kadi
+FGC-531672:
+  Mandel: 
+    label: FGC-531672
+    coordinates:
+      x: -12.387
+      y: 144.282
+      z: 
+      relative-to: Kadi
+Vaadwaur:
+  Mandel: 
+    label: Vaadwour
+    coordinates:
+      x: 6.962 
+      y: 157.181
+      z: 
+      relative-to: Kadi
+Turei:
+  Mandel: 
+    label: Turei
+    coordinates:
+      x: -38.954
+      y: 140.904
+      z: 
+      relative-to: Kadi
+Abbadon's Repository:
+  type: station
+  Mandel: 
+    label: Abbadon's Repository
+    coordinates:
+      x: -13.298
+      y: 360.074 
+      z: 
+      relative-to: Kadi
+Harkonia:
+  Mandel: 
+    label: Harkonia
+    coordinates:
+      x: 29.166
+      y: 366.352
+      z: 
+      relative-to: Kadi
+Particle Fountain:
+  type: anomaly
+  discriptive: true
+  Mandel: 
+    label: Particle Fountain
+    coordinates:
+      x: 0.509
+      y: 368.085
+      z: 
+      relative-to: Kadi
+Ba'neth Space Station:
+  discriptive: true
+  type: station
+  Mandel: 
+    label: Ba'neth Space Station
+    coordinates:
+      x: -18.211
+      y: 376.405
+      z: 
+      relative-to: Kadi
+Kassat:
+  Mandel: 
+    label: Kassat # ?
+    coordinates:
+      x: -15.954
+      y: 383.12
+      z: 
+      relative-to: Kadi
+Dalmine:
+  Mandel: 
+    label: Dalmine (Talax) # Dalmine sector?
+    coordinates:
+      x: -23.545
+      y: 389.397
+      z: 
+      relative-to: Kadi
+Brothra:
+  Mandel: 
+    label: Brothra # ?
+    coordinates:
+      x: 39.078
+      y: 401.606
+      z: 
+      relative-to: Kadi
+FGC-532636:
+  Mandel: 
+    label: FGC-532636
+    coordinates:
+      x: -80.328
+      y: 360.044
+      z: 
+      relative-to: Kadi
+Kartella:
+  Mandel: 
+    label: Kartella
+    coordinates:
+      x: -27.237
+      y: 394.947
+      z: 
+      relative-to: Kadi
+Graviton Catapult:
+  type: station
+  discriptive: true
+  Mandel: 
+    label: Graviton Catapult
+    coordinates:
+      x: -18.372
+      y: 400.856
+      z: 
+      relative-to: Kadi
+Pendari:
+  Mandel: 
+    label: Pendari
+    coordinates:
+      x: -42.528
+      y: 1014.646
+      z: 
+      relative-to: Kadi
+Hodos:
+  Mandel: 
+    label: Hodos
+    coordinates:
+      x: -55.304
+      y: 1101.044
+      z: 
+      relative-to: Kadi
+Qomar:
+  Mandel: 
+    label: Qomar
+    coordinates:
+      x: -17.832
+      y: 1081.877
+      z: 
+      relative-to: Kadi
+Tarakis:
+  Mandel: 
+    label: Tarakis
+    coordinates:
+      x: 12.029
+      y: 1093.7
+      z: 
+      relative-to: Kadi
+Tachyon-Core Planet:
+  discriptive: true
+  Mandel: 
+    label: Tachyon-Core Planet
+    coordinates:
+      x: -29.26
+      y: 1060.575
+      z: 
+      relative-to: Kadi
+Toranius Prime:
+  Mandel: 
+    label: Toranius
+    coordinates:
+      x: 27.422
+      y: 1110.51
+      z: 
+      relative-to: Kadi
+Norcadia Prime:
+  Mandel: 
+    label: Norcadia 
+    coordinates:
+      x: -32.027
+      y: 1021.136
+      z: 
+      relative-to: Kadi
+Pensarka:
+  Mandel: 
+    label: Pensarka 
+    coordinates:
+      x: -48.346
+      y: 1023.299
+      z: 
+      relative-to: Kadi
+Vensiddia:
+  Mandel: 
+    label: Vensiddia 
+    coordinates:
+      x: -26.241 
+      y: 1027.104
+      z: 
+      relative-to: Kadi
+Nakan:
+  Mandel: 
+    label: Nakan 
+    coordinates:
+      x: 13.165
+      y: 1117.711
+      z: 
+      relative-to: Kadi
+Kelsin 3:
+  type: star
+  Mandel: 
+    label: Kelsid 
+    coordinates:
+      x: -29.988
+      y: 1141.594
+      z: 
+      relative-to: Kadi
+Brunali:
+  Mandel: 
+    label: Brunali 
+    coordinates:
+      x: -46.808
+      y: 1145.96 
+      z: 
+      relative-to: Kadi
+Selnia:
+  Mandel: 
+    label: Selnia 
+    coordinates:
+      x: -38.462
+      y: 1187.561
+      z: 
+      relative-to: Kadi
+FGC-538960:
+  Mandel: 
+    label: FGC-538960
+    coordinates:
+      x: -47.322
+      y: 1219.148
+      z: 
+      relative-to: Kadi
+Mining Colony:
+  discriptive: true
+  Mandel: 
+    label: Mining Colony
+    coordinates:
+      x: -49.988
+      y: 1264.174
+      z: 
+      relative-to: Kadi
+Terrelia:
+  Mandel: 
+    label: Terrelia
+    coordinates:
+      x: -105.094
+      y: 1292.788
+      z: 
+      relative-to: Kadi
+Aksani:
+  Mandel: 
+    label: Aksani
+    coordinates:
+      x: -89.778
+      y: 1304.238
+      z: 
+      relative-to: Kadi
+Imhotep:
+  Mandel: 
+    label: Imhotep
+    coordinates:
+      x: -61.585 
+      y: 1306.704
+      z: 
+      relative-to: Kadi
+Chessu:
+  Mandel: 
+    label: Chessu
+    coordinates:
+      x: -68.552
+      y: 1314.692
+      z: 
+      relative-to: Kadi
+New Talax:
+  Mandel: 
+    label: New Talax
+    coordinates:
+      x: -176.3
+      y: 1646.839
+      z: 
+      relative-to: Kadi
+Nocona:
+  Mandel: 
+    label: Nocona
+    coordinates:
+      x: -155.524
+      y: 1654.683
+      z: 
+      relative-to: Kadi
+Ledos:
+  Mandel: 
+    label: Ledos/Ventu
+    coordinates:
+      x: -181.55
+      y: 1628.656 
+      z: 
+      relative-to: Kadi
+Uxal:
+  Mandel: 
+    label: Uxal
+    coordinates:
+      x: -189.709
+      y: 1591.878
+      z: 
+      relative-to: Kadi
+Norvala:
+  Mandel: 
+    label: Norvala # ?
+    coordinates:
+      x: -162.024 
+      y: 1530.789
+      z: 
+      relative-to: Kadi
+Quarra:
+  Mandel: 
+    label: Quarra
+    coordinates:
+      x: -138.457
+      y: 1511.487
+      z: 
+      relative-to: Kadi
+Vojean:
+  Mandel: 
+    label: Vojean
+    coordinates:
+      x: -129.024
+      y: 1482.934 
+      z: 
+      relative-to: Kadi
+Wyngar:
+  Mandel: 
+    label: Wyngar
+    coordinates:
+      x: -134.271
+      y: 1478.42
+      z: 
+      relative-to: Kadi
+Jelinia:
+  Mandel: 
+    label: Jelinia
+    coordinates:
+      x: -90.159
+      y: 1491.231
+      z: 
+      relative-to: Kadi
+Nygea:
+  Mandel: 
+    label: Nygea
+    coordinates:
+      x: -110.209
+      y: 1453.35
+      z: 
+      relative-to: Kadi
+Benkar:
+  Mandel: 
+    label: Benkar
+    coordinates:
+      x: -106.48
+      y: 1449.397 
+      z: 
+      relative-to: Kadi
+Hirogen Space Station:
+  discriptive: true
+  Mandel: 
+    label: Hirogen Space Station
+    coordinates:
+      x: -100.765
+      y: 1427.739
+      z: 
+      relative-to: Kadi
+Kraylor:
+  Mandel: 
+    label: Kraylor
+    coordinates:
+      x: -83.96 
+      y: 1396.299
+      z: 
+      relative-to: Kadi
+Nuu'Bar:
+  Mandel: 
+    label: Nuu'Bar
+    coordinates:
+      x: -66.408
+      y: 1382.716
+      z: 
+      relative-to: Kadi
+Lukirrim:
+  Mandel: 
+    label: Lukirrim
+    coordinates:
+      x: -118.547
+      y: 1372.732
+      z: 
+      relative-to: Kadi
+FGC-542081:
+  Mandel: 
+    label: FGC-542081
+    coordinates:
+      x: -89.792
+      y: 1352.741
+      z: 
+      relative-to: Kadi
+Dinaal:
+  Mandel: 
+    label: Dinaal
+    coordinates:
+      x: -91.344
+      y: 1328.615
+      z: 
+      relative-to: Kadi
+Jye:
+  Mandel: 
+    label: Jye
+    coordinates:
+      x: -69.01
+      y: 1338.219
+      z: 
+      relative-to: Kadi
+Velos:
+  Mandel: 
+    label: Velos
+    coordinates:
+      x: -52.416
+      y: 1324.583
+      z: 
+      relative-to: Kadi
+Lokirrim:
+  Mandel: 
+    label: Lokirrim
+    coordinates:
+      x: -118.877
+      y: 1372.494
+      z: 
+      relative-to: Kadi
