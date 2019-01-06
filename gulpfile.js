@@ -52,7 +52,7 @@ function normalizeCoordinates(catalog) {
 }
 
 function resolveRelativeCoordinates(catalog) {
-  let sources = ['Shisma', 'Maynard', 'Johnson', 'judgement rites', 'DS9', 'ENT', 'DIS', 'Mandel', 'sto', 'Mandel-2018'];
+  let sources = ['Shisma', 'Maynard', 'Johnson', 'judgement rites', 'DS9', 'ENT', 'DIS', 'VOY', 'Mandel', 'sto', 'Mandel-2018'];
   let coordinates = ['x', 'y', 'z'];
 
   for(thing in catalog) {
@@ -74,7 +74,7 @@ function resolveRelativeCoordinates(catalog) {
 }
 
 function addPreferredValues(catalog) {
-  let priorities = ['Shisma', 'DS9', 'ENT', 'DIS', 'Mandel_2018', 'Mandel', 'sto', 'Maynard', 'Johnson', 'judgement rites'];
+  let priorities = ['Shisma', 'DS9', 'ENT', 'DIS', 'VOY', 'Mandel_2018', 'Mandel', 'sto', 'Maynard', 'Johnson', 'judgement rites'];
   for(thing in catalog) {
     for(source of priorities) {
       if (catalog[thing][source]) {

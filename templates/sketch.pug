@@ -106,4 +106,14 @@ html(lang='')
         r='20000', stroke='red', stroke-width='50' fill='none'
       )
 
+      - let connectors = 0;
+      g(transform="translate(0,-23800)")
+        each thing, key in catalog
+          if thing.connectors
+            for connection in thing.connectors
+              - let id = 'c-' + connectors;
+              path(d=connection, stroke='green', stroke-width=5, id=id, fill='none')
+              text: textPath(href="#" + id)= key
+              - connectors++;
+
       +line(['Ocampa', 'Markov-Kalto','Rogue Planet' , 'Banea', 'FGC-486237', 'Sikaris', 'Ilidaria', 'Avery', 'Briori', 'Tarok', 'Supspiria\'s Array', 'Sky Spirits Homeworld', 'Pralor', 'Mokra', 'Rakosa V', 'Hemikek IV', 'Fina Prime', 'Kolhari', 'Drayan II', 'Kohl Settlement', 'New Earth', 'Hanon IV', 'Takar', 'Heva VII', 'Akritirian Prison Satellite', 'Enara Prime', 'Mislen', 'Tak Tak', 'Arakis Prime', 'Nekrit Station', 'FGC-505183', 'Sakari', 'Parein', 'Nezu Colony', 'Mikhal Traveler Outpost', 'Taresia', 'Vostigye Space Station', 'Nyria V', 'Borg Colony', 'North West Passage', 'Kradin-Vori', 'Arrithea', 'Garenor', 'Nassordin', 'FGC-7861340', 'Mari', 'Tau', 'Hirogen Relay Station', 'Enthara', 'Kendren IV', 'Omega', 'Mikah', 'Vaska', 'Demon Planetoid', 'Trading Colony', 'Vortex Void', 'Vortex', 'FGC-521443', 'FGC-521407', 'The Waters', "Lav'oti V", 'Tehara', 'Torat', 'Telepathic pitcher plant', 'Subspace sinkhole', 'Natori', 'FGC-527205', 'Think Tank', 'FGC-527609', 'Kadi', 'FGC-529006', 'FGC-530007', 'Markonian outpost', 'Devore Colony', 'Vaadwaur', "Abbadon's Repository", 'Particle Fountain', 'Graviton Catapult','Pendari', 'Norcadia Prime', 'Tachyon-Core Planet', 'Qomar', 'Brunali', 'Selnia', 'Wyanti', 'Selnia', 'FGC-538960','Dinaal', 'FGC-542081','Lokirrim', 'Kraylor','Hirogen Space Station', 'Vojean','Quarra' , 'Uxal' , 'Ledos' , 'New Talax', 'Earth'])(stroke="blue")
