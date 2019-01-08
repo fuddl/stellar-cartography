@@ -606,6 +606,7 @@ Groombridge 34:
   real: true
   type: star
 Iota Persei:
+  type: star
   Mandel:
     label: Iota Persei
     coordinates:
@@ -855,7 +856,23 @@ Dakala:
       y: 42.632
       z: 
   fractions:
-  - federation
+Alphard: # Battle of Alphard?
+  type: star
+  Shisma:
+    label: Alphard
+    coordinates:
+      x: -140.25839109007998
+      y: 109.98909212288
+      z: -27.14299259884
+Spica IX:
+  Shisma:
+    label: Spica IX
+    coordinates:
+      x: -228.27936651067998
+      y: -88.99435864856
+      z: -48.342059545599994
+  fractions:
+    - federation
 Ceti Alpha V:
   wd: Q56893273
   Mandel:
@@ -1154,7 +1171,7 @@ Mab-Bu VI:
       x: -8
       y: 22.45
       z: 
-Draylon:
+Draylon II:
   Mandel:
     label: Draylon (New Kentanna)
     coordinates:
@@ -1182,7 +1199,7 @@ Eska:
       x: -17.7
       y: 38.5
       z: 
-Capella:
+Capella IV:
   Mandel:
     label: Capella (Alpha Aurigae)
     coordinates:
@@ -1501,7 +1518,7 @@ AR-558:
       x: -32.3
       y: -8.8
       z: 
-Altair:
+Altair III:
   Mandel:
     label: Altair (Alpha Aquliae)
     coordinates:
@@ -1885,6 +1902,7 @@ Nimbus III:
   - klingon
   - romulan
 Iota Pavonis:
+  type: star
   Mandel:
     label: Iota Pavonis
     coordinates:
@@ -1945,6 +1963,7 @@ Norkan:
   fractions:
   - federation
 Epsilon Pavonis:
+  type: star
   Mandel:
     label: Epsilon Pavonis
     coordinates:
@@ -1953,6 +1972,22 @@ Epsilon Pavonis:
       z: 
   canon: false
   real: true
+Alpha Pavonis:
+  type: star
+  Shisma:
+    label: Alpha Pavonis
+    coordinates:
+      x: 58.21970052872
+      y: -78.93292875943999
+      z: -149.51397104219998
+  real: true
+Zaurak II:
+  Shisma:
+    label: Zaurak II
+    coordinates:
+      x: 100.32629335851999
+      y: 170.37028717168
+      z: -47.498359204799996
 Zakdorn:
   Mandel:
     label: Zakdorn
@@ -2002,6 +2037,7 @@ Galen:
   fractions:
   - federation
 Beta Trianguli:
+  type: star
   Mandel:
     label: Beta Trianguli
     coordinates:
@@ -2271,6 +2307,7 @@ Ba'ku:
       y: 51.7
       z: 
 Alzirr:
+  type: star
   Mandel:
     label: Alzirr (Xi Geminorum)
     coordinates:
@@ -4244,12 +4281,124 @@ Cirini Prime:
       y: 2.049
   fractions:
     - romulan
-Virinat:
+Zevarus Prime:
+  Shisma:
+    label: Zevarus Prime
+    coordinates:
+      x: 160.573
+      y: -52.142
+      z:
+  fractions:
+    - romulan
+Constanthus:
+  Shisma:
+    label: Constanthus
+    coordinates:
+      x: 158.536
+      y: -57.075
+      z:
+  fractions:
+    - romulan
+Kzin:
+  Shisma:
+    label: Kzin
+    coordinates:
+      x: -22.343
+      y: -0.942
+      z: 
+Lyra:
+  Shisma:
+    label: Lyra
+    coordinates:
+      x: -27.736
+      y: -10.628
+      z: 
+Hydranus:
+  Shisma:
+    label: Hydranus
+    coordinates:
+      x: -55.683
+      y: 79.606 
+      z: 
+Drovna III:
+  Shisma:
+    label: Drovna III
+    coordinates:
+      x: 202.365 
+      y: -58.976
+      z:
+  fractions:
+    - romulan
+Abraxas IX:
+  Shisma:
+    label: Abraxas IX
+    coordinates:
+      x: 239.514
+      y: -36.419
+      z:
+  fractions:
+    - romulan
+Eloh:
+  Shisma:
+    label: Eloh
+    coordinates:
+      x: 110.911
+      y: 30.543
+      z:
+  fractions:
+    - romulan
+Makar:
+  Shisma:
+    label: Makar
+    coordinates:
+      x: 45.747
+      y: -50.878
+      z:
+  fractions:
+    - romulan
+Mirach:
+  type: star
+  Shisma:
+    label: Mirach
+    coordinates:
+      x: 153.11840579876
+      y: 48.081310869839996
+      z: 114.98671854123998
+Scheat III:
+  Shisma:
+    label: Scheat III
+    coordinates:
+      x: 167.7532342586
+      y: -42.00110419471999
+      z: 92.26997597216
+  fractions:
+    - romulan
+Kevratas:
+  Shisma:
+    label: Kevratas
+    coordinates:
+      x: 98.614 
+      y: -14.277
+      z:
+  fractions:
+    - romulan
+Persevus III:
+  Shisma:
+    label: Persevus III
+    coordinates:
+      x: 126.796
+      y: -56.753
+      z:
+  fractions:
+    - romulan
+Virinat I:
   sto:
     label: Virinat
     coordinates: 
       x: 52.772
       y: 31.445
+  fractions:
+  - romulan
 Lirss:
   sto:
     label: Lirss
@@ -6659,7 +6808,7 @@ Azure:
       78.579,36.283 79.166,36.512 C79.753,36.74 80.307,36.577 80.568,36.055 C80.829,35.533
       80.974,34.913 81.971,35.011 C82.968,35.109 83.178,35.598 82.754,36.609 C82.33,37.621
       83.243,38.599 83.21,39.023 C83.178,39.447 82.525,39.936 81.645,40.002 z
-Adelphous:
+Adelphous IV:
   Mandel:
     label: Adelphous
     coordinates:
@@ -6857,6 +7006,13 @@ Lachian:
     coordinates:
       y: 8.5
       x: 45
+      z:   
+  Shisma:
+    label: Lachian
+    coordinates:
+      x: -91.822
+      y: 123.976
+      z:
 Balkos III:
   wd: Q57034256
   judgement rites:
