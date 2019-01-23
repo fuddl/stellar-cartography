@@ -29,26 +29,26 @@ html
       .frame { border: 3px solid white }
   body
     //-svg(xmlns='http://www.w3.org/2000/svg', viewBox='-44959 -55502 3000 3000', height="20000" width="20000")
-    //-svg(xmlns='http://www.w3.org/2000/svg', viewBox='-50000 -76200 100000 100000', height="200000" width="200000")
-    //-+frame(-100, 100, -100, 100)
+    //+frame(-50000, 100000, -76200, 100000)
+    +frame(-250, 350, -250, 250)
     - gammaX = catalog.Idran.Mandel.coordinates.x;
     - gammaY = catalog.Idran.Mandel.coordinates.y;
-    //-+frame(gammaX-75,gammaX+1000, gammaY-787,gammaY+107)
+    //+frame(gammaX-75,gammaX+1000, gammaY-787,gammaY+107)
     - delta5X = catalog["Kadi"].Mandel.coordinates.x;
     - delta5Y = catalog["Kadi"].Mandel.coordinates.y;
-    +frame(delta5X-265,delta5X+60, delta5Y-50,delta5Y+1700)
+    //+frame(delta5X-265,delta5X+60, delta5Y-50,delta5Y+1700)
     - delta4X = catalog["Lav'oti V"].Mandel.coordinates.x;
     - delta4Y = catalog["Lav'oti V"].Mandel.coordinates.y;
-    +frame(delta4X-100,delta4X+40, delta4Y-30,delta4Y+120)
+    //+frame(delta4X-100,delta4X+40, delta4Y-30,delta4Y+120)
     - delta3X = catalog.Tekara.Mandel.coordinates.x;
     - delra3Y = catalog.Tekara.Mandel.coordinates.y;
-    +frame(delta3X-60,delta3X+40, delra3Y-50,delra3Y+20)
+    //+frame(delta3X-60,delta3X+40, delra3Y-50,delra3Y+20)
     - delta2X = catalog.Krenim.Mandel.coordinates.x;
     - delra2Y = catalog.Krenim.Mandel.coordinates.y;
-    +frame(delta2X-500,delta2X+80, delra2Y-130,delra2Y+430)
+    //+frame(delta2X-500,delta2X+80, delra2Y-130,delra2Y+430)
     - delta1X = catalog.Ocampa.Mandel.coordinates.x;
     - delra1Y = catalog.Ocampa.Mandel.coordinates.y;
-    +frame(delta1X-400,delta1X+80, delra1Y-80,delra1Y+1200)
+    //+frame(delta1X-400,delta1X+80, delra1Y-80,delra1Y+1200)
     svg(style="display: none")
       defs
         filter#nebula(filterUnits="userSpaceOnUse")
@@ -102,7 +102,7 @@ html
         //-path(d="M -57.1,35.8 v-54446.32 h-43995.44 z", fill="none" stroke="red", stroke-width="100")
   
         +line(['Earth','Proxima'])(stroke="#1687A9")
-        +line(['Tellar Prime', 'Vega IX'])(stroke="#1687A9")
+        +line(['Tellar Prime', 'Vega IX', 'Alcor IV'])(stroke="#1687A9")
         +line(['Tellar Prime', 'Altair'])(stroke="#1687A9")
         +line(['Earth','Tellar Prime'])(stroke="#1687A9")
         +line(['Earth', 'Denobula'])(stroke="#1687A9")
@@ -242,10 +242,12 @@ html
         each star, key in stars
           - var x = star[2] * 3.26156;
           - var y = star[3] * 3.26156;
+          - var z = star[4] * 3.26156;
           if x > -800 && x < 1800 && y > -800 && y < 1800
             if star[0]
-              //-circle(cx=x, cy=y, r=.2, fill="#333")
-              //-text(x=x, y=y, fill="#333", font-size='.5')= star[0] 
+              g
+                circle(cx=x, cy=y, cz=z, r=.2, fill="#333")
+                text(x=x, y=y, fill="#333", font-size='2')= star[0] 
             else 
               //-circle(cx=x, cy=y, r=.1, fill="#333")
 
@@ -264,7 +266,16 @@ html
             path(d=thing.outline, fill=fill filter=filter, opacity=.5, stroke=stroke)
             if thing.coordinates
               text(x=thing.coordinates.x, y=thing.coordinates.y, font-size='1.5', font-weight='300', text-anchor='middle', fill="black")= key.toUpperCase()
-          
+       
+        - let connectors = 0;
+        g(transform="translate(0,-23800)")
+          each thing, key in catalog
+            if thing.connectors
+              for connection in thing.connectors
+                - let id = 'c-' + connectors;
+                path(d=connection, stroke='green', stroke-width=5, id=id, fill='none')
+                text: textPath(href="#" + id)= key
+                - connectors++;
           
         each thing, key in catalog
           if !thing.outline
