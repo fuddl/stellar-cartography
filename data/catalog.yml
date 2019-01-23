@@ -4399,6 +4399,15 @@ Virinat I:
       y: 31.445
   fractions:
   - romulan
+Hamal IV:
+  Shisma:
+    label: Virinat
+    coordinates: 
+      x: 51.310816258159996
+      y: 31.805826406319994
+      z: 26.202101031599998
+  fractions:
+  - federation
 Lirss:
   sto:
     label: Lirss
@@ -4610,6 +4619,11 @@ Deneb Kaitos:
       z: 
   interesting: false
 Deneb IV:
+  Shisma:
+    coordinates:
+      x: 643.34477130592
+      y: -757.05180373492
+      z: 1003.25856961792
   wd: Q13576156
   Maynard:
     label: Deneb
@@ -4891,6 +4905,13 @@ Pacifica:
       z: 
   fractions:
   - federation
+Canopus III:
+  Shisma:
+    label: Canopus III
+    coordinates:
+      x: -19.54548211924
+      y: 186.33955681304
+      z: -245.9089202238
 Loval:
   Mandel:
     label: Loval
@@ -5151,17 +5172,46 @@ Kessik IV:
       x: 29.384
       y: 210.931
       z: 
+fractions:
+  - federation
+Bilana III:
+  Shisma:
+    label: Bilana III
+    coordinates:
+      x: -10.099
+      y: 217.726
+      z: 
+Delb II:
+  Shisma:
+    label: Delb II
+    coordinates:
+      x: -21.875
+      y: 238.632
+      z: 
   fractions:
   - federation
-Bellatrix:
+Jotunheim:
+  Shisma:
+    label: Jotunheim
+    coordinates:
+      x: -12.934 
+      y: 248.983
+      z: 
+  fractions:
+  - federation
+Bellatrix V:
   Mandel:
     label: Bellatrix (Gamma Orionis)
     coordinates:
       x: 68.054
       y: 226.915
       z: 
-  type: star
-  real: true
+  Shisma:
+    label: Bellatrix V
+    coordinates:
+      x: 38.02514513856
+      y: 247.99641973215998
+      z: 27.919344987199995
 FGC-82659:
   Mandel:
     label: FGC-82659
@@ -5218,6 +5268,7 @@ Bortas:
       y: 80.475
       z: 
 Canopus:
+  type: planet # https://memory-alpha.fandom.com/wiki/Canopus_Planet
   Mandel:
     label: Canopus
     coordinates:
@@ -5231,8 +5282,6 @@ Canopus:
       x: 15.4
       y: 63.7
       z: -20.7
-  real: true
-  type: star
 Breen:
   Mandel:
     label: Breen
@@ -5483,6 +5532,9 @@ Catulla:
       y: -73.7
       z: -13.9
 Daran V:
+  Shisma:
+    x: -51.987
+    y: 167.895 
   Johnson:
     label: Daran V
     coordinates:
@@ -5581,7 +5633,16 @@ Antares B III:
       x: 172.1
       y: 118.9
       z: -13.9
+Theta Kalyb:
+  Shisma:
+    coordinates:
+      x: -83.212
+      y: 138.701
 Argo III:
+  Shisma:
+    coordinates:
+      x: 20.108
+      y: 249.637 
   Johnson:
     label: Argo
     coordinates:
@@ -5616,6 +5677,12 @@ Dimorus IV:
       z: -27.9
 892-IV:
   wd: Q49225047
+  Shisma:
+    label: 892-IV
+    coordinates:
+      x: -121.435
+      y: 179.34
+      z: 
   Johnson:
     label: 892-IV
     coordinates:
@@ -5682,6 +5749,12 @@ Iotia:
       y: -144.2
       z: -109.1
 Pal III:
+  Shisma:
+    label: Pal III
+    coordinates:
+      x: -49.957
+      y: 205.483
+      z: 
   Maynard:
     label: Pal's Star 5 (III)
     coordinates:
@@ -5690,6 +5763,12 @@ Pal III:
       z: null
 Janus VI:
   wd: Q48906622
+  Shisma:
+    label: Janus VI
+    coordinates:
+      x: -95.185
+      y: 179.594
+      z: 
   Johnson:
     label: Janus VI
     coordinates:
@@ -5730,19 +5809,18 @@ M-113:
       y: -81.9
       z: 0.7
 Barsoom IV:
+  Shisma:
+    coordinates:
+      x: -15.48
+      y: 233.288 
+    fractions:
+      - federation
   Johnson:
     label: Barsoom 9 (IV)
     coordinates:
       x: -68.081 
       y: -72.486
       z: null
-Triskelion:
-  Johnson:
-    label: M24-Alpha II
-    coordinates:
-      x: -85.5
-      y: -59.1
-      z: -75.8
 Mudd:
   Johnson:
     label: Mudd
@@ -5913,6 +5991,10 @@ Beta XII-A:
       y: 61.7
       z: 54.3
 Camus II:
+  Shisma:
+    coordinates:
+      x: -16.495
+      y: 220.342
   Maynard:
     label: Camus 4 (II)
     coordinates:
@@ -6070,6 +6152,12 @@ Cole IV:
       z: null
 Winston II:
   canon: false
+  Shisma:
+    coordinates:
+      x: -75.983
+      y: 186.45
+    fractions:
+      - federation
   Maynard:
     label: Winston's Star 7 (II)
     coordinates:
@@ -6093,6 +6181,12 @@ Suligowski's Star:
       z: null
   type: star
 Sackett II:
+  Shisma:
+    label: Sackett II
+    coordinates:
+      x: -55.288
+      y: 176.544
+      z: 
   Maynard:
     label: Sackett's Star 3 (II)
     coordinates:
@@ -6280,7 +6374,17 @@ Lavinus:
       x: 140.7
       y: 11.1
       z: -10.4
-M24-Alpha:
+Triskelion:
+  Shisma:
+    coordinates:
+      x: -81.99 
+      y: 215.141
+  Johnson:
+    label: M24-Alpha II
+    coordinates:
+      x: -85.5
+      y: -59.1
+      z: -75.8
   Maynard:
     label: M24-Alpha
     coordinates:
@@ -6336,6 +6440,9 @@ Midos V:
   fractions:
   - federation
 Puttkamer II:
+  Shisma:
+    x: -87.274
+    y: 171.957
   Maynard:
     label: Puttkamer 9 (II)
     coordinates: 
@@ -6366,6 +6473,7 @@ New Paris:
       y: 200.6
       z: -147.6
 Omega IV:
+  wd: Q49593478
   Maynard:
     label: Omega 8 (IV VII)
     coordinates:
@@ -6381,6 +6489,12 @@ Omicron Delta:
       z: -46.4
 Platonius:
   wd: Q48890865
+  Shisma:
+    label: Platonius
+    coordinates:
+      x: -88.687
+      y: 196.349
+      z: 
   Maynard:
     label: Platonius 4 (IV)
     coordinates:
@@ -6764,6 +6878,7 @@ Mutara:
       C198.552,306.032 203.336,310.218 200.645,313.508 C197.953,316.797 187.123,319.788
       175.492,320.984 z
 Muliphen:
+  type: star
   Mandel:
     label: Muliphen (Gamma Canaris Majoris)
     star: Gamma Canaris Majoris
@@ -7046,6 +7161,12 @@ Genesis:
   type: star
 Miri:
   wd: Q48976033
+  Shisma:
+    label: Miri
+    coordinates:
+      x: -38.787
+      y: 256.763
+      z: 
   Johnson:
     label: Onlies
     coordinates:
@@ -7060,8 +7181,6 @@ Miri:
       z: -82.3
 Beta Omicron Delta Ⅲ:
   wd: Q48976200
-Omega Ⅳ:
-  wd: Q49593478
 Ekos:
   wd: Q49973947
   Johnson:
@@ -7731,7 +7850,13 @@ Starbase 200:
       x: -69.274
       y: 182.142
       z: 
-
+Monchezke:
+  Shisma:
+    label: Monchezke
+    coordinates:
+      x: -19.795 
+      y: -36.517 
+      z: 
 Starbase 366:
   type: station
   Mandel_2018:
