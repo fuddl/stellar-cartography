@@ -207,6 +207,10 @@ Starbase 10:
       z: null
   type: station
 Briamos II:
+  Shisma:
+    coordinates:
+      x: -24.017
+      y: 209.852
   Maynard:
     label: Briamos 6 (II)
     coordinates:
@@ -1332,6 +1336,13 @@ Romii I:
       x: -180.0
       y: -156.4
       z: -1.8
+Kashet:
+  Shisma:
+    coordinates:
+      x: 210.326
+      y: 50.524
+  fractions:
+    - federation
 Rator III:
   Mandel:
     label: Rator
@@ -1434,6 +1445,10 @@ Organia:
       z: -12.1
   fractions:
   - klingon
+Triacus:
+  Shisma:
+    x: -142.518 
+    y: 263.406 
 Draylax:
   Mandel:
     label: Draylax (Epsilon Indi)
@@ -1558,6 +1573,15 @@ Xendi Sabu II:
       x: -39.8
       y: -17.7
       z: 
+Xelata:
+  Mandel:
+    label: Xelata
+    coordinates:
+      x: 204.608
+      y: -27.71
+      z: 
+  fractions:
+    - federation
 Inferna Prime:
   Mandel:
     label: Inferna (Zeta Herculis)
@@ -1987,7 +2011,22 @@ Zaurak II:
     coordinates:
       x: 100.32629335851999
       y: 170.37028717168
-      z: -47.498359204799996
+      z: -47.
+Gomeisa:
+  type: star
+  Shisma:
+    label: Gomeisa
+    coordinates:
+      x: -59.39241073452
+      y: 148.58429271824
+      z: 23.31316773848
+Algol II:
+  Shisma:
+    label: Algol II
+    coordinates:
+      x: 46.27967078768
+      y: 49.702237697079994
+      z: 58.943284137839996
 Zakdorn:
   Mandel:
     label: Zakdorn
@@ -3232,6 +3271,10 @@ Qu'Vat:
   fractions:
   - klingon
 Acadia:
+  Shisma:
+    coordinates:
+      x: -283.594
+      y: 260.577
   Maynard:
     label: Acadia 7 (III)
     coordinates:
@@ -4401,8 +4444,8 @@ Virinat I:
   - romulan
 Hamal IV:
   Shisma:
-    label: Virinat
-    coordinates: 
+    label: Hamal IV
+    coordinates:
       x: 51.310816258159996
       y: 31.805826406319994
       z: 26.202101031599998
@@ -4800,6 +4843,10 @@ Heathercrist:
       z: 
   type: star
 Szell 342K:
+  Shisma:
+    coordinates:
+      x: -256.651
+      y: 324.407 
   Maynard:
     label: Szell 342K 10
     coordinates: 
@@ -4833,8 +4880,8 @@ Betelgeuse II:
   Mandel:
     label: Betelgeuse (Alpha Orionis)
     coordinates:
-      x: 155.816
-      y: 190.79
+      x: 140.08
+      y: 407.019
       z: 
   fractions:
   - federation
@@ -5206,12 +5253,13 @@ Bellatrix V:
       x: 68.054
       y: 226.915
       z: 
-  Shisma:
-    label: Bellatrix V
-    coordinates:
-      x: 38.02514513856
-      y: 247.99641973215998
-      z: 27.919344987199995
+#  Coordinates of the real star
+#  Shisma:
+#    label: Bellatrix V
+#    coordinates:
+#      x: 38.02514513856
+#      y: 247.99641973215998
+#      z: 27.919344987199995
 FGC-82659:
   Mandel:
     label: FGC-82659
@@ -5593,6 +5641,10 @@ Bynaus:
       y: 98.9
       z: -46.3
 Phylos II:
+  Shisma:
+    coordinates:
+      x: -109.74
+      y: 238.833
   Johnson:
     label: Phylos II
     coordinates:
@@ -5675,6 +5727,41 @@ Dimorus IV:
       x: -26.7
       y: -18.8
       z: -27.9
+  Shisma:
+    coordinates:
+      x: 7.984 
+      y: -90.837
+Loktara: # Loktarans
+  Shisma:
+    coordinates:
+      x: -56.303
+      y: 136.096
+  fractions:
+    - federation
+Zelon: # Zelonite
+  Shisma:
+    coordinates:
+      x: -91.822 
+      y: 327.649 
+Violac Prime: # Violacean
+  Shisma:
+    coordinates:
+      x: 216.283
+      y: 60.207 
+Efros:
+  Shisma:
+    coordinates:
+      x: -187.145
+      y: 189.779
+  fractions:
+    - federation
+Halii:
+  Shisma:
+    coordinates:
+      x: -158.709
+      y: 216.29 
+  fractions:
+    - federation
 892-IV:
   wd: Q49225047
   Shisma:
@@ -5782,6 +5869,10 @@ Janus VI:
       y: -30.1
       z: -15.8
 Lactra VII:
+  Shisma:
+    coordinates:
+      x: -265.707 
+      y: 193.521
   Johnson:
     label: Lactra VII
     coordinates:
@@ -5968,6 +6059,10 @@ Benecia:
   fractions:
     - federation
 Sarpeidon:
+  Shisma:
+    coordinates:
+      x: 14.561
+      y: 278.328 
   Maynard:
     label: Beta Niobe
     coordinates:
@@ -6108,6 +6203,11 @@ Chatalia:
   canon: false
 Kinkuthanza III:
   canon: false
+  Shisma:
+    coordinates:
+      x: 72.648 
+      y: 156.895
+      z:   
   Maynard:
     label: Kinkuthanza 8 (II, III)
     coordinates:
@@ -6126,6 +6226,10 @@ Maraville VIII:
       z: null
 Arachne IV:
   canon: false
+  Shisma:
+    coordinates:
+      x: 131.466
+      y: 172.841
   Maynard:
     label: Arachne 5 (IV)
     coordinates:
@@ -6136,6 +6240,10 @@ Arachne IV:
     - klingon
 Asimov II:
   canon: false
+  Shisma:
+    coordinates:
+      x: -54.873
+      y: 176.463
   Maynard:
     label: Asimov 5 (II)
     coordinates:
@@ -6150,6 +6258,25 @@ Cole IV:
       x: -25.066
       y: -92.089 
       z: null
+Ariola: #Ariolo
+  Shisma:
+    coordinates: 
+      x: 67.139
+      y: 241
+  fractions:
+    - federation
+Arcadia:
+  fractions:
+    - federation
+  Shisma:
+    label: Arcadia
+    coordinates: &arcadian-system
+      x: -73.899
+      y: 209.363
+Motherlode:
+  Shisma: 
+    label: Motherlode
+    coordinates: *arcadian-system
 Winston II:
   canon: false
   Shisma:
@@ -6201,6 +6328,10 @@ Roddenberry III:
       y: -5.902 
       z: null
 New Chicago II:
+  Shisma:
+    coordinates:
+      x: -230.885
+      y: 254.376
   Maynard:
     label: New Chicago 9 (II)
     coordinates:
@@ -6289,6 +6420,10 @@ Relay Station 194:
   type: relay
 Gothos:
   wd: Q48976428
+  Shisma:
+    coordinates:
+      x: 14.561
+      y: 282.197
   Maynard:
     label: Gothos
     coordinates:
@@ -6524,6 +6659,10 @@ Sandara:
       y: 147.7
       z: 70.2
 Scalos:
+  Shisma:
+    coordinates:
+      x: 141.192
+      y: 251.192 
   Maynard:
     label: Scalos 5 (III)
     coordinates:
@@ -8106,6 +8245,13 @@ Saltha'na:
       y: -40.067
       z: 
       relative-to: Idran
+Althos IV:
+  Shisma:
+    coordinates:
+      x: 183.295
+      y: 54.593 
+  fractions:
+    - federation
 Parada:
   Mandel:
     label: Parada
@@ -8377,6 +8523,15 @@ Ravanar IV:
       x: 12
       y: 128.6
       z: 
+Q'Tahl:
+  Shisma:
+    label: Q'Tahl
+    coordinates:
+      x: 22
+      y: 158.2
+      z: 
+  fractions:
+    - klingon
 Trinay III:
   wd: Q57034270
   present-in-work:
