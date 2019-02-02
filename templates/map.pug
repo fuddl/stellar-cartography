@@ -144,7 +144,6 @@ html
         +line(['Yorktown', 'Grazer'])(stroke="#1687A9")
         +line(['Yorktown', 'Makus III', 'Pacifica',  'Bilana III', 'Kessik IV', 'Cestus III', 'Betelgeuse II'])(stroke="#1687A9")
         +line(['Bilana III', 'Delb II', 'Jotunheim'])(stroke="#1687A9")
-        +line(['Starbase 718', 'Midos V'])(stroke="#1687A9")
         +line(['Starbase 718', 'Norkan', 'Gamma Hydra IV', 'Caldos', 'Zakdorn'])(stroke="#1687A9")
         +line(['Caldos', 'Ingraham B Transit Station', 'Antares'])(stroke="#1687A9")
         +line(['Starbase 718', 'Nimbus III'])(stroke="#1687A9")
@@ -253,6 +252,14 @@ html
             else 
               //-circle(cx=x, cy=y, r=.1, fill="#333")
 
+        //each star, key in exoplanets
+        //  - var x = star[17] * 3.26156;
+        //  - var y = star[18] * 3.26156;
+        //  - var z = star[19] * 3.26156;
+        //  g
+        //    circle(cx=x, cy=y, cz=z, r=.2, fill="#333")
+        //    text(x=x, y=y, fill="red", font-size='2')= 'HD ' + star[2] 
+
         each thing, key in catalog
           if thing.outline
             - let filter = "url(#nebula)"
@@ -275,12 +282,12 @@ html
             if thing.connectors
               for connection in thing.connectors
                 - let id = 'c-' + connectors;
-                path(d=connection, stroke='green', stroke-width=5, id=id, fill='none')
+                //path(d=connection, stroke='green', stroke-width=5, id=id, fill='none')
                 text: textPath(href="#" + id)= key
                 - connectors++;
           
         each thing, key in catalog
-          if !thing.outline
+          if !thing.outline && thing.interesting != false
             //-+circular-marker(x=thing.coordinates.x, y=thing.coordinates.y, cx=catalog.CNB.coordinates.x, cy=catalog.CNB.coordinates.y)=thing.label.replace(/\([^\)]+\)/, '')
 
             - let attr = {};

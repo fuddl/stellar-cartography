@@ -93,11 +93,13 @@ gulp.task('pug', function () {
 	var catalog = addPreferredValues(catalog);
 
   var stars = parse(fs.readFileSync('data/stars.csv', 'utf8'));
+  var exoplanets = parse(fs.readFileSync('data/exoplanet.csv', 'utf8'));
 
 	return gulp.src('templates/*.pug')
     .pipe(pug({data:{
       catalog: catalog,
       stars: stars,
+      exoplanets: exoplanets,
       fontAdvance: fontAdvance,
       intersect: boxIntersect,
     }}))

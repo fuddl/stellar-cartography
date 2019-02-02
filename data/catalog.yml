@@ -647,16 +647,6 @@ Barnard's Star:
   real: true
   interesting: false
   type: star
-Fomalhaut:
-  Mandel:
-    label: Fomalhaut (Alpha Piscis Australis)
-    coordinates:
-      x: -3.7
-      y: -10
-      z: 
-  real: true
-  interesting: false
-  type: star
 Mu Herculis:
   Mandel:
     label: Mu Herculis
@@ -2066,7 +2056,7 @@ Iota Cassiopeiae:
   canon: false
   real: true
   type: star
-Galen:
+Galen 892-IV:
   Mandel:
     label: Galen
     coordinates:
@@ -2179,6 +2169,7 @@ Nukara Prime:
       y: 83.459
       z: 
 Alhena:
+  real: true
   Mandel:
     label: Alhena (Gamma Geminorum)
     coordinates:
@@ -2193,6 +2184,11 @@ Alhena:
       z: 
   canon: false
   type: star
+  Shisma: 
+    coordinates: 
+      x: -17.175903332719997
+      y: 103.43838258683999
+      z: 30.85893356868
 Amar:
   Mandel:
     label: Amar
@@ -3281,7 +3277,7 @@ Acadia:
       x: -35.98
       y: -209.765
       z: 
-Acamar:
+Acamar III:
   Mandel:
     label: Acamar (Theta Eridani)
     coordinates:
@@ -3945,6 +3941,7 @@ Gacrux:
       z: 
   type: star
   real: true
+  interesting: false
 Belak:
   Mandel:
     label: Belak
@@ -5738,6 +5735,11 @@ Loktara: # Loktarans
       y: 136.096
   fractions:
     - federation
+Altamid:
+  Shisma:
+    coordinates:
+      x: -49.303
+      y: 112.096
 Zelon: # Zelonite
   Shisma:
     coordinates:
@@ -5827,7 +5829,7 @@ Anomaly:
     coordinates:
       x: -45.477
       y: -147.518
-      z: null
+      z: 
 Iotia:
   Johnson:
     label: Iotia
@@ -6013,13 +6015,6 @@ Murasaki 312 Ionisation Cloud:
   Mandel_2018:
     label: Ionisation Cloud
     outline: M-13.523,131.32 C-15.269,128.49 -16.594,129.273 -16.594,127.587 C-16.594,125.901 -16.955,122.048 -13.824,120.482 C-10.693,118.917 -6.78,119.246 -5.034,121.339 C-3.288,123.433 -0.278,126.864 -1.662,130.116 C-3.047,133.367 -8.044,136.498 -12.199,133.006 C-12.921,132.705 -12.861,133.066 -13.523,131.32 z
-Alpha Majoris I:
-  Maynard:
-    label: Alpha Majoris 2 (I)
-    coordinates:
-      x: -154.5
-      y: -17.5
-      z: -71.6
 Alpha Eridani II:
   Maynard:
     label: Alpha Proxima
@@ -6277,6 +6272,12 @@ Motherlode:
   Shisma: 
     label: Motherlode
     coordinates: *arcadian-system
+Beta Aurigae VII:
+  Shisma:
+    coordinates:
+      x: 0.11805216419999999
+      y: 57.40765688928
+      z: 57.30253681047999
 Winston II:
   canon: false
   Shisma:
@@ -6311,8 +6312,8 @@ Sackett II:
   Shisma:
     label: Sackett II
     coordinates:
-      x: -55.288
-      y: 176.544
+      x: -51.288
+      y: 186.544
       z: 
   Maynard:
     label: Sackett's Star 3 (II)
@@ -6488,6 +6489,160 @@ CNB:
       x: 22
       y: -6.77
       z: 0
+Fomalhaut:
+  Mandel:
+    label: Fomalhaut (Alpha Piscis Australis)
+    coordinates:
+      x: -3.7
+      y: -10
+      z: 
+  Shisma: &Fomalhaut
+    coordinates:
+      x: 21.038748226519996
+      y: -5.86909894256
+      z: -12.41922792092
+  real: true
+  interesting: false
+  type: star
+Dagon: 
+  Shisma: *Fomalhaut
+Meztli:
+  Shisma:
+    coordinates:
+      x: -75.3788590124
+      y: -1.7255935492
+      z: 324.15894681199995
+Smertrios:
+  Shisma:
+    coordinates:
+      x: -76.7961046792
+      y: -186.5399013976
+      z: 159.58620647959998
+Thestias:
+  Shisma:
+    coordinates:
+      x: -13.227142425399999
+      y: 26.7290712808
+      z: 15.87457024676
+Alnath II:
+  Shisma:
+    coordinates:
+      x: 17.226183541679998
+      y: 116.27591862399998
+      z: 64.10744907136
+Quijote: &hd-160691
+  Shisma:
+    coordinates:
+      x: -2.1282657468
+      y: -30.7157086844
+      z: -39.1735534608
+Dulcinea: *hd-160691
+Rocinante: *hd-160691
+Sancho: *hd-160691
+Hypatia:
+  Shisma:
+    coordinates:
+      x: -32.9850369012
+      y: -41.0726946176
+      z: 87.5534144868
+Saffar:
+  Shisma: &hd-9826
+    coordinates:
+      x: 30.051361528
+      y: 13.505532879199999
+      z: 29.052932780799996
+Samh: *hd-9826
+Majriti: *hd-9826
+Tadmor:
+  Shisma:
+    coordinates:
+      x: 9.596683681599998
+      y: -0.8670204948
+      z: 43.942965264399994
+Amateru:
+  Shisma:
+    coordinates:
+      x: 56.8454683152
+      y: 134.9259427068
+      z: 50.930172636799995
+Arkas:
+  Shisma:
+    coordinates:
+      x: -159.0694122976
+      y: 123.53527056280001
+      z: 205.68108380079997
+Dimidium:
+  Shisma:
+    coordinates:
+      x: 45.112038830799996
+      y: -12.6243245984
+      z: 17.765521626399998
+Spe:
+  Shisma:
+    coordinates:
+      x: 191.47571799239998
+      y: -24.115485405999998
+      z: 157.60174291319998
+Orbitar:
+  Shisma:
+    coordinates:
+      x: 14.848349746799999
+      y: -130.4078014856
+      z: 288.8512878036
+Fortitudo:
+  Shisma:
+    coordinates:
+      x: 96.641327424
+      y: -177.5346363908
+      z: 30.0708004256
+Arion:
+  Shisma:
+    coordinates:
+      x: 164.4429954756
+      y: -166.707627046
+      z: 44.836013007999995
+Gacrux V:
+  Shisma:
+    coordinates:
+      x: -47.64128402556
+      y: -6.51884083328
+      z: -74.36600764687999
+Bordla:
+  Shisma:
+    coordinates:
+      x: -75.513
+      y: -15.977
+      z:
+Krall:
+  Shisma:
+    coordinates:
+      x: -41.735
+      y: -28.719
+      z:
+Singha:
+  Shisma:
+    coordinates:
+      x: -91.822
+      y: -67.317
+      z:
+Cardonne:
+  Shisma:
+    coordinates:
+      x: -112.808
+      y: 66.017
+      z:
+Gulvaria VI:
+  Shisma:
+    coordinates:
+      x: -101.941
+      y: 61.895
+      z:
+Ghandi V:
+  Shisma:
+    coordinates:
+      x: -88.825  
+      y: 224.534
+      z:
 L-370:
   Maynard:
     label: L-370
@@ -6572,8 +6727,17 @@ Midos V:
       x: 42.2
       y: 47.4
       z: 96.9
+  Shisma:
+    coordinates:
+      x: -107.669
+      y: 174.445
   fractions:
   - federation
+Algenib II:
+  coordinates:
+    x: 377.24567270547993
+    y: 21.81110846544
+    z: 102.55038373811999
 Puttkamer II:
   Shisma:
     x: -87.274
@@ -6770,6 +6934,26 @@ Tzenketh:
       x: -48.908
       y: 13.907
       z: 
+  Mandel:
+    label: Tzenketh
+    coordinates:
+      x: -47.359
+      y: 14.162 
+      z: 
+Alpha Majoris I:
+  Maynard:
+    label: Alpha Majoris 2 (I)
+    coordinates:
+      x: -154.5
+      y: -17.5
+      z: -71.6
+  Shisma:
+    coordinates:
+      x: -56.420764279800004
+      y: 14.138471212799999
+      z: 108.25552079792
+  fractions:
+    - federation
 Na'Kuhl:
   sto:
     label: Na'Kuhl
@@ -8524,14 +8708,91 @@ Ravanar IV:
       y: 128.6
       z: 
 Q'Tahl:
-  Shisma:
+  Mandel:
     label: Q'Tahl
     coordinates:
-      x: 22
-      y: 158.2
+      x: 182.545
+      y: 204.6
       z: 
   fractions:
     - klingon
+Sheratan VII:
+  Shisma:
+    coordinates:
+      x: 48.11656181032
+      y: 26.299448812919998
+      z: 20.838618904919997
+  fractions:
+    - romulan
+Torna IV:
+  Mandel:
+    label: Torna IV
+    coordinates:
+      x: 168.192
+      y: 174.483
+      z: 
+  fractions:
+    - klingon
+Vor'cha:
+  type: star
+  Mandel:
+    label: Vor'cha
+    coordinates:
+      x: 172.895
+      y: 171.602
+      z: 
+T'ong:
+  type: star
+  Mandel:
+    label: T'ong
+    coordinates:
+      x: 251.689
+      y: 174.483 
+      z: 
+Dorala:
+  type: star
+  Mandel:
+    coordinates:
+      x: 36.808
+      y: 136.456
+      z: 
+  fractions:
+    - klingon
+Dayos IV:
+  Mandel:
+    coordinates:
+      x: 51.127
+      y: 132.279
+      z: 
+  fractions:
+    - klingon
+Rotaran:
+  type: star
+  Mandel:
+    coordinates:
+      x: 71.057
+      y: 148.244
+N'yengoren:
+  type: star
+  Mandel:
+    coordinates:
+      x: 170.672
+      y: 103.083 
+  fractions:
+    - klingon
+K'Vort:
+  type: star
+  Mandel:
+    Coordinates:
+      x: 49.237
+      y: 124.62
+Y'Tem:
+  type: star
+  Mandel:
+    coordinates:
+      x: 56.497
+      y: 128.3
+      z: 
 Trinay III:
   wd: Q57034270
   present-in-work:
@@ -8542,6 +8803,21 @@ Trinay III:
       x: 4
       y: 148.4
       z: 
+Renaui:
+  Mandel:
+    coordinates:
+      x: 31.981
+      y: 168.198
+Galoonterre:
+  Mandel:
+    coordinates:
+      x: 51.103
+      y: 175.935 
+Drulos:
+  Mandel:
+    coordinates:
+      x: 10.086
+      y: 107.326
 Ocampa:
   Mandel: 
     label: Ocampa
@@ -10034,3 +10310,26 @@ Borg transwarp hub Ɣ:
       y: -28125.074 
       z: 
       relative-to: Galactic Core
+Horatius:
+  type: star
+  interesting: false
+  Shisma: &horatius
+    coordinates:
+      x: 64.91
+      y: 324.40
+      z: 
+Neolithia:
+  Shisma: *horatius
+Mythra:
+  Shisma: *horatius
+Bavarya:
+  Shisma: *horatius
+Somraw:
+  Shisma:
+    coordinates:
+      x: 195.511
+      y: 185.356
+      z: 
+  fractions:
+    - klingon
+
