@@ -16,6 +16,10 @@ Deep Space K-8:
       z: null
   type: station
 Deep Space K-9:
+  Shisma:
+    coordinates:
+      x: -29.334
+      y: 125.026
   Maynard:
     label: K-9
     coordinates:
@@ -401,7 +405,7 @@ Yorktown:
   Shisma:
     label: SB Yorktown
     coordinates:
-      x: -30.028
+      x: -56.028
       y: 98.98
       z: 
   type: megastructure
@@ -2056,7 +2060,48 @@ Iota Cassiopeiae:
   canon: false
   real: true
   type: star
-Galen 892-IV:
+Alcyone II:
+  Shisma:
+    coordinates:
+      x: 201.12248945092
+      y: 308.18198641216
+      z: 164.65540783215997
+Hor'Cha:
+  type: star
+  Mandel:
+    coordinates:
+      x: 244.022
+      y: 108.337
+      z: 
+T'Acog:
+  type: star
+  Mandel:
+    coordinates:
+      x: 276.635
+      y: 97.447
+      z:  
+Gre'thor:
+  type: star
+  Mandel:
+    coordinates:
+      x: 141.044
+      y: 30.58 
+      z: 
+T'Cha:
+  Mandel:
+    coordinates:
+      x: 329.878
+      y: 103.699
+      z:
+  fractions:
+    - klingon
+Buruk:
+  Mandel:
+    coordinates:
+      x: 303.149
+      y: 82.038
+      z:
+Galen IV:
   Mandel:
     label: Galen
     coordinates:
@@ -2458,6 +2503,7 @@ Elas:
       y: 37.4
       z: 
 Tellun:
+  interesting: false
   type: star
   Mandel:
     label: Tellun (Elas, Troyius)
@@ -5372,6 +5418,11 @@ Vorenus:
       x: -100.361
       y: 11.5
       z: 
+Ucali Prime:
+  Shisma:
+    coordinates:
+      x: 100.503
+      y: 101.176
 Tiburon:
   Mandel:
     label: Tiburon (Omega Fornacis)
@@ -5396,13 +5447,20 @@ Tiburon:
       y: -207.4
       z: 236.4
 Beta Renner:
+  interesting: false
   wd: Q55738952
-  Mandel:
+  Mandel: 
     label: Beta Renner (Antica, Selay)
-    coordinates:
+    coordinates: &beta-renner
       x: -266
       y: 241
       z: 
+Antica:
+  Mandel:
+    coordinates: *beta-renner
+Selay:
+  Mandel:
+    coordinates: *beta-renner
 Verdanis:
   Mandel:
     label: Verdanis (Terratin, Beta Cephei)
@@ -5824,6 +5882,7 @@ Excalbia:
       y: -157.7
       z: -193.4
 Anomaly:
+  nickname: true
   Maynard: 
     label: Anomaly 1
     coordinates:
@@ -5852,11 +5911,11 @@ Pal III:
       z: null
 Janus VI:
   wd: Q48906622
-  Shisma:
-    label: Janus VI
+  Mandel:
+    label: Janus
     coordinates:
-      x: -95.185
-      y: 179.594
+      x: -31.946
+      y: 98.022
       z: 
   Johnson:
     label: Janus VI
@@ -6030,6 +6089,10 @@ Amerind IV:
       x: -93.5
       y: -157.6
       z: -166.2
+  Shisma:
+    coordinates:
+      x: -56.303
+      y: 193.521
 Ariannus:
   Maynard:
     label: Ariannus
@@ -6218,7 +6281,11 @@ Maraville VIII:
     coordinates:
       x: -19.943
       y: -3.777
-      z: null
+      z: 
+  Shisma:
+    coordinates:
+      x: -73.744
+      y: 172.468
 Arachne IV:
   canon: false
   Shisma:
@@ -6339,6 +6406,8 @@ New Chicago II:
       x: -72.86
       y: -3.509
       z: null
+  fractions:
+    - federation
 Communication Relay Gamma 1:
   Maynard:
     label: Gamma 1
@@ -8218,6 +8287,10 @@ Delta Theta III:
       x: -81.423
       y: -198.318
       z: null
+  Shisma:
+    coordinates:
+      x: 114.317
+      y: 269.431
 Starbase 15:
   Maynard:
     label: 15
@@ -8713,6 +8786,37 @@ Q'Tahl:
     coordinates:
       x: 182.545
       y: 204.6
+      z: 
+  fractions:
+    - klingon
+B'aaj:
+  Shisma:
+    coordinates:
+      x: 182.687
+      y: 64.833
+      z: 
+  fractions:
+    - klingon
+Alpheratz II:
+  Shisma:
+    coordinates:
+      x: 84.71762505231999
+      y: 3.10188054552
+      z: 47.16628021184
+Vor'nak:
+  type: star
+  Mandel:
+    label: Vor'nak
+    coordinates:
+      x: 283.33
+      y: 233.173
+      z: 
+Maranga IV:
+  Mandel:
+    label: Maranga
+    coordinates:
+      x: 248.704
+      y: 228.946
       z: 
   fractions:
     - klingon
@@ -10332,4 +10436,27 @@ Somraw:
       z: 
   fractions:
     - klingon
-
+Fomalhaut V:
+  Shisma:
+    coordinates:
+      x: 21.038748226519996
+      y: -5.86909894256
+      z: -12.41922792092
+Procyon V:
+  Shisma:
+    coordinates:
+      x: -4.79224924672
+      y: 10.3592690252
+      z: 1.04377747744
+Maht-H'a:
+  type: star
+  Mandel:
+    coordinates:
+      x: 182.053
+      y: 155.111
+Acrux IX:
+  Shisma:
+    coordinates:
+      x: -144.69504875779998
+      y: -16.86864807292
+      z: -287.12984622028
